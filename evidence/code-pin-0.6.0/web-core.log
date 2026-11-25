@@ -1,0 +1,23 @@
+✔ code and PIN retain leading zeroes and reject formatting tricks or non-ASCII digits (6.351377ms)
+✔ names are byte bounded and exclude control characters (3.474493ms)
+✔ strict JSON rejects duplicate authorization keys including escaped aliases and nested objects (14.183489ms)
+✔ WebCrypto signatures are converted to actual Go-compatible ASN.1, verified independently (93.337229ms)
+✔ DER integer zero trimming and high-bit padding are canonical (1.747125ms)
+✔ redemption requires exact verified controller and a least-privilege primary-display grant (4.641982ms)
+✔ session refresh cannot switch device, key, pairing or broaden permissions (1.700248ms)
+✔ input requires peer, channel, permissions, fresh frame AND immutable display binding (2.025478ms)
+✔ display gate rejects changed topology, wrong primary, duplicate monitors and capabilities (6.150094ms)
+✔ pointer coordinates respect actual video letterboxing and never inject into black bars (0.955812ms)
+✔ service capability checks fail before consuming a code on a legacy coordinator (0.500939ms)
+✔ API only sends credential bodies to the same origin, never redirects or ambient cookies (14.737218ms)
+✔ API bounds streamed responses and does not retry a one-use POST (3.446682ms)
+✔ API distinguishes safe error codes from arbitrary remote text (9.363093ms)
+✔ actual P-256 proof exchange uses a non-exportable signing key and verifies independently (35.242901ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 733.860622

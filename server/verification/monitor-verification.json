@@ -1,0 +1,31 @@
+{
+  "description": "OpenRemote0.4 immutable monitor selector verification",
+  "toolchain": "go1.27.4",
+  "checkedAt": "2026-11-18",
+  "topLevelTests": 19,
+  "raceTests": "PASS",
+  "vet": "PASS",
+  "appCoveragePercent": 76.3,
+  "binary": {
+    "file": "artifacts/controlplane-linux-amd64",
+    "sizeBytes": 10711963,
+    "sha256": "ba9336b949b2dc7a78766e512c9662b168958e1b2a1a621d403347ddc8413951"
+  },
+  "sources": {
+    "server/cmd/controlplane/main.go": "85eff95064baa535a81c96a2121174e04331705dee0be2efd1a9063c52711f47",
+    "server/internal/app/app.go": "c358204428cb78bd79e493613ce97debf4e1defaa48bcc7d8a4cf32235ccd297",
+    "server/internal/app/app_test.go": "3bfb1b00e2b20c81cdca0ddfa48fd65c3dd2844d0cf2eae997d252e93f8b830c",
+    "server/internal/app/auth.go": "19f36cba92c40b41aae26c206f89e1a12671a14121041ba1a34e167316ed09ee",
+    "server/internal/app/devices.go": "990a5f8aa6404189b44c498ab5524c12715feafac3395290469fec122ca2956a",
+    "server/internal/app/ice.go": "0ed0509cb8a47bb4e45dfeed9cd695c086320ac105171c7cf340194080ddb3bc",
+    "server/internal/app/monitor_test.go": "f9d2ef2c783f98d7c242362127d8ad1dc9b7c58dd593292eacc6079b37153da3",
+    "server/internal/app/sessions.go": "9a97bda685779cf26e7e750d5274a64430ad03529dcab5caf42e4868c55282ee",
+    "server/internal/app/store.go": "b7467ec8ea9fc692a665a6e44227bb69dca8abf45c288fcd2cb74eac96cba431",
+    "server/internal/app/store_lock_unix.go": "76db9d7821aa0f37142c26e3360dd109555a11f7db5427373aa0df93b0142d24",
+    "server/internal/app/store_lock_windows.go": "1e40c2f90a090360e6528d9103096050739d4964d6e7b4d501f31eeef976ba2b",
+    "server/go.mod": "fa96a751d3e0e62c67c1168140d7f354f0b562ae2161522793ef2fa235e98fc7"
+  },
+  "httpsReport": "evidence/https-controlplane.json",
+  "beforeChange": "server/verification/monitor-regression-before.log",
+  "scope": "Coordinator only; no monitor hardware, RTP, decoded desktop or native input exercised."
+}

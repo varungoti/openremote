@@ -1,0 +1,34 @@
+{
+  "checkedAtUtc": "2026-11-20T10:53:08.973473+00:00",
+  "command": [
+    "python3",
+    "scripts/build-windows-installer.py",
+    "--host",
+    "agent-windows/target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+    "--host-evidence",
+    "agent-windows/BUILD_EVIDENCE.json",
+    "--encoder",
+    "/workspace/scratch/72f8c6db0182/recovered/installer-0.7/$_13_/ffmpeg.exe",
+    "--encoder-evidence",
+    "evidence/one-button-0.7.0/encoder/build-evidence.json",
+    "--encoder-source",
+    "/workspace/scratch/72f8c6db0182/recovered/installer-0.7/$_13_/FFmpeg-9.0.2-source.tar.xz",
+    "--sevenzip",
+    "7z",
+    "--output-dir",
+    "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/blocked-installer-0.8.0"
+  ],
+  "exitCode": 1,
+  "passedExpectedRejection": true,
+  "installerProduced": false,
+  "record": {
+    "error": "Installer blocked: the publisher must deploy and verify the OpenRemote service, then configure the shared profile. Unconfigured installers are not distributable.",
+    "nativeInstallation": {
+      "reason": "packaging verification does not execute Windows",
+      "status": "not_run"
+    },
+    "recordedAtUtc": "2026-11-20T10:53:08.844586+00:00",
+    "releaseReady": false,
+    "status": "failed"
+  }
+}

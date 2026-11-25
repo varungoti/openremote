@@ -1,0 +1,25 @@
+{
+  "reviewedAt": "2026-11-19T11:28:29.975076+00:00",
+  "scope": "Read-only independent source review of automatic host signing, stored credential/origin binding, managed startup and cancellation boundaries.",
+  "sourceInputs": {
+    "agent-windows/src/identity.rs": "790f962b3c600795060f9714b50bd82694b57570c34f87ea93b81aa7316e2dde",
+    "agent-windows/src/api.rs": "289d0a1fe62c564fe50872d24f72d3f8f861dff0c733b4a14de15ca2f8b38b44",
+    "agent-windows/src/startup.rs": "fe3855d8d1104df505a9ac2faf419bba543b7d44a82a0b9081aa05c55a899b3b",
+    "agent-windows/src/startup_windows.rs": "6a58b852f5fe7fb4bd4dc7fe27bf073c99fb10369389414ecc6aa8eeb555157b",
+    "agent-windows/src/host_home.rs": "1687256ce0aee6cd1cda2d24e6dad9139636b1bf51c8050e3211eeaefd82ebbd",
+    "agent-windows/src/session.rs": "27950ee83ec2ba109559cb01a5eb32b9fef324f9a2193f5b05d7ba6f8dcbe2a9",
+    "agent-windows/src/pairing.rs": "fa4e4dea787465df9581f209efbed3e887073214cf46bee8b95a58e31bf77e4b"
+  },
+  "blockingFindings": [],
+  "observations": [
+    "Signer validates the complete nine-split-item domain-separated transcript, configured origin, identity, name, platform, challenge ID, canonical nonce and bounded expiration before pure Ed25519 signing.",
+    "Managed registration refuses redirect following or stored origin/key mismatch, reuses a healthy bearer and performs same-key recovery only after HTTP 401.",
+    "Managed origin selection prefers the protected existing registration binding, otherwise the publisher profile; no administrator enrollment fallback is called by the managed path.",
+    "Ready UI events require the current generation and Preparing state; Stop closes local grant authority immediately, moves to Stopping and waits for Finished.",
+    "The host attempts bounded active-session teardown and latches restart-required if it cannot confirm completion; preflight cancellation awaits cleanup of its owned encoder child."
+  ],
+  "limitations": [
+    "Source review is not native Windows execution, installed-app UI proof, real phone access or production Internet/TURN verification.",
+    "The 90-second client expiration check tolerates bounded clock skew; the coordinator enforces its own strict 60-second challenge lifetime."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sourceRevision": "b25975bf632902a6f65d2f6e71c3722b55010e19",
+  "recordedAtUtc": "2026-11-19T07:51:31.578448+00:00",
+  "checks": [
+    {
+      "name": "format",
+      "command": [
+        "cargo",
+        "fmt",
+        "--check"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 0.396,
+      "log": "evidence/windows-startup-0.5.1/format.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--offline",
+        "--all-targets"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 25.819,
+      "log": "evidence/windows-startup-0.5.1/tests.log"
+    },
+    {
+      "name": "clippy-linux",
+      "command": [
+        "cargo",
+        "clippy",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 6.809,
+      "log": "evidence/windows-startup-0.5.1/clippy-linux.log"
+    },
+    {
+      "name": "clippy-windows",
+      "command": [
+        "cargo",
+        "clippy",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnullvm",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 3.624,
+      "log": "evidence/windows-startup-0.5.1/clippy-windows.log"
+    },
+    {
+      "name": "windows-build",
+      "command": [
+        "cargo",
+        "build",
+        "--locked",
+        "--offline",
+        "--release",
+        "--target",
+        "x86_64-pc-windows-gnullvm"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 101.912,
+      "log": "evidence/windows-startup-0.5.1/windows-build.log"
+    }
+  ],
+  "sourceUnchanged": true,
+  "firstPartyPackageCleanedBeforeChecks": true,
+  "nativeWindowsExecution": false
+}

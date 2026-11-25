@@ -1,0 +1,282 @@
+{
+  "recordedAtUtc": "2026-11-20T10:37:46.161734+00:00",
+  "verificationMetadataSha256": "17030e89e7f48a35cbf131d587253171d2ca5014bc1c3e44eb51c54cabf03642",
+  "expectedArtifacts": 27,
+  "verifiedArtifacts": 27,
+  "totalBytes": 30880687,
+  "strictPinsChanged": false,
+  "network": "Inherited proxy and CA settings retained; normal verified HTTPS; no policy changes",
+  "artifacts": [
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-android",
+      "version": "1.9.4",
+      "file": "animation.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-android/1.9.4/animation-android-1.9.4.aar",
+      "sha256": "5f73c368c07c0a83f65f9d5c2aa9fb05e8e36819a071c4225d591c016e01869e",
+      "bytes": 1448173,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.animation/animation-android/1.9.4/fbb86e2b31e5f2c049518bb3ef41cfc2bac55d18/animation.aar"
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-core-android",
+      "version": "1.9.4",
+      "file": "animation-core.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-core-android/1.9.4/animation-core-android-1.9.4.aar",
+      "sha256": "28f69959521b86dd47a66d9138f709bf16e51b8479c7e163905fc9f5c8acef66",
+      "bytes": 1341412,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.animation/animation-core-android/1.9.4/9cacf3388cb9eef914a1136acbaea931e58e17d2/animation-core.aar"
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-android",
+      "version": "1.9.4",
+      "file": "foundation-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-android/1.9.4/foundation-android-1.9.4.aar",
+      "sha256": "1b566a1c9f1e741bea937a812b3af628a51fbf0c7151b4587381e2645d6f9729",
+      "bytes": 5154108,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.foundation/foundation-android/1.9.4/a05d2f19de0a4b0dc4e9e7c792f409a620ba7666/foundation-release.aar"
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout-android",
+      "version": "1.9.4",
+      "file": "foundation-layout.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-layout-android/1.9.4/foundation-layout-android-1.9.4.aar",
+      "sha256": "f4a594f3e9966db6eadea24142acf267c324933958133f2a5955ca6c725ae3c1",
+      "bytes": 590372,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.foundation/foundation-layout-android/1.9.4/e6ba837d655ef1a6f7ad0ed5613c5c3ce9d20992/foundation-layout.aar"
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-android",
+      "version": "1.9.4",
+      "file": "material.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-android/1.9.4/material-android-1.9.4.aar",
+      "sha256": "c6f7d710a707ef49a84435f5e534314deaebf5977c5b0b10fdfd4b6b475609e2",
+      "bytes": 2541497,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.material/material-android/1.9.4/b351056c20a928af248eb5243b903aa19d4c8f9f/material.aar"
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-ripple-android",
+      "version": "1.9.4",
+      "file": "material-ripple.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-ripple-android/1.9.4/material-ripple-android-1.9.4.aar",
+      "sha256": "175bdfd522b2d2f6f9674f0fc6edea91f764ec35979c471ac0598d940554a648",
+      "bytes": 96342,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.material/material-ripple-android/1.9.4/ab3561a44153709593268175afadbf048c0fc9cc/material-ripple.aar"
+    },
+    {
+      "group": "androidx.compose.material3",
+      "name": "material3-android",
+      "version": "1.4.0",
+      "file": "material3.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material3/material3-android/1.4.0/material3-android-1.4.0.aar",
+      "sha256": "3a37e8b36df3822fe1e6059f0f9fafda8800388860477624ac1b9422c418a36e",
+      "bytes": 5167765,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.material3/material3-android/1.4.0/6064b108969ab5557a0c19c7e026554f377cecf5/material3.aar"
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-android",
+      "version": "1.9.4",
+      "file": "runtime.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-android/1.9.4/runtime-android-1.9.4.aar",
+      "sha256": "caf1bfc6a83ed9e6cc7c8d7cc15f9fd8522955304f4e5d878473541814a23f67",
+      "bytes": 2456086,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-android/1.9.4/3e074af6ba98003c933b584629063c17b0b8f0eb/runtime.aar"
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-annotation-android",
+      "version": "1.9.4",
+      "file": "runtime-annotation.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-annotation-android/1.9.4/runtime-annotation-android-1.9.4.aar",
+      "sha256": "a23f74b8aa389e27145544bb4e91a3de1c75e200351211a57965533eb4b41cf0",
+      "bytes": 9075,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-annotation-android/1.9.4/fcf3e87bd4d88879f0a47085b945da2c168c4801/runtime-annotation.aar"
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable-android",
+      "version": "1.9.4",
+      "file": "runtime-saveable.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-saveable-android/1.9.4/runtime-saveable-android-1.9.4.aar",
+      "sha256": "da0880a83e8c9f841bfe3d67b03b0eed1e4476499ecd6fae814e8531809c9128",
+      "bytes": 1032326,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-saveable-android/1.9.4/65e055c473601ebcde463f520b8a431839ef3882/runtime-saveable.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-android",
+      "version": "1.9.4",
+      "file": "ui-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-android/1.9.4/ui-android-1.9.4.aar",
+      "sha256": "f49671f5b9174cc9f25206ff23d5234ef0b927ef04b2a847bd361e12c79c9cee",
+      "bytes": 5735706,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-android/1.9.4/f65c088c69dd5cd65e07f714432a92ceacad043e/ui-release.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry-android",
+      "version": "1.9.4",
+      "file": "ui-geometry.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-geometry-android/1.9.4/ui-geometry-android-1.9.4.aar",
+      "sha256": "ee3f89f74ef72a9f69608211c1af9124febe7498f0c448a7a1e4734b50564fa4",
+      "bytes": 59151,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-geometry-android/1.9.4/8960745a89a06c04e968aa4278f9b0d9f627bdd2/ui-geometry.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics-android",
+      "version": "1.9.4",
+      "file": "ui-graphics-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-graphics-android/1.9.4/ui-graphics-android-1.9.4.aar",
+      "sha256": "9f07bc209a07e8655e66a5aca4668cf700d9ce292f358874f498be305565f4e7",
+      "bytes": 1675814,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-graphics-android/1.9.4/91833faae23c8c20b1c71a2d89b9042f3b8acc57/ui-graphics-release.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-text-android",
+      "version": "1.9.4",
+      "file": "ui-text.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-text-android/1.9.4/ui-text-android-1.9.4.aar",
+      "sha256": "c456cbff1eb863b3fda101330f962268f7df1984f7f9b0f5302ebe6461b055aa",
+      "bytes": 802459,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-text-android/1.9.4/81553f71d2d34973390eb73e522f942f2e480468/ui-text.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-android",
+      "version": "1.9.4",
+      "file": "ui-tooling.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-android/1.9.4/ui-tooling-android-1.9.4.aar",
+      "sha256": "132515ec85cd828017670142c43f6c77fbebc8e095efe8903a65d041831f5cb4",
+      "bytes": 198267,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-tooling-android/1.9.4/946564af2ca1d4247efc6928e25c391c6b890497/ui-tooling.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-data-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-data.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-data-android/1.9.4/ui-tooling-data-android-1.9.4.aar",
+      "sha256": "74defc0b3f24406663c26a41dc29439fe3ac8eaf90ffa4b40f62f9e5ff502dd7",
+      "bytes": 39546,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-tooling-data-android/1.9.4/f98660ce8ce72d749759dff8479699f8ab712b9f/ui-tooling-data.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-preview-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-preview.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-preview-android/1.9.4/ui-tooling-preview-android-1.9.4.aar",
+      "sha256": "8b3ba9329308ff61e0f69554fd7b5462757cf8b1b4a186c1fb9c201b60e78837",
+      "bytes": 21157,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-tooling-preview-android/1.9.4/514a3e7c4c4f85dad0bc4bec0e57c90306ccb30d/ui-tooling-preview.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-unit-android",
+      "version": "1.9.4",
+      "file": "ui-unit.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-unit-android/1.9.4/ui-unit-android-1.9.4.aar",
+      "sha256": "26e943da2cbaa4b6c9c20c4b12cc390f64dbc66f3991834665f185da31bd33a5",
+      "bytes": 98886,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-unit-android/1.9.4/578f8eca8ce0382b139ea10e21ab9c787ac8b553/ui-unit.aar"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-util-android",
+      "version": "1.9.4",
+      "file": "ui-util.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-util-android/1.9.4/ui-util-android-1.9.4.aar",
+      "sha256": "50f8fd06f7827c36bbe39b55f26c009633456fd1d520791cd1dbec024733d2c5",
+      "bytes": 22837,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.compose.ui/ui-util-android/1.9.4/902bc46db4abecb87ca6d8c5b2c9d59a1db5ecbc/ui-util.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-android/2.9.4/lifecycle-runtime-android-2.9.4.aar",
+      "sha256": "86f16a1330eb23600ba90d0334b3e1db38d3a30c8b1efcd92ca21aa85afa8173",
+      "bytes": 82853,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-android/2.9.4/0fd218d3a91d46511975ef11165ffba7d696c04a/lifecycle-runtime-release.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-compose-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-compose-android/2.9.4/lifecycle-runtime-compose-android-2.9.4.aar",
+      "sha256": "b6803f906a89fd85c77df343dd4aeeb349125ca79e12d55d68d4cf42f42231f6",
+      "bytes": 1020096,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-compose-android/2.9.4/0ca8d7bbd9529da9346e0e6a27462fafcdc324ae/lifecycle-runtime-compose-release.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-ktx.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-ktx-android/2.9.4/lifecycle-runtime-ktx-android-2.9.4.aar",
+      "sha256": "970199c9ed1ac13d620aa8de7f8abbc28ce80653c3ce328d0ac2f15272b56e1b",
+      "bytes": 5765,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx-android/2.9.4/58b7a78b98c61ac487551aa60cd17e1a4d01af96/lifecycle-runtime-ktx.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-android/2.9.4/lifecycle-viewmodel-android-2.9.4.aar",
+      "sha256": "4b236b2e504db5ca5d09334fef05aa8cdc31ee35a433c3aa4d0420efa9613332",
+      "bytes": 65737,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-android/2.9.4/d7f04dd2b3815ea592642340dabc73352c3786a3/lifecycle-viewmodel-release.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-compose-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-compose-android/2.9.4/lifecycle-viewmodel-compose-android-2.9.4.aar",
+      "sha256": "f7825a08ca661de84044b6891293084bea8fbcc84aa08d8c13a3c558fc5956c9",
+      "bytes": 1000097,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-compose-android/2.9.4/19d9b04291f0ea3b40d629ffafadd8942c9d9f31/lifecycle-viewmodel-compose-release.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-savedstate-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.9.4/lifecycle-viewmodel-savedstate-android-2.9.4.aar",
+      "sha256": "079441c43fa3ff8ea7a02df3b12eec483c3e57583f832cfaff663750527c1421",
+      "bytes": 57514,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-savedstate-android/2.9.4/5ec9278f5df344e931a5e57d91f91f181a165055/lifecycle-viewmodel-savedstate-release.aar"
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-android",
+      "version": "1.3.3",
+      "file": "savedstate-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-android/1.3.3/savedstate-android-1.3.3.aar",
+      "sha256": "3d40baf742e6bdc90ada4650502e1d08c55cb5d8c045870d2c7c6d89f237d064",
+      "bytes": 141149,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.savedstate/savedstate-android/1.3.3/33697a4191a0b9e957fe1702afb292783d67eabe/savedstate-release.aar"
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose-android",
+      "version": "1.3.3",
+      "file": "savedstate-compose.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-compose-android/1.3.3/savedstate-compose-android-1.3.3.aar",
+      "sha256": "ec3c09338a005136697824e8ca52ebb4a51b055258e670d4bd2e1f992e32945e",
+      "bytes": 16497,
+      "cachePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/gradle-user/caches/modules-2/files-2.1/androidx.savedstate/savedstate-compose-android/1.3.3/02b388201837688c2febede52c7b61fe3c58b26e/savedstate-compose.aar"
+    }
+  ],
+  "errors": []
+}

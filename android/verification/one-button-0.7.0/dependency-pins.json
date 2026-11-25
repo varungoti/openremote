@@ -1,0 +1,14 @@
+[
+  {
+    "path": "android/app/gradle.lockfile",
+    "baseCommit": "865e0a69de9a8e0df3957db33713fac08b783991",
+    "sha256": "bd283e7d364f91aefa6e8267c8b7533d288d8beb5a3447abd59095110c617bc2",
+    "unchanged": true
+  },
+  {
+    "path": "android/gradle/verification-metadata.xml",
+    "baseCommit": "865e0a69de9a8e0df3957db33713fac08b783991",
+    "sha256": "17030e89e7f48a35cbf131d587253171d2ca5014bc1c3e44eb51c54cabf03642",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,16 @@
+/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/controlplane-linux-amd64: go1.27.4
+	path	openremote/controlplane/cmd/controlplane
+	mod	openremote/controlplane	(devel)	
+	build	-buildmode=exe
+	build	-compiler=gc
+	build	-trimpath=true
+	build	DefaultGODEBUG=containermaxprocs=0,cryptocustomrand=1,decoratemappings=0,gotestjsonbuildtext=1,httpcookiemaxnum=0,httpservecontentmaxranges=1,multipathtcp=0,randseednop=0,rsa1024min=0,tlsmlkem=0,tlssecpmlkem=0,tlssha1=1,tracebacklabels=0,updatemaxprocs=0,urlmaxqueryparams=0,urlstrictcolons=0,x509rsacrt=0,x509sha256skid=0,x509sslcertoverrideplatform=0,x509usepolicies=0
+	build	CGO_ENABLED=0
+	build	GOARCH=amd64
+	build	GOOS=linux
+	build	GOAMD64=v1
+	build	vcs=git
+	build	vcs.revision=cc296948a90efa1b066ceec18015632699c38fcc
+	build	vcs.time=2026-11-18T09:44:49Z
+	build	vcs.modified=false
+/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/controlplane-linux-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=cKIsIz8OVTXxojaz6frx/GRarNYcu7yO4mI6TymAZ/9kgojluS4HblFaCGuKmS/0bYQgNFkoJVhalkTNUXh, BuildID[sha1]=b313bd28283e8dc8f7e3cc6e13a54d9b7463fc50, with debug_info, not stripped

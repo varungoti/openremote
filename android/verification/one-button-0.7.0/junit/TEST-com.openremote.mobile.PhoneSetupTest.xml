@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.PhoneSetupTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-19T11:22:33.771Z" hostname="f87c0b69ff3f" time="0.071">
+  <properties/>
+  <testcase name="decodesExactWindowsVectorsWithoutSecretsOrPermissions" classname="com.openremote.mobile.PhoneSetupTest" time="0.022"/>
+  <testcase name="cancelledDiskWriteFinishesBeforeAnotherServerCanBeSaved" classname="com.openremote.mobile.PhoneSetupTest" time="0.013"/>
+  <testcase name="retiredLookupCannotPublishIntoTheNextServerOrClearItsBusyState" classname="com.openremote.mobile.PhoneSetupTest" time="0.002"/>
+  <testcase name="initialLoadAndIncomingLinksOnlyStageAnExplicitReview" classname="com.openremote.mobile.PhoneSetupTest" time="0.008"/>
+  <testcase name="rawOriginsCannotLoseCredentialsOrPathsDuringHttpNormalization" classname="com.openremote.mobile.PhoneSetupTest" time="0.006"/>
+  <testcase name="settingsLoadingSavingAndPendingReviewDisableHomeActions" classname="com.openremote.mobile.PhoneSetupTest" time="0.004"/>
+  <testcase name="rejectsAmbiguousOuterUrlsFieldsAndEncoding" classname="com.openremote.mobile.PhoneSetupTest" time="0.01"/>
+  <testcase name="confirmedSetupPersistsOneNeutralFavoriteWithoutCrossingServerNames" classname="com.openremote.mobile.PhoneSetupTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

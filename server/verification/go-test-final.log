@@ -1,0 +1,2 @@
+	openremote/controlplane/cmd/controlplane		coverage: 0.0% of statements
+ok  	openremote/controlplane/internal/app	1.141s	coverage: 77.4% of statements

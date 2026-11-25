@@ -1,0 +1,77 @@
+name: OpenRemote verification
+# Manual execution on specifically labeled owner-controlled runners. No deployment.
+# This avoids spending hosted CI credits or running arbitrary fork PRs on private hardware.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: openremote-verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  controlplane:
+    runs-on: [self-hosted, linux, x64, openremote]
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Python test environment
+        run: |
+          python3 -m venv artifacts-test-venv
+          artifacts-test-venv/bin/pip install -r scripts/requirements-test.txt
+      - name: Go and deployment tests
+        run: |
+          cd server
+          go test -race -cover ./...
+          go vet ./...
+          mkdir -p ../artifacts
+          CGO_ENABLED=0 go build -trimpath -o ../artifacts/controlplane-linux-amd64 ./cmd/controlplane
+          cd ..
+          python3 -m unittest discover -s scripts/tests -v
+          python3 -m unittest discover -s packaging/windows/installer/tests -v
+          artifacts-test-venv/bin/python scripts/integration_test.py --binary artifacts/controlplane-linux-amd64 --report evidence/https-controlplane.json
+      - name: Code and PIN browser protocol and lifecycle
+        run: |
+          node --test tests/browser/controller-core.test.mjs
+          node --experimental-vm-modules --test tests/browser/controller-lifecycle.test.mjs
+          go build -C server -o artifacts/code-pin-pairing-fixture ./testsupport/pairing_fixture
+          node tests/browser/controller-api.integration.mjs
+  windows:
+    runs-on: [self-hosted, windows, x64, openremote]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Windows native tests and executable
+        shell: powershell
+        run: |
+          ./packaging/windows/tests/Activation.Tests.ps1
+          ./scripts/build-windows.ps1
+  android:
+    runs-on: [self-hosted, linux, x64, openremote-android]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Android unit tests, lint and packages
+        working-directory: android
+        run: ./gradlew --no-daemon --dependency-verification strict testDebugUnitTest lintDebug assembleDebug assembleRelease bundleRelease
+  native-media:
+    runs-on: [self-hosted, linux, x64, openremote-media]
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Build independent media fixtures
+        run: |
+          mkdir -p artifacts
+          cargo build --locked --manifest-path agent-windows/Cargo.toml --example synthetic_peer
+          go build -C tests/relay -o ../../artifacts/test-relay .
+          go build -C tests/native_media -o ../../artifacts/native-media-test .
+      - name: Require decoded media and actual relay selection
+        run: |
+          artifacts/native-media-test --host agent-windows/target/debug/examples/synthetic_peer --relay artifacts/test-relay --ffmpeg /usr/bin/ffmpeg --mode all --output evidence/media-native-ci.json

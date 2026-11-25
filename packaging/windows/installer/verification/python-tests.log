@@ -1,0 +1,15 @@
+test_accepts_matching_gui_amd64_source_and_bytes (test_builder.PackageAdmissionTests.test_accepts_matching_gui_amd64_source_and_bytes) ... ok
+test_changed_binary_is_rejected_before_packaging (test_builder.PackageAdmissionTests.test_changed_binary_is_rejected_before_packaging) ... ok
+test_changed_or_new_rust_input_invalidates_build_evidence (test_builder.PackageAdmissionTests.test_changed_or_new_rust_input_invalidates_build_evidence) ... ok
+test_console_flash_candidate_is_rejected_even_with_matching_hash (test_builder.PackageAdmissionTests.test_console_flash_candidate_is_rejected_even_with_matching_hash) ... ok
+test_independent_extraction_rejects_changed_or_duplicated_payload (test_builder.PackageAdmissionTests.test_independent_extraction_rejects_changed_or_duplicated_payload) ... ok
+test_missing_non_system_runtime_dll_is_rejected (test_builder.PackageAdmissionTests.test_missing_non_system_runtime_dll_is_rejected) ... ok
+test_stale_version_is_rejected (test_builder.PackageAdmissionTests.test_stale_version_is_rejected) ... ok
+test_truncated_malformed_pe_is_rejected (test_builder.PackageAdmissionTests.test_truncated_malformed_pe_is_rejected) ... ok
+test_uninstaller_must_be_an_actual_gui_pe_image (test_builder.PackageAdmissionTests.test_uninstaller_must_be_an_actual_gui_pe_image) ... ok
+test_wrong_architecture_and_dll_are_not_installable_hosts (test_builder.PackageAdmissionTests.test_wrong_architecture_and_dll_are_not_installable_hosts) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.014s
+
+OK

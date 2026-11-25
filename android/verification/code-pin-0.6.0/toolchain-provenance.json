@@ -1,0 +1,40 @@
+{
+  "packages": [
+    {
+      "package": "platforms;android-36",
+      "url": "https://dl.google.com/android/repository/platform-36_r02.zip",
+      "verificationAlgorithm": "sha1",
+      "expected": "2c1a80dd4d9f7d0e6dd336ec603d9b5c55a6f576",
+      "sha256": "37607369a28c5b640b3a7998868d45898ebcb777565a0e85f9acf36f29631d2e",
+      "bytes": 65878410,
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/android-0.6/sdk/platforms/android-36"
+    },
+    {
+      "package": "build-tools;35.0.0",
+      "url": "https://dl.google.com/android/repository/build-tools_r35_linux.zip",
+      "verificationAlgorithm": "sha1",
+      "expected": "2cfaa0bbb2336e9ec18ed3ecea84fa2e2af607bc",
+      "sha256": "bd3a4966912eb8b30ed0d00b0cda6b6543b949d5ffe00bea54c04c81e1561d88",
+      "bytes": 61958799,
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/android-0.6/sdk/build-tools/35.0.0"
+    },
+    {
+      "package": "cmdline-tools;latest",
+      "url": "https://dl.google.com/android/repository/commandlinetools-linux-16111833_latest.zip",
+      "verificationAlgorithm": "sha1",
+      "expected": "e025545c62a8e64c7559119566a569fb1dec5f60",
+      "sha256": "0877a1d048fe4a24efe2eff536ca4223f7adeb58648bb81909d33c446918cfa8",
+      "bytes": 181052239,
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/android-0.6/sdk/cmdline-tools/latest"
+    },
+    {
+      "package": "gradle",
+      "url": "https://services.gradle.org/distributions/gradle-8.13-bin.zip",
+      "verificationAlgorithm": "sha256",
+      "expected": "20f1b1176237254a6fc204d8434196fa11a4cfb387567519c61556e8710aed78",
+      "sha256": "20f1b1176237254a6fc204d8434196fa11a4cfb387567519c61556e8710aed78",
+      "bytes": 136983045,
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/android-0.6/gradle-8.13"
+    }
+  ]
+}

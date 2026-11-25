@@ -1,0 +1,206 @@
+{
+  "recordedAtUtc": "2026-11-20T10:54:25.459785+00:00",
+  "version": "0.8.0",
+  "versionCode": 8,
+  "status": "build-verified unconfigured development preview; native Android and Internet sessions untested",
+  "baseGitCommit": "55d0dd83697c51df017ee2b1c790c8cab78c9808",
+  "sourceManifestSha256": "a62d8f215dd455a365e7f64af7dd9f0e9e7692a01637fe5d2236567a0f9c82dd",
+  "sourceInputs": 53,
+  "allInputsUnchangedDuringBuild": true,
+  "buildExitCode": 0,
+  "buildElapsedSeconds": 334.281,
+  "tests": {
+    "tests": 90,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "testSuites": 14,
+  "activationTests": 7,
+  "lint": {
+    "errors": 0,
+    "warnings": 0,
+    "issues": []
+  },
+  "previewPackage": "com.openremote.mobile.dev",
+  "releasePackage": "com.openremote.mobile",
+  "serviceProfileConfigured": false,
+  "unconfiguredPreviewBuildException": true,
+  "releaseSigning": false,
+  "releaseGuards": {
+    "recordedAtUtc": "2026-11-20T10:54:19.949724+00:00",
+    "sourceManifestSha256": "a62d8f215dd455a365e7f64af7dd9f0e9e7692a01637fe5d2236567a0f9c82dd",
+    "defaultUnconfiguredRelease": {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/run-build.py",
+        ":app:assembleRelease",
+        ":app:bundleRelease",
+        "--dependency-verification",
+        "strict",
+        "--offline",
+        "--stacktrace"
+      ],
+      "expectedExitCode": 1,
+      "observedExitCode": 1,
+      "guardRejected": true,
+      "allInputsUnchanged": true,
+      "expectedMessage": "OpenRemote release packaging is blocked: the provider service profile is unconfigured.",
+      "log": "unconfigured-release-rejection.log"
+    },
+    "injectedSigningWithPreviewException": {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/run-build.py",
+        ":app:verifyReleaseServiceProfile",
+        "-PopenremoteUnconfiguredPreview=true",
+        "-Pandroid.injected.signing.key.alias=unconfigured-preview-test",
+        "--dependency-verification",
+        "strict",
+        "--offline",
+        "--stacktrace"
+      ],
+      "expectedExitCode": 1,
+      "observedExitCode": 1,
+      "guardRejected": true,
+      "allInputsUnchanged": true,
+      "expectedMessage": "An unconfigured OpenRemote preview must remain unsigned; release signing is not permitted with this exception.",
+      "log": "unconfigured-signing-rejection.log"
+    },
+    "explicitUnsignedPreview": {
+      "flag": "-PopenremoteUnconfiguredPreview=true",
+      "guardAllowed": true,
+      "configured": false,
+      "customerRelease": false,
+      "log": "final-build.log"
+    }
+  },
+  "r8Mapping": {
+    "path": "android/app/build/outputs/mapping/release/mapping.txt",
+    "sha256": "765e666f5d761c04280ca44cedd3c0cf987f74d64c4da064cfaabf3b116770d5",
+    "sizeBytes": 28264823
+  },
+  "debugCertificate": {
+    "sha256": "24c0441ceca6f73ea0e6de8a0958be6229cfcf2518328e8f7f9b71d98b980b28",
+    "alias": "AndroidDebugKey",
+    "production": false,
+    "reusesRetained06And07PreviewKey": true
+  },
+  "artifacts": [
+    {
+      "path": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "filename": "app-arm64-v8a-debug.apk",
+      "variant": "debug",
+      "abi": "arm64-v8a",
+      "package": "com.openremote.mobile.dev",
+      "label": "OpenRemote Preview",
+      "versionCode": 8,
+      "versionName": "0.8.0",
+      "sha256": "4ac99f04f81b3b2cd20e33b5801bf6f3a85174e31f983767279c253e1684503a",
+      "sizeBytes": 24417783
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-armeabi-v7a-debug.apk",
+      "filename": "app-armeabi-v7a-debug.apk",
+      "variant": "debug",
+      "abi": "armeabi-v7a",
+      "package": "com.openremote.mobile.dev",
+      "label": "OpenRemote Preview",
+      "versionCode": 8,
+      "versionName": "0.8.0",
+      "sha256": "74345b59a030b21c44aa2a38219aa6b83a8d89c0e155f9a916db7e7c332b6f6c",
+      "sizeBytes": 18943559
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-x86_64-debug.apk",
+      "filename": "app-x86_64-debug.apk",
+      "variant": "debug",
+      "abi": "x86_64",
+      "package": "com.openremote.mobile.dev",
+      "label": "OpenRemote Preview",
+      "versionCode": 8,
+      "versionName": "0.8.0",
+      "sha256": "7f87d800e4c862b117beca13d3c880ff6c1c9adf2fe7cc817fcb5354ed92c7b5",
+      "sizeBytes": 28296577
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-x86-debug.apk",
+      "filename": "app-x86-debug.apk",
+      "variant": "debug",
+      "abi": "x86",
+      "package": "com.openremote.mobile.dev",
+      "label": "OpenRemote Preview",
+      "versionCode": 8,
+      "versionName": "0.8.0",
+      "sha256": "efcfba9769d5ddcc5299ca3578593ca1fcf55bcd6d706131b8b9081e2f358a10",
+      "sizeBytes": 24950067
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+      "filename": "app-arm64-v8a-release-unsigned.apk",
+      "variant": "release",
+      "abi": "arm64-v8a",
+      "package": "com.openremote.mobile",
+      "label": "OpenRemote",
+      "versionCode": 8,
+      "versionName": "0.8.0",
+      "sha256": "13cfe47bffcd3a7970865f0254154ad631b5f7109bca1a4365d9b867a4deed59",
+      "sizeBytes": 13780402
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk",
+      "filename": "app-armeabi-v7a-release-unsigned.apk",
+      "variant": "release",
+      "abi": "armeabi-v7a",
+      "package": "com.openremote.mobile",
+      "label": "OpenRemote",
+      "versionCode": 8,
+      "versionName": "0.8.0",
+      "sha256": "a83ff22d124b2222c6e263fc37bec9f10c843e70fc5ab94fd3b2eb4bf1ddb4d8",
+      "sizeBytes": 8306178
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-x86_64-release-unsigned.apk",
+      "filename": "app-x86_64-release-unsigned.apk",
+      "variant": "release",
+      "abi": "x86_64",
+      "package": "com.openremote.mobile",
+      "label": "OpenRemote",
+      "versionCode": 8,
+      "versionName": "0.8.0",
+      "sha256": "8bdf785ae47f8ada7defd47e6414739099b90e5e8954aadd2809e1cec753a65f",
+      "sizeBytes": 17659196
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-x86-release-unsigned.apk",
+      "filename": "app-x86-release-unsigned.apk",
+      "variant": "release",
+      "abi": "x86",
+      "package": "com.openremote.mobile",
+      "label": "OpenRemote",
+      "versionCode": 8,
+      "versionName": "0.8.0",
+      "sha256": "b9e7cedc3afd30debd58fe6173e23be18d485321266f13cb40a98081a3d00605",
+      "sizeBytes": 14312686
+    }
+  ],
+  "executed": [
+    "Full JVM unit test suite",
+    "Debug plus minified unsigned preview release builds for four ABIs",
+    "Debug lint",
+    "Default empty-profile release rejection",
+    "Signing-injection rejection for empty-profile preview exception",
+    "All four preview APK signature checks and all four unsigned release checks",
+    "All eight APK ZIP 16KiB alignment checks",
+    "ARM64 and x86_64 ELF PT_LOAD alignment and offset/address congruence",
+    "All compiled APK package/version/label and ARM64 launcher-only manifest inspection"
+  ],
+  "notExecuted": [
+    "Physical Android installation or in-place update",
+    "Android Activity/Compose and Keystore on a device or emulator",
+    "Windows-to-Android video/input",
+    "Real Internet, carrier NAT or TURN relay session",
+    "Production signing or store publication"
+  ],
+  "evidence": "android/verification/activation-0.8.0"
+}

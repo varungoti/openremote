@@ -1,0 +1,559 @@
+{
+  "startedAtUtc": "2026-11-20T10:46:42.647988+00:00",
+  "completedAtUtc": "2026-11-20T10:52:16.929077+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/run-build.py",
+    ":app:assembleDebug",
+    ":app:testDebugUnitTest",
+    ":app:lintDebug",
+    ":app:assembleRelease",
+    ":app:signingReport",
+    "-PopenremoteUnconfiguredPreview=true",
+    "--dependency-verification",
+    "strict",
+    "--offline",
+    "--stacktrace"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 334.281,
+  "sourceManifestSha256": "a62d8f215dd455a365e7f64af7dd9f0e9e7692a01637fe5d2236567a0f9c82dd",
+  "inputs": 53,
+  "allInputsUnchanged": true,
+  "before": [
+    {
+      "path": "android/app/build.gradle.kts",
+      "expected": "7f8ad0270f465e24cfa9ff472eaa7f23bbd6951741cca9acf8ee8590b76d4436",
+      "actual": "7f8ad0270f465e24cfa9ff472eaa7f23bbd6951741cca9acf8ee8590b76d4436"
+    },
+    {
+      "path": "android/app/gradle.lockfile",
+      "expected": "bd283e7d364f91aefa6e8267c8b7533d288d8beb5a3447abd59095110c617bc2",
+      "actual": "bd283e7d364f91aefa6e8267c8b7533d288d8beb5a3447abd59095110c617bc2"
+    },
+    {
+      "path": "android/app/proguard-rules.pro",
+      "expected": "b3711712130eb5ccceb01a254d4ea0da54d2bbd95f48c9fadbe6a3afbfcf8dfe",
+      "actual": "b3711712130eb5ccceb01a254d4ea0da54d2bbd95f48c9fadbe6a3afbfcf8dfe"
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/openremote/mobile/ControllerIdentityTest.kt",
+      "expected": "9712bf344f09bd06db147ce2138c943536c4e3fa5cc5a44b30a5898cfac15aa9",
+      "actual": "9712bf344f09bd06db147ce2138c943536c4e3fa5cc5a44b30a5898cfac15aa9"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "expected": "b2d292073b6cdbc3dbfa4912b77f6ff564bd04f6d7bf4fd657d5840af211f3b3",
+      "actual": "b2d292073b6cdbc3dbfa4912b77f6ff564bd04f6d7bf4fd657d5840af211f3b3"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ApiClient.kt",
+      "expected": "30a2c3bfd3c61342a3c1e48413767753e168f8168429c700578d56ae5f0dead0",
+      "actual": "30a2c3bfd3c61342a3c1e48413767753e168f8168429c700578d56ae5f0dead0"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ConnectionChecks.kt",
+      "expected": "10a523eba1b0cb980705e4079330320a978fff6a4e5db1e579fc2d10178a38e1",
+      "actual": "10a523eba1b0cb980705e4079330320a978fff6a4e5db1e579fc2d10178a38e1"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ControllerIdentity.kt",
+      "expected": "6993fa492614dd9ff1edfb516a3a346e566fbd95a5fece6456901d7b7cff57ec",
+      "actual": "6993fa492614dd9ff1edfb516a3a346e566fbd95a5fece6456901d7b7cff57ec"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/DisplayProtocol.kt",
+      "expected": "ad657a1fb30d2d191256375c787419bbc8d1e4f7538db987ea8cf1601148ba91",
+      "actual": "ad657a1fb30d2d191256375c787419bbc8d1e4f7538db987ea8cf1601148ba91"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/DocumentSnapshot.kt",
+      "expected": "11e9204f504416cdf9dc48584e2e42899f2b29b97d03f09483cf88a0805c741d",
+      "actual": "11e9204f504416cdf9dc48584e2e42899f2b29b97d03f09483cf88a0805c741d"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/FileUpload.kt",
+      "expected": "b434c7d7e8086263a4bbfd55036f9b50fb48e7c58630f59047e7f5f2d66760d1",
+      "actual": "b434c7d7e8086263a4bbfd55036f9b50fb48e7c58630f59047e7f5f2d66760d1"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/MainActivity.kt",
+      "expected": "3a3111d38324fc3b4bf7c61fa23f09d4d5aca4de657cbfb79d4565c51f832bd5",
+      "actual": "3a3111d38324fc3b4bf7c61fa23f09d4d5aca4de657cbfb79d4565c51f832bd5"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/Models.kt",
+      "expected": "6d16b079a486572cf41ca0e86b99f1e8d4d87f9197409c39c57b5224e7445eb5",
+      "actual": "6d16b079a486572cf41ca0e86b99f1e8d4d87f9197409c39c57b5224e7445eb5"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/OpenRemoteViewModel.kt",
+      "expected": "82df095302e49c7bb3b0393bd268743f075d7fcaf332d81741834984591d19af",
+      "actual": "82df095302e49c7bb3b0393bd268743f075d7fcaf332d81741834984591d19af"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/Pairing.kt",
+      "expected": "d7a3a618365b60a70ef948b9ab4760847808674860fb8c6c5ca0f1fedf081806",
+      "actual": "d7a3a618365b60a70ef948b9ab4760847808674860fb8c6c5ca0f1fedf081806"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/PhoneSetup.kt",
+      "expected": "3095b5e02024406f94158800b1f76a2d22af41f117c8d39bf77cf83d34497967",
+      "actual": "3095b5e02024406f94158800b1f76a2d22af41f117c8d39bf77cf83d34497967"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemoteCoordinates.kt",
+      "expected": "0169def2a74d0841122377d89999aa62c3dac668b1bfb86785913e66187f765b",
+      "actual": "0169def2a74d0841122377d89999aa62c3dac668b1bfb86785913e66187f765b"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemoteDisplay.kt",
+      "expected": "b65d3302ae7437771e37c050969c65bbe60f4aa4d4cbddbb70297a7274db0967",
+      "actual": "b65d3302ae7437771e37c050969c65bbe60f4aa4d4cbddbb70297a7274db0967"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemotePeer.kt",
+      "expected": "88176ee013d2a151b76ace97b720d564f4e738f5c70a97a5c7fbe4a8ddb851d9",
+      "actual": "88176ee013d2a151b76ace97b720d564f4e738f5c70a97a5c7fbe4a8ddb851d9"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SecureSettings.kt",
+      "expected": "a3f1f2603e36973a5f250a0b84b9fed3bf6981650fdbbb65b8f04c3adbfeaef3",
+      "actual": "a3f1f2603e36973a5f250a0b84b9fed3bf6981650fdbbb65b8f04c3adbfeaef3"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SessionLifecycle.kt",
+      "expected": "725e5fef9685bc123a2b0525f911684cc41e6df7327e8994713bf572919f1b1c",
+      "actual": "725e5fef9685bc123a2b0525f911684cc41e6df7327e8994713bf572919f1b1c"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SessionToolsClient.kt",
+      "expected": "01d62e3a1a28b0e31d8df5cdcbed6de7fb9ad767926082cffd07f7e7c6d506f9",
+      "actual": "01d62e3a1a28b0e31d8df5cdcbed6de7fb9ad767926082cffd07f7e7c6d506f9"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ToolProtocol.kt",
+      "expected": "7b84f7dc6b7ca2e14ad4ae98003d5ff1d0f1f07fd767d99b15e1a71378b5c58a",
+      "actual": "7b84f7dc6b7ca2e14ad4ae98003d5ff1d0f1f07fd767d99b15e1a71378b5c58a"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/VideoFreshness.kt",
+      "expected": "eaf23349a350237ff1df5ddb33782b24a55247b1c893a5e576cd7c3e6438aa26",
+      "actual": "eaf23349a350237ff1df5ddb33782b24a55247b1c893a5e576cd7c3e6438aa26"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "expected": "ad78011d1d32d967eaf382340d8ef219fcbc61ea42f9a13a0f08283af965c6c1",
+      "actual": "ad78011d1d32d967eaf382340d8ef219fcbc61ea42f9a13a0f08283af965c6c1"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "expected": "d6a9c9225b56729fa8c5c82c0ae404fa13e0994361dccc91d64909999b8b2d36",
+      "actual": "d6a9c9225b56729fa8c5c82c0ae404fa13e0994361dccc91d64909999b8b2d36"
+    },
+    {
+      "path": "android/app/src/main/res/values/colors.xml",
+      "expected": "716c67080f9b8cbf21ddf69cb5715fdb77eed581989fb66e17be2f18a0a66ec4",
+      "actual": "716c67080f9b8cbf21ddf69cb5715fdb77eed581989fb66e17be2f18a0a66ec4"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "expected": "26b34591aec43ff80a9461049372bae2c09c4d633aee81e7c6a95de3f3d41718",
+      "actual": "26b34591aec43ff80a9461049372bae2c09c4d633aee81e7c6a95de3f3d41718"
+    },
+    {
+      "path": "android/app/src/main/res/xml/backup_rules.xml",
+      "expected": "ea94fce7212ab7b4f52c461778b9553455088332ae6898606b7084c9b5d1c2eb",
+      "actual": "ea94fce7212ab7b4f52c461778b9553455088332ae6898606b7084c9b5d1c2eb"
+    },
+    {
+      "path": "android/app/src/main/res/xml/data_extraction_rules.xml",
+      "expected": "3336e7ffc9a2fbd23db76c340bf51a03a59ce6ef3997a866dc274578a2c7e2ec",
+      "actual": "3336e7ffc9a2fbd23db76c340bf51a03a59ce6ef3997a866dc274578a2c7e2ec"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ActivationConnectionTest.kt",
+      "expected": "9d485d95af60ecceab1e5ce1118bb20937c7068b964a4e94a37767ffea0886ef",
+      "actual": "9d485d95af60ecceab1e5ce1118bb20937c7068b964a4e94a37767ffea0886ef"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ApiClientTest.kt",
+      "expected": "30e5b6335c042b4cf0a39c072cc4c960d8d2e6d3f2f56e076ce58673c63436d0",
+      "actual": "30e5b6335c042b4cf0a39c072cc4c960d8d2e6d3f2f56e076ce58673c63436d0"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ConnectionChecksTest.kt",
+      "expected": "eac2b154ef05bec20ad6c84756cb9ed6d1f18cc3de121c669ba7aca58a3301d6",
+      "actual": "eac2b154ef05bec20ad6c84756cb9ed6d1f18cc3de121c669ba7aca58a3301d6"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/DisplayProtocolTest.kt",
+      "expected": "0fcdb5baa1de7be65c5a65a037a8f3c41bfd761da34e936a08a155164a3b0a65",
+      "actual": "0fcdb5baa1de7be65c5a65a037a8f3c41bfd761da34e936a08a155164a3b0a65"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/DisplayReadinessTest.kt",
+      "expected": "abb38a3fc0f079b091e3cc2bfb4b169af098349f38440d847f4d0f9e04ad1d30",
+      "actual": "abb38a3fc0f079b091e3cc2bfb4b169af098349f38440d847f4d0f9e04ad1d30"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/FileUploadTest.kt",
+      "expected": "fbd05953d01df53f15da006a84a9563b7f2df63a6021e2b0696a0bf04a012345",
+      "actual": "fbd05953d01df53f15da006a84a9563b7f2df63a6021e2b0696a0bf04a012345"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ManagedHomeTest.kt",
+      "expected": "0f0db7af4b27a76f9a9dfba80730880caaffba59e2785da15dd02e18c6e0c377",
+      "actual": "0f0db7af4b27a76f9a9dfba80730880caaffba59e2785da15dd02e18c6e0c377"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/PairingTest.kt",
+      "expected": "b10981ba11885e2736f45a91a4c8d5c66b90d13d599dfc05bc243f79b68a0d79",
+      "actual": "b10981ba11885e2736f45a91a4c8d5c66b90d13d599dfc05bc243f79b68a0d79"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/PhoneSetupTest.kt",
+      "expected": "084c77d197633422457792fc0f82d753f1c0f7db6af28c246dd5177a8ee33a0a",
+      "actual": "084c77d197633422457792fc0f82d753f1c0f7db6af28c246dd5177a8ee33a0a"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/RemoteCoordinatesTest.kt",
+      "expected": "03e23c1a24213a3e39344a19a02b2e7692116fdcd556b03083dea1efbc7dd4ad",
+      "actual": "03e23c1a24213a3e39344a19a02b2e7692116fdcd556b03083dea1efbc7dd4ad"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/SessionLifecycleTest.kt",
+      "expected": "eff86d8ed3c98a4226a83de58dab54c38c04490cd2ae023d2c5af3a0594efa41",
+      "actual": "eff86d8ed3c98a4226a83de58dab54c38c04490cd2ae023d2c5af3a0594efa41"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/SessionToolsClientTest.kt",
+      "expected": "0b22a618b6d5050fb73b418f9b67155078b17cbeb2c76708c71341e16f698d77",
+      "actual": "0b22a618b6d5050fb73b418f9b67155078b17cbeb2c76708c71341e16f698d77"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ToolProtocolTest.kt",
+      "expected": "ae8209473ad47601cbde4fa13189bc683feb2fdc0468ced1ce0debe6e1370ef4",
+      "actual": "ae8209473ad47601cbde4fa13189bc683feb2fdc0468ced1ce0debe6e1370ef4"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/VideoFreshnessTest.kt",
+      "expected": "c2835c0bd04a9d72a94886250af697408540bba38c36a97e1c0989086c7baaba",
+      "actual": "c2835c0bd04a9d72a94886250af697408540bba38c36a97e1c0989086c7baaba"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "expected": "52f9b95bdc89db4b3641d7c0684e8d92f62cbfdd5c83168a9eead5ff041b4c95",
+      "actual": "52f9b95bdc89db4b3641d7c0684e8d92f62cbfdd5c83168a9eead5ff041b4c95"
+    },
+    {
+      "path": "android/gradle/verification-metadata.xml",
+      "expected": "17030e89e7f48a35cbf131d587253171d2ca5014bc1c3e44eb51c54cabf03642",
+      "actual": "17030e89e7f48a35cbf131d587253171d2ca5014bc1c3e44eb51c54cabf03642"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "expected": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f",
+      "actual": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "expected": "c040b6ef2fb893ff5beea5a281614f2848f1c3996a7886f650b713f8240656a2",
+      "actual": "c040b6ef2fb893ff5beea5a281614f2848f1c3996a7886f650b713f8240656a2"
+    },
+    {
+      "path": "android/gradle.properties",
+      "expected": "1cdcc7bd6cae173bf793a4a858f6588b8e95b9e47b5d97a5bd740499116ef5a9",
+      "actual": "1cdcc7bd6cae173bf793a4a858f6588b8e95b9e47b5d97a5bd740499116ef5a9"
+    },
+    {
+      "path": "android/gradlew",
+      "expected": "734b3879d3501dce471cf0522d3bcbafe76873d9fc5129345b67fb43bd15e933",
+      "actual": "734b3879d3501dce471cf0522d3bcbafe76873d9fc5129345b67fb43bd15e933"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "expected": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f",
+      "actual": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f"
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "expected": "1aaf0beab24577dec6597f85ab1d2acd62f69ffd010d109c0d957e91467e2691",
+      "actual": "1aaf0beab24577dec6597f85ab1d2acd62f69ffd010d109c0d957e91467e2691"
+    },
+    {
+      "path": "config/service-profile.json",
+      "expected": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c",
+      "actual": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c"
+    }
+  ],
+  "after": [
+    {
+      "path": "android/app/build.gradle.kts",
+      "expected": "7f8ad0270f465e24cfa9ff472eaa7f23bbd6951741cca9acf8ee8590b76d4436",
+      "actual": "7f8ad0270f465e24cfa9ff472eaa7f23bbd6951741cca9acf8ee8590b76d4436"
+    },
+    {
+      "path": "android/app/gradle.lockfile",
+      "expected": "bd283e7d364f91aefa6e8267c8b7533d288d8beb5a3447abd59095110c617bc2",
+      "actual": "bd283e7d364f91aefa6e8267c8b7533d288d8beb5a3447abd59095110c617bc2"
+    },
+    {
+      "path": "android/app/proguard-rules.pro",
+      "expected": "b3711712130eb5ccceb01a254d4ea0da54d2bbd95f48c9fadbe6a3afbfcf8dfe",
+      "actual": "b3711712130eb5ccceb01a254d4ea0da54d2bbd95f48c9fadbe6a3afbfcf8dfe"
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/openremote/mobile/ControllerIdentityTest.kt",
+      "expected": "9712bf344f09bd06db147ce2138c943536c4e3fa5cc5a44b30a5898cfac15aa9",
+      "actual": "9712bf344f09bd06db147ce2138c943536c4e3fa5cc5a44b30a5898cfac15aa9"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "expected": "b2d292073b6cdbc3dbfa4912b77f6ff564bd04f6d7bf4fd657d5840af211f3b3",
+      "actual": "b2d292073b6cdbc3dbfa4912b77f6ff564bd04f6d7bf4fd657d5840af211f3b3"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ApiClient.kt",
+      "expected": "30a2c3bfd3c61342a3c1e48413767753e168f8168429c700578d56ae5f0dead0",
+      "actual": "30a2c3bfd3c61342a3c1e48413767753e168f8168429c700578d56ae5f0dead0"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ConnectionChecks.kt",
+      "expected": "10a523eba1b0cb980705e4079330320a978fff6a4e5db1e579fc2d10178a38e1",
+      "actual": "10a523eba1b0cb980705e4079330320a978fff6a4e5db1e579fc2d10178a38e1"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ControllerIdentity.kt",
+      "expected": "6993fa492614dd9ff1edfb516a3a346e566fbd95a5fece6456901d7b7cff57ec",
+      "actual": "6993fa492614dd9ff1edfb516a3a346e566fbd95a5fece6456901d7b7cff57ec"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/DisplayProtocol.kt",
+      "expected": "ad657a1fb30d2d191256375c787419bbc8d1e4f7538db987ea8cf1601148ba91",
+      "actual": "ad657a1fb30d2d191256375c787419bbc8d1e4f7538db987ea8cf1601148ba91"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/DocumentSnapshot.kt",
+      "expected": "11e9204f504416cdf9dc48584e2e42899f2b29b97d03f09483cf88a0805c741d",
+      "actual": "11e9204f504416cdf9dc48584e2e42899f2b29b97d03f09483cf88a0805c741d"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/FileUpload.kt",
+      "expected": "b434c7d7e8086263a4bbfd55036f9b50fb48e7c58630f59047e7f5f2d66760d1",
+      "actual": "b434c7d7e8086263a4bbfd55036f9b50fb48e7c58630f59047e7f5f2d66760d1"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/MainActivity.kt",
+      "expected": "3a3111d38324fc3b4bf7c61fa23f09d4d5aca4de657cbfb79d4565c51f832bd5",
+      "actual": "3a3111d38324fc3b4bf7c61fa23f09d4d5aca4de657cbfb79d4565c51f832bd5"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/Models.kt",
+      "expected": "6d16b079a486572cf41ca0e86b99f1e8d4d87f9197409c39c57b5224e7445eb5",
+      "actual": "6d16b079a486572cf41ca0e86b99f1e8d4d87f9197409c39c57b5224e7445eb5"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/OpenRemoteViewModel.kt",
+      "expected": "82df095302e49c7bb3b0393bd268743f075d7fcaf332d81741834984591d19af",
+      "actual": "82df095302e49c7bb3b0393bd268743f075d7fcaf332d81741834984591d19af"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/Pairing.kt",
+      "expected": "d7a3a618365b60a70ef948b9ab4760847808674860fb8c6c5ca0f1fedf081806",
+      "actual": "d7a3a618365b60a70ef948b9ab4760847808674860fb8c6c5ca0f1fedf081806"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/PhoneSetup.kt",
+      "expected": "3095b5e02024406f94158800b1f76a2d22af41f117c8d39bf77cf83d34497967",
+      "actual": "3095b5e02024406f94158800b1f76a2d22af41f117c8d39bf77cf83d34497967"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemoteCoordinates.kt",
+      "expected": "0169def2a74d0841122377d89999aa62c3dac668b1bfb86785913e66187f765b",
+      "actual": "0169def2a74d0841122377d89999aa62c3dac668b1bfb86785913e66187f765b"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemoteDisplay.kt",
+      "expected": "b65d3302ae7437771e37c050969c65bbe60f4aa4d4cbddbb70297a7274db0967",
+      "actual": "b65d3302ae7437771e37c050969c65bbe60f4aa4d4cbddbb70297a7274db0967"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemotePeer.kt",
+      "expected": "88176ee013d2a151b76ace97b720d564f4e738f5c70a97a5c7fbe4a8ddb851d9",
+      "actual": "88176ee013d2a151b76ace97b720d564f4e738f5c70a97a5c7fbe4a8ddb851d9"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SecureSettings.kt",
+      "expected": "a3f1f2603e36973a5f250a0b84b9fed3bf6981650fdbbb65b8f04c3adbfeaef3",
+      "actual": "a3f1f2603e36973a5f250a0b84b9fed3bf6981650fdbbb65b8f04c3adbfeaef3"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SessionLifecycle.kt",
+      "expected": "725e5fef9685bc123a2b0525f911684cc41e6df7327e8994713bf572919f1b1c",
+      "actual": "725e5fef9685bc123a2b0525f911684cc41e6df7327e8994713bf572919f1b1c"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SessionToolsClient.kt",
+      "expected": "01d62e3a1a28b0e31d8df5cdcbed6de7fb9ad767926082cffd07f7e7c6d506f9",
+      "actual": "01d62e3a1a28b0e31d8df5cdcbed6de7fb9ad767926082cffd07f7e7c6d506f9"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ToolProtocol.kt",
+      "expected": "7b84f7dc6b7ca2e14ad4ae98003d5ff1d0f1f07fd767d99b15e1a71378b5c58a",
+      "actual": "7b84f7dc6b7ca2e14ad4ae98003d5ff1d0f1f07fd767d99b15e1a71378b5c58a"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/VideoFreshness.kt",
+      "expected": "eaf23349a350237ff1df5ddb33782b24a55247b1c893a5e576cd7c3e6438aa26",
+      "actual": "eaf23349a350237ff1df5ddb33782b24a55247b1c893a5e576cd7c3e6438aa26"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "expected": "ad78011d1d32d967eaf382340d8ef219fcbc61ea42f9a13a0f08283af965c6c1",
+      "actual": "ad78011d1d32d967eaf382340d8ef219fcbc61ea42f9a13a0f08283af965c6c1"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "expected": "d6a9c9225b56729fa8c5c82c0ae404fa13e0994361dccc91d64909999b8b2d36",
+      "actual": "d6a9c9225b56729fa8c5c82c0ae404fa13e0994361dccc91d64909999b8b2d36"
+    },
+    {
+      "path": "android/app/src/main/res/values/colors.xml",
+      "expected": "716c67080f9b8cbf21ddf69cb5715fdb77eed581989fb66e17be2f18a0a66ec4",
+      "actual": "716c67080f9b8cbf21ddf69cb5715fdb77eed581989fb66e17be2f18a0a66ec4"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "expected": "26b34591aec43ff80a9461049372bae2c09c4d633aee81e7c6a95de3f3d41718",
+      "actual": "26b34591aec43ff80a9461049372bae2c09c4d633aee81e7c6a95de3f3d41718"
+    },
+    {
+      "path": "android/app/src/main/res/xml/backup_rules.xml",
+      "expected": "ea94fce7212ab7b4f52c461778b9553455088332ae6898606b7084c9b5d1c2eb",
+      "actual": "ea94fce7212ab7b4f52c461778b9553455088332ae6898606b7084c9b5d1c2eb"
+    },
+    {
+      "path": "android/app/src/main/res/xml/data_extraction_rules.xml",
+      "expected": "3336e7ffc9a2fbd23db76c340bf51a03a59ce6ef3997a866dc274578a2c7e2ec",
+      "actual": "3336e7ffc9a2fbd23db76c340bf51a03a59ce6ef3997a866dc274578a2c7e2ec"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ActivationConnectionTest.kt",
+      "expected": "9d485d95af60ecceab1e5ce1118bb20937c7068b964a4e94a37767ffea0886ef",
+      "actual": "9d485d95af60ecceab1e5ce1118bb20937c7068b964a4e94a37767ffea0886ef"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ApiClientTest.kt",
+      "expected": "30e5b6335c042b4cf0a39c072cc4c960d8d2e6d3f2f56e076ce58673c63436d0",
+      "actual": "30e5b6335c042b4cf0a39c072cc4c960d8d2e6d3f2f56e076ce58673c63436d0"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ConnectionChecksTest.kt",
+      "expected": "eac2b154ef05bec20ad6c84756cb9ed6d1f18cc3de121c669ba7aca58a3301d6",
+      "actual": "eac2b154ef05bec20ad6c84756cb9ed6d1f18cc3de121c669ba7aca58a3301d6"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/DisplayProtocolTest.kt",
+      "expected": "0fcdb5baa1de7be65c5a65a037a8f3c41bfd761da34e936a08a155164a3b0a65",
+      "actual": "0fcdb5baa1de7be65c5a65a037a8f3c41bfd761da34e936a08a155164a3b0a65"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/DisplayReadinessTest.kt",
+      "expected": "abb38a3fc0f079b091e3cc2bfb4b169af098349f38440d847f4d0f9e04ad1d30",
+      "actual": "abb38a3fc0f079b091e3cc2bfb4b169af098349f38440d847f4d0f9e04ad1d30"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/FileUploadTest.kt",
+      "expected": "fbd05953d01df53f15da006a84a9563b7f2df63a6021e2b0696a0bf04a012345",
+      "actual": "fbd05953d01df53f15da006a84a9563b7f2df63a6021e2b0696a0bf04a012345"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ManagedHomeTest.kt",
+      "expected": "0f0db7af4b27a76f9a9dfba80730880caaffba59e2785da15dd02e18c6e0c377",
+      "actual": "0f0db7af4b27a76f9a9dfba80730880caaffba59e2785da15dd02e18c6e0c377"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/PairingTest.kt",
+      "expected": "b10981ba11885e2736f45a91a4c8d5c66b90d13d599dfc05bc243f79b68a0d79",
+      "actual": "b10981ba11885e2736f45a91a4c8d5c66b90d13d599dfc05bc243f79b68a0d79"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/PhoneSetupTest.kt",
+      "expected": "084c77d197633422457792fc0f82d753f1c0f7db6af28c246dd5177a8ee33a0a",
+      "actual": "084c77d197633422457792fc0f82d753f1c0f7db6af28c246dd5177a8ee33a0a"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/RemoteCoordinatesTest.kt",
+      "expected": "03e23c1a24213a3e39344a19a02b2e7692116fdcd556b03083dea1efbc7dd4ad",
+      "actual": "03e23c1a24213a3e39344a19a02b2e7692116fdcd556b03083dea1efbc7dd4ad"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/SessionLifecycleTest.kt",
+      "expected": "eff86d8ed3c98a4226a83de58dab54c38c04490cd2ae023d2c5af3a0594efa41",
+      "actual": "eff86d8ed3c98a4226a83de58dab54c38c04490cd2ae023d2c5af3a0594efa41"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/SessionToolsClientTest.kt",
+      "expected": "0b22a618b6d5050fb73b418f9b67155078b17cbeb2c76708c71341e16f698d77",
+      "actual": "0b22a618b6d5050fb73b418f9b67155078b17cbeb2c76708c71341e16f698d77"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ToolProtocolTest.kt",
+      "expected": "ae8209473ad47601cbde4fa13189bc683feb2fdc0468ced1ce0debe6e1370ef4",
+      "actual": "ae8209473ad47601cbde4fa13189bc683feb2fdc0468ced1ce0debe6e1370ef4"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/VideoFreshnessTest.kt",
+      "expected": "c2835c0bd04a9d72a94886250af697408540bba38c36a97e1c0989086c7baaba",
+      "actual": "c2835c0bd04a9d72a94886250af697408540bba38c36a97e1c0989086c7baaba"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "expected": "52f9b95bdc89db4b3641d7c0684e8d92f62cbfdd5c83168a9eead5ff041b4c95",
+      "actual": "52f9b95bdc89db4b3641d7c0684e8d92f62cbfdd5c83168a9eead5ff041b4c95"
+    },
+    {
+      "path": "android/gradle/verification-metadata.xml",
+      "expected": "17030e89e7f48a35cbf131d587253171d2ca5014bc1c3e44eb51c54cabf03642",
+      "actual": "17030e89e7f48a35cbf131d587253171d2ca5014bc1c3e44eb51c54cabf03642"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "expected": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f",
+      "actual": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "expected": "c040b6ef2fb893ff5beea5a281614f2848f1c3996a7886f650b713f8240656a2",
+      "actual": "c040b6ef2fb893ff5beea5a281614f2848f1c3996a7886f650b713f8240656a2"
+    },
+    {
+      "path": "android/gradle.properties",
+      "expected": "1cdcc7bd6cae173bf793a4a858f6588b8e95b9e47b5d97a5bd740499116ef5a9",
+      "actual": "1cdcc7bd6cae173bf793a4a858f6588b8e95b9e47b5d97a5bd740499116ef5a9"
+    },
+    {
+      "path": "android/gradlew",
+      "expected": "734b3879d3501dce471cf0522d3bcbafe76873d9fc5129345b67fb43bd15e933",
+      "actual": "734b3879d3501dce471cf0522d3bcbafe76873d9fc5129345b67fb43bd15e933"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "expected": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f",
+      "actual": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f"
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "expected": "1aaf0beab24577dec6597f85ab1d2acd62f69ffd010d109c0d957e91467e2691",
+      "actual": "1aaf0beab24577dec6597f85ab1d2acd62f69ffd010d109c0d957e91467e2691"
+    },
+    {
+      "path": "config/service-profile.json",
+      "expected": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c",
+      "actual": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c"
+    }
+  ],
+  "log": "final-build.log",
+  "successfulAttempt": "build-attempt-2.json"
+}

@@ -1,0 +1,26 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> openremote-agent-bridge@0.8.0 test
+> node --test test/*.test.mjs
+
+✔ publisher profile is fixed HTTPS and never accepts a controller-supplied endpoint (4.443684ms)
+✔ unconfigured product still reports status and fails before browser launch (3.404129ms)
+✔ bounded status and PNG outputs discard arbitrary browser fields (4.60157ms)
+✔ connect waits for media, clears PIN reference, and each screenshot permits only one bounded action (4.792958ms)
+✔ view-only screenshots work but input never reaches browser API (4.95989ms)
+✔ stale and cross-generation screenshot tokens cannot authorize input (2.240031ms)
+✔ disconnect cancels connection setup and closes a browser that resolves late (16.351512ms)
+✔ request cancellation closes the session and discards queued mutations (3.754127ms)
+✔ idle expiry and operation timeout close resources without claiming remote end acknowledgment (74.628412ms)
+✔ real stdio MCP framing lists only bounded desktop tools and validates negative arguments (194.407615ms)
+✔ stdio cancellation and EOF tear down the actual tool handler resource (35.043914ms)
+✔ oversized stdio frame closes the bounded transport (27.210315ms)
+✔ production child process supports initialize/status and exits on stdin EOF without extra output (622.040875ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1705.899843

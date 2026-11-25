@@ -1,0 +1,48 @@
+{
+  "recordedAtUtc": "2026-11-20T10:54:19.949724+00:00",
+  "sourceManifestSha256": "a62d8f215dd455a365e7f64af7dd9f0e9e7692a01637fe5d2236567a0f9c82dd",
+  "defaultUnconfiguredRelease": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/run-build.py",
+      ":app:assembleRelease",
+      ":app:bundleRelease",
+      "--dependency-verification",
+      "strict",
+      "--offline",
+      "--stacktrace"
+    ],
+    "expectedExitCode": 1,
+    "observedExitCode": 1,
+    "guardRejected": true,
+    "allInputsUnchanged": true,
+    "expectedMessage": "OpenRemote release packaging is blocked: the provider service profile is unconfigured.",
+    "log": "unconfigured-release-rejection.log"
+  },
+  "injectedSigningWithPreviewException": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/run-build.py",
+      ":app:verifyReleaseServiceProfile",
+      "-PopenremoteUnconfiguredPreview=true",
+      "-Pandroid.injected.signing.key.alias=unconfigured-preview-test",
+      "--dependency-verification",
+      "strict",
+      "--offline",
+      "--stacktrace"
+    ],
+    "expectedExitCode": 1,
+    "observedExitCode": 1,
+    "guardRejected": true,
+    "allInputsUnchanged": true,
+    "expectedMessage": "An unconfigured OpenRemote preview must remain unsigned; release signing is not permitted with this exception.",
+    "log": "unconfigured-signing-rejection.log"
+  },
+  "explicitUnsignedPreview": {
+    "flag": "-PopenremoteUnconfiguredPreview=true",
+    "guardAllowed": true,
+    "configured": false,
+    "customerRelease": false,
+    "log": "final-build.log"
+  }
+}

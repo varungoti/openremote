@@ -1,0 +1,122 @@
+[
+  {
+    "path": "agent-windows/Cargo.toml",
+    "sha256": "a82f50812d7f3f709edf3f09c2698de28bb3ee84f343c49fa0367a0e1ebd5a01",
+    "sizeBytes": 1278
+  },
+  {
+    "path": "agent-windows/Cargo.lock",
+    "sha256": "977b98d2b0aff506a075c189e45d4899de51b2f134aacb3e5fe866ceab1d420e",
+    "sizeBytes": 79812
+  },
+  {
+    "path": "config/service-profile.json",
+    "sha256": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c",
+    "sizeBytes": 75
+  },
+  {
+    "path": "agent-windows/src/api.rs",
+    "sha256": "d1f2128d071d874e70c0eaf75f987a74c2bb04c9919e0243c1aa203cabce2c91",
+    "sizeBytes": 12418
+  },
+  {
+    "path": "agent-windows/src/config.rs",
+    "sha256": "97802538773c0ed5372f87ff85c9d9981fdfb1e429fff470ed41018e63b4d39d",
+    "sizeBytes": 6155
+  },
+  {
+    "path": "agent-windows/src/displays.rs",
+    "sha256": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+    "sizeBytes": 23259
+  },
+  {
+    "path": "agent-windows/src/host_home.rs",
+    "sha256": "99defbdb47ec8eaf880491d7315b750fd4782a55466193302230c87a414bf6f0",
+    "sizeBytes": 55226
+  },
+  {
+    "path": "agent-windows/src/identity.rs",
+    "sha256": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+    "sizeBytes": 4781
+  },
+  {
+    "path": "agent-windows/src/input.rs",
+    "sha256": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+    "sizeBytes": 12091
+  },
+  {
+    "path": "agent-windows/src/lib.rs",
+    "sha256": "9882c5b17fe706a913e860dc1467f49c6f2f136c455c3e8cc7864c5ea6a5c4ed",
+    "sizeBytes": 688
+  },
+  {
+    "path": "agent-windows/src/main.rs",
+    "sha256": "4fcc1b09a76cad58cef31482613a957ef8ba3fa544c8d55227b18281b5e27f4d",
+    "sizeBytes": 14602
+  },
+  {
+    "path": "agent-windows/src/media.rs",
+    "sha256": "a49122439eada16e8684f8ded7457d1e37111cd7daec0b83aea763c267bda46f",
+    "sizeBytes": 13235
+  },
+  {
+    "path": "agent-windows/src/pairing.rs",
+    "sha256": "13db84d01a09df17d959e3c5ac6ca773a715530081b127867b3be72985a5e984",
+    "sizeBytes": 15345
+  },
+  {
+    "path": "agent-windows/src/protocol.rs",
+    "sha256": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+    "sizeBytes": 8202
+  },
+  {
+    "path": "agent-windows/src/session.rs",
+    "sha256": "27b7a2de68f479e5d91294249aaba882633e1fc9364f8ce587983f9b68305e9f",
+    "sizeBytes": 39539
+  },
+  {
+    "path": "agent-windows/src/session_tools/clipboard.rs",
+    "sha256": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+    "sizeBytes": 6625
+  },
+  {
+    "path": "agent-windows/src/session_tools/mod.rs",
+    "sha256": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+    "sizeBytes": 15825
+  },
+  {
+    "path": "agent-windows/src/session_tools/protocol.rs",
+    "sha256": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+    "sizeBytes": 11427
+  },
+  {
+    "path": "agent-windows/src/session_tools/uploads.rs",
+    "sha256": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+    "sizeBytes": 30152
+  },
+  {
+    "path": "agent-windows/src/startup.rs",
+    "sha256": "1de9a3a893e056ecf5a331204e72a0ce0654164a2b36d643b149a824fc662d48",
+    "sizeBytes": 20815
+  },
+  {
+    "path": "agent-windows/src/startup_windows.rs",
+    "sha256": "cd1317fd20c39329e552847fed62ab4ab8975184ae2dee306b392d92a6217350",
+    "sizeBytes": 43447
+  },
+  {
+    "path": "agent-windows/src/ui.rs",
+    "sha256": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96",
+    "sizeBytes": 11401
+  },
+  {
+    "path": "agent-windows/examples/capture_smoke.rs",
+    "sha256": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+    "sizeBytes": 3645
+  },
+  {
+    "path": "agent-windows/examples/synthetic_peer.rs",
+    "sha256": "396104ffa5e9624cd363108a1fec7ca9aff5774710659c3c8ef691dba79b162e",
+    "sizeBytes": 4176
+  }
+]

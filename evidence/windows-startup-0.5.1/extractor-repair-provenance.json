@@ -1,0 +1,32 @@
+{
+  "url": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-linux-x64.tar.xz",
+  "version": "26.06",
+  "sha256": "2b539cf067b2ad48e1baa5093dbaa8818b73542d1222a0ffde9dc5f2922ea62e",
+  "sizeBytes": 1575552,
+  "verifiedAgainst": "official GitHub release asset digest",
+  "recordedAtUtc": "2026-11-19T07:43:25.515959+00:00",
+  "reason": "7-Zip25.01 does not parse NSIS3.10+ valid EW_SETFLAG/plugin form; official26.06 parser handles it and restores complete extraction",
+  "upstreamIssue": "https://sourceforge.net/p/sevenzip/bugs/2676/",
+  "officialDownloads": "https://www.7-zip.org/download.html",
+  "draftInstallerSha256": "e8cd0296e6eb4fd631abbb78f75073472dc6ec97069f92a3d6c31e81937de90c",
+  "draftScope": "Syntax-only installer with0.5.0payload; NOT USER DELIVERABLE. This comparison verifies extractor compatibility, not final app or installation behavior.",
+  "comparison": {
+    "25.01": {
+      "exitCode": 0,
+      "badCommand13": true,
+      "listsGeneratedUninstaller": false,
+      "log": "7zip-25.01-draft-list.log",
+      "toolSha256": "244096cca12b8ec2b1330573071a53550f2369da8f2687af183f41ebdf52a9f5"
+    },
+    "26.06": {
+      "exitCode": 0,
+      "badCommand13": false,
+      "listsGeneratedUninstaller": true,
+      "log": "7zip-26.06-draft-list.log",
+      "toolSha256": "f94066e93f9a807547a3bff1021b3ec79d5ea4f57dfead018e9698182ad283b5"
+    }
+  },
+  "extractedGeneratedUninstallerSha256": "4320186d27156bd0945630239de2acb3caeedae0f22427a0c4db856a8d6a2dad",
+  "nativeExecution": "not_run",
+  "gateChange": "none; strict generated-uninstaller extraction gate retained"
+}

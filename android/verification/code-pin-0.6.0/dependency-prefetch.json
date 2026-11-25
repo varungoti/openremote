@@ -1,0 +1,4440 @@
+{
+  "inputs": 622,
+  "results": [
+    {
+      "group": "androidx.activity",
+      "name": "activity",
+      "version": "1.11.0",
+      "file": "activity-1.11.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity",
+      "version": "1.11.0",
+      "file": "activity-1.11.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity-compose",
+      "version": "1.11.0",
+      "file": "activity-compose-1.11.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity-compose",
+      "version": "1.11.0",
+      "file": "activity-compose-1.11.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity-ktx",
+      "version": "1.11.0",
+      "file": "activity-ktx-1.11.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity-ktx",
+      "version": "1.11.0",
+      "file": "activity-ktx-1.11.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation",
+      "version": "1.8.1",
+      "file": "annotation-1.8.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation",
+      "version": "1.9.1",
+      "file": "annotation-1.9.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation-experimental",
+      "version": "1.4.1",
+      "file": "annotation-experimental-1.4.1.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation-experimental",
+      "version": "1.4.1",
+      "file": "annotation-experimental-1.4.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation-jvm",
+      "version": "1.9.1",
+      "file": "annotation-jvm-1.9.1.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation-jvm",
+      "version": "1.9.1",
+      "file": "annotation-jvm-1.9.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-common",
+      "version": "2.1.0",
+      "file": "core-common-2.1.0.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-common",
+      "version": "2.2.0",
+      "file": "core-common-2.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-common",
+      "version": "2.2.0",
+      "file": "core-common-2.2.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-runtime",
+      "version": "2.2.0",
+      "file": "core-runtime-2.2.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-runtime",
+      "version": "2.2.0",
+      "file": "core-runtime-2.2.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.autofill",
+      "name": "autofill",
+      "version": "1.0.0",
+      "file": "autofill-1.0.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.autofill",
+      "name": "autofill",
+      "version": "1.0.0",
+      "file": "autofill-1.0.0.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection",
+      "version": "1.5.0",
+      "file": "collection-1.5.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection-jvm",
+      "version": "1.5.0",
+      "file": "collection-jvm-1.5.0.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection-jvm",
+      "version": "1.5.0",
+      "file": "collection-jvm-1.5.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection-ktx",
+      "version": "1.5.0",
+      "file": "collection-ktx-1.5.0.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection-ktx",
+      "version": "1.5.0",
+      "file": "collection-ktx-1.5.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose",
+      "name": "compose-bom",
+      "version": "2025.10.01",
+      "file": "compose-bom-2025.10.01.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation",
+      "version": "1.9.4",
+      "file": "animation-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-android",
+      "version": "1.9.4",
+      "file": "animation-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-android",
+      "version": "1.9.4",
+      "file": "animation.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-android/1.9.4/animation-android-1.9.4.aar",
+      "sha256": "5f73c368c07c0a83f65f9d5c2aa9fb05e8e36819a071c4225d591c016e01869e",
+      "bytes": 1448173,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-core",
+      "version": "1.9.4",
+      "file": "animation-core-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-core-android",
+      "version": "1.9.4",
+      "file": "animation-core-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-core-android",
+      "version": "1.9.4",
+      "file": "animation-core.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-core-android/1.9.4/animation-core-android-1.9.4.aar",
+      "sha256": "28f69959521b86dd47a66d9138f709bf16e51b8479c7e163905fc9f5c8acef66",
+      "bytes": 1341412,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation",
+      "version": "1.9.4",
+      "file": "foundation-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-android",
+      "version": "1.9.4",
+      "file": "foundation-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-android",
+      "version": "1.9.4",
+      "file": "foundation-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-android/1.9.4/foundation-android-1.9.4.aar",
+      "sha256": "1b566a1c9f1e741bea937a812b3af628a51fbf0c7151b4587381e2645d6f9729",
+      "bytes": 5154108,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout",
+      "version": "1.9.4",
+      "file": "foundation-layout-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout-android",
+      "version": "1.9.4",
+      "file": "foundation-layout-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout-android",
+      "version": "1.9.4",
+      "file": "foundation-layout.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-layout-android/1.9.4/foundation-layout-android-1.9.4.aar",
+      "sha256": "f4a594f3e9966db6eadea24142acf267c324933958133f2a5955ca6c725ae3c1",
+      "bytes": 590372,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material",
+      "version": "1.9.4",
+      "file": "material-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-android",
+      "version": "1.9.4",
+      "file": "material-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-android",
+      "version": "1.9.4",
+      "file": "material.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-android/1.9.4/material-android-1.9.4.aar",
+      "sha256": "c6f7d710a707ef49a84435f5e534314deaebf5977c5b0b10fdfd4b6b475609e2",
+      "bytes": 2541497,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-ripple",
+      "version": "1.9.4",
+      "file": "material-ripple-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-ripple-android",
+      "version": "1.9.4",
+      "file": "material-ripple-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-ripple-android",
+      "version": "1.9.4",
+      "file": "material-ripple.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-ripple-android/1.9.4/material-ripple-android-1.9.4.aar",
+      "sha256": "175bdfd522b2d2f6f9674f0fc6edea91f764ec35979c471ac0598d940554a648",
+      "bytes": 96342,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material3",
+      "name": "material3",
+      "version": "1.4.0",
+      "file": "material3-1.4.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.material3",
+      "name": "material3-android",
+      "version": "1.4.0",
+      "file": "material3-android-1.4.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.material3",
+      "name": "material3-android",
+      "version": "1.4.0",
+      "file": "material3.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material3/material3-android/1.4.0/material3-android-1.4.0.aar",
+      "sha256": "3a37e8b36df3822fe1e6059f0f9fafda8800388860477624ac1b9422c418a36e",
+      "bytes": 5167765,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime",
+      "version": "1.9.4",
+      "file": "runtime-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-android",
+      "version": "1.9.4",
+      "file": "runtime-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-android",
+      "version": "1.9.4",
+      "file": "runtime.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-android/1.9.4/runtime-android-1.9.4.aar",
+      "sha256": "caf1bfc6a83ed9e6cc7c8d7cc15f9fd8522955304f4e5d878473541814a23f67",
+      "bytes": 2456086,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-annotation",
+      "version": "1.9.4",
+      "file": "runtime-annotation-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-annotation-android",
+      "version": "1.9.4",
+      "file": "runtime-annotation-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-annotation-android",
+      "version": "1.9.4",
+      "file": "runtime-annotation.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-annotation-android/1.9.4/runtime-annotation-android-1.9.4.aar",
+      "sha256": "a23f74b8aa389e27145544bb4e91a3de1c75e200351211a57965533eb4b41cf0",
+      "bytes": 9075,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable",
+      "version": "1.9.4",
+      "file": "runtime-saveable-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable-android",
+      "version": "1.9.4",
+      "file": "runtime-saveable-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable-android",
+      "version": "1.9.4",
+      "file": "runtime-saveable.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-saveable-android/1.9.4/runtime-saveable-android-1.9.4.aar",
+      "sha256": "da0880a83e8c9f841bfe3d67b03b0eed1e4476499ecd6fae814e8531809c9128",
+      "bytes": 1032326,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui",
+      "version": "1.9.4",
+      "file": "ui-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-android",
+      "version": "1.9.4",
+      "file": "ui-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-android",
+      "version": "1.9.4",
+      "file": "ui-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-android/1.9.4/ui-android-1.9.4.aar",
+      "sha256": "f49671f5b9174cc9f25206ff23d5234ef0b927ef04b2a847bd361e12c79c9cee",
+      "bytes": 5735706,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry",
+      "version": "1.9.4",
+      "file": "ui-geometry-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry-android",
+      "version": "1.9.4",
+      "file": "ui-geometry-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry-android",
+      "version": "1.9.4",
+      "file": "ui-geometry.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-geometry-android/1.9.4/ui-geometry-android-1.9.4.aar",
+      "sha256": "ee3f89f74ef72a9f69608211c1af9124febe7498f0c448a7a1e4734b50564fa4",
+      "bytes": 59151,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics",
+      "version": "1.9.4",
+      "file": "ui-graphics-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics-android",
+      "version": "1.9.4",
+      "file": "ui-graphics-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics-android",
+      "version": "1.9.4",
+      "file": "ui-graphics-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-graphics-android/1.9.4/ui-graphics-android-1.9.4.aar",
+      "sha256": "9f07bc209a07e8655e66a5aca4668cf700d9ce292f358874f498be305565f4e7",
+      "bytes": 1675814,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-text",
+      "version": "1.9.4",
+      "file": "ui-text-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-text-android",
+      "version": "1.9.4",
+      "file": "ui-text-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-text-android",
+      "version": "1.9.4",
+      "file": "ui-text.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-text-android/1.9.4/ui-text-android-1.9.4.aar",
+      "sha256": "c456cbff1eb863b3fda101330f962268f7df1984f7f9b0f5302ebe6461b055aa",
+      "bytes": 802459,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling",
+      "version": "1.9.4",
+      "file": "ui-tooling-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-android",
+      "version": "1.9.4",
+      "file": "ui-tooling.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-android/1.9.4/ui-tooling-android-1.9.4.aar",
+      "sha256": "132515ec85cd828017670142c43f6c77fbebc8e095efe8903a65d041831f5cb4",
+      "bytes": 198267,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-data",
+      "version": "1.9.4",
+      "file": "ui-tooling-data-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-data-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-data-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-data-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-data.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-data-android/1.9.4/ui-tooling-data-android-1.9.4.aar",
+      "sha256": "74defc0b3f24406663c26a41dc29439fe3ac8eaf90ffa4b40f62f9e5ff502dd7",
+      "bytes": 39546,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-preview",
+      "version": "1.9.4",
+      "file": "ui-tooling-preview-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-preview-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-preview-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-preview-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-preview.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-preview-android/1.9.4/ui-tooling-preview-android-1.9.4.aar",
+      "sha256": "8b3ba9329308ff61e0f69554fd7b5462757cf8b1b4a186c1fb9c201b60e78837",
+      "bytes": 21157,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-unit",
+      "version": "1.9.4",
+      "file": "ui-unit-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-unit-android",
+      "version": "1.9.4",
+      "file": "ui-unit-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-unit-android",
+      "version": "1.9.4",
+      "file": "ui-unit.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-unit-android/1.9.4/ui-unit-android-1.9.4.aar",
+      "sha256": "26e943da2cbaa4b6c9c20c4b12cc390f64dbc66f3991834665f185da31bd33a5",
+      "bytes": 98886,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-util",
+      "version": "1.9.4",
+      "file": "ui-util-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-util-android",
+      "version": "1.9.4",
+      "file": "ui-util-android-1.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-util-android",
+      "version": "1.9.4",
+      "file": "ui-util.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-util-android/1.9.4/ui-util-android-1.9.4.aar",
+      "sha256": "50f8fd06f7827c36bbe39b55f26c009633456fd1d520791cd1dbec024733d2c5",
+      "bytes": 22837,
+      "cached": false
+    },
+    {
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures",
+      "version": "1.1.0",
+      "file": "concurrent-futures-1.1.0.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures",
+      "version": "1.1.0",
+      "file": "concurrent-futures-1.1.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures-ktx",
+      "version": "1.2.0",
+      "file": "concurrent-futures-ktx-1.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures-ktx",
+      "version": "1.2.0",
+      "file": "concurrent-futures-ktx-1.2.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.13.0",
+      "file": "core-1.13.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.13.0",
+      "file": "core-1.13.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.13.1",
+      "file": "core-1.13.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.15.0",
+      "file": "core-1.15.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.15.0",
+      "file": "core-1.15.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.13.0",
+      "file": "core-ktx-1.13.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.13.0",
+      "file": "core-ktx-1.13.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.15.0",
+      "file": "core-ktx-1.15.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.15.0",
+      "file": "core-ktx-1.15.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-viewtree",
+      "version": "1.0.0",
+      "file": "core-viewtree-1.0.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-viewtree",
+      "version": "1.0.0",
+      "file": "core-viewtree-1.0.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.customview",
+      "name": "customview-poolingcontainer",
+      "version": "1.0.0",
+      "file": "customview-poolingcontainer-1.0.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.customview",
+      "name": "customview-poolingcontainer",
+      "version": "1.0.0",
+      "file": "customview-poolingcontainer-1.0.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.databinding",
+      "name": "databinding-common",
+      "version": "8.13.2",
+      "file": "databinding-common-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.databinding",
+      "name": "databinding-common",
+      "version": "8.13.2",
+      "file": "databinding-common-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.databinding",
+      "name": "databinding-compiler-common",
+      "version": "8.13.2",
+      "file": "databinding-compiler-common-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.databinding",
+      "name": "databinding-compiler-common",
+      "version": "8.13.2",
+      "file": "databinding-compiler-common-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.emoji2",
+      "name": "emoji2",
+      "version": "1.3.0",
+      "file": "emoji2-1.3.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.emoji2",
+      "name": "emoji2",
+      "version": "1.4.0",
+      "file": "emoji2-1.4.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.emoji2",
+      "name": "emoji2",
+      "version": "1.4.0",
+      "file": "emoji2-1.4.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.graphics",
+      "name": "graphics-path",
+      "version": "1.0.1",
+      "file": "graphics-path-1.0.1.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.graphics",
+      "name": "graphics-path",
+      "version": "1.0.1",
+      "file": "graphics-path-1.0.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.interpolator",
+      "name": "interpolator",
+      "version": "1.0.0",
+      "file": "interpolator-1.0.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.interpolator",
+      "name": "interpolator",
+      "version": "1.0.0",
+      "file": "interpolator-1.0.0.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common",
+      "version": "2.6.1",
+      "file": "lifecycle-common-2.6.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common",
+      "version": "2.9.4",
+      "file": "lifecycle-common-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-java8",
+      "version": "2.9.4",
+      "file": "lifecycle-common-java8-2.9.4.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-java8",
+      "version": "2.9.4",
+      "file": "lifecycle-common-java8-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-jvm",
+      "version": "2.9.4",
+      "file": "lifecycle-common-jvm-2.9.4.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-jvm",
+      "version": "2.9.4",
+      "file": "lifecycle-common-jvm-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata-core",
+      "version": "2.9.4",
+      "file": "lifecycle-livedata-core-2.9.4.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata-core",
+      "version": "2.9.4",
+      "file": "lifecycle-livedata-core-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-process",
+      "version": "2.9.4",
+      "file": "lifecycle-process-2.9.4.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-process",
+      "version": "2.9.4",
+      "file": "lifecycle-process-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime",
+      "version": "2.6.1",
+      "file": "lifecycle-runtime-2.6.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-android-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-android/2.9.4/lifecycle-runtime-android-2.9.4.aar",
+      "sha256": "86f16a1330eb23600ba90d0334b3e1db38d3a30c8b1efcd92ca21aa85afa8173",
+      "bytes": 82853,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-compose-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-compose-android-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-compose-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-compose-android/2.9.4/lifecycle-runtime-compose-android-2.9.4.aar",
+      "sha256": "b6803f906a89fd85c77df343dd4aeeb349125ca79e12d55d68d4cf42f42231f6",
+      "bytes": 1020096,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-ktx-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-ktx-android-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-ktx.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-ktx-android/2.9.4/lifecycle-runtime-ktx-android-2.9.4.aar",
+      "sha256": "970199c9ed1ac13d620aa8de7f8abbc28ce80653c3ce328d0ac2f15272b56e1b",
+      "bytes": 5765,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel",
+      "version": "2.6.1",
+      "file": "lifecycle-viewmodel-2.6.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-android-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-android/2.9.4/lifecycle-viewmodel-android-2.9.4.aar",
+      "sha256": "4b236b2e504db5ca5d09334fef05aa8cdc31ee35a433c3aa4d0420efa9613332",
+      "bytes": 65737,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-compose-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-compose-android-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-compose-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-compose-android/2.9.4/lifecycle-viewmodel-compose-android-2.9.4.aar",
+      "sha256": "f7825a08ca661de84044b6891293084bea8fbcc84aa08d8c13a3c558fc5956c9",
+      "bytes": 1000097,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-ktx",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-ktx-2.9.4.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-ktx",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-ktx-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate",
+      "version": "2.6.1",
+      "file": "lifecycle-viewmodel-savedstate-2.6.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-savedstate-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-savedstate-android-2.9.4.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-savedstate-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.9.4/lifecycle-viewmodel-savedstate-android-2.9.4.aar",
+      "sha256": "079441c43fa3ff8ea7a02df3b12eec483c3e57583f832cfaff663750527c1421",
+      "bytes": 57514,
+      "cached": false
+    },
+    {
+      "group": "androidx.profileinstaller",
+      "name": "profileinstaller",
+      "version": "1.4.0",
+      "file": "profileinstaller-1.4.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.profileinstaller",
+      "name": "profileinstaller",
+      "version": "1.4.0",
+      "file": "profileinstaller-1.4.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate",
+      "version": "1.2.1",
+      "file": "savedstate-1.2.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate",
+      "version": "1.3.1",
+      "file": "savedstate-1.3.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate",
+      "version": "1.3.3",
+      "file": "savedstate-1.3.3.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-android",
+      "version": "1.3.3",
+      "file": "savedstate-android-1.3.3.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-android",
+      "version": "1.3.3",
+      "file": "savedstate-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-android/1.3.3/savedstate-android-1.3.3.aar",
+      "sha256": "3d40baf742e6bdc90ada4650502e1d08c55cb5d8c045870d2c7c6d89f237d064",
+      "bytes": 141149,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose",
+      "version": "1.3.0",
+      "file": "savedstate-compose-1.3.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose",
+      "version": "1.3.3",
+      "file": "savedstate-compose-1.3.3.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose-android",
+      "version": "1.3.3",
+      "file": "savedstate-compose-android-1.3.3.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose-android",
+      "version": "1.3.3",
+      "file": "savedstate-compose.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-compose-android/1.3.3/savedstate-compose-android-1.3.3.aar",
+      "sha256": "ec3c09338a005136697824e8ca52ebb4a51b055258e670d4bd2e1f992e32945e",
+      "bytes": 16497,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-ktx",
+      "version": "1.2.1",
+      "file": "savedstate-ktx-1.2.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-ktx",
+      "version": "1.3.3",
+      "file": "savedstate-ktx-1.3.3.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-ktx",
+      "version": "1.3.3",
+      "file": "savedstate-ktx-1.3.3.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.startup",
+      "name": "startup-runtime",
+      "version": "1.1.1",
+      "file": "startup-runtime-1.1.1.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.startup",
+      "name": "startup-runtime",
+      "version": "1.1.1",
+      "file": "startup-runtime-1.1.1.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.test",
+      "name": "core",
+      "version": "1.7.0",
+      "file": "core-1.7.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.test",
+      "name": "core",
+      "version": "1.7.0",
+      "file": "core-1.7.0.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.test",
+      "name": "monitor",
+      "version": "1.8.0",
+      "file": "monitor-1.8.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.test",
+      "name": "monitor",
+      "version": "1.8.0",
+      "file": "monitor-1.8.0.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.test",
+      "name": "runner",
+      "version": "1.7.0",
+      "file": "runner-1.7.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.test",
+      "name": "runner",
+      "version": "1.7.0",
+      "file": "runner-1.7.0.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.test.ext",
+      "name": "junit",
+      "version": "1.3.0",
+      "file": "junit-1.3.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.test.ext",
+      "name": "junit",
+      "version": "1.3.0",
+      "file": "junit-1.3.0.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.test.services",
+      "name": "storage",
+      "version": "1.6.0",
+      "file": "storage-1.6.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.test.services",
+      "name": "storage",
+      "version": "1.6.0",
+      "file": "storage-1.6.0.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.tracing",
+      "name": "tracing",
+      "version": "1.0.0",
+      "file": "tracing-1.0.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.tracing",
+      "name": "tracing",
+      "version": "1.2.0",
+      "file": "tracing-1.2.0.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.tracing",
+      "name": "tracing",
+      "version": "1.2.0",
+      "file": "tracing-1.2.0.module",
+      "cached": true
+    },
+    {
+      "group": "androidx.versionedparcelable",
+      "name": "versionedparcelable",
+      "version": "1.1.1",
+      "file": "versionedparcelable-1.1.1.aar",
+      "cached": true
+    },
+    {
+      "group": "androidx.versionedparcelable",
+      "name": "versionedparcelable",
+      "version": "1.1.1",
+      "file": "versionedparcelable-1.1.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android",
+      "name": "signflinger",
+      "version": "8.13.2",
+      "file": "signflinger-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android",
+      "name": "signflinger",
+      "version": "8.13.2",
+      "file": "signflinger-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android",
+      "name": "zipflinger",
+      "version": "8.13.2",
+      "file": "zipflinger-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android",
+      "name": "zipflinger",
+      "version": "8.13.2",
+      "file": "zipflinger-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.application",
+      "name": "com.android.application.gradle.plugin",
+      "version": "8.13.2",
+      "file": "com.android.application.gradle.plugin-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.databinding",
+      "name": "baseLibrary",
+      "version": "8.13.2",
+      "file": "baseLibrary-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.databinding",
+      "name": "baseLibrary",
+      "version": "8.13.2",
+      "file": "baseLibrary-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "annotations",
+      "version": "31.13.2",
+      "file": "annotations-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "annotations",
+      "version": "31.13.2",
+      "file": "annotations-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "common",
+      "version": "31.13.2",
+      "file": "common-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "common",
+      "version": "31.13.2",
+      "file": "common-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "dvlib",
+      "version": "31.13.2",
+      "file": "dvlib-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "dvlib",
+      "version": "31.13.2",
+      "file": "dvlib-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "play-sdk-proto",
+      "version": "31.13.2",
+      "file": "play-sdk-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "play-sdk-proto",
+      "version": "31.13.2",
+      "file": "play-sdk-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "repository",
+      "version": "31.13.2",
+      "file": "repository-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "repository",
+      "version": "31.13.2",
+      "file": "repository-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "sdk-common",
+      "version": "31.13.2",
+      "file": "sdk-common-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "sdk-common",
+      "version": "31.13.2",
+      "file": "sdk-common-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "sdklib",
+      "version": "31.13.2",
+      "file": "sdklib-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "sdklib",
+      "version": "31.13.2",
+      "file": "sdklib-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "crash",
+      "version": "31.13.2",
+      "file": "crash-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "crash",
+      "version": "31.13.2",
+      "file": "crash-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "protos",
+      "version": "31.13.2",
+      "file": "protos-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "protos",
+      "version": "31.13.2",
+      "file": "protos-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "shared",
+      "version": "31.13.2",
+      "file": "shared-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "shared",
+      "version": "31.13.2",
+      "file": "shared-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "tracker",
+      "version": "31.13.2",
+      "file": "tracker-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "tracker",
+      "version": "31.13.2",
+      "file": "tracker-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aapt2",
+      "version": "8.13.2-14304508",
+      "file": "aapt2-8.13.2-14304508-linux.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aapt2",
+      "version": "8.13.2-14304508",
+      "file": "aapt2-8.13.2-14304508.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aapt2-proto",
+      "version": "8.13.2-14304508",
+      "file": "aapt2-proto-8.13.2-14304508.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aapt2-proto",
+      "version": "8.13.2-14304508",
+      "file": "aapt2-proto-8.13.2-14304508.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aaptcompiler",
+      "version": "8.13.2",
+      "file": "aaptcompiler-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aaptcompiler",
+      "version": "8.13.2",
+      "file": "aaptcompiler-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "apksig",
+      "version": "8.13.2",
+      "file": "apksig-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "apksig",
+      "version": "8.13.2",
+      "file": "apksig-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "apkzlib",
+      "version": "8.13.2",
+      "file": "apkzlib-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "apkzlib",
+      "version": "8.13.2",
+      "file": "apkzlib-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder",
+      "version": "8.13.2",
+      "file": "builder-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder",
+      "version": "8.13.2",
+      "file": "builder-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder-model",
+      "version": "8.13.2",
+      "file": "builder-model-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder-model",
+      "version": "8.13.2",
+      "file": "builder-model-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder-test-api",
+      "version": "8.13.2",
+      "file": "builder-test-api-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder-test-api",
+      "version": "8.13.2",
+      "file": "builder-test-api-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "bundletool",
+      "version": "1.18.1",
+      "file": "bundletool-1.18.1.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "bundletool",
+      "version": "1.18.1",
+      "file": "bundletool-1.18.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle",
+      "version": "8.13.2",
+      "file": "gradle-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle",
+      "version": "8.13.2",
+      "file": "gradle-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-api",
+      "version": "8.13.2",
+      "file": "gradle-api-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-api",
+      "version": "8.13.2",
+      "file": "gradle-api-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-common-api",
+      "version": "8.13.2",
+      "file": "gradle-common-api-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-common-api",
+      "version": "8.13.2",
+      "file": "gradle-common-api-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-settings-api",
+      "version": "8.13.2",
+      "file": "gradle-settings-api-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-settings-api",
+      "version": "8.13.2",
+      "file": "gradle-settings-api-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "manifest-merger",
+      "version": "31.13.2",
+      "file": "manifest-merger-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "manifest-merger",
+      "version": "31.13.2",
+      "file": "manifest-merger-31.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "transform-api",
+      "version": "2.0.0-deprecated-use-gradle-api",
+      "file": "transform-api-2.0.0-deprecated-use-gradle-api.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "transform-api",
+      "version": "2.0.0-deprecated-use-gradle-api",
+      "file": "transform-api-2.0.0-deprecated-use-gradle-api.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build.jetifier",
+      "name": "jetifier-core",
+      "version": "1.0.0-beta10",
+      "file": "jetifier-core-1.0.0-beta10.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build.jetifier",
+      "name": "jetifier-core",
+      "version": "1.0.0-beta10",
+      "file": "jetifier-core-1.0.0-beta10.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build.jetifier",
+      "name": "jetifier-processor",
+      "version": "1.0.0-beta10",
+      "file": "jetifier-processor-1.0.0-beta10.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build.jetifier",
+      "name": "jetifier-processor",
+      "version": "1.0.0-beta10",
+      "file": "jetifier-processor-1.0.0-beta10.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.ddms",
+      "name": "ddmlib",
+      "version": "31.13.2",
+      "file": "ddmlib-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.ddms",
+      "name": "ddmlib",
+      "version": "31.13.2",
+      "file": "ddmlib-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.external.com-intellij",
+      "name": "intellij-core",
+      "version": "31.13.2",
+      "file": "intellij-core-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.external.com-intellij",
+      "name": "intellij-core",
+      "version": "31.13.2",
+      "file": "intellij-core-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.external.com-intellij",
+      "name": "kotlin-compiler",
+      "version": "31.13.2",
+      "file": "kotlin-compiler-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.external.com-intellij",
+      "name": "kotlin-compiler",
+      "version": "31.13.2",
+      "file": "kotlin-compiler-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.external.org-jetbrains",
+      "name": "uast",
+      "version": "31.13.2",
+      "file": "uast-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.external.org-jetbrains",
+      "name": "uast",
+      "version": "31.13.2",
+      "file": "uast-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.layoutlib",
+      "name": "layoutlib-api",
+      "version": "31.13.2",
+      "file": "layoutlib-api-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.layoutlib",
+      "name": "layoutlib-api",
+      "version": "31.13.2",
+      "file": "layoutlib-api-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint",
+      "version": "31.13.2",
+      "file": "lint-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint",
+      "version": "31.13.2",
+      "file": "lint-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-api",
+      "version": "31.13.2",
+      "file": "lint-api-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-api",
+      "version": "31.13.2",
+      "file": "lint-api-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-checks",
+      "version": "31.13.2",
+      "file": "lint-checks-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-checks",
+      "version": "31.13.2",
+      "file": "lint-checks-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-gradle",
+      "version": "31.13.2",
+      "file": "lint-gradle-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-gradle",
+      "version": "31.13.2",
+      "file": "lint-gradle-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-model",
+      "version": "31.13.2",
+      "file": "lint-model-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-model",
+      "version": "31.13.2",
+      "file": "lint-model-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-typedef-remover",
+      "version": "31.13.2",
+      "file": "lint-typedef-remover-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-typedef-remover",
+      "version": "31.13.2",
+      "file": "lint-typedef-remover-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-device-provider-ddmlib-proto",
+      "version": "31.13.2",
+      "file": "android-device-provider-ddmlib-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-device-provider-ddmlib-proto",
+      "version": "31.13.2",
+      "file": "android-device-provider-ddmlib-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-device-provider-profile-proto",
+      "version": "31.13.2",
+      "file": "android-device-provider-profile-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-device-provider-profile-proto",
+      "version": "31.13.2",
+      "file": "android-device-provider-profile-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-additional-test-output-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-additional-test-output-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-additional-test-output-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-additional-test-output-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-apk-installer-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-apk-installer-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-apk-installer-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-apk-installer-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-coverage-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-coverage-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-coverage-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-coverage-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-emulator-control-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-emulator-control-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-emulator-control-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-emulator-control-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-logcat-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-logcat-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-logcat-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-logcat-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-result-listener-gradle-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-result-listener-gradle-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-result-listener-gradle-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-result-listener-gradle-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.android",
+      "name": "annotations",
+      "version": "4.1.1.4",
+      "file": "annotations-4.1.1.4.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.android",
+      "name": "annotations",
+      "version": "4.1.1.4",
+      "file": "annotations-4.1.1.4.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.api.grpc",
+      "name": "proto-google-common-protos",
+      "version": "2.48.0",
+      "file": "proto-google-common-protos-2.48.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.api.grpc",
+      "name": "proto-google-common-protos",
+      "version": "2.48.0",
+      "file": "proto-google-common-protos-2.48.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.auto",
+      "name": "auto-parent",
+      "version": "6",
+      "file": "auto-parent-6.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.auto.value",
+      "name": "auto-value-annotations",
+      "version": "1.6.2",
+      "file": "auto-value-annotations-1.6.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.auto.value",
+      "name": "auto-value-annotations",
+      "version": "1.6.2",
+      "file": "auto-value-annotations-1.6.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.auto.value",
+      "name": "auto-value-parent",
+      "version": "1.6.2",
+      "file": "auto-value-parent-1.6.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "file": "jsr305-3.0.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "file": "jsr305-3.0.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.11.0",
+      "file": "gson-2.11.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.11.0",
+      "file": "gson-2.11.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.gson",
+      "name": "gson-parent",
+      "version": "2.11.0",
+      "file": "gson-parent-2.11.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.crypto.tink",
+      "name": "tink",
+      "version": "1.7.0",
+      "file": "tink-1.7.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.crypto.tink",
+      "name": "tink",
+      "version": "1.7.0",
+      "file": "tink-1.7.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.dagger",
+      "name": "dagger",
+      "version": "2.28.3",
+      "file": "dagger-2.28.3.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.dagger",
+      "name": "dagger",
+      "version": "2.28.3",
+      "file": "dagger-2.28.3.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.18.0",
+      "file": "error_prone_annotations-2.18.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.27.0",
+      "file": "error_prone_annotations-2.27.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.28.0",
+      "file": "error_prone_annotations-2.28.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.28.0",
+      "file": "error_prone_annotations-2.28.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.3.1",
+      "file": "error_prone_annotations-2.3.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.30.0",
+      "file": "error_prone_annotations-2.30.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.30.0",
+      "file": "error_prone_annotations-2.30.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.18.0",
+      "file": "error_prone_parent-2.18.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.27.0",
+      "file": "error_prone_parent-2.27.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.28.0",
+      "file": "error_prone_parent-2.28.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.3.1",
+      "file": "error_prone_parent-2.3.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.30.0",
+      "file": "error_prone_parent-2.30.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.flatbuffers",
+      "name": "flatbuffers-java",
+      "version": "1.12.0",
+      "file": "flatbuffers-java-1.12.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.flatbuffers",
+      "name": "flatbuffers-java",
+      "version": "1.12.0",
+      "file": "flatbuffers-java-1.12.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.2",
+      "file": "failureaccess-1.0.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.2",
+      "file": "failureaccess-1.0.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.3.1-jre",
+      "file": "guava-33.3.1-jre.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.3.1-jre",
+      "file": "guava-33.3.1-jre.module",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava-parent",
+      "version": "26.0-android",
+      "file": "guava-parent-26.0-android.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "1.0",
+      "file": "listenablefuture-1.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "1.0",
+      "file": "listenablefuture-1.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "file": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "file": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "2.8",
+      "file": "j2objc-annotations-2.8.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "3.0.0",
+      "file": "j2objc-annotations-3.0.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "3.0.0",
+      "file": "j2objc-annotations-3.0.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.jimfs",
+      "name": "jimfs",
+      "version": "1.1",
+      "file": "jimfs-1.1.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.jimfs",
+      "name": "jimfs",
+      "version": "1.1",
+      "file": "jimfs-1.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.jimfs",
+      "name": "jimfs-parent",
+      "version": "1.1",
+      "file": "jimfs-parent-1.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-bom",
+      "version": "3.25.5",
+      "file": "protobuf-bom-3.25.5.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-java",
+      "version": "3.25.5",
+      "file": "protobuf-java-3.25.5.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-java",
+      "version": "3.25.5",
+      "file": "protobuf-java-3.25.5.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-java-util",
+      "version": "3.25.5",
+      "file": "protobuf-java-util-3.25.5.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-java-util",
+      "version": "3.25.5",
+      "file": "protobuf-java-util-3.25.5.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-parent",
+      "version": "3.25.5",
+      "file": "protobuf-parent-3.25.5.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.testing.platform",
+      "name": "core-proto",
+      "version": "0.0.9-alpha03",
+      "file": "core-proto-0.0.9-alpha03.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.testing.platform",
+      "name": "core-proto",
+      "version": "0.0.9-alpha03",
+      "file": "core-proto-0.0.9-alpha03.pom",
+      "cached": true
+    },
+    {
+      "group": "com.googlecode.juniversalchardet",
+      "name": "juniversalchardet",
+      "version": "1.0.3",
+      "file": "juniversalchardet-1.0.3.jar",
+      "cached": true
+    },
+    {
+      "group": "com.googlecode.juniversalchardet",
+      "name": "juniversalchardet",
+      "version": "1.0.3",
+      "file": "juniversalchardet-1.0.3.pom",
+      "cached": true
+    },
+    {
+      "group": "com.squareup",
+      "name": "javapoet",
+      "version": "1.10.0",
+      "file": "javapoet-1.10.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.squareup",
+      "name": "javapoet",
+      "version": "1.10.0",
+      "file": "javapoet-1.10.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.squareup",
+      "name": "javawriter",
+      "version": "2.5.0",
+      "file": "javawriter-2.5.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.squareup",
+      "name": "javawriter",
+      "version": "2.5.0",
+      "file": "javawriter-2.5.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "mockwebserver",
+      "version": "4.12.0",
+      "file": "mockwebserver-4.12.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "mockwebserver",
+      "version": "4.12.0",
+      "file": "mockwebserver-4.12.0.module",
+      "cached": true
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "okhttp",
+      "version": "4.12.0",
+      "file": "okhttp-4.12.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "okhttp",
+      "version": "4.12.0",
+      "file": "okhttp-4.12.0.module",
+      "cached": true
+    },
+    {
+      "group": "com.squareup.okio",
+      "name": "okio",
+      "version": "3.6.0",
+      "file": "okio-3.6.0.module",
+      "cached": true
+    },
+    {
+      "group": "com.squareup.okio",
+      "name": "okio-jvm",
+      "version": "3.6.0",
+      "file": "okio-jvm-3.6.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.squareup.okio",
+      "name": "okio-jvm",
+      "version": "3.6.0",
+      "file": "okio-jvm-3.6.0.module",
+      "cached": true
+    },
+    {
+      "group": "com.sun.activation",
+      "name": "all",
+      "version": "1.2.0",
+      "file": "all-1.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.activation",
+      "name": "all",
+      "version": "1.2.1",
+      "file": "all-1.2.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.activation",
+      "name": "javax.activation",
+      "version": "1.2.0",
+      "file": "javax.activation-1.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.sun.activation",
+      "name": "javax.activation",
+      "version": "1.2.0",
+      "file": "javax.activation-1.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.istack",
+      "name": "istack-commons",
+      "version": "3.0.8",
+      "file": "istack-commons-3.0.8.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.istack",
+      "name": "istack-commons-runtime",
+      "version": "3.0.8",
+      "file": "istack-commons-runtime-3.0.8.jar",
+      "cached": true
+    },
+    {
+      "group": "com.sun.istack",
+      "name": "istack-commons-runtime",
+      "version": "3.0.8",
+      "file": "istack-commons-runtime-3.0.8.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.bind",
+      "name": "jaxb-bom-ext",
+      "version": "2.3.2",
+      "file": "jaxb-bom-ext-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.bind.mvn",
+      "name": "jaxb-parent",
+      "version": "2.3.2",
+      "file": "jaxb-parent-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.bind.mvn",
+      "name": "jaxb-runtime-parent",
+      "version": "2.3.2",
+      "file": "jaxb-runtime-parent-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.bind.mvn",
+      "name": "jaxb-txw-parent",
+      "version": "2.3.2",
+      "file": "jaxb-txw-parent-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.fastinfoset",
+      "name": "FastInfoset",
+      "version": "1.2.16",
+      "file": "FastInfoset-1.2.16.jar",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.fastinfoset",
+      "name": "FastInfoset",
+      "version": "1.2.16",
+      "file": "FastInfoset-1.2.16.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.fastinfoset",
+      "name": "fastinfoset-project",
+      "version": "1.2.16",
+      "file": "fastinfoset-project-1.2.16.pom",
+      "cached": true
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.10",
+      "file": "commons-codec-1.10.jar",
+      "cached": true
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.10",
+      "file": "commons-codec-1.10.pom",
+      "cached": true
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.11",
+      "file": "commons-codec-1.11.jar",
+      "cached": true
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.11",
+      "file": "commons-codec-1.11.pom",
+      "cached": true
+    },
+    {
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.16.1",
+      "file": "commons-io-2.16.1.jar",
+      "cached": true
+    },
+    {
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.16.1",
+      "file": "commons-io-2.16.1.pom",
+      "cached": true
+    },
+    {
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "file": "commons-logging-1.2.jar",
+      "cached": true
+    },
+    {
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "file": "commons-logging-1.2.pom",
+      "cached": true
+    },
+    {
+      "group": "io.github.webrtc-sdk",
+      "name": "android",
+      "version": "150.7871.04",
+      "file": "android-150.7871.04.aar",
+      "cached": true
+    },
+    {
+      "group": "io.github.webrtc-sdk",
+      "name": "android",
+      "version": "150.7871.04",
+      "file": "android-150.7871.04.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-api",
+      "version": "1.69.1",
+      "file": "grpc-api-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-api",
+      "version": "1.69.1",
+      "file": "grpc-api-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-context",
+      "version": "1.69.1",
+      "file": "grpc-context-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-context",
+      "version": "1.69.1",
+      "file": "grpc-context-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-core",
+      "version": "1.69.1",
+      "file": "grpc-core-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-core",
+      "version": "1.69.1",
+      "file": "grpc-core-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-inprocess",
+      "version": "1.69.1",
+      "file": "grpc-inprocess-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-inprocess",
+      "version": "1.69.1",
+      "file": "grpc-inprocess-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-netty",
+      "version": "1.69.1",
+      "file": "grpc-netty-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-netty",
+      "version": "1.69.1",
+      "file": "grpc-netty-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-protobuf",
+      "version": "1.69.1",
+      "file": "grpc-protobuf-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-protobuf",
+      "version": "1.69.1",
+      "file": "grpc-protobuf-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-protobuf-lite",
+      "version": "1.69.1",
+      "file": "grpc-protobuf-lite-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-protobuf-lite",
+      "version": "1.69.1",
+      "file": "grpc-protobuf-lite-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-stub",
+      "version": "1.69.1",
+      "file": "grpc-stub-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-stub",
+      "version": "1.69.1",
+      "file": "grpc-stub-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-util",
+      "version": "1.69.1",
+      "file": "grpc-util-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-util",
+      "version": "1.69.1",
+      "file": "grpc-util-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.110.Final",
+      "file": "netty-buffer-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.110.Final",
+      "file": "netty-buffer-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-http-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-http-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-http2",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-http2-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-http2",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-http2-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-socks-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-socks-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.110.Final",
+      "file": "netty-common-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.110.Final",
+      "file": "netty-common-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.110.Final",
+      "file": "netty-handler-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.110.Final",
+      "file": "netty-handler-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.110.Final",
+      "file": "netty-handler-proxy-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.110.Final",
+      "file": "netty-handler-proxy-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-parent",
+      "version": "4.1.110.Final",
+      "file": "netty-parent-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.110.Final",
+      "file": "netty-resolver-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.110.Final",
+      "file": "netty-resolver-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.110.Final",
+      "file": "netty-transport-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.110.Final",
+      "file": "netty-transport-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.110.Final",
+      "file": "netty-transport-native-unix-common-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.110.Final",
+      "file": "netty-transport-native-unix-common-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.perfmark",
+      "name": "perfmark-api",
+      "version": "0.27.0",
+      "file": "perfmark-api-0.27.0.jar",
+      "cached": true
+    },
+    {
+      "group": "io.perfmark",
+      "name": "perfmark-api",
+      "version": "0.27.0",
+      "file": "perfmark-api-0.27.0.module",
+      "cached": true
+    },
+    {
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "1.2.1",
+      "file": "jakarta.activation-api-1.2.1.jar",
+      "cached": true
+    },
+    {
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "1.2.1",
+      "file": "jakarta.activation-api-1.2.1.pom",
+      "cached": true
+    },
+    {
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "2.3.2",
+      "file": "jakarta.xml.bind-api-2.3.2.jar",
+      "cached": true
+    },
+    {
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "2.3.2",
+      "file": "jakarta.xml.bind-api-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api-parent",
+      "version": "2.3.2",
+      "file": "jakarta.xml.bind-api-parent-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "javax.annotation",
+      "name": "javax.annotation-api",
+      "version": "1.3.2",
+      "file": "javax.annotation-api-1.3.2.jar",
+      "cached": true
+    },
+    {
+      "group": "javax.annotation",
+      "name": "javax.annotation-api",
+      "version": "1.3.2",
+      "file": "javax.annotation-api-1.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "file": "javax.inject-1.jar",
+      "cached": true
+    },
+    {
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "file": "javax.inject-1.pom",
+      "cached": true
+    },
+    {
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2",
+      "file": "junit-4.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2",
+      "file": "junit-4.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "net.java",
+      "name": "jvnet-parent",
+      "version": "1",
+      "file": "jvnet-parent-1.pom",
+      "cached": true
+    },
+    {
+      "group": "net.java",
+      "name": "jvnet-parent",
+      "version": "3",
+      "file": "jvnet-parent-3.pom",
+      "cached": true
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna",
+      "version": "5.6.0",
+      "file": "jna-5.6.0.jar",
+      "cached": true
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna",
+      "version": "5.6.0",
+      "file": "jna-5.6.0.pom",
+      "cached": true
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna-platform",
+      "version": "5.6.0",
+      "file": "jna-platform-5.6.0.jar",
+      "cached": true
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna-platform",
+      "version": "5.6.0",
+      "file": "jna-platform-5.6.0.pom",
+      "cached": true
+    },
+    {
+      "group": "net.sf.jopt-simple",
+      "name": "jopt-simple",
+      "version": "4.9",
+      "file": "jopt-simple-4.9.jar",
+      "cached": true
+    },
+    {
+      "group": "net.sf.jopt-simple",
+      "name": "jopt-simple",
+      "version": "4.9",
+      "file": "jopt-simple-4.9.pom",
+      "cached": true
+    },
+    {
+      "group": "net.sf.kxml",
+      "name": "kxml2",
+      "version": "2.3.0",
+      "file": "kxml2-2.3.0.jar",
+      "cached": true
+    },
+    {
+      "group": "net.sf.kxml",
+      "name": "kxml2",
+      "version": "2.3.0",
+      "file": "kxml2-2.3.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "13",
+      "file": "apache-13.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "15",
+      "file": "apache-15.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "18",
+      "file": "apache-18.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "21",
+      "file": "apache-21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "23",
+      "file": "apache-23.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "31",
+      "file": "apache-31.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.21",
+      "file": "commons-compress-1.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.21",
+      "file": "commons-compress-1.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "34",
+      "file": "commons-parent-34.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "35",
+      "file": "commons-parent-35.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "42",
+      "file": "commons-parent-42.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "52",
+      "file": "commons-parent-52.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "69",
+      "file": "commons-parent-69.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.14",
+      "file": "httpclient-4.5.14.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.14",
+      "file": "httpclient-4.5.14.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.6",
+      "file": "httpclient-4.5.6.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.6",
+      "file": "httpclient-4.5.6.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-client",
+      "version": "4.5.14",
+      "file": "httpcomponents-client-4.5.14.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-client",
+      "version": "4.5.6",
+      "file": "httpcomponents-client-4.5.6.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-core",
+      "version": "4.4.16",
+      "file": "httpcomponents-core-4.4.16.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-parent",
+      "version": "10",
+      "file": "httpcomponents-parent-10.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-parent",
+      "version": "11",
+      "file": "httpcomponents-parent-11.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.16",
+      "file": "httpcore-4.4.16.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.16",
+      "file": "httpcore-4.4.16.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpmime",
+      "version": "4.5.6",
+      "file": "httpmime-4.5.6.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpmime",
+      "version": "4.5.6",
+      "file": "httpmime-4.5.6.pom",
+      "cached": true
+    },
+    {
+      "group": "org.bitbucket.b_c",
+      "name": "jose4j",
+      "version": "0.9.5",
+      "file": "jose4j-0.9.5.jar",
+      "cached": true
+    },
+    {
+      "group": "org.bitbucket.b_c",
+      "name": "jose4j",
+      "version": "0.9.5",
+      "file": "jose4j-0.9.5.pom",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcpkix-jdk18on",
+      "version": "1.79",
+      "file": "bcpkix-jdk18on-1.79.jar",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcpkix-jdk18on",
+      "version": "1.79",
+      "file": "bcpkix-jdk18on-1.79.pom",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk18on",
+      "version": "1.79",
+      "file": "bcprov-jdk18on-1.79.jar",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk18on",
+      "version": "1.79",
+      "file": "bcprov-jdk18on-1.79.pom",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcutil-jdk18on",
+      "version": "1.79",
+      "file": "bcutil-jdk18on-1.79.jar",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcutil-jdk18on",
+      "version": "1.79",
+      "file": "bcutil-jdk18on-1.79.pom",
+      "cached": true
+    },
+    {
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "2.5.8",
+      "file": "checker-qual-2.5.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.43.0",
+      "file": "checker-qual-3.43.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.43.0",
+      "file": "checker-qual-3.43.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.groovy",
+      "name": "groovy",
+      "version": "3.0.22",
+      "file": "groovy-3.0.22.jar",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.groovy",
+      "name": "groovy",
+      "version": "3.0.22",
+      "file": "groovy-3.0.22.pom",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-annotations",
+      "version": "1.24",
+      "file": "animal-sniffer-annotations-1.24.jar",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-annotations",
+      "version": "1.24",
+      "file": "animal-sniffer-annotations-1.24.pom",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-parent",
+      "version": "1.24",
+      "file": "animal-sniffer-parent-1.24.pom",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.mojo",
+      "name": "mojo-parent",
+      "version": "84",
+      "file": "mojo-parent-84.pom",
+      "cached": true
+    },
+    {
+      "group": "org.eclipse.ee4j",
+      "name": "project",
+      "version": "1.0.2",
+      "file": "project-1.0.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.eclipse.ee4j",
+      "name": "project",
+      "version": "1.0.5",
+      "file": "project-1.0.5.pom",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-bom",
+      "version": "2.3.2",
+      "file": "jaxb-bom-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-runtime",
+      "version": "2.3.2",
+      "file": "jaxb-runtime-2.3.2.jar",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-runtime",
+      "version": "2.3.2",
+      "file": "jaxb-runtime-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "2.3.2",
+      "file": "txw2-2.3.2.jar",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "2.3.2",
+      "file": "txw2-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "file": "hamcrest-core-1.3.jar",
+      "cached": true
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "file": "hamcrest-core-1.3.pom",
+      "cached": true
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-parent",
+      "version": "1.3",
+      "file": "hamcrest-parent-1.3.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jdom",
+      "name": "jdom2",
+      "version": "2.0.6",
+      "file": "jdom2-2.0.6.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jdom",
+      "name": "jdom2",
+      "version": "2.0.6",
+      "file": "jdom2-2.0.6.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "13.0",
+      "file": "annotations-13.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "13.0",
+      "file": "annotations-13.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "23.0.0",
+      "file": "annotations-23.0.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "23.0.0",
+      "file": "annotations-23.0.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "abi-tools-api",
+      "version": "2.2.21",
+      "file": "abi-tools-api-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "abi-tools-api",
+      "version": "2.2.21",
+      "file": "abi-tools-api-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "compose-compiler-gradle-plugin",
+      "version": "2.2.21",
+      "file": "compose-compiler-gradle-plugin-2.2.21-gradle813.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "compose-compiler-gradle-plugin",
+      "version": "2.2.21",
+      "file": "compose-compiler-gradle-plugin-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "fus-statistics-gradle-plugin",
+      "version": "2.2.21",
+      "file": "fus-statistics-gradle-plugin-2.2.21-gradle813.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "fus-statistics-gradle-plugin",
+      "version": "2.2.21",
+      "file": "fus-statistics-gradle-plugin-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-statistics",
+      "version": "2.2.21",
+      "file": "kotlin-build-statistics-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-statistics",
+      "version": "2.2.21",
+      "file": "kotlin-build-statistics-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-tools-api",
+      "version": "2.2.21",
+      "file": "kotlin-build-tools-api-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-tools-api",
+      "version": "2.2.21",
+      "file": "kotlin-build-tools-api-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-tools-impl",
+      "version": "2.2.21",
+      "file": "kotlin-build-tools-impl-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-tools-impl",
+      "version": "2.2.21",
+      "file": "kotlin-build-tools-impl-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-compiler-embeddable-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-compiler-embeddable-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-runner",
+      "version": "2.2.21",
+      "file": "kotlin-compiler-runner-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-runner",
+      "version": "2.2.21",
+      "file": "kotlin-compiler-runner-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compose-compiler-plugin-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-compose-compiler-plugin-embeddable-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compose-compiler-plugin-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-compose-compiler-plugin-embeddable-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-client",
+      "version": "2.2.21",
+      "file": "kotlin-daemon-client-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-client",
+      "version": "2.2.21",
+      "file": "kotlin-daemon-client-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-daemon-embeddable-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-daemon-embeddable-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-2.2.21-gradle813.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-annotations",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-annotations-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-annotations",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-annotations-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-api",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-api-2.2.21-gradle813.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-api",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-api-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-api",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-api-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-idea",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-idea-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-idea",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-idea-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-idea-proto",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-idea-proto-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-idea-proto",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-idea-proto-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-model",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-model-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-model",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-model-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugins-bom",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugins-bom-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugins-bom",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugins-bom-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-klib-commonizer-api",
+      "version": "2.2.21",
+      "file": "kotlin-klib-commonizer-api-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-klib-commonizer-api",
+      "version": "2.2.21",
+      "file": "kotlin-klib-commonizer-api-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-native-utils",
+      "version": "2.2.21",
+      "file": "kotlin-native-utils-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-native-utils",
+      "version": "2.2.21",
+      "file": "kotlin-native-utils-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "1.6.10",
+      "file": "kotlin-reflect-1.6.10.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "1.6.10",
+      "file": "kotlin-reflect-1.6.10.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "2.0.21",
+      "file": "kotlin-reflect-2.0.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "2.0.21",
+      "file": "kotlin-reflect-2.0.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "2.2.0",
+      "file": "kotlin-reflect-2.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "2.2.0",
+      "file": "kotlin-reflect-2.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-script-runtime",
+      "version": "2.2.21",
+      "file": "kotlin-script-runtime-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-script-runtime",
+      "version": "2.2.21",
+      "file": "kotlin-script-runtime-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-common",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-common-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-common",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-common-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-compiler-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-compiler-embeddable-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-compiler-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-compiler-embeddable-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-compiler-impl-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-compiler-impl-embeddable-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-compiler-impl-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-compiler-impl-embeddable-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-jvm",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-jvm-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-jvm",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-jvm-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.0.21",
+      "file": "kotlin-stdlib-2.0.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.0.21",
+      "file": "kotlin-stdlib-2.0.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-2.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-2.2.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.2.21",
+      "file": "kotlin-stdlib-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.2.21",
+      "file": "kotlin-stdlib-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "2.0.21",
+      "file": "kotlin-stdlib-common-2.0.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "2.2.21",
+      "file": "kotlin-stdlib-common-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.8.21",
+      "file": "kotlin-stdlib-jdk7-1.8.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.9.10",
+      "file": "kotlin-stdlib-jdk7-1.9.10.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.9.10",
+      "file": "kotlin-stdlib-jdk7-1.9.10.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-jdk7-2.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-jdk7-2.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.8.21",
+      "file": "kotlin-stdlib-jdk8-1.8.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.9.10",
+      "file": "kotlin-stdlib-jdk8-1.9.10.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.9.10",
+      "file": "kotlin-stdlib-jdk8-1.9.10.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-jdk8-2.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-jdk8-2.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-tooling-core",
+      "version": "2.2.21",
+      "file": "kotlin-tooling-core-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-tooling-core",
+      "version": "2.2.21",
+      "file": "kotlin-tooling-core-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-io",
+      "version": "2.2.21",
+      "file": "kotlin-util-io-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-io",
+      "version": "2.2.21",
+      "file": "kotlin-util-io-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-klib",
+      "version": "2.2.21",
+      "file": "kotlin-util-klib-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-klib",
+      "version": "2.2.21",
+      "file": "kotlin-util-klib-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-klib-metadata",
+      "version": "2.2.21",
+      "file": "kotlin-util-klib-metadata-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-klib-metadata",
+      "version": "2.2.21",
+      "file": "kotlin-util-klib-metadata-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin.android",
+      "name": "org.jetbrains.kotlin.android.gradle.plugin",
+      "version": "2.2.21",
+      "file": "org.jetbrains.kotlin.android.gradle.plugin-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin.plugin.compose",
+      "name": "org.jetbrains.kotlin.plugin.compose.gradle.plugin",
+      "version": "2.2.21",
+      "file": "org.jetbrains.kotlin.plugin.compose.gradle.plugin-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-android",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-android-1.10.2.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-android",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-android-1.10.2.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-bom",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-bom-1.10.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-bom",
+      "version": "1.9.0",
+      "file": "kotlinx-coroutines-bom-1.9.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-core-1.10.2.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core",
+      "version": "1.7.3",
+      "file": "kotlinx-coroutines-core-1.7.3.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core",
+      "version": "1.9.0",
+      "file": "kotlinx-coroutines-core-1.9.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-core-jvm-1.10.2.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-core-jvm-1.10.2.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.8.0",
+      "file": "kotlinx-coroutines-core-jvm-1.8.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.8.0",
+      "file": "kotlinx-coroutines-core-jvm-1.8.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.9.0",
+      "file": "kotlinx-coroutines-core-jvm-1.9.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.9.0",
+      "file": "kotlinx-coroutines-core-jvm-1.9.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-test",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-test-1.10.2.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-test-jvm",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-test-jvm-1.10.2.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-test-jvm",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-test-jvm-1.10.2.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-bom",
+      "version": "1.7.3",
+      "file": "kotlinx-serialization-bom-1.7.3.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-core",
+      "version": "1.7.3",
+      "file": "kotlinx-serialization-core-1.7.3.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-core-jvm",
+      "version": "1.7.3",
+      "file": "kotlinx-serialization-core-jvm-1.7.3.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-core-jvm",
+      "version": "1.7.3",
+      "file": "kotlinx-serialization-core-jvm-1.7.3.module",
+      "cached": true
+    },
+    {
+      "group": "org.json",
+      "name": "json",
+      "version": "20240303",
+      "file": "json-20240303.jar",
+      "cached": true
+    },
+    {
+      "group": "org.json",
+      "name": "json",
+      "version": "20240303",
+      "file": "json-20240303.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jspecify",
+      "name": "jspecify",
+      "version": "1.0.0",
+      "file": "jspecify-1.0.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jspecify",
+      "name": "jspecify",
+      "version": "1.0.0",
+      "file": "jspecify-1.0.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.junit",
+      "name": "junit-bom",
+      "version": "5.10.2",
+      "file": "junit-bom-5.10.2.module",
+      "cached": true
+    },
+    {
+      "group": "org.junit",
+      "name": "junit-bom",
+      "version": "5.10.2",
+      "file": "junit-bom-5.10.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jvnet.staxex",
+      "name": "stax-ex",
+      "version": "1.8.1",
+      "file": "stax-ex-1.8.1.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jvnet.staxex",
+      "name": "stax-ex",
+      "version": "1.8.1",
+      "file": "stax-ex-1.8.1.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2",
+      "name": "ow2",
+      "version": "1.5.1",
+      "file": "ow2-1.5.1.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.8",
+      "file": "asm-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.8",
+      "file": "asm-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-analysis",
+      "version": "9.8",
+      "file": "asm-analysis-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-analysis",
+      "version": "9.8",
+      "file": "asm-analysis-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-commons",
+      "version": "9.8",
+      "file": "asm-commons-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-commons",
+      "version": "9.8",
+      "file": "asm-commons-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-tree",
+      "version": "9.8",
+      "file": "asm-tree-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-tree",
+      "version": "9.8",
+      "file": "asm-tree-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-util",
+      "version": "9.8",
+      "file": "asm-util-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-util",
+      "version": "9.8",
+      "file": "asm-util-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.30",
+      "file": "slf4j-api-1.7.30.jar",
+      "cached": true
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.30",
+      "file": "slf4j-api-1.7.30.pom",
+      "cached": true
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-parent",
+      "version": "1.7.30",
+      "file": "slf4j-parent-1.7.30.pom",
+      "cached": true
+    },
+    {
+      "group": "org.sonatype.oss",
+      "name": "oss-parent",
+      "version": "7",
+      "file": "oss-parent-7.pom",
+      "cached": true
+    },
+    {
+      "group": "org.sonatype.oss",
+      "name": "oss-parent",
+      "version": "9",
+      "file": "oss-parent-9.pom",
+      "cached": true
+    },
+    {
+      "group": "org.tensorflow",
+      "name": "tensorflow-lite-metadata",
+      "version": "0.2.0",
+      "file": "tensorflow-lite-metadata-0.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.tensorflow",
+      "name": "tensorflow-lite-metadata",
+      "version": "0.2.0",
+      "file": "tensorflow-lite-metadata-0.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava-parent",
+      "version": "33.3.1-jre",
+      "file": "guava-parent-33.3.1-jre.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-bom",
+      "version": "1.8.0",
+      "file": "kotlinx-coroutines-bom-1.8.0.pom",
+      "cached": true
+    }
+  ]
+}

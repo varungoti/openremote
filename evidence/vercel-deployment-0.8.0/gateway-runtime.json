@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "startedAtUtc": "2026-11-20T12:08:37.404Z",
+  "command": "node scripts/vercel_gateway_smoke.mjs --go <Go executable>",
+  "scope": "Actual Node gateway function, actual isolated Go coordinator process, production browser protocol decoder, independent Ed25519/P-256 signatures, and verified HTTPS with an ephemeral test CA. Platform client-IP headers are synthetic fixtures. No public deployment, native app, desktop pixels, remote input, or TURN forwarding.",
+  "checks": [
+    "Compiled current Go source and started the real coordinator with isolated state and certificate-verified HTTPS",
+    "The real backend rejects missing/wrong gateway credentials and malformed asserted client identity",
+    "Current production discovery passes the gateway capability policy and returns byte-identical real coordinator JSON",
+    "Raw UTF-8/whitespace body bytes survive forwarding; Ed25519 proof binds the public viewer origin, registers a permanent PC ID, rejects replay, and preserves host bearer authorization",
+    "Untrusted incoming gateway/client/forwarding headers cannot replace the publisher token or platform client identity",
+    "The gateway preserves raw duplicate JSON so the production Go decoder rejects it instead of silently normalizing it",
+    "Unchanged browser Coordinator authenticates with real P-256 challenge/proof and its forwarded bearer authorizes device lookup",
+    "Real host activation, six-digit PIN redemption, owner approval, bearer-authenticated SDP signaling, session end and deactivation traverse the gateway; this is protocol-only evidence",
+    "Ten registration challenges exhaust only client A; spoofed ordinary forwarding headers cannot reset it, while independent client B still obtains a challenge behind the same gateway",
+    "The general sensitive-auth bucket also isolates independently asserted clients instead of collapsing all gateway traffic into the upstream socket IP"
+  ],
+  "environment": {
+    "node": "v24.22.3",
+    "go": "go version go1.27.4 linux/amd64"
+  },
+  "gitRevision": "5039f043c627012354f6b102db5d0a1a753c998b",
+  "binary": {
+    "sha256": "7ea7aa39459d381191641ed5685e01eb1ed22862f9bd3e4632aef3f66f5d0c30",
+    "sizeBytes": 11003203
+  },
+  "verifiedTLSConnections": 66,
+  "sourceUnchangedDuringRun": true,
+  "sourceSha256": {
+    "deploy/vercel/api/gateway.mjs": "651e56614c4053dc2d2064e8e5712e60c78e59cc7a1d77601f2280a952d16154",
+    "deploy/vercel/lib/gateway.mjs": "31f2cbc915eeb7dbc5fae3d3a68d100e193eab14440330fb62894444f5b372c0",
+    "scripts/integration_test.py": "d6d1f200626cd76cc5d61b58847c67b1872521f3b2c1c9a457ae5578e9c6c267",
+    "scripts/vercel_gateway_smoke.mjs": "01881599a26489b649a6d635086655f1f10ee86096c3743b71328a077a104261",
+    "server/cmd/controlplane/main.go": "2a2888a6f1bc893ff1ce24bd2e28d2c2d3baad4d8a640a1ba33fcaee4aa652fb",
+    "server/go.mod": "b2c334bf417e42777987db47e58cc1aa067fcd541e6e3a0bac736a6d30504343",
+    "server/internal/app/app.go": "8b0f8e2f85731891e86d4051bf33d9dffebb19954ca16faf12fda0a278982093",
+    "server/internal/app/auth.go": "8e4bd6107c7dd394b5069a3effcd61ad794323359919beb06d4ba0573ef5272d",
+    "server/internal/app/devices.go": "7c3eb61f7f97c483d7357dce95d9a381248ad50d372d4d80169e7a73a73998a4",
+    "server/internal/app/gateway.go": "ac2468ac29fca1bcfe6007b4ffff3278e15bed05f96c41b5a8cbe0b1ef276b28",
+    "server/internal/app/ice.go": "a8b6f9162c5c93c0016e8699da4e4119cba501d9c1e35b732303adfab9d1c623",
+    "server/internal/app/info.go": "5ebbbe658af881e652914031b282f9f187d491132ebf2ce5b5920b2714b02164",
+    "server/internal/app/pairing.go": "63a41bbdb521acf798254e1fd677fb21221a44e8dcb3c2c9572bde589e6c2ba2",
+    "server/internal/app/registration.go": "10b8ccb2e28167af0c7c1b5cc216e308f6799a8b3be401ee153f54b2dfabf014",
+    "server/internal/app/sessions.go": "504907e3c253601172cf4d674d8c4583cf586914aadfd385a25ff0c27f1f5297",
+    "server/internal/app/store.go": "28369e008066dfaf95fd5da2fed404b9553e2c087045a7db254217bfb47bfd11",
+    "server/internal/app/store_lock_unix.go": "76db9d7821aa0f37142c26e3360dd109555a11f7db5427373aa0df93b0142d24",
+    "server/internal/app/store_lock_windows.go": "1e40c2f90a090360e6528d9103096050739d4964d6e7b4d501f31eeef976ba2b",
+    "server/internal/webclient/assets/app.js": "418f6b17bcd4c934848852c4478bde4c13188da9a1c48781f8722113f8b4078f",
+    "server/internal/webclient/assets/core.mjs": "03bdb598ddb00916bcb660d9ebb2127b40bedc536329aa206e4cad6be51113b6",
+    "server/internal/webclient/assets/index.html": "9c61b2dab4f722b92c40d21a703900afbd4fcadb75da3f74ca6c17fcacf6ebcf",
+    "server/internal/webclient/assets/style.css": "3de7fcdd06504e54492bc2bdc6793394bb9d0d1945664ccd2074b4ea5c45434a",
+    "server/internal/webclient/handler.go": "3a43783efa55957706f03a33b55612ab271d028a98b0de996ab0099d9be79a29"
+  },
+  "finishedAtUtc": "2026-11-20T12:09:01.857Z"
+}

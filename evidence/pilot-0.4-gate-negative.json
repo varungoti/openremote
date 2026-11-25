@@ -1,0 +1,17 @@
+{
+  "expected": "incomplete candidate must not pass pilot gate",
+  "command": [
+    "python3",
+    "scripts/validate_pilot_evidence.py",
+    "validate",
+    "evidence/pilot-0.4-not-run.json",
+    "--root",
+    ".",
+    "--expected-revision",
+    "53dccfc7ddcd8460bfbed43d9a363a08c58021ae",
+    "--require-pass"
+  ],
+  "exitCode": 1,
+  "stdout": "",
+  "stderr": "Pilot evidence rejected: pilot has failed, blocked or not-run scenarios\n"
+}

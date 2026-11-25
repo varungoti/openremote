@@ -1,0 +1,50 @@
+{
+  "version": "0.5.0",
+  "checkedAtUtc": "2026-11-18T09:41:23.332124+00:00",
+  "manifests": [
+    {
+      "manifest": "agent-windows/verification/source-inputs.sha256",
+      "sha256": "dbbc81e38332a0f0b4a50bacfcaeaaca067568be836b20239773c0204ae7be3c",
+      "filesChecked": 20,
+      "ok": true
+    },
+    {
+      "manifest": "agent-windows/verification/build-evidence.sha256",
+      "sha256": "e79f3a14ee881478382f3de23171639dd0d54fcbbd0801427bebeaa4527e8be1",
+      "filesChecked": 15,
+      "ok": true
+    }
+  ],
+  "binary": {
+    "relativePath": "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+    "sha256": "ef0b0470444edd6c4f15435a2155094ac7e9dbaa1985242578faa163cfc1948f",
+    "sizeBytes": 9433088,
+    "signature": "unsigned",
+    "validation": "cross-compiled and linked; not executed on Windows",
+    "peImportDlls": [
+      "bcryptprimitives.dll",
+      "ntdll.dll",
+      "kernel32.dll",
+      "ws2_32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "advapi32.dll",
+      "bcrypt.dll",
+      "crypt32.dll",
+      "gdi32.dll",
+      "iphlpapi.dll",
+      "user32.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll"
+    ],
+    "runtimeDependency": "A separately supplied, checksum-verified FFmpeg build with gdigrab and libx264 is required; FFmpeg is not embedded."
+  },
+  "nativeExecution": false
+}

@@ -1,0 +1,25 @@
+{
+  "time": "2026-11-19T11:11:22.364476+00:00",
+  "sourceRevision": "865e0a69de9a8e0df3957db33713fac08b783991",
+  "sourceInputs": {
+    "server/cmd/controlplane/main.go": "85eff95064baa535a81c96a2121174e04331705dee0be2efd1a9063c52711f47",
+    "server/internal/app/app.go": "692b6078ce80bb539d38dd622d8d597b0a4dbb8321f9e30ae347608b347b286b",
+    "server/internal/app/app_test.go": "3bfb1b00e2b20c81cdca0ddfa48fd65c3dd2844d0cf2eae997d252e93f8b830c",
+    "server/internal/app/auth.go": "19f36cba92c40b41aae26c206f89e1a12671a14121041ba1a34e167316ed09ee",
+    "server/internal/app/devices.go": "73fcbd2ad3a48d6a18d77cc8a28e69a4ab034128d6feb2bc0d54f79267fbad53",
+    "server/internal/app/ice.go": "a8b6f9162c5c93c0016e8699da4e4119cba501d9c1e35b732303adfab9d1c623",
+    "server/internal/app/info.go": "6f6c697209ac338d2404170d6d6b02f2ff0c8ebe41c294fa85b4794984d5f9c7",
+    "server/internal/app/info_test.go": "0de8c105de259565eed8ddcdbe4051e6d073dd05aadef648f0f52aa9b856fc82",
+    "server/internal/app/monitor_test.go": "f9d2ef2c783f98d7c242362127d8ad1dc9b7c58dd593292eacc6079b37153da3",
+    "server/internal/app/pairing.go": "25372373556e9454ec9620f7ff70907af0a4e9b6fef07130c356440d84f1ca8a",
+    "server/internal/app/pairing_test.go": "d6ff511f36e10ff8f8e594e13d595889c1dcf89a9e12e5bd41908c100724fdf5",
+    "server/internal/app/sessions.go": "bedb7305de53e15aeef3b0aa267e1ac295c31ab3d4cb71eea1dd3c57450b9669",
+    "server/internal/app/store.go": "b7467ec8ea9fc692a665a6e44227bb69dca8abf45c288fcd2cb74eac96cba431",
+    "server/internal/app/store_lock_unix.go": "76db9d7821aa0f37142c26e3360dd109555a11f7db5427373aa0df93b0142d24",
+    "server/internal/app/store_lock_windows.go": "1e40c2f90a090360e6528d9103096050739d4964d6e7b4d501f31eeef976ba2b",
+    "server/internal/webclient/handler.go": "3a43783efa55957706f03a33b55612ab271d028a98b0de996ab0099d9be79a29",
+    "server/internal/webclient/handler_test.go": "7ccf9ebb3f503939d2d9cb90c5e811fd75badb1092a8829af4f4d83f9843ab3f",
+    "server/testsupport/pairing_fixture/main.go": "64e14aa1042ef288a2fb75072aef18f562109ae6b2fa0c0765e09feb878b637a",
+    "server/go.mod": "b2c334bf417e42777987db47e58cc1aa067fcd541e6e3a0bac736a6d30504343"
+  }
+}

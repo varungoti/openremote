@@ -1,0 +1,122 @@
+{
+  "recordedAtUtc": "2026-11-20T10:52:08.975736+00:00",
+  "sourceInputs": {
+    "algorithm": "SHA-256 of sorted compact JSON path-to-SHA-256 mapping",
+    "files": {
+      "../config/encoder-profile.json": "7bebeaec37693dcff5e0d42eafe301437c369f414b71803dfdfcfd21e4e23dfb",
+      "../config/service-profile.json": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c",
+      "Cargo.lock": "92e63bd55df3ae6081aaee17b4156f7049907e417ca1f0b2342ed0de00fbed97",
+      "Cargo.toml": "3d09e5525bebb2813064baac2b1fa13c2b3afa68fd39d68904c7349ac4595557",
+      "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+      "examples/synthetic_peer.rs": "faff3e8e67dc61db670cd9bb3571d7b995250c1ac2d8485b2c162cd3cdb42500",
+      "src/api.rs": "2034078fc27a21752b9819eb907c70cf9f897d20145b1cd788c273118fb27b41",
+      "src/bundled_encoder.rs": "a0f031d32d97814706710d6e45874725176e094f741bd3b142ac9909749d6e5a",
+      "src/config.rs": "c7a0a1252a020d4a6d41221c8ebccc720d91bf9f45164f7c8511a603f672987b",
+      "src/connections.rs": "11132d156983f84334567920a5460e8f60fa5e61b484a13ec6ae8ea753a3cc70",
+      "src/displays.rs": "01468756c3e07e0cdd3e12870b7894997c050c26cb852f75406b678d9416683b",
+      "src/host_home.rs": "4ca89efcf539a7fc296f52488410a3558853757f61922dd4b006c7e77da8e471",
+      "src/identity.rs": "790f962b3c600795060f9714b50bd82694b57570c34f87ea93b81aa7316e2dde",
+      "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+      "src/lib.rs": "133d52b3f8260a98769da3108a825f486168442c0426093214bab88643301e2d",
+      "src/main.rs": "3066bda11ece96336b372113c7dc3f8e9ce8f23880968f205cadf0977daec5e1",
+      "src/media.rs": "b61bf82d418d1e2daa6834075d7a9bdf11faaf358b29e4bf76e0aaa4b4d34ab6",
+      "src/pairing.rs": "825398a288dc04c0678531080f7a6cfd843432f9564da0c20673c6353d83774b",
+      "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+      "src/session.rs": "6391b4af96305b3eab9d851d227a4639ba13b26e1684ae4770807718554c308a",
+      "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+      "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+      "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+      "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+      "src/startup.rs": "35b57b55f7cef81abd526e77aec98478b5473a0152d87bafa37a5a5ff2ada6db",
+      "src/startup_windows.rs": "8374c408981e6411925e1bd349a88c19a30a7acb36b5fce7d41bf72cc96fe2ca",
+      "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96"
+    },
+    "sha256": "c6ae97c1c2b6e4a3ef13ef4ec556e491182998b6cf35ea9388a72a595763b8bc"
+  },
+  "checks": [
+    {
+      "name": "format",
+      "command": [
+        "cargo",
+        "fmt",
+        "--manifest-path",
+        "agent-windows/Cargo.toml",
+        "--check"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 0.47,
+      "log": "agent-windows/verification/activation-0.8.0/format.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "cargo",
+        "test",
+        "--manifest-path",
+        "agent-windows/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 21.835,
+      "log": "agent-windows/verification/activation-0.8.0/tests.log"
+    },
+    {
+      "name": "clippy-linux",
+      "command": [
+        "cargo",
+        "clippy",
+        "--manifest-path",
+        "agent-windows/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 3.886,
+      "log": "agent-windows/verification/activation-0.8.0/clippy-linux.log"
+    },
+    {
+      "name": "clippy-windows",
+      "command": [
+        "cargo",
+        "clippy",
+        "--manifest-path",
+        "agent-windows/Cargo.toml",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnullvm",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 7.317,
+      "log": "agent-windows/verification/activation-0.8.0/clippy-windows.log"
+    },
+    {
+      "name": "windows-build",
+      "command": [
+        "cargo",
+        "build",
+        "--manifest-path",
+        "agent-windows/Cargo.toml",
+        "--release",
+        "--locked",
+        "--offline",
+        "--target",
+        "x86_64-pc-windows-gnullvm"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 235.617,
+      "log": "agent-windows/verification/activation-0.8.0/windows-build.log"
+    }
+  ],
+  "sourceUnchangedDuringChecks": true
+}

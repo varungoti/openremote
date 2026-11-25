@@ -1,0 +1,244 @@
+{
+  "automaticRegistration": {
+    "existingHealthyBearerBeforeRegistration": true,
+    "identityPersistence": "Current-user DPAPI; preserved key and origin",
+    "proof": "Pure Ed25519 over bounded exact origin-bound challenge transcript",
+    "recovery": "Startup-only stored-bearer401, fresh challenge, same key; server limits to non-revoked auto-registered records",
+    "sharedEnrollmentSecretEmbedded": false
+  },
+  "binary": {
+    "minimumOs": "Windows 10 version1703 build15063+, or Windows11 on Intel/AMD x64; Windows media components required",
+    "pe": {
+      "importDlls": [
+        "advapi32.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "bcrypt.dll",
+        "bcryptprimitives.dll",
+        "crypt32.dll",
+        "gdi32.dll",
+        "iphlpapi.dll",
+        "kernel32.dll",
+        "ntdll.dll",
+        "shell32.dll",
+        "user32.dll",
+        "ws2_32.dll"
+      ],
+      "machine": 34404,
+      "optionalMagic": 523,
+      "subsystem": 2
+    },
+    "relativePath": "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+    "runtimeDependency": "Bundled pinned FFmpeg 9.0.2 LGPL build; h264_mf uses Windows Media Foundation",
+    "sha256": "0635293e5b48adc0b2ad95bec144a00f69d3bab5d486c3f6109bbf3f8f8af5c4",
+    "signature": "unsigned",
+    "sizeBytes": 9660928,
+    "validation": "Cross compiled and linked on Linux; not executed on Windows"
+  },
+  "checks": {
+    "commands": [
+      {
+        "command": [
+          "cargo",
+          "fmt",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--check"
+        ],
+        "durationSeconds": 0.47,
+        "exitCode": 0,
+        "log": "agent-windows/verification/activation-0.8.0/format.log",
+        "name": "format"
+      },
+      {
+        "command": [
+          "cargo",
+          "test",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--locked",
+          "--offline",
+          "--all-targets"
+        ],
+        "durationSeconds": 21.835,
+        "exitCode": 0,
+        "log": "agent-windows/verification/activation-0.8.0/tests.log",
+        "name": "tests"
+      },
+      {
+        "command": [
+          "cargo",
+          "clippy",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--locked",
+          "--offline",
+          "--all-targets",
+          "--",
+          "-D",
+          "warnings"
+        ],
+        "durationSeconds": 3.886,
+        "exitCode": 0,
+        "log": "agent-windows/verification/activation-0.8.0/clippy-linux.log",
+        "name": "clippy-linux"
+      },
+      {
+        "command": [
+          "cargo",
+          "clippy",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--locked",
+          "--offline",
+          "--all-targets",
+          "--target",
+          "x86_64-pc-windows-gnullvm",
+          "--",
+          "-D",
+          "warnings"
+        ],
+        "durationSeconds": 7.317,
+        "exitCode": 0,
+        "log": "agent-windows/verification/activation-0.8.0/clippy-windows.log",
+        "name": "clippy-windows"
+      },
+      {
+        "command": [
+          "cargo",
+          "build",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--release",
+          "--locked",
+          "--offline",
+          "--target",
+          "x86_64-pc-windows-gnullvm"
+        ],
+        "durationSeconds": 235.617,
+        "exitCode": 0,
+        "log": "agent-windows/verification/activation-0.8.0/windows-build.log",
+        "name": "windows-build"
+      }
+    ],
+    "independentPeInspection": {
+      "log": "verification/activation-0.8.0/windows-pe.log",
+      "matchedImports": 22,
+      "tool": "llvm-readobj plus independent Python PE parser"
+    },
+    "independentSourceReview": "Read-only second-agent lifecycle/tray/admission review; small-window roster collapse corrected with native scrolling. Teardown review completed separately in implementation-review.md.",
+    "nativeWindowsCaptureAndMediaFoundation": "not_run",
+    "nativeWindowsInstaller": "not_run",
+    "nativeWindowsSmallScreenDpiAccessibility": "not_run",
+    "nativeWindowsStartup": "not_run",
+    "nativeWindowsTrayAndExplorerRecovery": "not_run",
+    "rustTests": {
+      "failed": 0,
+      "ignored": 0,
+      "passed": 113,
+      "runtimePlatform": "Linux",
+      "scope": "Activation grants and replay/capacity limits; service/PIN state; actual media readiness predicate; device roster/count/recovery; four-child cancellation; orphan cleanup acknowledgment/cancellation; preserved registration/input/protocol/media/tools regressions"
+    },
+    "sourceReview": "verification/activation-0.8.0/implementation-review.md",
+    "sourceUnchangedDuringChecks": true,
+    "windowsToBrowserSession": "not_run",
+    "windowsToPhoneSession": "not_run"
+  },
+  "dependencyChanges": {
+    "registryPackageVersionsChanged": false,
+    "scope": "No new or upgraded registry crates from0.7.0; local package version0.8.0"
+  },
+  "encoderProfile": {
+    "encoder": "h264_mf",
+    "nativeWindowsExecutionVerified": false,
+    "relativePath": "../config/encoder-profile.json",
+    "sha256": "3cc67f5c4a38d19c2e76ae78b3ff89b398dd92ec31511fb40c25f6162c7a5e11",
+    "sizeBytes": 3288064,
+    "version": "9.0.2"
+  },
+  "hostVersion": "0.8.0",
+  "localAuthorization": {
+    "cancelScope": "All current activation sessions and pending children",
+    "coordinatorEndUnconfirmed": "Stop wholeactivation visibly; no lingering capacity treatedas available",
+    "legacySingleUsePreserved": true,
+    "maxActivationSeconds": 86400,
+    "maxConnections": 4,
+    "maxReplayEntries": 4096,
+    "mode": "activation",
+    "orphanRecovery": "Only activation409host_busy, authenticated current-session list max16, every end acknowledged,15s cleanup budget, one retry, cancellation preventsretry",
+    "panicCancellation": "Owner/attempt RAII guards preserved; global token canceled beforepanic alert",
+    "permanentTrustCreated": false
+  },
+  "managedUi": {
+    "activation": "In-memory generation; at most24h; four connections including pending; at mostone input session; additional sessions view only",
+    "backgroundScope": "Interactive signed-in desktop process; no SCM/session0 service",
+    "clientAction": "Connect to a PC opens configured HTTPS /connect in default browser without credentials in URL",
+    "connectedCount": "Only after current answer, fresh video sample, healthy peer/ICE and service connected acknowledgment; clears on recovery and reporter exit",
+    "nativeUiExecutionVerified": false,
+    "pcId": "Stable service-issued nine-digit registered displayId; visible before PIN and after deactivation; existing DPAPI ID can display while offline",
+    "pin": "Exactly six ASCII digits in one masked field; Enter or same primary action submits",
+    "primaryAction": "Activate Connection / Deactivate Connection",
+    "smallScreen": "Scrollable minimum logical content and keyboard focus reveal; native execution still required",
+    "technicalSetupFields": false,
+    "tray": "Shell_NotifyIcon native icon; live bounded tooltip; Open / Deactivate / Quit; TaskbarCreated recovery; onlyhide aftericon success; restore onfailure/stop",
+    "unconfigured": "Clear initial service/PCID unavailable state with activation disabled before PIN",
+    "windowClose": "Active+tray hides; inactive or missingtray closes and revokes; explicit Quit always revokes"
+  },
+  "previousReleaseEvidence": "verification/activation-0.8.0/history/0.7.0/BUILD_EVIDENCE.json",
+  "priorPanicNegativeControl": "verification/one-button-0.7.0/panic-cancellation-negative-control.json; historical isolatedmutation evidence, guard regressions rerun in currenttests",
+  "recordedAtUtc": "2026-11-20T10:52:09.093486+00:00",
+  "releaseReady": false,
+  "rustCompiler": "rustc 1.100.0 (0ef1bc386 2026-11-09)",
+  "serviceProfile": {
+    "configured": false,
+    "relativePath": "../config/service-profile.json",
+    "scope": "Public origin only; no live shared coordinator deployed or embedded"
+  },
+  "sourceBaseRevision": "55d0dd83697c51df017ee2b1c790c8cab78c9808",
+  "sourceInputs": {
+    "algorithm": "SHA-256 of sorted compact JSON path-to-SHA-256 mapping",
+    "files": {
+      "../config/encoder-profile.json": "7bebeaec37693dcff5e0d42eafe301437c369f414b71803dfdfcfd21e4e23dfb",
+      "../config/service-profile.json": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c",
+      "Cargo.lock": "92e63bd55df3ae6081aaee17b4156f7049907e417ca1f0b2342ed0de00fbed97",
+      "Cargo.toml": "3d09e5525bebb2813064baac2b1fa13c2b3afa68fd39d68904c7349ac4595557",
+      "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+      "examples/synthetic_peer.rs": "faff3e8e67dc61db670cd9bb3571d7b995250c1ac2d8485b2c162cd3cdb42500",
+      "src/api.rs": "2034078fc27a21752b9819eb907c70cf9f897d20145b1cd788c273118fb27b41",
+      "src/bundled_encoder.rs": "a0f031d32d97814706710d6e45874725176e094f741bd3b142ac9909749d6e5a",
+      "src/config.rs": "c7a0a1252a020d4a6d41221c8ebccc720d91bf9f45164f7c8511a603f672987b",
+      "src/connections.rs": "11132d156983f84334567920a5460e8f60fa5e61b484a13ec6ae8ea753a3cc70",
+      "src/displays.rs": "01468756c3e07e0cdd3e12870b7894997c050c26cb852f75406b678d9416683b",
+      "src/host_home.rs": "4ca89efcf539a7fc296f52488410a3558853757f61922dd4b006c7e77da8e471",
+      "src/identity.rs": "790f962b3c600795060f9714b50bd82694b57570c34f87ea93b81aa7316e2dde",
+      "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+      "src/lib.rs": "133d52b3f8260a98769da3108a825f486168442c0426093214bab88643301e2d",
+      "src/main.rs": "3066bda11ece96336b372113c7dc3f8e9ce8f23880968f205cadf0977daec5e1",
+      "src/media.rs": "b61bf82d418d1e2daa6834075d7a9bdf11faaf358b29e4bf76e0aaa4b4d34ab6",
+      "src/pairing.rs": "825398a288dc04c0678531080f7a6cfd843432f9564da0c20673c6353d83774b",
+      "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+      "src/session.rs": "6391b4af96305b3eab9d851d227a4639ba13b26e1684ae4770807718554c308a",
+      "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+      "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+      "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+      "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+      "src/startup.rs": "35b57b55f7cef81abd526e77aec98478b5473a0152d87bafa37a5a5ff2ada6db",
+      "src/startup_windows.rs": "8374c408981e6411925e1bd349a88c19a30a7acb36b5fce7d41bf72cc96fe2ca",
+      "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96"
+    },
+    "sha256": "c6ae97c1c2b6e4a3ef13ef4ec556e491182998b6cf35ea9388a72a595763b8bc"
+  },
+  "sourceState": "Working tree implementation; exact frozen source hashes recorded. Integration commit is assigned separately.",
+  "verificationRecord": "verification/activation-0.8.0/final-checks.json",
+  "windowsLinkerToolchain": "llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64",
+  "windowsTarget": "x86_64-pc-windows-gnullvm"
+}

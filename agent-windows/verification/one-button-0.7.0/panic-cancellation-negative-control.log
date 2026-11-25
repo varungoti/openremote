@@ -1,0 +1,40 @@
+   Compiling openremote-agent v0.7.0 (/workspace/scratch/72f8c6db0182/negative-control-windows-0.7-panic/agent-windows)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 21.29s
+     Running unittests src/lib.rs (target/debug/build/openremote-agent/aab85b642c373b46/out/openremote_agent-aab85b642c373b46)
+
+running 10 tests
+test host_home::tests::host_home_fits_small_and_negative_origin_work_areas ... ok
+test host_home::tests::browser_viewer_uses_only_the_configured_https_origin_and_fixed_path ... ok
+test host_home::tests::setup_link_matches_phone_wire_contract_without_credentials ... ok
+test host_home::tests::home_thread_exit_revokes_host_and_session_tokens ... ok
+test host_home::tests::aborting_the_owner_cancels_the_running_attempt ... FAILED
+test host_home::tests::tab_focus_reveals_offscreen_fields_without_moving_visible_ones ... ok
+test host_home::tests::setup_requires_exact_bounded_pc_identity_and_output ... ok
+test host_home::tests::attempt_panic_cancels_detached_children_before_reporting_failure ... FAILED
+test host_home::tests::home_thread_panic_also_revokes_access ... ok
+test host_home::tests::setup_rejects_insecure_credentialed_or_non_origin_addresses ... ok
+
+failures:
+
+---- host_home::tests::aborting_the_owner_cancels_the_running_attempt stdout ----
+
+thread 'host_home::tests::aborting_the_owner_cancels_the_running_attempt' (292) panicked at src/host_home.rs:487:9:
+assertion failed: stop.is_cancelled()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- host_home::tests::attempt_panic_cancels_detached_children_before_reporting_failure stdout ----
+
+thread 'host_home::tests::attempt_panic_cancels_detached_children_before_reporting_failure' (293) panicked at src/host_home.rs:462:13:
+synthetic attempt failure after spawning a child
+
+thread 'host_home::tests::attempt_panic_cancels_detached_children_before_reporting_failure' (293) panicked at src/host_home.rs:466:9:
+assertion failed: stop.is_cancelled()
+
+
+failures:
+    host_home::tests::aborting_the_owner_cancels_the_running_attempt
+    host_home::tests::attempt_panic_cancels_detached_children_before_reporting_failure
+
+test result: FAILED. 8 passed; 2 failed; 0 ignored; 0 measured; 89 filtered out; finished in 0.01s
+
+error: test failed, to rerun pass `--lib`

@@ -1,0 +1,5 @@
+--- FAIL: TestMonitorSelectorSessionContract (0.00s)
+    monitor_test.go:16: status=400 want=401 body={"error":"invalid_json"}
+FAIL
+FAIL	openremote/controlplane/internal/app	0.011s
+FAIL

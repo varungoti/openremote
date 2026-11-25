@@ -1,0 +1,8 @@
+gpg: keybox '/workspace/scratch/72f8c6db0182/toolchains/encoder-0.7/gnupg/pubring.kbx' created
+gpg: /workspace/scratch/72f8c6db0182/toolchains/encoder-0.7/gnupg/trustdb.gpg: trustdb created
+gpg: key B4322F04D67658D8: public key "FFmpeg release signing key <ffmpeg-devel@ffmpeg.org>" imported
+gpg: error running '/usr/bin/gpg-agent': exit status 2
+gpg: failed to start gpg-agent '/usr/bin/gpg-agent': General error
+gpg: can't connect to the gpg-agent: General error
+gpg: Total number processed: 1
+gpg:               imported: 1

@@ -1,0 +1,83 @@
+   Compiling openremote-agent v0.4.0 (/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/agent-windows)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 11.19s
+     Running unittests src/lib.rs (target/debug/build/openremote-agent/3d493950423b20ae/out/openremote_agent-3d493950423b20ae)
+
+running 57 tests
+test config::tests::device_name_matches_enrollment_bounds ... ok
+test config::tests::unattended_requires_both_flag_and_nonempty_exact_key ... ok
+test config::tests::tools_default_off_and_heartbeat_stays_below_server_lease ... ok
+test config::tests::transport_requires_tls_except_explicit_loopback ... ok
+test displays::tests::maps_left_and_above_displays_without_primary_assumptions ... ok
+test displays::tests::maps_portrait_and_one_pixel_surfaces_and_rejects_nonfinite ... ok
+test displays::tests::rejects_torn_ambiguous_oversized_and_duplicate_topologies ... ok
+test displays::tests::topology_is_order_independent_but_detects_movement_identity_and_primary_change ... ok
+test displays::tests::observed_topology_round_trip_and_read_failure_never_revive_old_ids ... ok
+test input::tests::failed_releases_stay_tracked_until_a_confirmed_retry ... ok
+test identity::tests::no_plaintext_fallback ... ok
+test input::tests::readonly_can_release_but_cannot_inject ... ok
+test media::tests::args_cannot_be_shell_interpolated ... ok
+test identity::tests::fingerprint_is_sha256_not_ad_hoc_hash ... ok
+test displays::tests::monitor_ids_bind_to_process_and_exact_topology_and_never_fallback ... ok
+test media::tests::access_units_survive_every_chunk_boundary ... ok
+test protocol::tests::keyboard_whitelist ... ok
+test media::tests::selected_portrait_gdi_capture_preserves_negative_physical_offsets ... ok
+test protocol::tests::permissions_never_add_capabilities ... ok
+test protocol::tests::rejects_out_of_bounds_and_large_messages ... ok
+test protocol::tests::tools_grants_require_request_and_local_enablement_without_other_privileges ... ok
+test protocol::tests::rejects_unsupported_version_actions_and_privileges ... ok
+test protocol::tests::rejects_duplicate_control_keys_before_overwrite ... ok
+test session::lifecycle_tests::historical_sessions_do_not_claim_busy_or_reject_current_pending_request ... ok
+test protocol::tests::valid_unicode_and_release ... ok
+test session::lifecycle_tests::restarts_are_reported_after_answer_and_healthy_ice_even_without_new_dtls_callback ... ok
+test session::lifecycle_tests::normal_completion_waits_for_capture_cleanup_before_opening_the_gate ... ok
+test session::lifecycle_tests::replacement_waits_for_terminal_session_cleanup_without_aborting_live_task ... ok
+test session_tools::protocol::tests::names_cannot_select_paths_or_windows_devices ... ok
+test session::lifecycle_tests::cancellation_after_callback_locks_input_prevents_the_delayed_operation ... ok
+test media::tests::encoder_cleanup_reaps_an_actual_child_before_returning ... ok
+test session_tools::protocol::tests::rejects_duplicate_fields_before_overwrite ... ok
+test session_tools::protocol::tests::file_bounds_and_integers_fail_closed ... ok
+test session_tools::protocol::tests::rejects_unknown_versions_fields_types_and_trailing_json ... ok
+test session_tools::protocol::tests::text_limits_are_utf8_bytes_and_allow_empty ... ok
+test session_tools::tests::clipboard_operations_are_explicit_and_empty_write_is_supported ... ok
+test session_tools::tests::duplicate_request_ids_cannot_replay_a_side_effect ... ok
+test session::lifecycle_tests::cleanup_timeout_keeps_the_old_task_and_rejects_replacement ... ok
+test session_tools::tests::rate_limit_and_revocation_prevent_more_operations ... ok
+test session_tools::tests::permission_denial_has_no_clipboard_or_file_side_effects_and_session_stays_open ... ok
+test session_tools::protocol::tests::chunks_are_bounded_canonical_base64 ... ok
+test session_tools::uploads::tests::existing_destination_created_after_begin_is_never_overwritten ... ok
+test session_tools::uploads::tests::cancellation_drop_and_idle_expiry_delete_only_partial ... ok
+test session_tools::uploads::tests::invalid_names_sizes_and_ids_do_not_create_receive_directory ... ok
+test session_tools::tests::oversized_and_escaped_clipboard_responses_return_bounded_errors ... ok
+test session_tools::uploads::tests::native_marker_fails_explicitly_off_windows ... ok
+test session_tools::tests::revocation_during_native_finish_discards_file_and_never_returns_success ... ok
+test session_tools::uploads::tests::empty_upload_is_valid_and_duplicate_transfer_cannot_reopen_it ... ok
+test session_tools::uploads::tests::publication_is_rolled_back_until_dispatcher_commits_authorization ... ok
+test session_tools::uploads::tests::oversized_chunk_length_overrun_and_short_finish_remove_partials ... ok
+test session_tools::uploads::tests::symlink_receive_directory_is_rejected ... ok
+test session_tools::uploads::tests::wrong_offset_removes_partial_and_cannot_resume ... ok
+test session_tools::uploads::tests::quota_counts_cancelled_reservations_and_busy_cannot_replace_active ... ok
+test session_tools::uploads::tests::wrong_hash_and_failed_zone_metadata_never_publish_a_file ... ok
+test session_tools::uploads::tests::valid_chunks_finish_with_exact_basename_length_digest_and_marker ... ok
+test media::tests::bounds_reject_oversized_output ... ok
+test session::lifecycle_tests::panicked_child_still_awaits_capture_cleanup_and_latches_restart_required ... ok
+
+test result: ok. 57 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running unittests src/main.rs (target/debug/build/openremote-agent/8ea00f9f3731eca7/out/openremote_agent-8ea00f9f3731eca7)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests examples/capture_smoke.rs (target/debug/build/openremote-agent/00bb7f4475e0c29f/out/capture_smoke-00bb7f4475e0c29f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests examples/synthetic_peer.rs (target/debug/build/openremote-agent/a80132454b3b8635/out/synthetic_peer-a80132454b3b8635)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

@@ -1,0 +1,96 @@
+{
+  "source": "before renderer deadline fix",
+  "suites": [
+    {
+      "name": "com.openremote.mobile.ApiClientTest",
+      "tests": "7",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:48.221Z",
+      "hostname": "8fddb963d910",
+      "time": "2.972"
+    },
+    {
+      "name": "com.openremote.mobile.DisplayProtocolTest",
+      "tests": "4",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:51.196Z",
+      "hostname": "8fddb963d910",
+      "time": "0.024"
+    },
+    {
+      "name": "com.openremote.mobile.DisplayReadinessTest",
+      "tests": "4",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:51.224Z",
+      "hostname": "8fddb963d910",
+      "time": "0.003"
+    },
+    {
+      "name": "com.openremote.mobile.FileUploadTest",
+      "tests": "10",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:51.235Z",
+      "hostname": "8fddb963d910",
+      "time": "0.339"
+    },
+    {
+      "name": "com.openremote.mobile.RemoteCoordinatesTest",
+      "tests": "3",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:51.575Z",
+      "hostname": "8fddb963d910",
+      "time": "0.001"
+    },
+    {
+      "name": "com.openremote.mobile.SessionLifecycleTest",
+      "tests": "2",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:51.577Z",
+      "hostname": "8fddb963d910",
+      "time": "0.001"
+    },
+    {
+      "name": "com.openremote.mobile.SessionToolsClientTest",
+      "tests": "4",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:51.579Z",
+      "hostname": "8fddb963d910",
+      "time": "0.059"
+    },
+    {
+      "name": "com.openremote.mobile.ToolProtocolTest",
+      "tests": "6",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:51.640Z",
+      "hostname": "8fddb963d910",
+      "time": "0.014"
+    },
+    {
+      "name": "com.openremote.mobile.VideoFreshnessTest",
+      "tests": "3",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-11-18T08:40:51.656Z",
+      "hostname": "8fddb963d910",
+      "time": "0.002"
+    }
+  ],
+  "tests": 43
+}

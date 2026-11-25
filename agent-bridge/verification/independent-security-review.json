@@ -1,0 +1,27 @@
+{
+  "recordedAt": "2026-11-20T10:52:07.681567+00:00",
+  "reviewer": "/root/restore_build_tools",
+  "mode": "Independent read-only source review; reviewer did not rerun suites or edit production sources.",
+  "outcome": "No blocking finding identified in the stated scope.",
+  "scopeChecks": [
+    "Fixed validated HTTPS profile and fixed browser agentAPI method allowlist.",
+    "Raw browser/HTTP exceptions are suppressed; PIN references are cleared and DEBUG/PWDEBUG connection mode is refused.",
+    "Generation and cancellation checks after asynchronous work prevent late adapter/frame revival.",
+    "The operation queue is bounded and serialized, with one-use 15-second frame binding and a current permission recheck.",
+    "The browser API independently checks session/display/dimensions/live-media state and view-only permissions.",
+    "Observations are consumed before input; held inputs are released in finally; local authorization is revoked before awaiting remote end."
+  ],
+  "sourceHashesCapturedAfterReview": {
+    "agent-bridge/src/bridge.mjs": "da84982b1049bb67cbee21c36affa661591c4e4be07daadbaa7395a8e690b6e8",
+    "agent-bridge/src/browser.mjs": "89769473391b90d4a1ff51ea540ff66e0148e29d5e118cc16aca867e32aba932",
+    "agent-bridge/src/server.mjs": "89f41a5e7ffee78fce47b76e13e5812d0c8090bc4f4f38068e91d48febf08b21",
+    "agent-bridge/src/index.mjs": "9e890e154ac89810dfab4ece746ae7a4d4858ba7baea26538624870bda05594e",
+    "agent-bridge/src/profile.mjs": "45feee9bcced0a7c95843746c6818ad838feaafbe8e4a4cae346767268a02a6a",
+    "agent-bridge/src/errors.mjs": "e4e20abd8a4a5df50bf5cbb2fbf468eae54fd6be6c3025d304fad0e51e489247",
+    "server/internal/webclient/assets/app.js": "418f6b17bcd4c934848852c4478bde4c13188da9a1c48781f8722113f8b4078f"
+  },
+  "limitations": [
+    "This is source review, not native Windows, Chromium media or real remote-input execution.",
+    "Chromium launch remains blocked by the separately recorded socket EPERM."
+  ]
+}

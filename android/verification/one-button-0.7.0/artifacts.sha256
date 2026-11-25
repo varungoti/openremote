@@ -1,0 +1,8 @@
+9a844518ede8e646c2ac15fd4379ca613532ea4948ac2161909463da77cdf0b9  android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk
+38a0318da48ce6c38659fb88d6e4b06a0975d7694576f9e71c159aa329044823  android/app/build/outputs/apk/debug/app-armeabi-v7a-debug.apk
+b1c8b49f8ee0f52ae57542b5d86cdd14003bfd72f1d4a6032baa35a562f40b62  android/app/build/outputs/apk/debug/app-x86-debug.apk
+3216510ed866b4f29048139f700dc9fbbea9e304c46e22dcc34d69729d2fddce  android/app/build/outputs/apk/debug/app-x86_64-debug.apk
+fb4456c82f744b52abec0eac0a865965b54073d0da1980e823825e4306e64fad  android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk
+b5aa505931d785266f3673e02fda086b3862acf5f384fd199eda4596a8bd1c1a  android/app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk
+058eae438dafb0d40656514d15781fdd98e819c368579515cc15427343ecaa0c  android/app/build/outputs/apk/release/app-x86-release-unsigned.apk
+fc2dc28e70414f5aca8fd1bb3f861a7cc0f75ff44d2c99b70cfce5264167cce3  android/app/build/outputs/apk/release/app-x86_64-release-unsigned.apk

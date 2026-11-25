@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.ToolProtocolTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-20T10:48:02.186Z" hostname="9ddd22762a56" time="0.175">
+  <properties/>
+  <testcase name="rejectsTraversalDeviceNamesAndOversizedFilesBeforeSending" classname="com.openremote.mobile.ToolProtocolTest" time="0.002"/>
+  <testcase name="acknowledgementsMustMatchRequestTransferAndExactNextOffset" classname="com.openremote.mobile.ToolProtocolTest" time="0.005"/>
+  <testcase name="textLimitsMeasureUtf8AndRejectNulAndBrokenUnicode" classname="com.openremote.mobile.ToolProtocolTest" time="0.017"/>
+  <testcase name="permissionDenialIsAnOperationErrorAndNeverContainsRemoteContent" classname="com.openremote.mobile.ToolProtocolTest" time="0.004"/>
+  <testcase name="strictJsonRejectsDuplicatesCoercionUnknownFieldsAndMalformedUnicode" classname="com.openremote.mobile.ToolProtocolTest" time="0.011"/>
+  <testcase name="emptyFileCompletionRequiresExpectedSavedNameSizeAndDigest" classname="com.openremote.mobile.ToolProtocolTest" time="0.134"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

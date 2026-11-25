@@ -1,0 +1,31 @@
+{
+  "command": [
+    "cargo",
+    "build",
+    "--manifest-path",
+    "agent-windows/Cargo.toml",
+    "--locked",
+    "--offline",
+    "--example",
+    "synthetic_peer"
+  ],
+  "exitCode": 0,
+  "binaryPath": "agent-windows/target/debug/examples/synthetic_peer",
+  "binarySha256": "f8669caa14ed0ab4ff9868ff99eb408ee7418b462b8a0f0ff216599d4f656148",
+  "binaryBytes": 189668976,
+  "sourcePath": "agent-windows/examples/synthetic_peer.rs",
+  "sourceSha256": "faff3e8e67dc61db670cd9bb3571d7b995250c1ac2d8485b2c162cd3cdb42500",
+  "scope": "Linux synthetic bars peer, input logged rather than injected; real production H264/peer/protocol/catalog functions; no Windows capture/input or phone execution",
+  "capabilities": {
+    "multiMonitor": true,
+    "clipboard": false,
+    "fileTransfer": false,
+    "audio": false,
+    "power": false
+  },
+  "syntheticDisplay": {
+    "width": 640,
+    "height": 360,
+    "primary": true
+  }
+}

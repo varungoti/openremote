@@ -1,0 +1,24 @@
+{
+  "suites": [
+    {
+      "name": "com.openremote.mobile.ApiClientTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.openremote.mobile.RemoteCoordinatesTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "com.openremote.mobile.SessionLifecycleTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "total": 9,
+  "device_tests_executed": false
+}

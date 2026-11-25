@@ -1,0 +1,34 @@
+{
+  "pe": {
+    "importDlls": [
+      "advapi32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "bcrypt.dll",
+      "bcryptprimitives.dll",
+      "crypt32.dll",
+      "gdi32.dll",
+      "iphlpapi.dll",
+      "kernel32.dll",
+      "ntdll.dll",
+      "shell32.dll",
+      "user32.dll",
+      "ws2_32.dll"
+    ],
+    "machine": 34404,
+    "optionalMagic": 523,
+    "subsystem": 2
+  },
+  "sha256": "0635293e5b48adc0b2ad95bec144a00f69d3bab5d486c3f6109bbf3f8f8af5c4",
+  "sizeBytes": 9660928,
+  "version": "0.8.0"
+}

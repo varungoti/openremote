@@ -1,0 +1,15 @@
+/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/controlplane-0.7.0-linux-amd64: go1.27.4
+	path	openremote/controlplane/cmd/controlplane
+	mod	openremote/controlplane	(devel)	
+	build	-buildmode=exe
+	build	-compiler=gc
+	build	-trimpath=true
+	build	DefaultGODEBUG=containermaxprocs=0,cryptocustomrand=1,decoratemappings=0,httpservecontentmaxranges=1,tlssecpmlkem=0,tlssha1=1,tracebacklabels=0,updatemaxprocs=0,urlstrictcolons=0,x509sha256skid=0,x509sslcertoverrideplatform=0
+	build	CGO_ENABLED=0
+	build	GOARCH=amd64
+	build	GOOS=linux
+	build	GOAMD64=v1
+	build	vcs=git
+	build	vcs.revision=865e0a69de9a8e0df3957db33713fac08b783991
+	build	vcs.time=2026-11-19T09:00:15Z
+	build	vcs.modified=true

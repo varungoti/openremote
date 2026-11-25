@@ -1,0 +1,25 @@
+Command: go test ./internal/app -run '^TestHostCursorSurvivesRestartBeforeFirstPoll$' -count=1 -v
+Toolchain: go1.27.4
+Outcome: exit 1 before the store.go host-event-sequence fix
+
+=== RUN   TestHostCursorSurvivesRestartBeforeFirstPoll
+=== RUN   TestHostCursorSurvivesRestartBeforeFirstPoll/current_snapshot
+    app_test.go:565: new request was skipped or sequence reused after restart: old=1 inbox=[]
+=== RUN   TestHostCursorSurvivesRestartBeforeFirstPoll/legacy_snapshot_without_event_sequence
+    app_test.go:565: new request was skipped or sequence reused after restart: old=1 inbox=[]
+--- FAIL: TestHostCursorSurvivesRestartBeforeFirstPoll (0.02s)
+    --- FAIL: TestHostCursorSurvivesRestartBeforeFirstPoll/current_snapshot (0.01s)
+    --- FAIL: TestHostCursorSurvivesRestartBeforeFirstPoll/legacy_snapshot_without_event_sequence (0.01s)
+FAIL
+
+Second focused reproduction before admitted-poll storage-latch fix:
+Command: go test ./internal/app -run '^TestAdmittedHostPollDoesNotPublishUncommittedEvents$' -count=1 -v
+Outcome: exit 1
+=== RUN   TestAdmittedHostPollDoesNotPublishUncommittedEvents
+    app_test.go:517: status=200 want=503
+    Response included cursor=1 and a session.requested event after its durable snapshot failed.
+    Random test session ID, public key and timestamps omitted from this excerpt.
+--- FAIL: TestAdmittedHostPollDoesNotPublishUncommittedEvents (0.00s)
+FAIL
+FAIL	openremote/controlplane/internal/app	0.029s
+FAIL

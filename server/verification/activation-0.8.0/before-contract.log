@@ -1,0 +1,5 @@
+--- FAIL: TestActivationContractIsAdditiveAndRequiresExplicitMode (0.01s)
+    activation_test.go:18: status=400 want=201 body={"error":"invalid_json"}
+FAIL
+FAIL	openremote/controlplane/internal/app	0.026s
+FAIL

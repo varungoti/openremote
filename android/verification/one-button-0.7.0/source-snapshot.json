@@ -1,0 +1,9 @@
+{
+  "baseCommit": "865e0a69de9a8e0df3957db33713fac08b783991",
+  "inputs": 52,
+  "sourceManifestSha256": "95c326714e615113327a1d220c454ba3ed564fe32326a8f77492e9bda216107f",
+  "serviceProfileConfigured": false,
+  "developmentPreviewOnly": true,
+  "releaseBuildException": "-PopenremoteUnconfiguredPreview=true",
+  "releaseSigning": false
+}

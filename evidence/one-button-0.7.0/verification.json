@@ -1,0 +1,218 @@
+{
+  "actualBuildBaseCommit": "865e0a69de9a8e0df3957db33713fac08b783991",
+  "artifacts": {
+    "androidArm64Preview": {
+      "path": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "sha256": "9a844518ede8e646c2ac15fd4379ca613532ea4948ac2161909463da77cdf0b9",
+      "sizeBytes": 24417783
+    },
+    "coordinatorLinuxAmd64": {
+      "path": "artifacts/controlplane-0.7.0-linux-amd64",
+      "sha256": "a7f899c0a2d036d3524cc80166a16ee3ea3f83f456abacd1948131e5799276c4",
+      "sizeBytes": 7450784
+    },
+    "windowsEncoder": {
+      "path": "artifacts/encoder-0.7.0-final/ffmpeg.exe",
+      "sha256": "3cc67f5c4a38d19c2e76ae78b3ff89b398dd92ec31511fb40c25f6162c7a5e11",
+      "sizeBytes": 3288064
+    },
+    "windowsHost": {
+      "path": "agent-windows/target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+      "sha256": "df431fbe7aa99dd4f2cb104ee8b5c9d9a870c778bc6b8ca7de0803095646a37c",
+      "sizeBytes": 9508352
+    },
+    "windowsInstaller": {
+      "path": "artifacts/windows-installer-0.7.0/OpenRemote-0.7.0-Windows-x64-Preview-Setup.exe",
+      "sha256": "f0736968fe53b478ced101b91544a72dab1fa47943267445d59a21b7e7533d87",
+      "sizeBytes": 16521173
+    }
+  },
+  "blockedOrNotRun": [
+    "Physical Windows GUI, DPAPI and installer install/update/rollback/uninstall",
+    "Windows screen capture, Media Foundation encoding and real SendInput",
+    "Physical Android install/update, Compose/Keystore and WebRTC rendering",
+    "Actual browser rendering/media; previous Chromium launch blocked by workspace policy",
+    "Windows-to-phone or receiving-PC pixels/input over direct Internet or TURN",
+    "Carrier NAT, UDP/TCP/TLS/443 relay, network handoff and outage sessions",
+    "Production signing and app-store publication",
+    "Commercial release dependency-notice completion"
+  ],
+  "buildSourceCustody": "103 component input entries across Windows, coordinator and Android verified byte-for-byte in implementation commit; shared profile appears in both clients. Original build metadata retained.",
+  "correctedReviewFinding": {
+    "description": "Attempt panic could detach remote session tasks without cancellation before UI Stop became unavailable.",
+    "fix": "Supervisor owns an outer RAII cancellation guard; cancels before result publication and on owner abort.",
+    "negativeControl": "Both focused tests fail with only the guard removed in isolated source/target; production passes.",
+    "review": "Independent source review confirms the identified blocker is closed; no additional concrete blocker found in reviewed lifecycle scope."
+  },
+  "evidenceRetention": "Intermediate compiler/fixture/encoder admission failures, deliberate release safeguard rejections and pre-fix panic build evidence retained. No actual Windows/browser/phone runtime outcome is inferred from unit or API tests.",
+  "implementationCommit": "a1539188b2abe9d046f25c9616bfb2b67bfff7cf",
+  "recordedAtUtc": "2026-11-19T11:35:56.386194+00:00",
+  "records": [
+    {
+      "path": "agent-windows/BUILD_EVIDENCE.json",
+      "sha256": "6eedfdf319dfe43b5c4b6a1b10d522590a0c1ec7875890a6f483ee33116f5b40"
+    },
+    {
+      "path": "agent-windows/verification/one-button-0.7.0/final-checks.json",
+      "sha256": "2d5303d7448e66fde608bdc55387965a77faabcaa0109387534c58ece77092db"
+    },
+    {
+      "path": "agent-windows/verification/one-button-0.7.0/panic-cancellation-negative-control.json",
+      "sha256": "8dcaefbf1811d77db5bc6c2bdc7c6a8f1a3ca51c4c99cbf41539c7aa20800c0d"
+    },
+    {
+      "path": "server/BUILD_EVIDENCE.json",
+      "sha256": "bc6237f8f0a2efaf14365a89b66a826c54d9520899870c3f495f8f679a33ebe4"
+    },
+    {
+      "path": "android/verification/one-button-0.7.0/build-summary.json",
+      "sha256": "514adc8418aa244294b6b9b5b4a4650431af7cafd862f0ddb014d265af1fe3c8"
+    },
+    {
+      "path": "android/verification/one-button-0.7.0/release-guard-checks.json",
+      "sha256": "a97ecf594c35d74f2a43a45ebb1b4de39126ef559d59d0f98f9b1ddf34746025"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/source-custody.json",
+      "sha256": "33f7b21ccce45a14fee0a76a5fef26e0535de599f9ecd13c6cc56389ca0f4931"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/independent-windows-lifecycle-review.json",
+      "sha256": "6a22ca41a3c007adc271b39d1d2bf8bd1da1f0b7e7af2908e52a615dd949f683"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/encoder/build-evidence.json",
+      "sha256": "43c723eaaf05d4f712e84171a78e5973a8a1095518da9d7ca33107311c21a3f9"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/encoder/summary.json",
+      "sha256": "86d1a30f3b7c96cd675b31609a2704cd18041d4aea488b55f39e579e18d91c62"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/installer/installer-build-evidence.json",
+      "sha256": "bd8ce10e5675d81672eb60f02cd7490c40b2fca30c53288eb8761bc8f0295b79"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/automatic-registration-https.json",
+      "sha256": "e5f8064f5791c591325fb044dd3a75f6065b88eabc19a243c558902d19825750"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/https-controlplane.json",
+      "sha256": "ee3f7dc3c57f848c44fab580f5f91ee8eb38a6598f7c32b8b08347b51cd2ffd0"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/web-api-integration.json",
+      "sha256": "fc76d37a0cc767be90f9a25e5d01bc452cb84354592e7d53da3c0eea470a2a15"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/browser-lifecycle.json",
+      "sha256": "1cf66c097c3f89500b6e51b57189ea47669a86981f0fdb476dda2eba4c0e07f8"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/web-core.log",
+      "sha256": "5bb667289879d14ac548e937abbd623b4caefda34a9cf987565a2771ffb7d753"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/web-lifecycle.log",
+      "sha256": "972cf4d1be50c777ec0fc287a71f8894b5458539b52ce4cdbd4c5659aaecc981"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/python-tests.log",
+      "sha256": "527236a71573c9f4eec1b8c974fab9b5e6912fd6662bf83d47cdf531f996b147"
+    },
+    {
+      "path": "evidence/one-button-0.7.0/installer-unit.log",
+      "sha256": "a54fe2fcf43b1ebbc2f583c4674a6f294669058994a01cdcba2b89b0eb643962"
+    }
+  ],
+  "releaseReady": false,
+  "scopeLimits": [
+    "Visible Server ID is a one-session, ten-minute invitation, not a permanent PC number",
+    "PIN grant allows viewing and optionally input only",
+    "Interactive logged-in Windows host must remain open",
+    "No native Windows receiving app or iOS package included"
+  ],
+  "serviceProfile": {
+    "configured": false,
+    "defaultReleasePackagingRejectsEmptyProfile": true,
+    "developmentPreviewExceptionUsed": true,
+    "normalClientTechnicalForms": false,
+    "path": "config/service-profile.json",
+    "publicDeploymentCreated": false,
+    "sha256": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c"
+  },
+  "status": "Verified build; unconfigured development preview",
+  "verification": {
+    "actualCoordinatorBrowserProtocolHttp": {
+      "groupedChecks": 6,
+      "scope": "Browser protocol module in Node WebCrypto against real Go coordinator HTTP; no browser/media/native desktop.",
+      "status": "passed"
+    },
+    "actualCoordinatorHttps": {
+      "groupedChecks": 12,
+      "scope": "Existing isolated session/PIN/identity/restart APIs; no desktop pixels or public relay",
+      "status": "passed",
+      "transport": "Verified ephemeral test CA"
+    },
+    "android": {
+      "apkVariantsInspected": 8,
+      "lintErrors": 0,
+      "lintWarnings": 3,
+      "nativePhoneExecution": "not_run",
+      "previewCertificateReusedFrom06": true,
+      "testSuites": 13,
+      "testsPassed": 83
+    },
+    "automaticRegistrationHttps": {
+      "checks": [
+        "Verified HTTPS discovery advertises automatic registration without exposing the administrator secret",
+        "Copied public key cannot register a host; failed signatures consume the challenge",
+        "Origin-bound Ed25519 proof registers a host without an enrollment secret and rejects replay",
+        "Automatically registered host issues a Server ID; six-digit PIN redemption reaches owner approval and ICE configuration",
+        "Fresh identity proof recovers the same host, rotates its bearer and ends the prior session",
+        "Identity recovery invalidates unused connection invitations",
+        "Host identity survives real process restart; only the administrator can revoke it and proof cannot undo revocation",
+        "Revocation survives a second process restart; durable state contains no raw bearer, PIN or proof"
+      ],
+      "groupedChecks": 8,
+      "scope": "Actual isolated coordinator process and independent Python Ed25519/P-256 clients. No native application, desktop pixels, remote input or public relay.",
+      "status": "passed"
+    },
+    "browserCoreTestsPassed": 15,
+    "browserLifecycleVmTestsPassed": 14,
+    "coordinator": {
+      "normalTopLevelPassed": 64,
+      "normalWithSubcasesPassed": 150,
+      "raceTopLevelPassed": 64,
+      "raceWithSubcasesPassed": 150,
+      "staticLinuxBuild": "passed",
+      "vet": "passed"
+    },
+    "encoder": {
+      "build": "passed",
+      "nativeWindowsEncoding": "not_run",
+      "sourceIncludedInInstaller": true,
+      "sourceSha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e",
+      "sourceSignature": "verified"
+    },
+    "installer": {
+      "admissionTestsPassed": 16,
+      "authenticode": "unsigned",
+      "independentExtraction": "passed",
+      "nativeInstallation": "not_run",
+      "nsisWarningsAsErrors": "passed",
+      "payloadFilesIncludingUninstaller": 8
+    },
+    "pythonConfigurationTestsPassed": 19,
+    "windows": {
+      "format": "passed",
+      "linuxClippy": "passed",
+      "nativeExecution": "not_run",
+      "pe": "AMD64 Windows GUI, 21 Windows system imports",
+      "releaseLink": "passed",
+      "testsPassed": 99,
+      "windowsClippy": "passed"
+    }
+  },
+  "version": "0.7.0"
+}

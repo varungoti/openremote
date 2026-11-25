@@ -1,0 +1,49 @@
+# Linux deployment; configure with scripts/configure_deployment.py before starting.
+name: openremote
+services:
+  controlplane:
+    build: ./server
+    env_file: ./secrets/controlplane.env
+    environment:
+      OPENREMOTE_LISTEN: 0.0.0.0:8080
+      OPENREMOTE_STATE_FILE: /data/controlplane.json
+      OPENREMOTE_TRUSTED_PROXY_CIDRS: 172.30.80.2/32
+    restart: unless-stopped
+    init: true
+    read_only: true
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    tmpfs: [/tmp:size=16m,mode=1777]
+    volumes: [controlplane-data:/data]
+    networks:
+      control:
+        ipv4_address: 172.30.80.3
+    # Deliberately no published API port: HTTPS enters only through Caddy.
+  gateway:
+    image: caddy:2.10.2-alpine
+    environment:
+      API_DOMAIN: ${API_DOMAIN:?Run scripts/configure_deployment.py first}
+      ACME_EMAIL: ${ACME_EMAIL:?Set an email for certificate management}
+    ports:
+      - 80:80
+      - 443:443
+      - 443:443/udp
+    volumes:
+      - ./infra/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [controlplane]
+    restart: unless-stopped
+    security_opt: [no-new-privileges:true]
+    networks:
+      control:
+        ipv4_address: 172.30.80.2
+volumes:
+  controlplane-data: {}
+  caddy-data: {}
+  caddy-config: {}
+networks:
+  control:
+    ipam:
+      config:
+        - subnet: 172.30.80.0/29

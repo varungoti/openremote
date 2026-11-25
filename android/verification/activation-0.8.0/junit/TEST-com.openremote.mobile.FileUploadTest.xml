@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.FileUploadTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-20T10:48:01.285Z" hostname="9ddd22762a56" time="0.588">
+  <properties/>
+  <testcase name="cancellationClosesPendingUploadAndDeletesSnapshot" classname="com.openremote.mobile.FileUploadTest" time="0.051"/>
+  <testcase name="emptyFileHasTheStandardDigestAndNoChunkRequests" classname="com.openremote.mobile.FileUploadTest" time="0.015"/>
+  <testcase name="evenFailedNativeAbortCannotSkipPrivateFileCleanup" classname="com.openremote.mobile.FileUploadTest" time="0.008"/>
+  <testcase name="cancelledReservationsStillConsumeSessionQuota" classname="com.openremote.mobile.FileUploadTest" time="0.013"/>
+  <testcase name="rejectedBeginKeepsToolsUsableAndDeletesTheUnsentSnapshot" classname="com.openremote.mobile.FileUploadTest" time="0.005"/>
+  <testcase name="oversizedProviderStreamCannotFillCacheAndPartialCopyIsDeleted" classname="com.openremote.mobile.FileUploadTest" time="0.382"/>
+  <testcase name="anotherActivityCannotDeleteAnActivePrivateSnapshot" classname="com.openremote.mobile.FileUploadTest" time="0.018"/>
+  <testcase name="uploadWaitsForEveryExactAcknowledgementAndDeletesPrivateCopy" classname="com.openremote.mobile.FileUploadTest" time="0.064"/>
+  <testcase name="wrongAcknowledgementCancelsWithoutReplayingOrFinishing" classname="com.openremote.mobile.FileUploadTest" time="0.013"/>
+  <testcase name="interruptedSnapshotDeletesItsPartialCopy" classname="com.openremote.mobile.FileUploadTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

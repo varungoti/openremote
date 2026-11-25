@@ -1,0 +1,28 @@
+{
+  "version": "0.5.0",
+  "checkedAtUtc": "2026-11-18T09:39:06.476223+00:00",
+  "previousSourceRevision": "612a5bd5d62ee5fc8d06be37be783833bb8f19d3",
+  "scope": "Four installer activation/rollback cases and PowerShell parsing passed in 0.3 on Linux PowerShell. These four scripts are byte-identical; those results are carried forward, not newly executed. Real Windows installation and Android upgrade remain not run.",
+  "sources": [
+    {
+      "path": "packaging/windows/Install-OpenRemote.ps1",
+      "sha256": "1b3e22037a93f25a3e286663e81ebf1c9ad152d72fb919de2ca02c0f4f47e4cb",
+      "unchangedFrom0_3": true
+    },
+    {
+      "path": "packaging/windows/Uninstall-OpenRemote.ps1",
+      "sha256": "7edbb9d3565f41bc4fcd93361118ecbde08915fece87baf36d8e77e5a88c5f62",
+      "unchangedFrom0_3": true
+    },
+    {
+      "path": "packaging/windows/tests/Activation.Tests.ps1",
+      "sha256": "8517841a24fcd1d27ca33d9cc4b4b78a603bb7562d9463ce81da9186134af8ea",
+      "unchangedFrom0_3": true
+    },
+    {
+      "path": "scripts/build-windows.ps1",
+      "sha256": "5448f198bdc9db0c6ba31d0714d339738542b357deb60e984256a11821ae6b6c",
+      "unchangedFrom0_3": true
+    }
+  ]
+}

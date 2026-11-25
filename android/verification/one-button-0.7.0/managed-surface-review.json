@@ -1,0 +1,29 @@
+{
+  "kind": "source and compiled-manifest inspection; no native UI execution",
+  "homeLabels": [
+    "Server ID",
+    "PIN",
+    "Connect remote desktop"
+  ],
+  "homePrimaryButtons": 1,
+  "requestButtonLabel": "Cancel",
+  "sessionStopLabel": "Stop remote session",
+  "pinDigits": 6,
+  "transientPinState": "remember, not rememberSaveable or persistent ViewModel state",
+  "pinClearTriggers": [
+    "submit",
+    "Cancel",
+    "Back during initial request",
+    "Activity ON_PAUSE",
+    "home disposal",
+    "home lock"
+  ],
+  "publicSetupNavigation": false,
+  "setupIntentFilters": false,
+  "externalSetupIntentHandler": false,
+  "emptyProfileMessage": "This copy of OpenRemote is not ready to connect; contact app provider",
+  "emptyProfileCanConnect": false,
+  "pairedFlowShowsClipboardFilesOrMonitorSwitch": false,
+  "phoneUiExecuted": false,
+  "sourceManifestSha256": "95c326714e615113327a1d220c454ba3ed564fe32326a8f77492e9bda216107f"
+}

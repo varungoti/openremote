@@ -1,0 +1,23 @@
+MakeNSIS v3.11-1 - Copyright 1999-2025 Contributors
+See the file COPYING for license details.
+Credits can be found in the Users Manual.
+
+Processing script file: "artifacts/installer-syntax-check/OpenRemote.nsi" (UTF8)
+
+Processed 1 file, writing output (x86-unicode):
+
+Output: "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/installer-syntax-check/SYNTAX-ONLY-DO-NOT-SHARE.exe"
+Install: 4 pages (256 bytes), 3 sections (2 required) (12360 bytes), 929 instructions (26012 bytes), 331 strings (15472 bytes), 1 language table (290 bytes).
+Uninstall: 3 pages (256 bytes), 1 section (4120 bytes), 513 instructions (14364 bytes), 221 strings (9042 bytes), 1 language table (278 bytes).
+Datablock optimizer saved 26498 bytes (~0.2%).
+
+Using lzma (compress whole) compression.
+
+EXE header size:              118272 / 102400 bytes
+Install code:                          (48710 bytes)
+Install data:                          (12662738 bytes)
+Uninstall code+data:                   (109890 bytes)
+Compressed data:             3100029 / 12821338 bytes
+CRC (0x22C02980):                  4 / 4 bytes
+
+Total size:                  3218305 / 12923742 bytes (24.9%)

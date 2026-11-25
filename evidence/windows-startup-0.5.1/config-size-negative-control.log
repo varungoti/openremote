@@ -1,0 +1,22 @@
+   Compiling openremote-agent v0.5.1 (/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/config-size-negative-control)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 16.99s
+     Running unittests src/lib.rs (agent-windows/target/debug/build/openremote-agent/c005211d66764152/out/openremote_agent-c005211d66764152)
+
+running 1 test
+test startup::tests::oversized_serialized_settings_never_replace_a_readable_configuration ... FAILED
+
+failures:
+
+---- startup::tests::oversized_serialized_settings_never_replace_a_readable_configuration stdout ----
+
+thread 'startup::tests::oversized_serialized_settings_never_replace_a_readable_configuration' (285) panicked at src/startup.rs:350:9:
+assertion failed: save_settings(&path, &oversized, None).is_err()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    startup::tests::oversized_serialized_settings_never_replace_a_readable_configuration
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 75 filtered out; finished in 0.01s
+
+error: test failed, to rerun pass `--lib`

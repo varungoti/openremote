@@ -1,0 +1,22 @@
+{
+    email {$ACME_EMAIL}
+    admin off
+}
+{$API_DOMAIN} {
+    header {
+        Strict-Transport-Security "max-age=31536000"
+        X-Content-Type-Options nosniff
+        Referrer-Policy no-referrer
+    }
+    request_body {
+        max_size 1MB
+    }
+    reverse_proxy controlplane:8080 {
+        header_up X-Forwarded-Proto https
+        header_up X-Forwarded-For {remote_host}
+        transport http {
+            response_header_timeout 30s
+        }
+    }
+    # Access logs intentionally omitted: session URLs are sensitive metadata.
+}

@@ -1,0 +1,8 @@
+--- FAIL: TestGatewaySeparatesClientsBehindOneEgress (0.00s)
+    --- FAIL: TestGatewaySeparatesClientsBehindOneEgress/ordinary (0.00s)
+        gateway_test.go:50: status=429 want=200 body={"error":"rate_limited"}
+    --- FAIL: TestGatewaySeparatesClientsBehindOneEgress/sensitive (0.00s)
+        gateway_test.go:50: status=429 want=401 body={"error":"rate_limited"}
+FAIL
+FAIL	openremote/controlplane/internal/app	0.006s
+FAIL

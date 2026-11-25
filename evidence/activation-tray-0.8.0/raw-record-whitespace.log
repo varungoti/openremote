@@ -1,0 +1,852 @@
+agent-windows/verification/activation-0.8.0/tests.log:140: new blank line at EOF.
+android/verification/activation-0.8.0/build-attempt-1.log:12: trailing whitespace.
++Daemon will be stopped at the end of the build 
+android/verification/activation-0.8.0/build-attempt-2.log:2: trailing whitespace.
++Daemon will be stopped at the end of the build 
+android/verification/activation-0.8.0/final-build.log:2: trailing whitespace.
++Daemon will be stopped at the end of the build 
+android/verification/activation-0.8.0/unconfigured-release-rejection.log:2: trailing whitespace.
++Daemon will be stopped at the end of the build 
+android/verification/activation-0.8.0/unconfigured-signing-rejection.log:2: trailing whitespace.
++Daemon will be stopped at the end of the build 
+evidence/activation-tray-0.8.0/https-lifecycle.log:25: new blank line at EOF.
+evidence/activation-tray-0.8.0/web-core.initial.log:32: trailing whitespace.
++  
+evidence/activation-tray-0.8.0/web-core.initial.log:34: trailing whitespace.
++  
+evidence/build-tools-0.8.0/version-7zip.log:12: trailing whitespace.
++    K.....O.....X.........  Base64   b64           
+evidence/build-tools-0.8.0/version-7zip.log:13: trailing whitespace.
++    ......O...............  COFF     obj           
+evidence/build-tools-0.8.0/version-7zip.log:27: trailing whitespace.
++    ......O...............  IHex     ihex          
+evidence/build-tools-0.8.0/version-7zip.log:31: trailing whitespace.
++    .......P..............  MBR      mbr           
+evidence/build-tools-0.8.0/version-7zip.log:46: trailing whitespace.
++    ......................  Split    001           
+evidence/build-tools-0.8.0/version-7zip.log:60: trailing whitespace.
++    K.....O...............  lzma     lzma          
+evidence/build-tools-0.8.0/version-7zip.log:61: trailing whitespace.
++    K.....................  lzma86   lzma86        
+evidence/build-tools-0.8.0/version-7zip.log:67: trailing whitespace.
++   CK.....O.....XC........  Hash     sha256 sha512 sha384 sha224 sha512-224 sha512-256 sha3-224 sha3-256 sha3-384 sha3-512 sha1 sha2 sha3 sha md5 blake2s blake2b blake2sp xxh64 crc32 crc64 cksum asc 
+licenses/agent-bridge/playwright-1.62.1/LICENSE:1: trailing whitespace.
++                                 Apache License
+licenses/agent-bridge/playwright-1.62.1/LICENSE:2: trailing whitespace.
++                           Version 2.0, January 2004
+licenses/agent-bridge/playwright-1.62.1/LICENSE:3: trailing whitespace.
++                        http://www.apache.org/licenses/
+licenses/agent-bridge/playwright-1.62.1/LICENSE:4: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:5: trailing whitespace.
++   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+licenses/agent-bridge/playwright-1.62.1/LICENSE:6: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:7: trailing whitespace.
++   1. Definitions.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:8: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:9: trailing whitespace.
++      "License" shall mean the terms and conditions for use, reproduction,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:10: trailing whitespace.
++      and distribution as defined by Sections 1 through 9 of this document.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:11: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:12: trailing whitespace.
++      "Licensor" shall mean the copyright owner or entity authorized by
+licenses/agent-bridge/playwright-1.62.1/LICENSE:13: trailing whitespace.
++      the copyright owner that is granting the License.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:14: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:15: trailing whitespace.
++      "Legal Entity" shall mean the union of the acting entity and all
+licenses/agent-bridge/playwright-1.62.1/LICENSE:16: trailing whitespace.
++      other entities that control, are controlled by, or are under common
+licenses/agent-bridge/playwright-1.62.1/LICENSE:17: trailing whitespace.
++      control with that entity. For the purposes of this definition,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:18: trailing whitespace.
++      "control" means (i) the power, direct or indirect, to cause the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:19: trailing whitespace.
++      direction or management of such entity, whether by contract or
+licenses/agent-bridge/playwright-1.62.1/LICENSE:20: trailing whitespace.
++      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:21: trailing whitespace.
++      outstanding shares, or (iii) beneficial ownership of such entity.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:22: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:23: trailing whitespace.
++      "You" (or "Your") shall mean an individual or Legal Entity
+licenses/agent-bridge/playwright-1.62.1/LICENSE:24: trailing whitespace.
++      exercising permissions granted by this License.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:25: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:26: trailing whitespace.
++      "Source" form shall mean the preferred form for making modifications,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:27: trailing whitespace.
++      including but not limited to software source code, documentation
+licenses/agent-bridge/playwright-1.62.1/LICENSE:28: trailing whitespace.
++      source, and configuration files.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:29: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:30: trailing whitespace.
++      "Object" form shall mean any form resulting from mechanical
+licenses/agent-bridge/playwright-1.62.1/LICENSE:31: trailing whitespace.
++      transformation or translation of a Source form, including but
+licenses/agent-bridge/playwright-1.62.1/LICENSE:32: trailing whitespace.
++      not limited to compiled object code, generated documentation,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:33: trailing whitespace.
++      and conversions to other media types.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:34: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:35: trailing whitespace.
++      "Work" shall mean the work of authorship, whether in Source or
+licenses/agent-bridge/playwright-1.62.1/LICENSE:36: trailing whitespace.
++      Object form, made available under the License, as indicated by a
+licenses/agent-bridge/playwright-1.62.1/LICENSE:37: trailing whitespace.
++      copyright notice that is included in or attached to the work
+licenses/agent-bridge/playwright-1.62.1/LICENSE:38: trailing whitespace.
++      (an example is provided in the Appendix below).
+licenses/agent-bridge/playwright-1.62.1/LICENSE:39: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:40: trailing whitespace.
++      "Derivative Works" shall mean any work, whether in Source or Object
+licenses/agent-bridge/playwright-1.62.1/LICENSE:41: trailing whitespace.
++      form, that is based on (or derived from) the Work and for which the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:42: trailing whitespace.
++      editorial revisions, annotations, elaborations, or other modifications
+licenses/agent-bridge/playwright-1.62.1/LICENSE:43: trailing whitespace.
++      represent, as a whole, an original work of authorship. For the purposes
+licenses/agent-bridge/playwright-1.62.1/LICENSE:44: trailing whitespace.
++      of this License, Derivative Works shall not include works that remain
+licenses/agent-bridge/playwright-1.62.1/LICENSE:45: trailing whitespace.
++      separable from, or merely link (or bind by name) to the interfaces of,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:46: trailing whitespace.
++      the Work and Derivative Works thereof.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:47: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:48: trailing whitespace.
++      "Contribution" shall mean any work of authorship, including
+licenses/agent-bridge/playwright-1.62.1/LICENSE:49: trailing whitespace.
++      the original version of the Work and any modifications or additions
+licenses/agent-bridge/playwright-1.62.1/LICENSE:50: trailing whitespace.
++      to that Work or Derivative Works thereof, that is intentionally
+licenses/agent-bridge/playwright-1.62.1/LICENSE:51: trailing whitespace.
++      submitted to Licensor for inclusion in the Work by the copyright owner
+licenses/agent-bridge/playwright-1.62.1/LICENSE:52: trailing whitespace.
++      or by an individual or Legal Entity authorized to submit on behalf of
+licenses/agent-bridge/playwright-1.62.1/LICENSE:53: trailing whitespace.
++      the copyright owner. For the purposes of this definition, "submitted"
+licenses/agent-bridge/playwright-1.62.1/LICENSE:54: trailing whitespace.
++      means any form of electronic, verbal, or written communication sent
+licenses/agent-bridge/playwright-1.62.1/LICENSE:55: trailing whitespace.
++      to the Licensor or its representatives, including but not limited to
+licenses/agent-bridge/playwright-1.62.1/LICENSE:56: trailing whitespace.
++      communication on electronic mailing lists, source code control systems,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:57: trailing whitespace.
++      and issue tracking systems that are managed by, or on behalf of, the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:58: trailing whitespace.
++      Licensor for the purpose of discussing and improving the Work, but
+licenses/agent-bridge/playwright-1.62.1/LICENSE:59: trailing whitespace.
++      excluding communication that is conspicuously marked or otherwise
+licenses/agent-bridge/playwright-1.62.1/LICENSE:60: trailing whitespace.
++      designated in writing by the copyright owner as "Not a Contribution."
+licenses/agent-bridge/playwright-1.62.1/LICENSE:61: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:62: trailing whitespace.
++      "Contributor" shall mean Licensor and any individual or Legal Entity
+licenses/agent-bridge/playwright-1.62.1/LICENSE:63: trailing whitespace.
++      on behalf of whom a Contribution has been received by Licensor and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:64: trailing whitespace.
++      subsequently incorporated within the Work.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:65: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:66: trailing whitespace.
++   2. Grant of Copyright License. Subject to the terms and conditions of
+licenses/agent-bridge/playwright-1.62.1/LICENSE:67: trailing whitespace.
++      this License, each Contributor hereby grants to You a perpetual,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:68: trailing whitespace.
++      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+licenses/agent-bridge/playwright-1.62.1/LICENSE:69: trailing whitespace.
++      copyright license to reproduce, prepare Derivative Works of,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:70: trailing whitespace.
++      publicly display, publicly perform, sublicense, and distribute the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:71: trailing whitespace.
++      Work and such Derivative Works in Source or Object form.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:72: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:73: trailing whitespace.
++   3. Grant of Patent License. Subject to the terms and conditions of
+licenses/agent-bridge/playwright-1.62.1/LICENSE:74: trailing whitespace.
++      this License, each Contributor hereby grants to You a perpetual,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:75: trailing whitespace.
++      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+licenses/agent-bridge/playwright-1.62.1/LICENSE:76: trailing whitespace.
++      (except as stated in this section) patent license to make, have made,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:77: trailing whitespace.
++      use, offer to sell, sell, import, and otherwise transfer the Work,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:78: trailing whitespace.
++      where such license applies only to those patent claims licensable
+licenses/agent-bridge/playwright-1.62.1/LICENSE:79: trailing whitespace.
++      by such Contributor that are necessarily infringed by their
+licenses/agent-bridge/playwright-1.62.1/LICENSE:80: trailing whitespace.
++      Contribution(s) alone or by combination of their Contribution(s)
+licenses/agent-bridge/playwright-1.62.1/LICENSE:81: trailing whitespace.
++      with the Work to which such Contribution(s) was submitted. If You
+licenses/agent-bridge/playwright-1.62.1/LICENSE:82: trailing whitespace.
++      institute patent litigation against any entity (including a
+licenses/agent-bridge/playwright-1.62.1/LICENSE:83: trailing whitespace.
++      cross-claim or counterclaim in a lawsuit) alleging that the Work
+licenses/agent-bridge/playwright-1.62.1/LICENSE:84: trailing whitespace.
++      or a Contribution incorporated within the Work constitutes direct
+licenses/agent-bridge/playwright-1.62.1/LICENSE:85: trailing whitespace.
++      or contributory patent infringement, then any patent licenses
+licenses/agent-bridge/playwright-1.62.1/LICENSE:86: trailing whitespace.
++      granted to You under this License for that Work shall terminate
+licenses/agent-bridge/playwright-1.62.1/LICENSE:87: trailing whitespace.
++      as of the date such litigation is filed.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:88: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:89: trailing whitespace.
++   4. Redistribution. You may reproduce and distribute copies of the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:90: trailing whitespace.
++      Work or Derivative Works thereof in any medium, with or without
+licenses/agent-bridge/playwright-1.62.1/LICENSE:91: trailing whitespace.
++      modifications, and in Source or Object form, provided that You
+licenses/agent-bridge/playwright-1.62.1/LICENSE:92: trailing whitespace.
++      meet the following conditions:
+licenses/agent-bridge/playwright-1.62.1/LICENSE:93: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:94: trailing whitespace.
++      (a) You must give any other recipients of the Work or
+licenses/agent-bridge/playwright-1.62.1/LICENSE:95: trailing whitespace.
++          Derivative Works a copy of this License; and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:96: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:97: trailing whitespace.
++      (b) You must cause any modified files to carry prominent notices
+licenses/agent-bridge/playwright-1.62.1/LICENSE:98: trailing whitespace.
++          stating that You changed the files; and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:99: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:100: trailing whitespace.
++      (c) You must retain, in the Source form of any Derivative Works
+licenses/agent-bridge/playwright-1.62.1/LICENSE:101: trailing whitespace.
++          that You distribute, all copyright, patent, trademark, and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:102: trailing whitespace.
++          attribution notices from the Source form of the Work,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:103: trailing whitespace.
++          excluding those notices that do not pertain to any part of
+licenses/agent-bridge/playwright-1.62.1/LICENSE:104: trailing whitespace.
++          the Derivative Works; and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:105: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:106: trailing whitespace.
++      (d) If the Work includes a "NOTICE" text file as part of its
+licenses/agent-bridge/playwright-1.62.1/LICENSE:107: trailing whitespace.
++          distribution, then any Derivative Works that You distribute must
+licenses/agent-bridge/playwright-1.62.1/LICENSE:108: trailing whitespace.
++          include a readable copy of the attribution notices contained
+licenses/agent-bridge/playwright-1.62.1/LICENSE:109: trailing whitespace.
++          within such NOTICE file, excluding those notices that do not
+licenses/agent-bridge/playwright-1.62.1/LICENSE:110: trailing whitespace.
++          pertain to any part of the Derivative Works, in at least one
+licenses/agent-bridge/playwright-1.62.1/LICENSE:111: trailing whitespace.
++          of the following places: within a NOTICE text file distributed
+licenses/agent-bridge/playwright-1.62.1/LICENSE:112: trailing whitespace.
++          as part of the Derivative Works; within the Source form or
+licenses/agent-bridge/playwright-1.62.1/LICENSE:113: trailing whitespace.
++          documentation, if provided along with the Derivative Works; or,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:114: trailing whitespace.
++          within a display generated by the Derivative Works, if and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:115: trailing whitespace.
++          wherever such third-party notices normally appear. The contents
+licenses/agent-bridge/playwright-1.62.1/LICENSE:116: trailing whitespace.
++          of the NOTICE file are for informational purposes only and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:117: trailing whitespace.
++          do not modify the License. You may add Your own attribution
+licenses/agent-bridge/playwright-1.62.1/LICENSE:118: trailing whitespace.
++          notices within Derivative Works that You distribute, alongside
+licenses/agent-bridge/playwright-1.62.1/LICENSE:119: trailing whitespace.
++          or as an addendum to the NOTICE text from the Work, provided
+licenses/agent-bridge/playwright-1.62.1/LICENSE:120: trailing whitespace.
++          that such additional attribution notices cannot be construed
+licenses/agent-bridge/playwright-1.62.1/LICENSE:121: trailing whitespace.
++          as modifying the License.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:122: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:123: trailing whitespace.
++      You may add Your own copyright statement to Your modifications and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:124: trailing whitespace.
++      may provide additional or different license terms and conditions
+licenses/agent-bridge/playwright-1.62.1/LICENSE:125: trailing whitespace.
++      for use, reproduction, or distribution of Your modifications, or
+licenses/agent-bridge/playwright-1.62.1/LICENSE:126: trailing whitespace.
++      for any such Derivative Works as a whole, provided Your use,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:127: trailing whitespace.
++      reproduction, and distribution of the Work otherwise complies with
+licenses/agent-bridge/playwright-1.62.1/LICENSE:128: trailing whitespace.
++      the conditions stated in this License.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:129: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:130: trailing whitespace.
++   5. Submission of Contributions. Unless You explicitly state otherwise,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:131: trailing whitespace.
++      any Contribution intentionally submitted for inclusion in the Work
+licenses/agent-bridge/playwright-1.62.1/LICENSE:132: trailing whitespace.
++      by You to the Licensor shall be under the terms and conditions of
+licenses/agent-bridge/playwright-1.62.1/LICENSE:133: trailing whitespace.
++      this License, without any additional terms or conditions.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:134: trailing whitespace.
++      Notwithstanding the above, nothing herein shall supersede or modify
+licenses/agent-bridge/playwright-1.62.1/LICENSE:135: trailing whitespace.
++      the terms of any separate license agreement you may have executed
+licenses/agent-bridge/playwright-1.62.1/LICENSE:136: trailing whitespace.
++      with Licensor regarding such Contributions.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:137: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:138: trailing whitespace.
++   6. Trademarks. This License does not grant permission to use the trade
+licenses/agent-bridge/playwright-1.62.1/LICENSE:139: trailing whitespace.
++      names, trademarks, service marks, or product names of the Licensor,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:140: trailing whitespace.
++      except as required for reasonable and customary use in describing the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:141: trailing whitespace.
++      origin of the Work and reproducing the content of the NOTICE file.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:142: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:143: trailing whitespace.
++   7. Disclaimer of Warranty. Unless required by applicable law or
+licenses/agent-bridge/playwright-1.62.1/LICENSE:144: trailing whitespace.
++      agreed to in writing, Licensor provides the Work (and each
+licenses/agent-bridge/playwright-1.62.1/LICENSE:145: trailing whitespace.
++      Contributor provides its Contributions) on an "AS IS" BASIS,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:146: trailing whitespace.
++      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+licenses/agent-bridge/playwright-1.62.1/LICENSE:147: trailing whitespace.
++      implied, including, without limitation, any warranties or conditions
+licenses/agent-bridge/playwright-1.62.1/LICENSE:148: trailing whitespace.
++      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+licenses/agent-bridge/playwright-1.62.1/LICENSE:149: trailing whitespace.
++      PARTICULAR PURPOSE. You are solely responsible for determining the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:150: trailing whitespace.
++      appropriateness of using or redistributing the Work and assume any
+licenses/agent-bridge/playwright-1.62.1/LICENSE:151: trailing whitespace.
++      risks associated with Your exercise of permissions under this License.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:152: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:153: trailing whitespace.
++   8. Limitation of Liability. In no event and under no legal theory,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:154: trailing whitespace.
++      whether in tort (including negligence), contract, or otherwise,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:155: trailing whitespace.
++      unless required by applicable law (such as deliberate and grossly
+licenses/agent-bridge/playwright-1.62.1/LICENSE:156: trailing whitespace.
++      negligent acts) or agreed to in writing, shall any Contributor be
+licenses/agent-bridge/playwright-1.62.1/LICENSE:157: trailing whitespace.
++      liable to You for damages, including any direct, indirect, special,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:158: trailing whitespace.
++      incidental, or consequential damages of any character arising as a
+licenses/agent-bridge/playwright-1.62.1/LICENSE:159: trailing whitespace.
++      result of this License or out of the use or inability to use the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:160: trailing whitespace.
++      Work (including but not limited to damages for loss of goodwill,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:161: trailing whitespace.
++      work stoppage, computer failure or malfunction, or any and all
+licenses/agent-bridge/playwright-1.62.1/LICENSE:162: trailing whitespace.
++      other commercial damages or losses), even if such Contributor
+licenses/agent-bridge/playwright-1.62.1/LICENSE:163: trailing whitespace.
++      has been advised of the possibility of such damages.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:164: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:165: trailing whitespace.
++   9. Accepting Warranty or Additional Liability. While redistributing
+licenses/agent-bridge/playwright-1.62.1/LICENSE:166: trailing whitespace.
++      the Work or Derivative Works thereof, You may choose to offer,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:167: trailing whitespace.
++      and charge a fee for, acceptance of support, warranty, indemnity,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:168: trailing whitespace.
++      or other liability obligations and/or rights consistent with this
+licenses/agent-bridge/playwright-1.62.1/LICENSE:169: trailing whitespace.
++      License. However, in accepting such obligations, You may act only
+licenses/agent-bridge/playwright-1.62.1/LICENSE:170: trailing whitespace.
++      on Your own behalf and on Your sole responsibility, not on behalf
+licenses/agent-bridge/playwright-1.62.1/LICENSE:171: trailing whitespace.
++      of any other Contributor, and only if You agree to indemnify,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:172: trailing whitespace.
++      defend, and hold each Contributor harmless for any liability
+licenses/agent-bridge/playwright-1.62.1/LICENSE:173: trailing whitespace.
++      incurred by, or claims asserted against, such Contributor by reason
+licenses/agent-bridge/playwright-1.62.1/LICENSE:174: trailing whitespace.
++      of your accepting any such warranty or additional liability.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:175: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:176: trailing whitespace.
++   END OF TERMS AND CONDITIONS
+licenses/agent-bridge/playwright-1.62.1/LICENSE:177: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:178: trailing whitespace.
++   APPENDIX: How to apply the Apache License to your work.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:179: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:180: trailing whitespace.
++      To apply the Apache License to your work, attach the following
+licenses/agent-bridge/playwright-1.62.1/LICENSE:181: trailing whitespace.
++      boilerplate notice, with the fields enclosed by brackets "[]"
+licenses/agent-bridge/playwright-1.62.1/LICENSE:182: trailing whitespace.
++      replaced with your own identifying information. (Don't include
+licenses/agent-bridge/playwright-1.62.1/LICENSE:183: trailing whitespace.
++      the brackets!)  The text should be enclosed in the appropriate
+licenses/agent-bridge/playwright-1.62.1/LICENSE:184: trailing whitespace.
++      comment syntax for the file format. We also recommend that a
+licenses/agent-bridge/playwright-1.62.1/LICENSE:185: trailing whitespace.
++      file or class name and description of purpose be included on the
+licenses/agent-bridge/playwright-1.62.1/LICENSE:186: trailing whitespace.
++      same "printed page" as the copyright notice for easier
+licenses/agent-bridge/playwright-1.62.1/LICENSE:187: trailing whitespace.
++      identification within third-party archives.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:188: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:189: trailing whitespace.
++   Portions Copyright (c) Microsoft Corporation.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:190: trailing whitespace.
++   Portions Copyright 2017 Google Inc.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:191: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:192: trailing whitespace.
++   Licensed under the Apache License, Version 2.0 (the "License");
+licenses/agent-bridge/playwright-1.62.1/LICENSE:193: trailing whitespace.
++   you may not use this file except in compliance with the License.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:194: trailing whitespace.
++   You may obtain a copy of the License at
+licenses/agent-bridge/playwright-1.62.1/LICENSE:195: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:196: trailing whitespace.
++       http://www.apache.org/licenses/LICENSE-2.0
+licenses/agent-bridge/playwright-1.62.1/LICENSE:197: trailing whitespace.
++
+licenses/agent-bridge/playwright-1.62.1/LICENSE:198: trailing whitespace.
++   Unless required by applicable law or agreed to in writing, software
+licenses/agent-bridge/playwright-1.62.1/LICENSE:199: trailing whitespace.
++   distributed under the License is distributed on an "AS IS" BASIS,
+licenses/agent-bridge/playwright-1.62.1/LICENSE:200: trailing whitespace.
++   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+licenses/agent-bridge/playwright-1.62.1/LICENSE:201: trailing whitespace.
++   See the License for the specific language governing permissions and
+licenses/agent-bridge/playwright-1.62.1/LICENSE:202: trailing whitespace.
++   limitations under the License.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:1: trailing whitespace.
++                                 Apache License
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:2: trailing whitespace.
++                           Version 2.0, January 2004
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:3: trailing whitespace.
++                        http://www.apache.org/licenses/
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:4: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:5: trailing whitespace.
++   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:6: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:7: trailing whitespace.
++   1. Definitions.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:8: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:9: trailing whitespace.
++      "License" shall mean the terms and conditions for use, reproduction,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:10: trailing whitespace.
++      and distribution as defined by Sections 1 through 9 of this document.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:11: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:12: trailing whitespace.
++      "Licensor" shall mean the copyright owner or entity authorized by
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:13: trailing whitespace.
++      the copyright owner that is granting the License.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:14: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:15: trailing whitespace.
++      "Legal Entity" shall mean the union of the acting entity and all
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:16: trailing whitespace.
++      other entities that control, are controlled by, or are under common
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:17: trailing whitespace.
++      control with that entity. For the purposes of this definition,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:18: trailing whitespace.
++      "control" means (i) the power, direct or indirect, to cause the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:19: trailing whitespace.
++      direction or management of such entity, whether by contract or
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:20: trailing whitespace.
++      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:21: trailing whitespace.
++      outstanding shares, or (iii) beneficial ownership of such entity.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:22: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:23: trailing whitespace.
++      "You" (or "Your") shall mean an individual or Legal Entity
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:24: trailing whitespace.
++      exercising permissions granted by this License.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:25: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:26: trailing whitespace.
++      "Source" form shall mean the preferred form for making modifications,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:27: trailing whitespace.
++      including but not limited to software source code, documentation
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:28: trailing whitespace.
++      source, and configuration files.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:29: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:30: trailing whitespace.
++      "Object" form shall mean any form resulting from mechanical
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:31: trailing whitespace.
++      transformation or translation of a Source form, including but
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:32: trailing whitespace.
++      not limited to compiled object code, generated documentation,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:33: trailing whitespace.
++      and conversions to other media types.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:34: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:35: trailing whitespace.
++      "Work" shall mean the work of authorship, whether in Source or
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:36: trailing whitespace.
++      Object form, made available under the License, as indicated by a
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:37: trailing whitespace.
++      copyright notice that is included in or attached to the work
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:38: trailing whitespace.
++      (an example is provided in the Appendix below).
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:39: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:40: trailing whitespace.
++      "Derivative Works" shall mean any work, whether in Source or Object
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:41: trailing whitespace.
++      form, that is based on (or derived from) the Work and for which the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:42: trailing whitespace.
++      editorial revisions, annotations, elaborations, or other modifications
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:43: trailing whitespace.
++      represent, as a whole, an original work of authorship. For the purposes
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:44: trailing whitespace.
++      of this License, Derivative Works shall not include works that remain
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:45: trailing whitespace.
++      separable from, or merely link (or bind by name) to the interfaces of,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:46: trailing whitespace.
++      the Work and Derivative Works thereof.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:47: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:48: trailing whitespace.
++      "Contribution" shall mean any work of authorship, including
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:49: trailing whitespace.
++      the original version of the Work and any modifications or additions
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:50: trailing whitespace.
++      to that Work or Derivative Works thereof, that is intentionally
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:51: trailing whitespace.
++      submitted to Licensor for inclusion in the Work by the copyright owner
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:52: trailing whitespace.
++      or by an individual or Legal Entity authorized to submit on behalf of
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:53: trailing whitespace.
++      the copyright owner. For the purposes of this definition, "submitted"
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:54: trailing whitespace.
++      means any form of electronic, verbal, or written communication sent
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:55: trailing whitespace.
++      to the Licensor or its representatives, including but not limited to
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:56: trailing whitespace.
++      communication on electronic mailing lists, source code control systems,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:57: trailing whitespace.
++      and issue tracking systems that are managed by, or on behalf of, the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:58: trailing whitespace.
++      Licensor for the purpose of discussing and improving the Work, but
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:59: trailing whitespace.
++      excluding communication that is conspicuously marked or otherwise
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:60: trailing whitespace.
++      designated in writing by the copyright owner as "Not a Contribution."
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:61: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:62: trailing whitespace.
++      "Contributor" shall mean Licensor and any individual or Legal Entity
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:63: trailing whitespace.
++      on behalf of whom a Contribution has been received by Licensor and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:64: trailing whitespace.
++      subsequently incorporated within the Work.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:65: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:66: trailing whitespace.
++   2. Grant of Copyright License. Subject to the terms and conditions of
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:67: trailing whitespace.
++      this License, each Contributor hereby grants to You a perpetual,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:68: trailing whitespace.
++      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:69: trailing whitespace.
++      copyright license to reproduce, prepare Derivative Works of,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:70: trailing whitespace.
++      publicly display, publicly perform, sublicense, and distribute the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:71: trailing whitespace.
++      Work and such Derivative Works in Source or Object form.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:72: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:73: trailing whitespace.
++   3. Grant of Patent License. Subject to the terms and conditions of
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:74: trailing whitespace.
++      this License, each Contributor hereby grants to You a perpetual,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:75: trailing whitespace.
++      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:76: trailing whitespace.
++      (except as stated in this section) patent license to make, have made,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:77: trailing whitespace.
++      use, offer to sell, sell, import, and otherwise transfer the Work,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:78: trailing whitespace.
++      where such license applies only to those patent claims licensable
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:79: trailing whitespace.
++      by such Contributor that are necessarily infringed by their
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:80: trailing whitespace.
++      Contribution(s) alone or by combination of their Contribution(s)
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:81: trailing whitespace.
++      with the Work to which such Contribution(s) was submitted. If You
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:82: trailing whitespace.
++      institute patent litigation against any entity (including a
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:83: trailing whitespace.
++      cross-claim or counterclaim in a lawsuit) alleging that the Work
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:84: trailing whitespace.
++      or a Contribution incorporated within the Work constitutes direct
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:85: trailing whitespace.
++      or contributory patent infringement, then any patent licenses
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:86: trailing whitespace.
++      granted to You under this License for that Work shall terminate
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:87: trailing whitespace.
++      as of the date such litigation is filed.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:88: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:89: trailing whitespace.
++   4. Redistribution. You may reproduce and distribute copies of the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:90: trailing whitespace.
++      Work or Derivative Works thereof in any medium, with or without
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:91: trailing whitespace.
++      modifications, and in Source or Object form, provided that You
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:92: trailing whitespace.
++      meet the following conditions:
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:93: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:94: trailing whitespace.
++      (a) You must give any other recipients of the Work or
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:95: trailing whitespace.
++          Derivative Works a copy of this License; and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:96: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:97: trailing whitespace.
++      (b) You must cause any modified files to carry prominent notices
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:98: trailing whitespace.
++          stating that You changed the files; and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:99: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:100: trailing whitespace.
++      (c) You must retain, in the Source form of any Derivative Works
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:101: trailing whitespace.
++          that You distribute, all copyright, patent, trademark, and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:102: trailing whitespace.
++          attribution notices from the Source form of the Work,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:103: trailing whitespace.
++          excluding those notices that do not pertain to any part of
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:104: trailing whitespace.
++          the Derivative Works; and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:105: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:106: trailing whitespace.
++      (d) If the Work includes a "NOTICE" text file as part of its
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:107: trailing whitespace.
++          distribution, then any Derivative Works that You distribute must
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:108: trailing whitespace.
++          include a readable copy of the attribution notices contained
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:109: trailing whitespace.
++          within such NOTICE file, excluding those notices that do not
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:110: trailing whitespace.
++          pertain to any part of the Derivative Works, in at least one
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:111: trailing whitespace.
++          of the following places: within a NOTICE text file distributed
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:112: trailing whitespace.
++          as part of the Derivative Works; within the Source form or
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:113: trailing whitespace.
++          documentation, if provided along with the Derivative Works; or,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:114: trailing whitespace.
++          within a display generated by the Derivative Works, if and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:115: trailing whitespace.
++          wherever such third-party notices normally appear. The contents
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:116: trailing whitespace.
++          of the NOTICE file are for informational purposes only and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:117: trailing whitespace.
++          do not modify the License. You may add Your own attribution
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:118: trailing whitespace.
++          notices within Derivative Works that You distribute, alongside
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:119: trailing whitespace.
++          or as an addendum to the NOTICE text from the Work, provided
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:120: trailing whitespace.
++          that such additional attribution notices cannot be construed
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:121: trailing whitespace.
++          as modifying the License.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:122: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:123: trailing whitespace.
++      You may add Your own copyright statement to Your modifications and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:124: trailing whitespace.
++      may provide additional or different license terms and conditions
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:125: trailing whitespace.
++      for use, reproduction, or distribution of Your modifications, or
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:126: trailing whitespace.
++      for any such Derivative Works as a whole, provided Your use,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:127: trailing whitespace.
++      reproduction, and distribution of the Work otherwise complies with
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:128: trailing whitespace.
++      the conditions stated in this License.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:129: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:130: trailing whitespace.
++   5. Submission of Contributions. Unless You explicitly state otherwise,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:131: trailing whitespace.
++      any Contribution intentionally submitted for inclusion in the Work
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:132: trailing whitespace.
++      by You to the Licensor shall be under the terms and conditions of
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:133: trailing whitespace.
++      this License, without any additional terms or conditions.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:134: trailing whitespace.
++      Notwithstanding the above, nothing herein shall supersede or modify
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:135: trailing whitespace.
++      the terms of any separate license agreement you may have executed
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:136: trailing whitespace.
++      with Licensor regarding such Contributions.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:137: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:138: trailing whitespace.
++   6. Trademarks. This License does not grant permission to use the trade
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:139: trailing whitespace.
++      names, trademarks, service marks, or product names of the Licensor,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:140: trailing whitespace.
++      except as required for reasonable and customary use in describing the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:141: trailing whitespace.
++      origin of the Work and reproducing the content of the NOTICE file.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:142: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:143: trailing whitespace.
++   7. Disclaimer of Warranty. Unless required by applicable law or
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:144: trailing whitespace.
++      agreed to in writing, Licensor provides the Work (and each
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:145: trailing whitespace.
++      Contributor provides its Contributions) on an "AS IS" BASIS,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:146: trailing whitespace.
++      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:147: trailing whitespace.
++      implied, including, without limitation, any warranties or conditions
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:148: trailing whitespace.
++      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:149: trailing whitespace.
++      PARTICULAR PURPOSE. You are solely responsible for determining the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:150: trailing whitespace.
++      appropriateness of using or redistributing the Work and assume any
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:151: trailing whitespace.
++      risks associated with Your exercise of permissions under this License.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:152: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:153: trailing whitespace.
++   8. Limitation of Liability. In no event and under no legal theory,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:154: trailing whitespace.
++      whether in tort (including negligence), contract, or otherwise,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:155: trailing whitespace.
++      unless required by applicable law (such as deliberate and grossly
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:156: trailing whitespace.
++      negligent acts) or agreed to in writing, shall any Contributor be
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:157: trailing whitespace.
++      liable to You for damages, including any direct, indirect, special,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:158: trailing whitespace.
++      incidental, or consequential damages of any character arising as a
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:159: trailing whitespace.
++      result of this License or out of the use or inability to use the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:160: trailing whitespace.
++      Work (including but not limited to damages for loss of goodwill,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:161: trailing whitespace.
++      work stoppage, computer failure or malfunction, or any and all
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:162: trailing whitespace.
++      other commercial damages or losses), even if such Contributor
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:163: trailing whitespace.
++      has been advised of the possibility of such damages.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:164: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:165: trailing whitespace.
++   9. Accepting Warranty or Additional Liability. While redistributing
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:166: trailing whitespace.
++      the Work or Derivative Works thereof, You may choose to offer,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:167: trailing whitespace.
++      and charge a fee for, acceptance of support, warranty, indemnity,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:168: trailing whitespace.
++      or other liability obligations and/or rights consistent with this
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:169: trailing whitespace.
++      License. However, in accepting such obligations, You may act only
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:170: trailing whitespace.
++      on Your own behalf and on Your sole responsibility, not on behalf
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:171: trailing whitespace.
++      of any other Contributor, and only if You agree to indemnify,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:172: trailing whitespace.
++      defend, and hold each Contributor harmless for any liability
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:173: trailing whitespace.
++      incurred by, or claims asserted against, such Contributor by reason
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:174: trailing whitespace.
++      of your accepting any such warranty or additional liability.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:175: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:176: trailing whitespace.
++   END OF TERMS AND CONDITIONS
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:177: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:178: trailing whitespace.
++   APPENDIX: How to apply the Apache License to your work.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:179: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:180: trailing whitespace.
++      To apply the Apache License to your work, attach the following
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:181: trailing whitespace.
++      boilerplate notice, with the fields enclosed by brackets "[]"
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:182: trailing whitespace.
++      replaced with your own identifying information. (Don't include
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:183: trailing whitespace.
++      the brackets!)  The text should be enclosed in the appropriate
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:184: trailing whitespace.
++      comment syntax for the file format. We also recommend that a
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:185: trailing whitespace.
++      file or class name and description of purpose be included on the
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:186: trailing whitespace.
++      same "printed page" as the copyright notice for easier
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:187: trailing whitespace.
++      identification within third-party archives.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:188: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:189: trailing whitespace.
++   Portions Copyright (c) Microsoft Corporation.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:190: trailing whitespace.
++   Portions Copyright 2017 Google Inc.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:191: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:192: trailing whitespace.
++   Licensed under the Apache License, Version 2.0 (the "License");
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:193: trailing whitespace.
++   you may not use this file except in compliance with the License.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:194: trailing whitespace.
++   You may obtain a copy of the License at
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:195: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:196: trailing whitespace.
++       http://www.apache.org/licenses/LICENSE-2.0
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:197: trailing whitespace.
++
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:198: trailing whitespace.
++   Unless required by applicable law or agreed to in writing, software
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:199: trailing whitespace.
++   distributed under the License is distributed on an "AS IS" BASIS,
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:200: trailing whitespace.
++   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:201: trailing whitespace.
++   See the License for the specific language governing permissions and
+licenses/agent-bridge/playwright-core-1.62.1/LICENSE:202: trailing whitespace.
++   limitations under the License.
+server/verification/activation-0.8.0/final-binary-go-metadata.log:3: trailing whitespace.
++	mod	openremote/controlplane	(devel)	
+server/verification/activation-0.8.0/final-binary-program-headers.log:23: trailing whitespace.
++   00     
+server/verification/activation-0.8.0/final-binary-program-headers.log:24: trailing whitespace.
++   01     .note.go.buildid 
+server/verification/activation-0.8.0/final-binary-program-headers.log:25: trailing whitespace.
++   02     .note.go.buildid .note.gnu.build-id .text 
+server/verification/activation-0.8.0/final-binary-program-headers.log:26: trailing whitespace.
++   03     .rodata .gopclntab .go.type .go.func 
+server/verification/activation-0.8.0/final-binary-program-headers.log:27: trailing whitespace.
++   04     .go.buildinfo .go.fipsinfo .go.module .noptrdata .data .bss .noptrbss 

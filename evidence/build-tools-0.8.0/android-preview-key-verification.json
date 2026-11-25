@@ -1,0 +1,8 @@
+{
+  "certificateSha256": "24c0441ceca6f73ea0e6de8a0958be6229cfcf2518328e8f7f9b71d98b980b28",
+  "matchedPreviousPreview": true,
+  "keyPermissions": "0o600",
+  "alias": "AndroidDebugKey",
+  "generatedNewKey": false,
+  "source": "User retained preview key materialized by parent agent"
+}

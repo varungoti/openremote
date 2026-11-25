@@ -1,0 +1,97 @@
+{
+  "version": "0.7.0",
+  "versionCode": 7,
+  "status": "build-verified unconfigured development preview; native Android and Internet sessions untested",
+  "baseGitCommit": "865e0a69de9a8e0df3957db33713fac08b783991",
+  "sourceManifestSha256": "95c326714e615113327a1d220c454ba3ed564fe32326a8f77492e9bda216107f",
+  "sourceInputs": 52,
+  "allInputsUnchangedDuringBuild": true,
+  "buildExitCode": 0,
+  "buildElapsedSeconds": 210.065,
+  "tests": {
+    "tests": 83,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "testSuites": 13,
+  "lint": {
+    "errors": 0,
+    "warnings": 3
+  },
+  "previewPackage": "com.openremote.mobile.dev",
+  "previewLabel": "OpenRemote Preview",
+  "releasePackage": "com.openremote.mobile",
+  "serviceProfileConfigured": false,
+  "unconfiguredPreviewBuildException": true,
+  "releaseSigning": false,
+  "debugCertificate": {
+    "sha256": "24c0441ceca6f73ea0e6de8a0958be6229cfcf2518328e8f7f9b71d98b980b28",
+    "alias": "AndroidDebugKey",
+    "validFromUtc": "2026-11-19T08:42:16Z",
+    "validUntilUtc": "2056-11-11T08:42:16Z",
+    "production": false,
+    "reusesRetained06PreviewKey": true
+  },
+  "artifacts": [
+    {
+      "path": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "sha256": "9a844518ede8e646c2ac15fd4379ca613532ea4948ac2161909463da77cdf0b9",
+      "bytes": 24417783
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-armeabi-v7a-debug.apk",
+      "sha256": "38a0318da48ce6c38659fb88d6e4b06a0975d7694576f9e71c159aa329044823",
+      "bytes": 18943559
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-x86-debug.apk",
+      "sha256": "b1c8b49f8ee0f52ae57542b5d86cdd14003bfd72f1d4a6032baa35a562f40b62",
+      "bytes": 24950067
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-x86_64-debug.apk",
+      "sha256": "3216510ed866b4f29048139f700dc9fbbea9e304c46e22dcc34d69729d2fddce",
+      "bytes": 28296577
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+      "sha256": "fb4456c82f744b52abec0eac0a865965b54073d0da1980e823825e4306e64fad",
+      "bytes": 13780402
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk",
+      "sha256": "b5aa505931d785266f3673e02fda086b3862acf5f384fd199eda4596a8bd1c1a",
+      "bytes": 8306178
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-x86-release-unsigned.apk",
+      "sha256": "058eae438dafb0d40656514d15781fdd98e819c368579515cc15427343ecaa0c",
+      "bytes": 14312686
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-x86_64-release-unsigned.apk",
+      "sha256": "fc2dc28e70414f5aca8fd1bb3f861a7cc0f75ff44d2c99b70cfce5264167cce3",
+      "bytes": 17659196
+    }
+  ],
+  "executed": [
+    "83 JVM tests across 13 suites",
+    "Debug + minified unsigned preview release builds for four ABIs",
+    "Debug lint",
+    "Default empty-profile release rejection",
+    "Signing-injection rejection for empty-profile preview exception",
+    "All four debug APK signatures and all four unsigned release checks",
+    "All eight APK ZIP 16KiB alignment checks",
+    "ARM64 and x86_64 ELF PT_LOAD 16KiB alignment and offset/address congruence",
+    "All compiled APK package/version/label and ARM64 launcher-only manifest inspection"
+  ],
+  "notExecuted": [
+    "Physical Android installation or 0.6 in-place update",
+    "Android Activity/Compose and Keystore on a device or emulator",
+    "Windows-to-Android video/input",
+    "Real Internet, carrier NAT or TURN relay session",
+    "Production signing or store publication"
+  ],
+  "evidence": "android/verification/one-button-0.7.0"
+}

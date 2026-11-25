@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.PairingTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-19T08:42:55.368Z" hostname="f87c0b69ff3f" time="4.681">
+  <properties/>
+  <testcase name="pairingErrorsProvideRecoveryWithoutSecrets" classname="com.openremote.mobile.PairingTest" time="0.023"/>
+  <testcase name="pairingBindingAndPermissionCeilingSurviveSessionPolls" classname="com.openremote.mobile.PairingTest" time="0.151"/>
+  <testcase name="profileRejectsCredentialsUnknownFieldsDuplicateKeysAndAmbiguousOrigins" classname="com.openremote.mobile.PairingTest" time="0.042"/>
+  <testcase name="invalidInputDoesNotContactCoordinator" classname="com.openremote.mobile.PairingTest" time="0.022"/>
+  <testcase name="cancelledInFlightRedemptionEndsKnownLateSession" classname="com.openremote.mobile.PairingTest" time="1.356"/>
+  <testcase name="unsafeGrantIsRejectedAndKnownSessionIsEnded" classname="com.openremote.mobile.PairingTest" time="2.296"/>
+  <testcase name="codeAndPinReachOnlyAuthenticatedJsonBodyAfterCapabilityCheck" classname="com.openremote.mobile.PairingTest" time="0.214"/>
+  <testcase name="unsupportedCoordinatorStopsBeforePhoneProofOrPinDisclosure" classname="com.openremote.mobile.PairingTest" time="0.036"/>
+  <testcase name="preservesLeadingZeroesAndRejectsAmbiguousCredentials" classname="com.openremote.mobile.PairingTest" time="0.006"/>
+  <testcase name="actualBuildProfileDecodesThroughTheProductionStartupParser" classname="com.openremote.mobile.PairingTest" time="0.001"/>
+  <testcase name="singleUsePostIsNeverReplayedOnRetryableResponse" classname="com.openremote.mobile.PairingTest" time="0.526"/>
+  <testcase name="configuredProfileSuppliesOnlyMissingOriginAndCannotMigrateExistingIdentity" classname="com.openremote.mobile.PairingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,5 @@
+panic: failed to create network: route ip+net: netlinkrib: operation not permitted
+
+goroutine 1 [running]:
+main.main()
+	/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/relay/main.go:62 +0x852

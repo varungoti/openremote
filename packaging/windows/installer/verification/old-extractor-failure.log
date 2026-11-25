@@ -1,0 +1,23 @@
+
+7-Zip 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+ 64-bit locale=C.UTF-8 Threads:9 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 3218075 bytes (3143 KiB)
+
+Extracting archive: artifacts/installer-syntax-check/SYNTAX-ONLY-DO-NOT-SHARE.exe
+--
+Path = artifacts/installer-syntax-check/SYNTAX-ONLY-DO-NOT-SHARE.exe
+Type = Nsis
+Physical Size = 3218075
+Method = LZMA:23
+Solid = +
+Headers Size = 47074
+Embedded Stub Size = 118272
+SubType = NSIS-3 Unicode BadCmd=13
+
+Everything is Ok
+
+Files: 7
+Size:       12662710
+Compressed: 3218075

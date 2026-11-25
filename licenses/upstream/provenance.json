@@ -1,0 +1,132 @@
+[
+  {
+    "file": "licenses/upstream/webrtc-sdk-android-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/android/v150.7871.04/LICENSE",
+    "resolved_url": "https://raw.githubusercontent.com/webrtc-sdk/android/v150.7871.04/LICENSE",
+    "status": 200,
+    "sha256": "e6b282fe6c0fb353928923470457f31b44cbab203effd60c0cde4a5bb96c8aec",
+    "bytes": 1068,
+    "checked_at": "2026-11-18",
+    "version_binding": "exact Android release tag"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-android-release.json",
+    "url": "https://api.github.com/repos/webrtc-sdk/android/releases/tags/v150.7871.04",
+    "resolved_url": "https://api.github.com/repos/webrtc-sdk/android/releases/tags/v150.7871.04",
+    "status": 200,
+    "sha256": "056b03176ce8998b1f1754a004971e713c7929933b8acd4b75a1acc23c3e9717",
+    "bytes": 7430,
+    "checked_at": "2026-11-18",
+    "version_binding": "exact Android release tag"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-webrtc-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/m150_release/LICENSE",
+    "resolved_url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/m150_release/LICENSE",
+    "status": 200,
+    "sha256": "ab00a482b6a3902e40211b43c5d0441962ea99b6cc7c25c0f243fa270b78d482",
+    "bytes": 1511,
+    "checked_at": "2026-11-18",
+    "version_binding": "m150_release branch; exact native AAR source mapping not yet verified"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-webrtc-PATENTS.txt",
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/m150_release/PATENTS",
+    "resolved_url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/m150_release/PATENTS",
+    "status": 200,
+    "sha256": "01462e2068d1a04c2274f3389773014c14ed9bc3446b28303543bd3e3c064145",
+    "bytes": 1388,
+    "checked_at": "2026-11-18",
+    "version_binding": "m150_release branch; exact native AAR source mapping not yet verified"
+  },
+  {
+    "file": null,
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/m150_release/LICENSE_THIRD_PARTY",
+    "error": "HTTP Error 404: Not Found",
+    "checked_at": "2026-11-18"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-webrtc-README.md",
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/m150_release/README.md",
+    "resolved_url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/m150_release/README.md",
+    "status": 200,
+    "sha256": "801a938333bffa93d821ec60038251f1bf3c21deaea228f4c2c031758481df43",
+    "bytes": 2196,
+    "checked_at": "2026-11-18",
+    "version_binding": "m150_release branch; exact native AAR source mapping not yet verified"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-source-commit.json",
+    "url": "https://api.github.com/repos/webrtc-sdk/webrtc/commits/m150_release",
+    "resolved_url": "https://api.github.com/repos/webrtc-sdk/webrtc/commits/m150_release",
+    "status": 200,
+    "sha256": "5106b5a676fc7324ae4b702580bfa9cabd9a2408374da7b807d8778ccdfd6980",
+    "bytes": 81903,
+    "checked_at": "2026-11-18"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-webrtc-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/4de68c8241d1c04d866aa1efd64f0be71317ad79/LICENSE",
+    "resolved_url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/4de68c8241d1c04d866aa1efd64f0be71317ad79/LICENSE",
+    "status": 200,
+    "sha256": "ab00a482b6a3902e40211b43c5d0441962ea99b6cc7c25c0f243fa270b78d482",
+    "bytes": 1511,
+    "checked_at": "2026-11-18",
+    "source_commit": "4de68c8241d1c04d866aa1efd64f0be71317ad79",
+    "version_binding": "pinned reference branch commit; not proven exact source of AAR150.7871.04"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-webrtc-PATENTS.txt",
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/4de68c8241d1c04d866aa1efd64f0be71317ad79/PATENTS",
+    "resolved_url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/4de68c8241d1c04d866aa1efd64f0be71317ad79/PATENTS",
+    "status": 200,
+    "sha256": "01462e2068d1a04c2274f3389773014c14ed9bc3446b28303543bd3e3c064145",
+    "bytes": 1388,
+    "checked_at": "2026-11-18",
+    "source_commit": "4de68c8241d1c04d866aa1efd64f0be71317ad79",
+    "version_binding": "pinned reference branch commit; not proven exact source of AAR150.7871.04"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-webrtc-README.md",
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/4de68c8241d1c04d866aa1efd64f0be71317ad79/README.md",
+    "resolved_url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/4de68c8241d1c04d866aa1efd64f0be71317ad79/README.md",
+    "status": 200,
+    "sha256": "801a938333bffa93d821ec60038251f1bf3c21deaea228f4c2c031758481df43",
+    "bytes": 2196,
+    "checked_at": "2026-11-18",
+    "source_commit": "4de68c8241d1c04d866aa1efd64f0be71317ad79",
+    "version_binding": "pinned reference branch commit; not proven exact source of AAR150.7871.04"
+  },
+  {
+    "file": "licenses/upstream/google-webrtc-LICENSE.txt",
+    "url": "https://webrtc.googlesource.com/src/+/refs/heads/main/LICENSE?format=TEXT",
+    "resolved_url": "https://webrtc.googlesource.com/src/+/refs/heads/main/LICENSE?format=TEXT",
+    "status": 200,
+    "sha256": "ab00a482b6a3902e40211b43c5d0441962ea99b6cc7c25c0f243fa270b78d482",
+    "bytes": 1511,
+    "checked_at": "2026-11-18",
+    "encoding": "Gitiles base64 decoded",
+    "version_binding": "official current upstream reference; not proven exact source of AAR150.7871.04"
+  },
+  {
+    "file": "licenses/upstream/google-webrtc-PATENTS.txt",
+    "url": "https://webrtc.googlesource.com/src/+/refs/heads/main/PATENTS?format=TEXT",
+    "resolved_url": "https://webrtc.googlesource.com/src/+/refs/heads/main/PATENTS?format=TEXT",
+    "status": 200,
+    "sha256": "01462e2068d1a04c2274f3389773014c14ed9bc3446b28303543bd3e3c064145",
+    "bytes": 1388,
+    "checked_at": "2026-11-18",
+    "encoding": "Gitiles base64 decoded",
+    "version_binding": "official current upstream reference; not proven exact source of AAR150.7871.04"
+  },
+  {
+    "file": "licenses/upstream/webrtc-sdk-webrtc-NOTICE.txt",
+    "url": "https://raw.githubusercontent.com/webrtc-sdk/webrtc/4de68c8241d1c04d866aa1efd64f0be71317ad79/NOTICE",
+    "status": 200,
+    "sha256": "e00ec4edd5966821115deb6c73e0e158524b310250fbda3a50e8d542b2a501c2",
+    "bytes": 1216,
+    "checked_at": "2026-11-18",
+    "source_commit": "4de68c8241d1c04d866aa1efd64f0be71317ad79",
+    "version_binding": "pinned fork reference; not proven exact source of native AAR"
+  }
+]

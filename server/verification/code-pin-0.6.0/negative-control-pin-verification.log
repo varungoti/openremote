@@ -1,0 +1,5 @@
+--- FAIL: TestPairingFiveWrongPINsLockCodeForEveryController (0.50s)
+    pairing_test.go:201: status=201 want=403 body={"controllerToken":"GN1FiaOLxoj6YpjAGPRVTFFN-UtB9nC9UlXTxufgcRc","session":{"id":"eGvdhiwoPNicSW6c7ykmnrJe","hostDeviceId":"0tC_CqjiFIJyzFvh1E8MLELd","hostDisplayId":"624826172","hostPublicKey":"9RtNClaiqJe/FVDvtK6yAsnZiUOk7kGn+SpeAPmqaEg=","hostName":"Test PC","pairingId":"fBt0P1Rq-cB9uLKniegMDi7cs03kL0JO","controllerName":"Test phone","controllerPublicKey":"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/8llQsR/YL3BVwiOcDTlKS+r7xS6oifKpK7j9J9yvuYsInWOg/eJj6wB8mLrSYpnRd28p8ukFmUueQOCzjXvPw==","status":"pending","permissions":{"viewScreen":true,"controlInput":true,"clipboard":false,"fileTransfer":false,"audio":false,"power":false},"createdAt":"2026-11-19T08:23:18.63718241Z","expiresAt":"2026-11-19T08:24:48.63718241Z"}}
+FAIL
+FAIL	openremote/controlplane/internal/app	0.515s
+FAIL

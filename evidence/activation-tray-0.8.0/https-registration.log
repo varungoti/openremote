@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "checks": [
+    "Verified HTTPS discovery advertises automatic registration without exposing the administrator secret",
+    "Copied public key cannot register a host; failed signatures consume the challenge",
+    "Origin-bound Ed25519 proof registers a host without an enrollment secret and rejects replay",
+    "Automatically registered host issues a Server ID; six-digit PIN redemption reaches owner approval and ICE configuration",
+    "Fresh identity proof recovers the same host, rotates its bearer and ends the prior session",
+    "Identity recovery invalidates unused connection invitations",
+    "Host identity survives real process restart; only the administrator can revoke it and proof cannot undo revocation",
+    "Revocation survives a second process restart; durable state contains no raw bearer, PIN or proof"
+  ],
+  "finishedAtUtc": "2026-11-20T10:49:00.159846+00:00",
+  "binary": {
+    "sha256": "331d5a570e25a8b92eca7cc8108167df0c2e9845027689d449d09bb7b651f71d",
+    "sizeBytes": 7479456
+  },
+  "transport": "HTTPS using a verified ephemeral test CA",
+  "scope": "Actual isolated coordinator process and independent Python Ed25519/P-256 clients. No native application, desktop pixels, remote input or public relay."
+}

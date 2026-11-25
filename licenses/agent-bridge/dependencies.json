@@ -1,0 +1,172 @@
+{
+  "recordedAt": "2026-11-20T10:51:27.817644+00:00",
+  "baseRevision": "55d0dd83697c51df017ee2b1c790c8cab78c9808",
+  "sourceScope": "Exact uncommitted bridge input hashes in the referenced verification manifest are authoritative; base revision is contextual.",
+  "bridgeVerification": "agent-bridge/verification/final-verification.json",
+  "bridgeSourceInputs": {
+    "package.json": "d099f6216e375b7e05241e7d44dfced4497c302cec1631301f3970735459af94",
+    "package-lock.json": "d4a5bcacd3e204d82b2534248fd2130aa35c4d70065f864d999b23988b390108",
+    "README.md": "c1c9189fe4785993d53df40e212c5786c9a87e759f1a71f900f7e6eda29fe34a",
+    "src/bridge.mjs": "da84982b1049bb67cbee21c36affa661591c4e4be07daadbaa7395a8e690b6e8",
+    "src/browser.mjs": "89769473391b90d4a1ff51ea540ff66e0148e29d5e118cc16aca867e32aba932",
+    "src/errors.mjs": "e4e20abd8a4a5df50bf5cbb2fbf468eae54fd6be6c3025d304fad0e51e489247",
+    "src/index.mjs": "9e890e154ac89810dfab4ece746ae7a4d4858ba7baea26538624870bda05594e",
+    "src/profile.mjs": "45feee9bcced0a7c95843746c6818ad838feaafbe8e4a4cae346767268a02a6a",
+    "src/server.mjs": "89f41a5e7ffee78fce47b76e13e5812d0c8090bc4f4f38068e91d48febf08b21",
+    "test/bridge.test.mjs": "c8c76cea023fa92960b7c326a13b1339c4aa479ba6244cb52a1b8835b5912285",
+    "test/stdio.test.mjs": "6c0abc03eb2493dd2a340636a6c7856fec6ba0cdc893d648d2cd16ff73c0cc9f"
+  },
+  "packageLockPath": "agent-bridge/package-lock.json",
+  "packageLockSha256": "d4a5bcacd3e204d82b2534248fd2130aa35c4d70065f864d999b23988b390108",
+  "packages": [
+    {
+      "name": "@modelcontextprotocol/core",
+      "lockedVersion": "2.4.0",
+      "licenseMetadata": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@modelcontextprotocol/core/-/core-2.4.0.tgz",
+      "integrity": "sha512-z8QBKqdfXLPzkLQuG4xp8hrVEMm1PZ1IgxMN2sMbJiFiAKOWXnAzogXn2W4aqIBlP1ea6U5yiqVquvUNM1Cj6Q==",
+      "optional": false,
+      "platforms": null,
+      "installed": true,
+      "noticeCopies": [
+        {
+          "sourcePath": "agent-bridge/node_modules/@modelcontextprotocol/core/LICENSE",
+          "copiedPath": "licenses/agent-bridge/modelcontextprotocol-core-2.4.0/LICENSE",
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+          "bytes": 12227
+        }
+      ],
+      "installedVersion": "2.4.0",
+      "installedLicenseMetadata": "Apache-2.0",
+      "packageManifestSha256": "b98e66c50eae2a8bf234d929cd6114e091fd5027be201a4ad9057628efa449a9"
+    },
+    {
+      "name": "@modelcontextprotocol/server",
+      "lockedVersion": "2.4.0",
+      "licenseMetadata": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@modelcontextprotocol/server/-/server-2.4.0.tgz",
+      "integrity": "sha512-rgR9yxSaAJ+bcsi/XroT/S2AfPiIWloXAnrdfYSCms9ivVju0ishu/wW0J21Ho6+ZOR1r7RyeRbjiRuF87ix5Q==",
+      "optional": false,
+      "platforms": null,
+      "installed": true,
+      "noticeCopies": [
+        {
+          "sourcePath": "agent-bridge/node_modules/@modelcontextprotocol/server/LICENSE",
+          "copiedPath": "licenses/agent-bridge/modelcontextprotocol-server-2.4.0/LICENSE",
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+          "bytes": 12227
+        }
+      ],
+      "installedVersion": "2.4.0",
+      "installedLicenseMetadata": "Apache-2.0",
+      "packageManifestSha256": "c82767fbf0247c56e39a2b757245d56109a538a12ea0b6162fd65a1d3c0a3c52"
+    },
+    {
+      "name": "fsevents",
+      "lockedVersion": "2.3.2",
+      "licenseMetadata": "MIT",
+      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz",
+      "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+      "optional": true,
+      "platforms": [
+        "darwin"
+      ],
+      "installed": false,
+      "noticeCopies": [],
+      "absence": "Optional Darwin-only dependency was not installed on Linux; metadata is from the exact lock entry, and no original notice file was available to copy."
+    },
+    {
+      "name": "playwright",
+      "lockedVersion": "1.62.1",
+      "licenseMetadata": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/playwright/-/playwright-1.62.1.tgz",
+      "integrity": "sha512-0M+L3LAD8/nm554LOla9Ayx0j0tmFZ0FBcoQ7F1VuVHpM/XpiC8RcDzBQB8W5+hA8L22THxELzeF+2WcUzvcLg==",
+      "optional": false,
+      "platforms": null,
+      "installed": true,
+      "noticeCopies": [
+        {
+          "sourcePath": "agent-bridge/node_modules/playwright/LICENSE",
+          "copiedPath": "licenses/agent-bridge/playwright-1.62.1/LICENSE",
+          "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+          "bytes": 11601
+        },
+        {
+          "sourcePath": "agent-bridge/node_modules/playwright/NOTICE",
+          "copiedPath": "licenses/agent-bridge/playwright-1.62.1/NOTICE",
+          "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+          "bytes": 254
+        },
+        {
+          "sourcePath": "agent-bridge/node_modules/playwright/ThirdPartyNotices.txt",
+          "copiedPath": "licenses/agent-bridge/playwright-1.62.1/ThirdPartyNotices.txt",
+          "sha256": "b17ac0bd6f4b8207e440639cc8e0ba1bf1d9eaf9b12236764ab93b346c7abd8e",
+          "bytes": 705
+        }
+      ],
+      "installedVersion": "1.62.1",
+      "installedLicenseMetadata": "Apache-2.0",
+      "packageManifestSha256": "ca170ec143a88ed3043ac953eb3b2377b2b97304104f4e1e23316684ce2c35af"
+    },
+    {
+      "name": "playwright-core",
+      "lockedVersion": "1.62.1",
+      "licenseMetadata": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.62.1.tgz",
+      "integrity": "sha512-wPYSwEBJY9GHraISXqyqtx0na0LpO3XEX7jNDhntbex7tzUS7kLnZsOlFruFJB4Hi/rhDMjXGqHewDZ68nYZVw==",
+      "optional": false,
+      "platforms": null,
+      "installed": true,
+      "noticeCopies": [
+        {
+          "sourcePath": "agent-bridge/node_modules/playwright-core/LICENSE",
+          "copiedPath": "licenses/agent-bridge/playwright-core-1.62.1/LICENSE",
+          "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+          "bytes": 11601
+        },
+        {
+          "sourcePath": "agent-bridge/node_modules/playwright-core/NOTICE",
+          "copiedPath": "licenses/agent-bridge/playwright-core-1.62.1/NOTICE",
+          "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+          "bytes": 254
+        },
+        {
+          "sourcePath": "agent-bridge/node_modules/playwright-core/ThirdPartyNotices.txt",
+          "copiedPath": "licenses/agent-bridge/playwright-core-1.62.1/ThirdPartyNotices.txt",
+          "sha256": "a549d329bad8806fe279f0ecae0fc0270dec7e7c2dc8ec10f90e394f7c32b144",
+          "bytes": 676
+        }
+      ],
+      "installedVersion": "1.62.1",
+      "installedLicenseMetadata": "Apache-2.0",
+      "packageManifestSha256": "07c47543631fef9508760365dee9fbe958c562093ec8d122543949ed231f233f"
+    },
+    {
+      "name": "zod",
+      "lockedVersion": "4.6.7",
+      "licenseMetadata": "MIT",
+      "resolved": "https://registry.npmjs.org/zod/-/zod-4.6.7.tgz",
+      "integrity": "sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==",
+      "optional": false,
+      "platforms": null,
+      "installed": true,
+      "noticeCopies": [
+        {
+          "sourcePath": "agent-bridge/node_modules/zod/LICENSE",
+          "copiedPath": "licenses/agent-bridge/zod-4.6.7/LICENSE",
+          "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8",
+          "bytes": 1072
+        }
+      ],
+      "installedVersion": "4.6.7",
+      "installedLicenseMetadata": "MIT",
+      "packageManifestSha256": "c2d190d9ee4e0bdb60332aaa2130a6a98d65ddb903fe1d29248b15de57832c45"
+    }
+  ],
+  "limitations": [
+    "Package license identifiers are package metadata, not a legal determination.",
+    "Original available LICENSE/NOTICE/ThirdPartyNotices files were copied byte-for-byte from the installed pinned packages.",
+    "The optional Darwin fsevents package is locked but not installed; no original notice was available in this Linux installation.",
+    "These records do not establish the license/notices for any separately downloaded Chromium browser binary. This agent-bridge change does not package a browser binary."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+    "test",
+    "-race",
+    "-count=1",
+    "-run",
+    "^TestPairingUniqueActiveCodesAndLeadingZeros$",
+    "./internal/app"
+  ],
+  "exitCode": 0,
+  "durationSeconds": 41.526,
+  "sourceSHA256": "d6ff511f36e10ff8f8e594e13d595889c1dcf89a9e12e5bd41908c100724fdf5"
+}

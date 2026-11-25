@@ -1,0 +1,14 @@
+{
+  "scope": "Browser protocol module in Node WebCrypto against real Go coordinator HTTP; no browser/media/native desktop.",
+  "startedAt": "2026-11-19T08:47:08.699Z",
+  "cases": [
+    "real discovery and embedded browser assets",
+    "real browser P-256 challenge signature accepted by Go",
+    "incorrect PIN rejected without session",
+    "one-use redemption, identity-bound host event and host approval",
+    "consumed-code replay rejected; session ICE and stop work",
+    "host revocation prevents later redemption"
+  ],
+  "ok": true,
+  "finishedAt": "2026-11-19T08:47:09.982Z"
+}

@@ -1,0 +1,125 @@
+{
+  "hostVersion": "0.5.0",
+  "startedAtUtc": "2026-11-18T09:37:46.777870+00:00",
+  "sourceInputs": {
+    "Cargo.toml": "e9aa8dd1d9a4bc9a2a4a074c935a512095ae57a87ba4436605418d09faa7bd25",
+    "Cargo.lock": "49b23f8f24090ee9b3d2201b6246a228e38e626cbe7234fa4a3f1a36a2ef1f4a",
+    "src/api.rs": "f2c47c4dfa86d6ec09a17c9429d7c628e304912406c44925a2d3ca7ce4c81caa",
+    "src/config.rs": "13baa7450cc77332fcdfca54c1a8320b008c5b3192f77d87d6f9730b78a44579",
+    "src/displays.rs": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+    "src/host_home.rs": "400ba6c73759f7972b0bc290ef4f710183ef08f572d684089ab91cae8441eaba",
+    "src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+    "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+    "src/lib.rs": "e756e1520284c8face50fbcb14736e9b31fc143f3ad69ab1e6ca69271f0dccdc",
+    "src/main.rs": "e3fff00ca1e61b20d4564d808e40b9ef8179594bdc28fd6be27d346a6b21f3d4",
+    "src/media.rs": "dae8e76edeb07d43c7853dbbd3522af854a0df6fa1590e09748299127ba3028d",
+    "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+    "src/session.rs": "a5ff8c1d37fd0756d18baa78c111672488119fa3855cc091587c4dcd7e9e49b3",
+    "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+    "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+    "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+    "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+    "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96",
+    "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+    "examples/synthetic_peer.rs": "396104ffa5e9624cd363108a1fec7ca9aff5774710659c3c8ef691dba79b162e"
+  },
+  "checks": [
+    {
+      "name": "format",
+      "command": [
+        "cargo",
+        "fmt",
+        "--check"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 0.174,
+      "log": "verification/format.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--offline",
+        "--all-targets"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 1.361,
+      "log": "verification/tests.log"
+    },
+    {
+      "name": "clippy-linux",
+      "command": [
+        "cargo",
+        "clippy",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 2.705,
+      "log": "verification/clippy-linux.log"
+    },
+    {
+      "name": "clippy-windows",
+      "command": [
+        "cargo",
+        "clippy",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnullvm",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 0.346,
+      "log": "verification/clippy-windows.log"
+    },
+    {
+      "name": "build-windows",
+      "command": [
+        "cargo",
+        "build",
+        "--locked",
+        "--offline",
+        "--release",
+        "--target",
+        "x86_64-pc-windows-gnullvm"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 49.167,
+      "log": "verification/build-windows.log"
+    },
+    {
+      "name": "pe-headers",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/bin/llvm-readobj",
+        "--file-headers",
+        "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 0.009,
+      "log": "verification/pe-headers.log"
+    },
+    {
+      "name": "pe-imports",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/bin/llvm-readobj",
+        "--coff-imports",
+        "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 0.005,
+      "log": "verification/pe-imports.log"
+    }
+  ],
+  "finishedAtUtc": "2026-11-18T09:38:40.563659+00:00",
+  "sourceInputsUnchanged": true
+}

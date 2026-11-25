@@ -1,0 +1,218 @@
+[
+  {
+    "apk": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+    "library": "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+    "machine": 183,
+    "loadSegments": [
+      {
+        "offset": 0,
+        "vaddr": 0,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 7232,
+        "vaddr": 23616,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 8144,
+        "vaddr": 40912,
+        "alignment": 16384,
+        "congruent16KiB": true
+      }
+    ],
+    "passes16KiB": true
+  },
+  {
+    "apk": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+    "library": "lib/arm64-v8a/libjingle_peerconnection_so.so",
+    "sha256": "2b561520298d9fec3e216baf58a53fbddf4a46dfd247880cbc3821875ed20200",
+    "machine": 183,
+    "loadSegments": [
+      {
+        "offset": 0,
+        "vaddr": 0,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 12082848,
+        "vaddr": 12099232,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 12259872,
+        "vaddr": 12292640,
+        "alignment": 16384,
+        "congruent16KiB": true
+      }
+    ],
+    "passes16KiB": true
+  },
+  {
+    "apk": "android/app/build/outputs/apk/debug/app-x86_64-debug.apk",
+    "library": "lib/x86_64/libandroidx.graphics.path.so",
+    "sha256": "4e56c996f13670e70082658de7880c4020eabf4f25e43387f88ed78a713fc9f0",
+    "machine": 62,
+    "loadSegments": [
+      {
+        "offset": 0,
+        "vaddr": 0,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 7872,
+        "vaddr": 24256,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 8808,
+        "vaddr": 41576,
+        "alignment": 16384,
+        "congruent16KiB": true
+      }
+    ],
+    "passes16KiB": true
+  },
+  {
+    "apk": "android/app/build/outputs/apk/debug/app-x86_64-debug.apk",
+    "library": "lib/x86_64/libjingle_peerconnection_so.so",
+    "sha256": "b87bbb6d6c81c50f04538cd809575de633a789cc3555af2c5eb6ec414b148908",
+    "machine": 62,
+    "loadSegments": [
+      {
+        "offset": 0,
+        "vaddr": 0,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 15880224,
+        "vaddr": 15896608,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 16138672,
+        "vaddr": 16171440,
+        "alignment": 16384,
+        "congruent16KiB": true
+      }
+    ],
+    "passes16KiB": true
+  },
+  {
+    "apk": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+    "library": "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+    "machine": 183,
+    "loadSegments": [
+      {
+        "offset": 0,
+        "vaddr": 0,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 7232,
+        "vaddr": 23616,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 8144,
+        "vaddr": 40912,
+        "alignment": 16384,
+        "congruent16KiB": true
+      }
+    ],
+    "passes16KiB": true
+  },
+  {
+    "apk": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+    "library": "lib/arm64-v8a/libjingle_peerconnection_so.so",
+    "sha256": "2b561520298d9fec3e216baf58a53fbddf4a46dfd247880cbc3821875ed20200",
+    "machine": 183,
+    "loadSegments": [
+      {
+        "offset": 0,
+        "vaddr": 0,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 12082848,
+        "vaddr": 12099232,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 12259872,
+        "vaddr": 12292640,
+        "alignment": 16384,
+        "congruent16KiB": true
+      }
+    ],
+    "passes16KiB": true
+  },
+  {
+    "apk": "android/app/build/outputs/apk/release/app-x86_64-release-unsigned.apk",
+    "library": "lib/x86_64/libandroidx.graphics.path.so",
+    "sha256": "4e56c996f13670e70082658de7880c4020eabf4f25e43387f88ed78a713fc9f0",
+    "machine": 62,
+    "loadSegments": [
+      {
+        "offset": 0,
+        "vaddr": 0,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 7872,
+        "vaddr": 24256,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 8808,
+        "vaddr": 41576,
+        "alignment": 16384,
+        "congruent16KiB": true
+      }
+    ],
+    "passes16KiB": true
+  },
+  {
+    "apk": "android/app/build/outputs/apk/release/app-x86_64-release-unsigned.apk",
+    "library": "lib/x86_64/libjingle_peerconnection_so.so",
+    "sha256": "b87bbb6d6c81c50f04538cd809575de633a789cc3555af2c5eb6ec414b148908",
+    "machine": 62,
+    "loadSegments": [
+      {
+        "offset": 0,
+        "vaddr": 0,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 15880224,
+        "vaddr": 15896608,
+        "alignment": 16384,
+        "congruent16KiB": true
+      },
+      {
+        "offset": 16138672,
+        "vaddr": 16171440,
+        "alignment": 16384,
+        "congruent16KiB": true
+      }
+    ],
+    "passes16KiB": true
+  }
+]

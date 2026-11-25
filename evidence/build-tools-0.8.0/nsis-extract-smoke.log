@@ -1,0 +1,22 @@
+
+7-Zip (z) 26.06 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-11-06
+ 64-bit locale=C.UTF-8 Threads:9 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 101914 bytes (100 KiB)
+
+Extracting archive: /workspace/scratch/72f8c6db0182/toolchains/smoke/toolchain-smoke.exe
+--
+Path = /workspace/scratch/72f8c6db0182/toolchains/smoke/toolchain-smoke.exe
+Type = Nsis
+Physical Size = 101914
+Method = Deflate
+Solid = -
+Headers Size = 3702
+Embedded Stub Size = 100352
+SubType = NSIS-3 Unicode
+
+Everything is Ok
+
+Size:       100988
+Compressed: 101914

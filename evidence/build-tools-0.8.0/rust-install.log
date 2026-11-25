@@ -1,0 +1,36 @@
+install: creating uninstall script at /workspace/scratch/72f8c6db0182/toolchains/rust-1.100.0/lib/rustlib/uninstall.sh
+install: installing component 'rustc'
+
+    rustc installed.
+
+INSTALLED rustc-1.100.0-x86_64-unknown-linux-gnu.tar.xz
+install: creating uninstall script at /workspace/scratch/72f8c6db0182/toolchains/rust-1.100.0/lib/rustlib/uninstall.sh
+install: installing component 'cargo'
+
+    cargo installed.
+
+INSTALLED cargo-1.100.0-x86_64-unknown-linux-gnu.tar.xz
+install: creating uninstall script at /workspace/scratch/72f8c6db0182/toolchains/rust-1.100.0/lib/rustlib/uninstall.sh
+install: installing component 'rust-std-x86_64-unknown-linux-gnu'
+
+    rust std installed.
+
+INSTALLED rust-std-1.100.0-x86_64-unknown-linux-gnu.tar.xz
+install: creating uninstall script at /workspace/scratch/72f8c6db0182/toolchains/rust-1.100.0/lib/rustlib/uninstall.sh
+install: installing component 'rustfmt-preview'
+
+    rustfmt installed.
+
+INSTALLED rustfmt-1.100.0-x86_64-unknown-linux-gnu.tar.xz
+install: creating uninstall script at /workspace/scratch/72f8c6db0182/toolchains/rust-1.100.0/lib/rustlib/uninstall.sh
+install: installing component 'clippy-preview'
+
+    clippy installed.
+
+INSTALLED clippy-1.100.0-x86_64-unknown-linux-gnu.tar.xz
+install: creating uninstall script at /workspace/scratch/72f8c6db0182/toolchains/rust-1.100.0/lib/rustlib/uninstall.sh
+install: installing component 'rust-std-x86_64-pc-windows-gnullvm'
+
+    rust std installed.
+
+INSTALLED rust-std-1.100.0-x86_64-pc-windows-gnullvm.tar.xz

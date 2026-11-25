@@ -1,0 +1,7 @@
+{
+  "name": "openremote-browser-verification",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {"test": "node verify-media.cjs"},
+  "devDependencies": {"playwright": "1.62.1"}
+}

@@ -1,0 +1,84 @@
+{
+  "recordedAt": "2026-11-19T08:33:16.238Z",
+  "scope": "Actual production app.js/core.mjs in Node VM; DOM, HTTP and RTC are explicit test doubles. No browser rendering, decoded media or native input execution.",
+  "runtime": "v24.22.3",
+  "sourceInputs": {
+    "server/internal/webclient/assets/app.js": "5a31b878665e203c6fdc5bbeeab9deba767fc1a6e998cc072dcc28d0d3b7ce77",
+    "server/internal/webclient/assets/core.mjs": "c74df195e58b394df4935df300aa3b78ece5be894b7ee52398a87695fcf5120a",
+    "server/internal/webclient/assets/index.html": "a36deda955ee451666a958a0bbc2f5c8fe0e23a84f102d84800e1e8fdae85a13",
+    "tests/browser/controller-lifecycle.test.mjs": "90cf267086c5180939ad3340e7119db692a1414aa6f3558a8f3cf269b4e863da"
+  },
+  "changedInputsDuringRun": [],
+  "tests": [
+    {
+      "name": "cancellation during discovery aborts before authentication or redemption",
+      "ok": true
+    },
+    {
+      "name": "cancellation during proof verification never sends the code or PIN",
+      "ok": true
+    },
+    {
+      "name": "a canceled one-use POST settles only to close its known late session",
+      "ok": true
+    },
+    {
+      "name": "an uncertain POST failure is not retried and never exposes transport details",
+      "ok": true
+    },
+    {
+      "name": "a malformed or escalated grant is closed without displaying a desktop",
+      "ok": true
+    },
+    {
+      "name": "pending sessions expose no peer or input and repeated disconnect is idempotent",
+      "ok": true
+    },
+    {
+      "name": "input requires the actual app peer, channel, catalog, permission and fresh frame",
+      "ok": false,
+      "error": {
+        "name": "AssertionError",
+        "message": "The expression evaluated to a falsy value:\n\n  assert(pc.dc.messages.some(m => m.type === 'release_all'))\n"
+      }
+    },
+    {
+      "name": "fresh video without a primary-display catalog cannot authorize input",
+      "ok": true
+    },
+    {
+      "name": "page hide releases held input, closes once, and requests a keepalive end",
+      "ok": true
+    },
+    {
+      "name": "focus or visibility loss releases keys and hidden pages cannot send input",
+      "ok": true
+    },
+    {
+      "name": "permission removal immediately gates input and later restoration ends the session",
+      "ok": true
+    },
+    {
+      "name": "a changed host identity ends the active session instead of reusing its peer",
+      "ok": true
+    },
+    {
+      "name": "a delayed old stop failure cannot overwrite the result of a newer attempt",
+      "ok": false,
+      "error": {
+        "name": "AssertionError",
+        "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'Disconnected. Generate a fresh code whenever you want to connect again. The service did not confirm the stop; close the host or use its Stop control if needed.'\n- 'The request could not be confirmed. The code may have been used. Generate a fresh code on the host before trying again.'\n"
+      }
+    },
+    {
+      "name": "unsupported fullscreen is an actionable message rather than an uncaught exception",
+      "ok": false,
+      "error": {
+        "name": "TypeError",
+        "message": "$(...).requestFullscreen is not a function"
+      }
+    }
+  ],
+  "passed": 11,
+  "failed": 3
+}

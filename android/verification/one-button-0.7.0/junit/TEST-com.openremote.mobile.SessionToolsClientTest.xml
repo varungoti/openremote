@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.SessionToolsClientTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-19T11:22:33.862Z" hostname="f87c0b69ff3f" time="0.143">
+  <properties/>
+  <testcase name="timeoutDoesNotReplayAndClosingFailsPendingRequestsImmediately" classname="com.openremote.mobile.SessionToolsClientTest" time="0.085"/>
+  <testcase name="permissionDenialLeavesChannelUsableAndOnlyOneRequestIsOutstanding" classname="com.openremote.mobile.SessionToolsClientTest" time="0.035"/>
+  <testcase name="invalidFrameClosesOnlyTheToolsTransport" classname="com.openremote.mobile.SessionToolsClientTest" time="0.014"/>
+  <testcase name="cancelledRequestLateResponseCannotCompleteTheNextRequest" classname="com.openremote.mobile.SessionToolsClientTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

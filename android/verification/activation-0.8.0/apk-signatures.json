@@ -1,0 +1,58 @@
+[
+  {
+    "path": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+    "exitCode": 0,
+    "validPreviewSignature": true,
+    "certificateSha256": "24c0441ceca6f73ea0e6de8a0958be6229cfcf2518328e8f7f9b71d98b980b28",
+    "unsignedRelease": false
+  },
+  {
+    "path": "android/app/build/outputs/apk/debug/app-armeabi-v7a-debug.apk",
+    "exitCode": 0,
+    "validPreviewSignature": true,
+    "certificateSha256": "24c0441ceca6f73ea0e6de8a0958be6229cfcf2518328e8f7f9b71d98b980b28",
+    "unsignedRelease": false
+  },
+  {
+    "path": "android/app/build/outputs/apk/debug/app-x86_64-debug.apk",
+    "exitCode": 0,
+    "validPreviewSignature": true,
+    "certificateSha256": "24c0441ceca6f73ea0e6de8a0958be6229cfcf2518328e8f7f9b71d98b980b28",
+    "unsignedRelease": false
+  },
+  {
+    "path": "android/app/build/outputs/apk/debug/app-x86-debug.apk",
+    "exitCode": 0,
+    "validPreviewSignature": true,
+    "certificateSha256": "24c0441ceca6f73ea0e6de8a0958be6229cfcf2518328e8f7f9b71d98b980b28",
+    "unsignedRelease": false
+  },
+  {
+    "path": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+    "exitCode": 1,
+    "validPreviewSignature": false,
+    "certificateSha256": null,
+    "unsignedRelease": true
+  },
+  {
+    "path": "android/app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk",
+    "exitCode": 1,
+    "validPreviewSignature": false,
+    "certificateSha256": null,
+    "unsignedRelease": true
+  },
+  {
+    "path": "android/app/build/outputs/apk/release/app-x86_64-release-unsigned.apk",
+    "exitCode": 1,
+    "validPreviewSignature": false,
+    "certificateSha256": null,
+    "unsignedRelease": true
+  },
+  {
+    "path": "android/app/build/outputs/apk/release/app-x86-release-unsigned.apk",
+    "exitCode": 1,
+    "validPreviewSignature": false,
+    "certificateSha256": null,
+    "unsignedRelease": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-18T06:56:11.169050324Z",
+  "status": "blocked",
+  "scope": "Synthetic source through Rust production H.264/WebRTC path to independent Pion receiver and ffmpeg decoder; no Windows capture/input, Android renderer, public Internet or TURN TLS validation",
+  "pionVersion": "v4.2.26",
+  "cases": [
+    {
+      "mode": "direct",
+      "status": "blocked",
+      "error": "failed to create network: route ip+net: netlinkrib: operation not permitted",
+      "durationMs": 0,
+      "receivedRtpPackets": 0,
+      "rtpFrameMarkers": 0,
+      "decodedFrames": 0,
+      "uniqueFrameHashes": 0,
+      "matchedControlEvents": 0,
+      "artifacts": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/evidence/native-media-2197400782/direct"
+    }
+  ]
+}

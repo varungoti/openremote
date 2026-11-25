@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "scripts/validate_pilot_evidence.py",
+    "validate",
+    "evidence/pilot-0.5-not-run.json",
+    "--root",
+    ".",
+    "--expected-revision",
+    "cc296948a90efa1b066ceec18015632699c38fcc",
+    "--require-pass"
+  ],
+  "exitCode": 1,
+  "stderr": "Pilot evidence rejected: pilot has failed, blocked or not-run scenarios\n",
+  "expectedRejection": true
+}

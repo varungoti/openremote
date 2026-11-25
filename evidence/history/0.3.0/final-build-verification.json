@@ -1,0 +1,202 @@
+{
+  "version": "0.3.0",
+  "recordedAtUtc": "2026-11-18T07:55:02.976948+00:00",
+  "releaseReady": false,
+  "stage": "development build",
+  "sourceBranch": "work/release-hardening",
+  "originalArchiveSha256": "179962e6d3c3ed83f0e9cf24b0aac591a08aa80cfdf356ada877ddc7d282522a",
+  "artifacts": [
+    {
+      "path": "artifacts/windows/openremote-agent.exe",
+      "sizeBytes": 9224192,
+      "sha256": "950d68915594e3413fb55aeb26cbe6e8e0e64c08cc27980babf4db06c0442162"
+    },
+    {
+      "path": "artifacts/controlplane-linux-amd64",
+      "sizeBytes": 10712827,
+      "sha256": "fe1c5bb5887b94d3c441f64051f4c2077123f50d7e81996802c9ee648b8ba55a"
+    },
+    {
+      "path": "artifacts/android/OpenRemote-0.3.0-arm64-test.apk",
+      "sizeBytes": 24587694,
+      "sha256": "f1289b55b1c5b99548979473f5b43c6ee678f443106f31b1818643e58392e53a"
+    },
+    {
+      "path": "artifacts/android/OpenRemote-0.3.0-arm64-release-unsigned.apk",
+      "sizeBytes": 13763614,
+      "sha256": "4adc6462f1bc814d75dae56ecfbbdc7237148cdc7ee471ae247d9320ae128e9f"
+    }
+  ],
+  "executed": {
+    "go": {
+      "topLevelTests": 17,
+      "race": "passed",
+      "vet": "passed",
+      "appPackageCoveragePercent": 75.1,
+      "sourceBinding": {
+        "server/cmd/controlplane/main.go": "85eff95064baa535a81c96a2121174e04331705dee0be2efd1a9063c52711f47",
+        "server/internal/app/app.go": "e947151dceff7dbe5cf2400c30caa3c17f4cf3d67f15f0118a7e40f7a0b375ef",
+        "server/internal/app/app_test.go": "3bfb1b00e2b20c81cdca0ddfa48fd65c3dd2844d0cf2eae997d252e93f8b830c",
+        "server/internal/app/auth.go": "19f36cba92c40b41aae26c206f89e1a12671a14121041ba1a34e167316ed09ee",
+        "server/internal/app/devices.go": "990a5f8aa6404189b44c498ab5524c12715feafac3395290469fec122ca2956a",
+        "server/internal/app/ice.go": "0ed0509cb8a47bb4e45dfeed9cd695c086320ac105171c7cf340194080ddb3bc",
+        "server/internal/app/sessions.go": "70dd7377be1b5676ec96b7a5d31fb197e8762ff1a1972a9dca10f09a073750d8",
+        "server/internal/app/store.go": "b7467ec8ea9fc692a665a6e44227bb69dca8abf45c288fcd2cb74eac96cba431",
+        "server/internal/app/store_lock_unix.go": "76db9d7821aa0f37142c26e3360dd109555a11f7db5427373aa0df93b0142d24",
+        "server/internal/app/store_lock_windows.go": "1e40c2f90a090360e6528d9103096050739d4964d6e7b4d501f31eeef976ba2b",
+        "server/go.mod": "fa96a751d3e0e62c67c1168140d7f354f0b562ae2161522793ef2fa235e98fc7"
+      }
+    },
+    "httpsControlPlane": {
+      "ok": true,
+      "checks": [
+        "P-256 SPKI authentication and single-use challenge replay rejection",
+        "Copied public key does not authenticate an impostor",
+        "Protected enrollment, authenticated lookup, host heartbeat",
+        "Host consent, actor authorization, and permission narrowing",
+        "Expiring TURN REST credential HMAC matches relay secret",
+        "Approved bidirectional offer/answer and ICE routing",
+        "Ended sessions cannot signal or acquire relay credentials",
+        "Device identity survives process restart; bearer tokens absent from persisted JSON"
+      ],
+      "transport": "HTTPS with verified ephemeral test CA",
+      "scope": "Control plane only. No desktop frames or input injected by this test."
+    },
+    "rust": {
+      "testsPassed": 42,
+      "linuxClippy": "passed",
+      "windowsTargetClippy": "passed",
+      "format": "passed",
+      "windowsBuild": "passed",
+      "sourceInputsSha256": "421d275067b683d21a69bebe3e94294906e317d185bfc05c180d9e53a44b71a0"
+    },
+    "android": {
+      "testsPassed": 32,
+      "lintErrors": 0,
+      "lintDependencyUpdateWarnings": 5,
+      "ordinaryStrictVerificationBuild": true,
+      "sourceAndArtifactManifests": {
+        "android/verification/source-inputs.sha256": {
+          "count": 41,
+          "sha256": "aebb7feead41a5e41cd4f8fd9b6c943bd9b5e3af4908148aeaf0794b06649b4a"
+        },
+        "android/verification/artifacts.sha256": {
+          "count": 9,
+          "sha256": "18f79312510b757db9e5730dcc9faa24fcc4af7b21dbbfedc370430af63f0b0e"
+        },
+        "android/verification/build-evidence.sha256": {
+          "count": 13,
+          "sha256": "ef6bbb067a604dc78210cfafa925e4ebd88871404d43fdfd616b5706d8ca6056"
+        }
+      },
+      "abisBuilt": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "deviceTestsExecuted": false,
+      "apkAlignmentBytes": 16384
+    },
+    "deploymentConfigTests": {
+      "passed": 3
+    },
+    "installerActivation": {
+      "powershell": "7.7.0",
+      "checks": [
+        {
+          "status": "passed",
+          "injected_shortcut_failure": false,
+          "existing_installation": false
+        },
+        {
+          "status": "passed",
+          "injected_shortcut_failure": true,
+          "existing_installation": false
+        },
+        {
+          "status": "passed",
+          "injected_shortcut_failure": false,
+          "existing_installation": true
+        },
+        {
+          "status": "passed",
+          "injected_shortcut_failure": true,
+          "existing_installation": true
+        }
+      ],
+      "platform": "Unix",
+      "scope": "Actual file activation/rollback logic. Does not establish Windows COM, encoder, signing or installation behavior."
+    },
+    "powershellSyntax": [
+      {
+        "file": "packaging/windows/Install-OpenRemote.ps1",
+        "parse_errors": []
+      },
+      {
+        "file": "packaging/windows/Uninstall-OpenRemote.ps1",
+        "parse_errors": []
+      },
+      {
+        "file": "packaging/windows/tests/Activation.Tests.ps1",
+        "parse_errors": []
+      },
+      {
+        "file": "scripts/build-windows.ps1",
+        "parse_errors": []
+      }
+    ]
+  },
+  "carriedForwardUnchangedEncoderEvidence": {
+    "command": "cargo run --locked --example capture_smoke -- /usr/bin/ffmpeg <new-output.h264>",
+    "result": {
+      "decodedFrames": 30,
+      "distinctFrameHashes": 30,
+      "encodedAccessUnits": 30,
+      "ffmpegSha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+      "fixture": "synthetic_capture_encode_assemble_decode",
+      "ok": true
+    },
+    "codec": {
+      "codec_name": "h264",
+      "profile": "Constrained Baseline",
+      "width": 640,
+      "height": 360,
+      "level": 31
+    },
+    "executedForHostVersion": "0.2.0",
+    "currentVersionNote": "Prior network-free test evidence carried forward; production media.rs and capture_smoke.rs were not changed by the 0.3 tools slice. This fixture was not rerun for 0.3."
+  },
+  "blockedOrNotRun": {
+    "mediaInterop": {
+      "status": "blocked",
+      "attemptedVersion": "0.2.0",
+      "retriedFor03": false,
+      "evidence": "evidence/media-native.json",
+      "decodedNetworkFrames": 0
+    },
+    "browserMedia": {
+      "status": "blocked",
+      "evidence": "evidence/browser-blocked.json"
+    },
+    "physicalWindowsDesktopAndTools": "not_run",
+    "physicalAndroidKeystoreVideoSafLifecycle": "not_run",
+    "publicInternetTurnUdpTcpTls": "not_run",
+    "dockerAndPublicDeployment": "not_run",
+    "productionSigningAndUpdater": "not_implemented"
+  },
+  "knownLimits": [
+    "Trusted coordinator; independent peer-signed negotiation not implemented",
+    "Per-user logged-in Windows desktop; no service/lock-screen/reboot recovery",
+    "Software H264 profile up to1280x720/30FPS; no hardware/adaptive encoding, audio or monitor switching",
+    "File upload is phone-to-PC only; no reverse or resume; crash may leave private partial files",
+    "Native clipboard, ACL, reparse, zone metadata, rename and Android document-provider behavior require device tests",
+    "Native dependency provenance/notice gaps and final signed-artifact binding remain open"
+  ],
+  "licenseInventorySha256": "9bd7686a0d8801ba0be25d871a92c1fdd06e14e91653480f9fe846d2e2e20895",
+  "packagingSourceHashes": {
+    "packaging/windows/Install-OpenRemote.ps1": "1b3e22037a93f25a3e286663e81ebf1c9ad152d72fb919de2ca02c0f4f47e4cb",
+    "packaging/windows/Uninstall-OpenRemote.ps1": "7edbb9d3565f41bc4fcd93361118ecbde08915fece87baf36d8e77e5a88c5f62",
+    "packaging/windows/tests/Activation.Tests.ps1": "8517841a24fcd1d27ca33d9cc4b4b78a603bb7562d9463ce81da9186134af8ea"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "startedAt": "2026-11-19T08:38:36.190277+00:00",
+  "sourceRevision": "60fded0a61d246b5a19b43ec97487085d089002c",
+  "sourceBranch": "feat/code-pin-connect",
+  "sourceScope": "Uncommitted working-tree files pinned by SHA256; base revision is context, not an assertion that new source is committed.",
+  "goVersion": "go version go1.27.4 linux/amd64",
+  "sourceInputsBefore": "final-source-inputs-before.json",
+  "checks": [
+    {
+      "name": "unit",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "-count=1",
+        "-json",
+        "./..."
+      ],
+      "cwd": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/server",
+      "exitCode": 0,
+      "durationSeconds": 30.646,
+      "log": "final-unit.log",
+      "topLevelTestsPassed": 43,
+      "testsIncludingSubcasesPassed": 107,
+      "pairingTopLevelTestsPassed": 18,
+      "packagesPassed": [
+        "openremote/controlplane/internal/webclient",
+        "openremote/controlplane/internal/app"
+      ],
+      "failures": []
+    },
+    {
+      "name": "race",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "-race",
+        "-count=1",
+        "-json",
+        "./..."
+      ],
+      "cwd": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/server",
+      "exitCode": 1,
+      "durationSeconds": 292.408,
+      "log": "final-race.log",
+      "topLevelTestsPassed": 42,
+      "testsIncludingSubcasesPassed": 106,
+      "pairingTopLevelTestsPassed": 17,
+      "packagesPassed": [
+        "openremote/controlplane/internal/webclient"
+      ],
+      "failures": [
+        {
+          "Time": "2026-11-19T08:41:44.198238091Z",
+          "Action": "fail",
+          "Package": "openremote/controlplane/internal/app",
+          "Test": "TestPairingUniqueActiveCodesAndLeadingZeros",
+          "Elapsed": 50.27
+        },
+        {
+          "Time": "2026-11-19T08:43:59.254253248Z",
+          "Action": "fail",
+          "Package": "openremote/controlplane/internal/app",
+          "Elapsed": 286.822
+        }
+      ]
+    }
+  ],
+  "artifact": null,
+  "inputsStillMatch": true
+}

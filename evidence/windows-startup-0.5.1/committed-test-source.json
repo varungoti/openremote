@@ -1,0 +1,25 @@
+{
+  "windowsImplementationCommit": "65a9f215722624c147eaf68219f53cca6e31db07",
+  "baselineRevision": "433d71156339ea2b26a45e01b340b60ebbfcd803",
+  "testedInputsMatchingCommit": 16,
+  "testedInputs": [
+    "agent-windows/Cargo.lock",
+    "agent-windows/Cargo.toml",
+    "agent-windows/src/api.rs",
+    "agent-windows/src/config.rs",
+    "agent-windows/src/displays.rs",
+    "agent-windows/src/host_home.rs",
+    "agent-windows/src/identity.rs",
+    "agent-windows/src/input.rs",
+    "agent-windows/src/lib.rs",
+    "agent-windows/src/main.rs",
+    "agent-windows/src/media.rs",
+    "agent-windows/src/protocol.rs",
+    "agent-windows/src/session.rs",
+    "agent-windows/src/startup.rs",
+    "agent-windows/src/startup_windows.rs",
+    "agent-windows/src/ui.rs"
+  ],
+  "unchangedAndroidAndServerTrackedFiles": 199,
+  "unchangedScope": "source and retained evidence bytes; Android/server not rebuilt or retested in this Windows-only fix"
+}

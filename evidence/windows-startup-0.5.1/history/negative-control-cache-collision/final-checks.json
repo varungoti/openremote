@@ -1,0 +1,32 @@
+{
+  "sourceRevision": "b25975bf632902a6f65d2f6e71c3722b55010e19",
+  "recordedAtUtc": "2026-11-19T07:47:15.727584+00:00",
+  "checks": [
+    {
+      "name": "format",
+      "command": [
+        "cargo",
+        "fmt",
+        "--check"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 0.232,
+      "log": "evidence/windows-startup-0.5.1/format.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--offline",
+        "--all-targets"
+      ],
+      "exitCode": 101,
+      "durationSeconds": 1.555,
+      "log": "evidence/windows-startup-0.5.1/tests.log"
+    }
+  ],
+  "sourceUnchanged": true,
+  "nativeWindowsExecution": false
+}

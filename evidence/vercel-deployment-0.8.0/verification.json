@@ -1,0 +1,45 @@
+{
+  "recordedAtUtc": "2026-11-20T12:15:08.841401+00:00",
+  "implementationCommit": "cb6c628e5a09a4fcde77018368a4716616248dc8",
+  "submittedVercelSourceCommit": "5039f043c627012354f6b102db5d0a1a753c998b",
+  "releaseReady": false,
+  "publicDeploymentVerified": false,
+  "platformBuildExecuted": false,
+  "deploymentState": "BLOCKED",
+  "blockReason": "integration deployments are not allowed in production. Only CLI deployments are allowed.",
+  "nativeServiceProfileUnchangedAndUnconfigured": true,
+  "verification": {
+    "viewerAndGatewayTests": {
+      "passed": 40,
+      "failed": 0,
+      "log": "node-tests.log"
+    },
+    "gatewayRegressionTopLevelTests": 6,
+    "goVetPassed": true,
+    "goFullRaceSuitePassed": true,
+    "actualGatewayCoordinatorHttps": {
+      "groupedChecks": 10,
+      "verifiedTLSConnections": 66,
+      "sourceHashesMatchCurrentFiles": true,
+      "report": "gateway-runtime.json"
+    }
+  },
+  "notEstablished": [
+    "Public Vercel Function routing, asset bundling or rendering",
+    "A hosted durable coordinator",
+    "A configured and reachable TURN relay",
+    "Physical Windows/Android/browser desktop video and input",
+    "Signed configured customer installers or store releases"
+  ],
+  "evidenceSha256": {
+    "deployment-attempt.json": "5d670e63ce2c14825f3992e1d11c29ced319d72781f23c72be4adcb43dc57517",
+    "gateway-runtime.json": "3147dee4fd62e5b26bd7861a3a6a2e0a54010ea6e8928a801f655e240720d380",
+    "go-gateway-before.log": "9262c7ccea3ef5b2ec67fc0051f833049a8c404fc412f14eff2f4b59aafcc86f",
+    "go-gateway-checks.json": "89d0c37c2063215023c88bdfd044f727cd698913d5b735e0a35c4cf937657d06",
+    "go-gateway-focused.log": "2dec1195088b5c28e637a52a864a9904a8acf084da9fa926b54e6764397e039a",
+    "go-gateway-race.log": "b1beaea97ad8b0068254adaba8ccaf74431d7869197672c1e436e7d0cf597e05",
+    "go-gateway-vet.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "node-build.log": "b1e73b6717d2a2ec411207159908c00bd6f9af33b6fe20198a8ce69b295a07d2",
+    "node-tests.log": "157cc6c0a690dd964c554784ea8dbee0f16c63403562e112e39c6fcc7e7e42ae"
+  }
+}

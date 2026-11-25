@@ -1,0 +1,9 @@
+--- FAIL: TestICEURLConfigurationRejectsAmbiguity (0.00s)
+    --- FAIL: TestICEURLConfigurationRejectsAmbiguity/TURN:relay.example (0.00s)
+        info_test.go:120: accepted invalid TURN URL "TURN:relay.example"
+    --- FAIL: TestICEURLConfigurationRejectsAmbiguity/Turns:relay.example (0.00s)
+        info_test.go:120: accepted invalid TURN URL "Turns:relay.example"
+    info_test.go:138: accepted ambiguous STUN URL "STUN:relay.example"
+FAIL
+FAIL	openremote/controlplane/internal/app	0.005s
+FAIL

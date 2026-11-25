@@ -1,0 +1,212 @@
+{
+  "verifiedImplementationCommit": "f96c85401ce1f818d5fb8bf80253cf729b0cf098",
+  "inputs": 51,
+  "allMatch": true,
+  "sourceManifestSha256": "ab80d35c6d77449ef24775e8172e00b25128ab6929f52d8352bc9992fda912b4",
+  "checkedInputs": [
+    {
+      "path": "android/app/build.gradle.kts",
+      "sha256": "f38b08e574054c239baa5f23493a5dc19a9d294a58053f5eb829e4c36cd3df73"
+    },
+    {
+      "path": "android/app/gradle.lockfile",
+      "sha256": "bd283e7d364f91aefa6e8267c8b7533d288d8beb5a3447abd59095110c617bc2"
+    },
+    {
+      "path": "android/app/proguard-rules.pro",
+      "sha256": "b3711712130eb5ccceb01a254d4ea0da54d2bbd95f48c9fadbe6a3afbfcf8dfe"
+    },
+    {
+      "path": "android/app/src/androidTest/java/com/openremote/mobile/ControllerIdentityTest.kt",
+      "sha256": "9712bf344f09bd06db147ce2138c943536c4e3fa5cc5a44b30a5898cfac15aa9"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "sha256": "d0dd325363bac548d44b2c0d96ae6cc4fd105b658fe6d1ea60905fe75db52d67"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ApiClient.kt",
+      "sha256": "e29016c56327d0c717b3d40d4863a4b347b44ea4215ed414c2e370227b6ac0e1"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ConnectionChecks.kt",
+      "sha256": "c9407378352adb7a730a74167d8b4ed53f6aa87dc3794258551427242550f38b"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ControllerIdentity.kt",
+      "sha256": "6993fa492614dd9ff1edfb516a3a346e566fbd95a5fece6456901d7b7cff57ec"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/DisplayProtocol.kt",
+      "sha256": "ad657a1fb30d2d191256375c787419bbc8d1e4f7538db987ea8cf1601148ba91"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/DocumentSnapshot.kt",
+      "sha256": "11e9204f504416cdf9dc48584e2e42899f2b29b97d03f09483cf88a0805c741d"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/FileUpload.kt",
+      "sha256": "b434c7d7e8086263a4bbfd55036f9b50fb48e7c58630f59047e7f5f2d66760d1"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/MainActivity.kt",
+      "sha256": "64d873183623b6da665557156281bbe87389b3cb25d8693e1fbd527433328fc1"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/Models.kt",
+      "sha256": "82e45aca803822bacc06f1ee6b87ec6e3d7ac9f8f61c2318268aa5f221040c0e"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/OpenRemoteViewModel.kt",
+      "sha256": "f6f38405d97623bbe79a9fbe2c7b295ec787d95cbcaca56b2d6361fb2ab8d344"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/Pairing.kt",
+      "sha256": "ab73beb7054e247da09f6cb403c16eeaa68f9f6462c1f402e93662cc842ce7f4"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/PhoneSetup.kt",
+      "sha256": "3095b5e02024406f94158800b1f76a2d22af41f117c8d39bf77cf83d34497967"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemoteCoordinates.kt",
+      "sha256": "0169def2a74d0841122377d89999aa62c3dac668b1bfb86785913e66187f765b"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemoteDisplay.kt",
+      "sha256": "b65d3302ae7437771e37c050969c65bbe60f4aa4d4cbddbb70297a7274db0967"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/RemotePeer.kt",
+      "sha256": "88176ee013d2a151b76ace97b720d564f4e738f5c70a97a5c7fbe4a8ddb851d9"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SecureSettings.kt",
+      "sha256": "a3f1f2603e36973a5f250a0b84b9fed3bf6981650fdbbb65b8f04c3adbfeaef3"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SessionLifecycle.kt",
+      "sha256": "725e5fef9685bc123a2b0525f911684cc41e6df7327e8994713bf572919f1b1c"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/SessionToolsClient.kt",
+      "sha256": "01d62e3a1a28b0e31d8df5cdcbed6de7fb9ad767926082cffd07f7e7c6d506f9"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/ToolProtocol.kt",
+      "sha256": "7b84f7dc6b7ca2e14ad4ae98003d5ff1d0f1f07fd767d99b15e1a71378b5c58a"
+    },
+    {
+      "path": "android/app/src/main/java/com/openremote/mobile/VideoFreshness.kt",
+      "sha256": "eaf23349a350237ff1df5ddb33782b24a55247b1c893a5e576cd7c3e6438aa26"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "ad78011d1d32d967eaf382340d8ef219fcbc61ea42f9a13a0f08283af965c6c1"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "sha256": "d6a9c9225b56729fa8c5c82c0ae404fa13e0994361dccc91d64909999b8b2d36"
+    },
+    {
+      "path": "android/app/src/main/res/values/colors.xml",
+      "sha256": "716c67080f9b8cbf21ddf69cb5715fdb77eed581989fb66e17be2f18a0a66ec4"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "sha256": "26b34591aec43ff80a9461049372bae2c09c4d633aee81e7c6a95de3f3d41718"
+    },
+    {
+      "path": "android/app/src/main/res/xml/backup_rules.xml",
+      "sha256": "ea94fce7212ab7b4f52c461778b9553455088332ae6898606b7084c9b5d1c2eb"
+    },
+    {
+      "path": "android/app/src/main/res/xml/data_extraction_rules.xml",
+      "sha256": "3336e7ffc9a2fbd23db76c340bf51a03a59ce6ef3997a866dc274578a2c7e2ec"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ApiClientTest.kt",
+      "sha256": "30e5b6335c042b4cf0a39c072cc4c960d8d2e6d3f2f56e076ce58673c63436d0"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ConnectionChecksTest.kt",
+      "sha256": "0fab530dc3191cb0a980e8453c5f075e7b6fd97513443c3e8bc9198b173882ee"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/DisplayProtocolTest.kt",
+      "sha256": "0fcdb5baa1de7be65c5a65a037a8f3c41bfd761da34e936a08a155164a3b0a65"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/DisplayReadinessTest.kt",
+      "sha256": "abb38a3fc0f079b091e3cc2bfb4b169af098349f38440d847f4d0f9e04ad1d30"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/FileUploadTest.kt",
+      "sha256": "fbd05953d01df53f15da006a84a9563b7f2df63a6021e2b0696a0bf04a012345"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/PairingTest.kt",
+      "sha256": "eef74461c1acf826decbce0a75ead4a6f884d1f31fb4c5d9839e1da3d89c2c98"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/PhoneSetupTest.kt",
+      "sha256": "084c77d197633422457792fc0f82d753f1c0f7db6af28c246dd5177a8ee33a0a"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/RemoteCoordinatesTest.kt",
+      "sha256": "03e23c1a24213a3e39344a19a02b2e7692116fdcd556b03083dea1efbc7dd4ad"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/SessionLifecycleTest.kt",
+      "sha256": "eff86d8ed3c98a4226a83de58dab54c38c04490cd2ae023d2c5af3a0594efa41"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/SessionToolsClientTest.kt",
+      "sha256": "0b22a618b6d5050fb73b418f9b67155078b17cbeb2c76708c71341e16f698d77"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/ToolProtocolTest.kt",
+      "sha256": "ae8209473ad47601cbde4fa13189bc683feb2fdc0468ced1ce0debe6e1370ef4"
+    },
+    {
+      "path": "android/app/src/test/java/com/openremote/mobile/VideoFreshnessTest.kt",
+      "sha256": "c2835c0bd04a9d72a94886250af697408540bba38c36a97e1c0989086c7baaba"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "sha256": "52f9b95bdc89db4b3641d7c0684e8d92f62cbfdd5c83168a9eead5ff041b4c95"
+    },
+    {
+      "path": "android/gradle/verification-metadata.xml",
+      "sha256": "17030e89e7f48a35cbf131d587253171d2ca5014bc1c3e44eb51c54cabf03642"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "81a82aaea5abcc8ff68b3dfcb58b3c3c429378efd98e7433460610fecd7ae45f"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "c040b6ef2fb893ff5beea5a281614f2848f1c3996a7886f650b713f8240656a2"
+    },
+    {
+      "path": "android/gradle.properties",
+      "sha256": "1cdcc7bd6cae173bf793a4a858f6588b8e95b9e47b5d97a5bd740499116ef5a9"
+    },
+    {
+      "path": "android/gradlew",
+      "sha256": "734b3879d3501dce471cf0522d3bcbafe76873d9fc5129345b67fb43bd15e933"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "sha256": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f"
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "sha256": "1aaf0beab24577dec6597f85ab1d2acd62f69ffd010d109c0d957e91467e2691"
+    },
+    {
+      "path": "config/service-profile.json",
+      "sha256": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c"
+    }
+  ]
+}

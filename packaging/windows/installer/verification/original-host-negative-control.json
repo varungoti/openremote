@@ -1,0 +1,6 @@
+{
+  "input": "/workspace/scratch/72f8c6db0182/recovered/OpenRemote-0.5.0-Windows-x64-Test.exe",
+  "sha256": "ef0b0470444edd6c4f15435a2155094ac7e9dbaa1985242578faa163cfc1948f",
+  "result": "rejected",
+  "reason": "host must use the Windows GUI subsystem; the old console host is not accepted"
+}

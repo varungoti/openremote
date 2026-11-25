@@ -1,0 +1,24 @@
+(node:12) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ cancellation during discovery aborts before authentication or redemption (169.919606ms)
+✔ cancellation during proof verification never sends the code or PIN (57.1998ms)
+✔ a canceled one-use POST settles only to close its known late session (62.5319ms)
+✔ an uncertain POST failure is not retried and never exposes transport details (16.618219ms)
+✔ a malformed or escalated grant is closed without displaying a desktop (25.929138ms)
+✔ pending sessions expose no peer or input and repeated disconnect is idempotent (29.324313ms)
+✔ input requires the actual app peer, channel, catalog, permission and fresh frame (27.636218ms)
+✔ fresh video without a primary-display catalog cannot authorize input (20.638097ms)
+✔ page hide releases held input, closes once, and requests a keepalive end (107.392059ms)
+✔ focus or visibility loss releases keys and hidden pages cannot send input (146.468803ms)
+✔ permission removal immediately gates input and later restoration ends the session (209.020616ms)
+✔ a changed host identity ends the active session instead of reusing its peer (217.859961ms)
+✔ a delayed old stop failure cannot overwrite the result of a newer attempt (179.149105ms)
+✔ unsupported fullscreen is an actionable message rather than an uncaught exception (45.185914ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2146.996187

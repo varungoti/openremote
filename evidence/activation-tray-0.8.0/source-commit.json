@@ -1,0 +1,25 @@
+{
+  "recordedAtUtc": "2026-11-20T11:00:59.068539+00:00",
+  "implementationCommit": "9b5317fff93c8859e0086fc6ebd10d0597b055c9",
+  "implementationTree": "fe54f735cf3b469cb64c3d9574c5e72345558dbe",
+  "sourceAndDocumentationWhitespace": {
+    "command": [
+      "git",
+      "diff",
+      "55d0dd83697c51df017ee2b1c790c8cab78c9808",
+      "HEAD",
+      "--check",
+      "--",
+      ".",
+      ":(exclude)**/*.log",
+      ":(exclude)licenses/**"
+    ],
+    "exitCode": 0
+  },
+  "originalByteRecordsWhitespace": {
+    "exitCode": 2,
+    "scope": "Only original tool logs and original upstream license copies report whitespace. Their bytes are retained rather than normalized.",
+    "log": "raw-record-whitespace.log"
+  },
+  "noExternalPullRequestOrDeployment": true
+}

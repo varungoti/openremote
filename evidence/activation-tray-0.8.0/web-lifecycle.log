@@ -1,0 +1,132 @@
+TAP version 13
+# (node:12) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: cancellation during discovery aborts before authentication or redemption
+ok 1 - cancellation during discovery aborts before authentication or redemption
+  ---
+  duration_ms: 30.876401
+  type: 'test'
+  ...
+# Subtest: cancellation during proof verification never sends the code or PIN
+ok 2 - cancellation during proof verification never sends the code or PIN
+  ---
+  duration_ms: 34.698753
+  type: 'test'
+  ...
+# Subtest: a canceled one-use POST settles only to close its known late session
+ok 3 - a canceled one-use POST settles only to close its known late session
+  ---
+  duration_ms: 15.117391
+  type: 'test'
+  ...
+# Subtest: an uncertain POST failure is not retried and never exposes transport details
+ok 4 - an uncertain POST failure is not retried and never exposes transport details
+  ---
+  duration_ms: 12.770821
+  type: 'test'
+  ...
+# Subtest: a malformed or escalated grant is closed without displaying a desktop
+ok 5 - a malformed or escalated grant is closed without displaying a desktop
+  ---
+  duration_ms: 12.890704
+  type: 'test'
+  ...
+# Subtest: pending sessions expose no peer or input and repeated disconnect is idempotent
+ok 6 - pending sessions expose no peer or input and repeated disconnect is idempotent
+  ---
+  duration_ms: 13.488834
+  type: 'test'
+  ...
+# Subtest: input requires the actual app peer, channel, catalog, permission and fresh frame
+ok 7 - input requires the actual app peer, channel, catalog, permission and fresh frame
+  ---
+  duration_ms: 32.962305
+  type: 'test'
+  ...
+# Subtest: fresh video without a primary-display catalog cannot authorize input
+ok 8 - fresh video without a primary-display catalog cannot authorize input
+  ---
+  duration_ms: 24.975352
+  type: 'test'
+  ...
+# Subtest: page hide releases held input, closes once, and requests a keepalive end
+ok 9 - page hide releases held input, closes once, and requests a keepalive end
+  ---
+  duration_ms: 22.951427
+  type: 'test'
+  ...
+# Subtest: focus or visibility loss releases keys and hidden pages cannot send input
+ok 10 - focus or visibility loss releases keys and hidden pages cannot send input
+  ---
+  duration_ms: 28.349866
+  type: 'test'
+  ...
+# Subtest: permission removal immediately gates input and later restoration ends the session
+ok 11 - permission removal immediately gates input and later restoration ends the session
+  ---
+  duration_ms: 27.800958
+  type: 'test'
+  ...
+# Subtest: a changed host identity ends the active session instead of reusing its peer
+ok 12 - a changed host identity ends the active session instead of reusing its peer
+  ---
+  duration_ms: 23.095236
+  type: 'test'
+  ...
+# Subtest: a delayed old stop failure cannot overwrite the result of a newer attempt
+ok 13 - a delayed old stop failure cannot overwrite the result of a newer attempt
+  ---
+  duration_ms: 17.207895
+  type: 'test'
+  ...
+# Subtest: unsupported fullscreen is an actionable message rather than an uncaught exception
+ok 14 - unsupported fullscreen is an actionable message rather than an uncaught exception
+  ---
+  duration_ms: 3.401754
+  type: 'test'
+  ...
+# Subtest: agent connection binds the permanent PC ID and labels itself before first-frame admission
+ok 15 - agent connection binds the permanent PC ID and labels itself before first-frame admission
+  ---
+  duration_ms: 16.730969
+  type: 'test'
+  ...
+# Subtest: agent image tokens authorize one action and never replay across fresh input
+ok 16 - agent image tokens authorize one action and never replay across fresh input
+  ---
+  duration_ms: 22.109434
+  type: 'test'
+  ...
+# Subtest: agent input rejects stale observations even when newly arriving video is fresh
+ok 17 - agent input rejects stale observations even when newly arriving video is fresh
+  ---
+  duration_ms: 31.440448
+  type: 'test'
+  ...
+# Subtest: agent can observe a viewer session but cannot inject any input
+ok 18 - agent can observe a viewer session but cannot inject any input
+  ---
+  duration_ms: 17.074372
+  type: 'test'
+  ...
+# Subtest: agent actions are bounded and release a complete key combination
+ok 19 - agent actions are bounded and release a complete key combination
+  ---
+  duration_ms: 24.15115
+  type: 'test'
+  ...
+# Subtest: disconnect during an agent redemption waits to end the known late session
+ok 20 - disconnect during an agent redemption waits to end the known late session
+  ---
+  duration_ms: 16.939961
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 719.40625

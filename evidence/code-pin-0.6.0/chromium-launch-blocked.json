@@ -1,0 +1,11 @@
+{
+  "status": "blocked",
+  "command": "Playwright chromium.launch({executablePath: /usr/bin/chromium, headless: true})",
+  "exitCode": 1,
+  "observedErrors": [
+    "FATAL:chrome/browser/process_singleton_posix.cc:297 Check failed: . socket() failed: Operation not permitted (1)",
+    "crashpad scoped_ptrace_attach.cc:27 ptrace: Operation not permitted (1)"
+  ],
+  "scope": "Browser aborted before any page or WebRTC media executed. No flags or policy workaround attempted.",
+  "runDateUTC": "2026-11-19"
+}

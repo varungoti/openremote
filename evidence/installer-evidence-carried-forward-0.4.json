@@ -1,0 +1,27 @@
+{
+  "version": "0.4.0",
+  "previousSourceRevision": "612a5bd5d62ee5fc8d06be37be783833bb8f19d3",
+  "scope": "Four actual installer activation tests and PowerShell syntax checks were executed for0.3. Their script bytes are unchanged; those native-adapter results are carried forward, not rerun for0.4. Windows installation is not verified.",
+  "sources": [
+    {
+      "path": "packaging/windows/Install-OpenRemote.ps1",
+      "unchangedFrom0_3": true,
+      "sha256": "1b3e22037a93f25a3e286663e81ebf1c9ad152d72fb919de2ca02c0f4f47e4cb"
+    },
+    {
+      "path": "packaging/windows/Uninstall-OpenRemote.ps1",
+      "unchangedFrom0_3": true,
+      "sha256": "7edbb9d3565f41bc4fcd93361118ecbde08915fece87baf36d8e77e5a88c5f62"
+    },
+    {
+      "path": "packaging/windows/tests/Activation.Tests.ps1",
+      "unchangedFrom0_3": true,
+      "sha256": "8517841a24fcd1d27ca33d9cc4b4b78a603bb7562d9463ce81da9186134af8ea"
+    },
+    {
+      "path": "scripts/build-windows.ps1",
+      "unchangedFrom0_3": true,
+      "sha256": "5448f198bdc9db0c6ba31d0714d339738542b357deb60e984256a11821ae6b6c"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "version": "0.5.0",
+  "recordedAtUtc": "2026-11-18T09:50:09.670162+00:00",
+  "releaseReady": false,
+  "stage": "development candidate; physical pilot not run",
+  "sourceBranch": "work/release-hardening",
+  "implementationRevision": "cc296948a90efa1b066ceec18015632699c38fcc",
+  "pathsRelativeTo": "root of the restored source checkout unless a component record states otherwise",
+  "originalArchiveSha256": "179962e6d3c3ed83f0e9cf24b0aac591a08aa80cfdf356ada877ddc7d282522a",
+  "artifacts": [
+    {
+      "role": "windows",
+      "path": "artifacts/windows/openremote-agent.exe",
+      "sizeBytes": 9433088,
+      "sha256": "ef0b0470444edd6c4f15435a2155094ac7e9dbaa1985242578faa163cfc1948f",
+      "signature": "unsigned"
+    },
+    {
+      "role": "android-test",
+      "path": "artifacts/android/OpenRemote-0.5.0-arm64-test.apk",
+      "sizeBytes": 24726168,
+      "sha256": "de856ea9917927af0354a46e3c43cc2e7b5203222c96f3470ac4b0e1c54d0a16",
+      "signature": "development signed"
+    },
+    {
+      "role": "android-release",
+      "path": "artifacts/android/OpenRemote-0.5.0-arm64-release-unsigned.apk",
+      "sizeBytes": 13796554,
+      "sha256": "bd64d756ed233fa142402c7f931d2c97028864a66133b6158bb99d47f8afe0df",
+      "signature": "unsigned"
+    },
+    {
+      "role": "coordinator",
+      "path": "artifacts/controlplane-linux-amd64",
+      "sizeBytes": 10718249,
+      "sha256": "8b1d24ea5613bc3417498bec1ffd98e7a9c50791bff859f7ba8dc23d521f43b9",
+      "signature": "unsigned static ELF"
+    }
+  ],
+  "executed": {
+    "coordinator": {
+      "topLevelTests": 23,
+      "raceTests": "passed",
+      "staticBuildUnitTests": "passed",
+      "vet": "passed",
+      "appCoveragePercent": 77.4,
+      "httpsScenarios": 10,
+      "CGO_ENABLED": 0,
+      "embeddedCleanRevision": "cc296948a90efa1b066ceec18015632699c38fcc",
+      "evidence": "server/verification/setup-verification.json"
+    },
+    "windows": {
+      "rustTestsPassed": 65,
+      "format": "passed",
+      "linuxClippy": "passed",
+      "windowsClippy": "passed",
+      "releaseLink": "passed",
+      "sourceInputs": 20,
+      "binaryRunOnWindows": false,
+      "evidence": "agent-windows/BUILD_EVIDENCE.json"
+    },
+    "android": {
+      "jvmTestsPassed": 63,
+      "lintErrors": 0,
+      "lintWarnings": 5,
+      "build": "BUILD SUCCESSFUL in 1m 32s",
+      "tasks": {
+        "total": 133,
+        "executed": 28,
+        "upToDate": 105
+      },
+      "strictOfflineDependencyVerification": true,
+      "apkCount": 9,
+      "sourceInputs": 48,
+      "debugCertificateSha256": "a0cc38598018756a992fb04c5aa327060f124e8464becc1f9a2f757f5186d21f",
+      "debugCertificateMatches04": true,
+      "zip16KiBAlignment": "passed",
+      "arm64NativeELFAlignment": "passed",
+      "instrumentationCompiled": true,
+      "instrumentationExecuted": false,
+      "evidence": "android/verification/build-summary.json"
+    },
+    "python": {
+      "testsPassed": 16,
+      "scope": "13 pilot-record validator tests and 3 private deployment-configuration tests; synthetic inputs",
+      "log": "evidence/python-tests-0.5.log"
+    },
+    "independentReview": {
+      "path": "evidence/setup-review-0.5.md",
+      "sha256": "45f6782861388764e411a28aef30d80fad8aff58f8ddfa0d4f0e437612566b6f",
+      "reviewedFiles": 22,
+      "sourceAggregateSha256": "10c6ef18d1c748ed29189dd4ea3361cfef49a073845c72d408b6f436810a9e78",
+      "scope": "Focused independent source review; not native execution or a full independent security audit."
+    }
+  },
+  "carriedForward": {
+    "installer": {
+      "version": "0.5.0",
+      "checkedAtUtc": "2026-11-18T09:39:06.476223+00:00",
+      "previousSourceRevision": "612a5bd5d62ee5fc8d06be37be783833bb8f19d3",
+      "scope": "Four installer activation/rollback cases and PowerShell parsing passed in 0.3 on Linux PowerShell. These four scripts are byte-identical; those results are carried forward, not newly executed. Real Windows installation and Android upgrade remain not run.",
+      "sources": [
+        {
+          "path": "packaging/windows/Install-OpenRemote.ps1",
+          "sha256": "1b3e22037a93f25a3e286663e81ebf1c9ad152d72fb919de2ca02c0f4f47e4cb",
+          "unchangedFrom0_3": true
+        },
+        {
+          "path": "packaging/windows/Uninstall-OpenRemote.ps1",
+          "sha256": "7edbb9d3565f41bc4fcd93361118ecbde08915fece87baf36d8e77e5a88c5f62",
+          "unchangedFrom0_3": true
+        },
+        {
+          "path": "packaging/windows/tests/Activation.Tests.ps1",
+          "sha256": "8517841a24fcd1d27ca33d9cc4b4b78a603bb7562d9463ce81da9186134af8ea",
+          "unchangedFrom0_3": true
+        },
+        {
+          "path": "scripts/build-windows.ps1",
+          "sha256": "5448f198bdc9db0c6ba31d0714d339738542b357deb60e984256a11821ae6b6c",
+          "unchangedFrom0_3": true
+        }
+      ]
+    },
+    "encoder": {
+      "command": "cargo run --locked --offline --example capture_smoke -- /usr/bin/ffmpeg /workspace/scratch/72f8c6db0182/evidence/host-0.4-smoke.h264",
+      "result": {
+        "decodedFrames": 30,
+        "distinctFrameHashes": 30,
+        "encodedAccessUnits": 30,
+        "ffmpegSha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+        "fixture": "synthetic_capture_encode_assemble_decode",
+        "ok": true
+      },
+      "codec": {
+        "codec_name": "h264",
+        "profile": "Constrained Baseline",
+        "width": 640,
+        "height": 360,
+        "level": 31,
+        "nb_read_frames": "30"
+      },
+      "outputSha256": "4af594fcef1a1db290d42f0991abc06c698ab5159d91748c05719360eee40c96",
+      "executedForHostVersion": "0.4.0",
+      "scope": "Network-free generated test bars. The production args/Annex-B parser and real encoder/decoder run; native Windows capture, SendInput, or WebRTC transport are not exercised.",
+      "stdoutLog": "verification/history/0.4-final/capture-smoke.stdout.log",
+      "stderrLog": "verification/history/0.4-final/capture-smoke.stderr.log",
+      "ffprobe": "verification/history/0.4-final/capture-ffprobe.json",
+      "status": "carried_forward",
+      "currentVersionNote": "Executed for 0.4 only; not rerun in 0.5. Encoder/configuration/fixture source bytes match the archived input pins. This is not native Windows or networked media evidence.",
+      "unchangedInputs": {
+        "src/media.rs": "dae8e76edeb07d43c7853dbbd3522af854a0df6fa1590e09748299127ba3028d",
+        "src/config.rs": "13baa7450cc77332fcdfca54c1a8320b008c5b3192f77d87d6f9730b78a44579",
+        "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620"
+      },
+      "pathsRelativeTo": "agent-windows"
+    }
+  },
+  "dependencies": {
+    "inventorySha256": "df6bd22a3ed9b4cb2f493fcc0b72e257dd192cf45716932f50560c0996a21f85",
+    "fileReferenceRecordsVerified": 755,
+    "uniqueReferencedFilesVerified": 743,
+    "rustPackages": 319,
+    "androidRuntimeComponents": 98,
+    "unresolvedRustNotices": [
+      "precis-core-0.1.11",
+      "precis-profiles-0.1.13",
+      "winapi-i686-pc-windows-gnu-0.4.0",
+      "winapi-x86_64-pc-windows-gnu-0.4.0"
+    ],
+    "scope": "Declared-license and available-file inventory; public-redistribution gate remains blocked"
+  },
+  "sourceCustody": {
+    "record": "evidence/committed-source-verification-0.5.json",
+    "components": {
+      "windows": 20,
+      "coordinator": 14,
+      "android": 48
+    },
+    "matchesCapturedImplementation": true,
+    "sourceBuildReproducibilityAttested": false
+  },
+  "pilotRecord": {
+    "path": "evidence/pilot-0.5-not-run.json",
+    "validation": {
+      "recordValid": true,
+      "reportedPilotComplete": false,
+      "releaseReady": false,
+      "sourceRevision": "cc296948a90efa1b066ceec18015632699c38fcc",
+      "counts": {
+        "blocked": 0,
+        "failed": 0,
+        "not_run": 17,
+        "passed": 0
+      },
+      "note": "Hashes and required recorded observations validated. This tool cannot attest execution, build provenance, signatures, or production readiness."
+    },
+    "requirePassRejectsUnexecuted": true,
+    "phoneSetupSupplement": "docs/phone-setup.md: all eight native acceptance steps also remain unexecuted"
+  },
+  "unexecutedOrBlocked": [
+    "No actual Windows-to-Android remote desktop session has been demonstrated.",
+    "Windows home layout, copy, focus, DPI movement and Stop/close during live capture remain not run.",
+    "Android installation/upgrade, Keystore, encrypted settings, Compose, cold/warm intents, rotation/process recreation and SAF overlap remain not run.",
+    "Direct Internet and TURN UDP/TCP/TLS443, carrier NAT, renewal, handoff and infrastructure restarts remain not run.",
+    "Prior independent native media fixture was blocked by netlinkrib: operation not permitted before receiving media; not retried or bypassed for 0.5.",
+    "Prior Chromium media fixture was blocked at local-socket initialization before launch; not retried or bypassed for 0.5.",
+    "Production signing, complete native notices/source provenance, full security review, performance matrix, installation and backup/restore remain open.",
+    "No OpenRemote destination repository, public coordinator, TURN deployment or remote device runner is configured."
+  ],
+  "productionFeaturesStillPlanned": [
+    "hardware/adaptive encoding and measured high-resolution profiles",
+    "PC audio",
+    "bidirectional/resumable file transfer",
+    "full host settings/trust UI and sign-in startup",
+    "service/reboot/secure-desktop support",
+    "independent peer negotiation signatures",
+    "biometric gate and signed updater",
+    "iOS and other platform expansion"
+  ]
+}

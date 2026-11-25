@@ -1,0 +1,38 @@
+{
+  "scope": "First implementation check, before UI argument grouping",
+  "recordedAt": "2026-11-19T08:21:14.186906+00:00",
+  "tests": {
+    "command": "cargo test --manifest-path agent-windows/Cargo.toml --locked --offline --lib",
+    "exitCode": 0,
+    "passed": 84,
+    "failed": 0
+  },
+  "windowsClippy": {
+    "command": "cargo clippy --manifest-path agent-windows/Cargo.toml --locked --offline --all-targets --target x86_64-pc-windows-gnullvm -- -D warnings",
+    "exitCode": 101,
+    "diagnostic": "src/host_home.rs:365 fn run has too many arguments (12/7); no other diagnostic"
+  },
+  "sourceSha256": {
+    "agent-windows/examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+    "agent-windows/examples/synthetic_peer.rs": "396104ffa5e9624cd363108a1fec7ca9aff5774710659c3c8ef691dba79b162e",
+    "agent-windows/src/api.rs": "d1f2128d071d874e70c0eaf75f987a74c2bb04c9919e0243c1aa203cabce2c91",
+    "agent-windows/src/config.rs": "97802538773c0ed5372f87ff85c9d9981fdfb1e429fff470ed41018e63b4d39d",
+    "agent-windows/src/displays.rs": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+    "agent-windows/src/host_home.rs": "bf6a6a69998c4c2c81f8d086e6fd370b9c249ea6d6f5bd75f777ed53ef2294ec",
+    "agent-windows/src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+    "agent-windows/src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+    "agent-windows/src/lib.rs": "9882c5b17fe706a913e860dc1467f49c6f2f136c455c3e8cc7864c5ea6a5c4ed",
+    "agent-windows/src/main.rs": "4fcc1b09a76cad58cef31482613a957ef8ba3fa544c8d55227b18281b5e27f4d",
+    "agent-windows/src/media.rs": "a49122439eada16e8684f8ded7457d1e37111cd7daec0b83aea763c267bda46f",
+    "agent-windows/src/pairing.rs": "1c5f5a46f0d3e6fb5f746d34f7e891eaa430352bececece0880334a0dd0d3694",
+    "agent-windows/src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+    "agent-windows/src/session.rs": "27b7a2de68f479e5d91294249aaba882633e1fc9364f8ce587983f9b68305e9f",
+    "agent-windows/src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+    "agent-windows/src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+    "agent-windows/src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+    "agent-windows/src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+    "agent-windows/src/startup.rs": "1de9a3a893e056ecf5a331204e72a0ce0654164a2b36d643b149a824fc662d48",
+    "agent-windows/src/startup_windows.rs": "cd1317fd20c39329e552847fed62ab4ab8975184ae2dee306b392d92a6217350",
+    "agent-windows/src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96"
+  }
+}

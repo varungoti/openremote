@@ -1,0 +1,12 @@
+VERIFIED build-tools_r35_linux.zip: 61958799 bytes
+INSTALLED build-tools;35.0.0
+VERIFIED platform-36_r02.zip: 65878410 bytes
+INSTALLED platforms;android-36
+VERIFIED platform-tools_r37.0.3-linux.zip: 9571024 bytes
+INSTALLED platform-tools
+VERIFIED gradle-8.13-bin.zip: 136983045 bytes
+INSTALLED gradle
+VERIFIED commandlinetools-linux-16111833_latest.zip: 181052239 bytes
+INSTALLED cmdline-tools;latest
+VERIFIED OpenJDK21U-jdk_x64_linux_hotspot_21.0.13_9.tar.gz: 207858352 bytes
+INSTALLED jdk

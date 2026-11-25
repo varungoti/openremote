@@ -1,0 +1,10 @@
+{
+  "capturedSourceCommit": "53dccfc7ddcd8460bfbed43d9a363a08c58021ae",
+  "buildInputsMatchCommit": true,
+  "groups": {
+    "windows": 19,
+    "coordinator": 12,
+    "android": 44
+  },
+  "scope": "Unsigned development binaries were compiled before this consolidation commit. Their recorded build inputs match the corresponding committed file bytes. This is source custody evidence, not independent reproducibility or a signed build attestation."
+}
