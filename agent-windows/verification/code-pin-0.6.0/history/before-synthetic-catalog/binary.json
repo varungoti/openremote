@@ -1,0 +1,7 @@
+{
+  "hostVersion": "0.6.0",
+  "sha256": "bc4440d386fb9692d638a369e6b6c7137ceca800bfd7c057963c15407cc15609",
+  "sizeBytes": 9796096,
+  "status": "superseded input pin after synthetic catalog fixture requested",
+  "reason": "Native display catalog helper and synthetic example will be validated/rebuilt separately."
+}

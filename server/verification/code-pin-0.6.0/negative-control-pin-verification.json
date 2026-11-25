@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+    "test",
+    "./internal/app",
+    "-run",
+    "^TestPairingFiveWrongPINsLockCodeForEveryController$",
+    "-count=1"
+  ],
+  "isolatedSourceCopy": "/workspace/scratch/72f8c6db0182/openremote-pairing-negative-4m89gomp/server",
+  "isolatedGOCACHE": "/workspace/scratch/72f8c6db0182/openremote-pairing-negative-4m89gomp/cache",
+  "mutatedFile": "internal/app/pairing.go",
+  "beforeSHA256": "25372373556e9454ec9620f7ff70907af0a4e9b6fef07130c356440d84f1ca8a",
+  "afterSHA256": "a57bdc8642d015984456a1c984307110c8b14e5ce9d3f0cc3a4b975ed2ddf956",
+  "mutation": "constant-time comparison == 1 changed to >= 0 only in isolated copy",
+  "expectedExitCode": 1,
+  "actualExitCode": 1,
+  "durationSeconds": 37.9,
+  "expectedFailure": "wrong PIN incorrectly creates session; regression should reject HTTP201 instead of403"
+}

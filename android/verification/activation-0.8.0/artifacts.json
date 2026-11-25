@@ -1,0 +1,98 @@
+[
+  {
+    "path": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+    "filename": "app-arm64-v8a-debug.apk",
+    "variant": "debug",
+    "abi": "arm64-v8a",
+    "package": "com.openremote.mobile.dev",
+    "label": "OpenRemote Preview",
+    "versionCode": 8,
+    "versionName": "0.8.0",
+    "sha256": "4ac99f04f81b3b2cd20e33b5801bf6f3a85174e31f983767279c253e1684503a",
+    "sizeBytes": 24417783
+  },
+  {
+    "path": "android/app/build/outputs/apk/debug/app-armeabi-v7a-debug.apk",
+    "filename": "app-armeabi-v7a-debug.apk",
+    "variant": "debug",
+    "abi": "armeabi-v7a",
+    "package": "com.openremote.mobile.dev",
+    "label": "OpenRemote Preview",
+    "versionCode": 8,
+    "versionName": "0.8.0",
+    "sha256": "74345b59a030b21c44aa2a38219aa6b83a8d89c0e155f9a916db7e7c332b6f6c",
+    "sizeBytes": 18943559
+  },
+  {
+    "path": "android/app/build/outputs/apk/debug/app-x86_64-debug.apk",
+    "filename": "app-x86_64-debug.apk",
+    "variant": "debug",
+    "abi": "x86_64",
+    "package": "com.openremote.mobile.dev",
+    "label": "OpenRemote Preview",
+    "versionCode": 8,
+    "versionName": "0.8.0",
+    "sha256": "7f87d800e4c862b117beca13d3c880ff6c1c9adf2fe7cc817fcb5354ed92c7b5",
+    "sizeBytes": 28296577
+  },
+  {
+    "path": "android/app/build/outputs/apk/debug/app-x86-debug.apk",
+    "filename": "app-x86-debug.apk",
+    "variant": "debug",
+    "abi": "x86",
+    "package": "com.openremote.mobile.dev",
+    "label": "OpenRemote Preview",
+    "versionCode": 8,
+    "versionName": "0.8.0",
+    "sha256": "efcfba9769d5ddcc5299ca3578593ca1fcf55bcd6d706131b8b9081e2f358a10",
+    "sizeBytes": 24950067
+  },
+  {
+    "path": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+    "filename": "app-arm64-v8a-release-unsigned.apk",
+    "variant": "release",
+    "abi": "arm64-v8a",
+    "package": "com.openremote.mobile",
+    "label": "OpenRemote",
+    "versionCode": 8,
+    "versionName": "0.8.0",
+    "sha256": "13cfe47bffcd3a7970865f0254154ad631b5f7109bca1a4365d9b867a4deed59",
+    "sizeBytes": 13780402
+  },
+  {
+    "path": "android/app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk",
+    "filename": "app-armeabi-v7a-release-unsigned.apk",
+    "variant": "release",
+    "abi": "armeabi-v7a",
+    "package": "com.openremote.mobile",
+    "label": "OpenRemote",
+    "versionCode": 8,
+    "versionName": "0.8.0",
+    "sha256": "a83ff22d124b2222c6e263fc37bec9f10c843e70fc5ab94fd3b2eb4bf1ddb4d8",
+    "sizeBytes": 8306178
+  },
+  {
+    "path": "android/app/build/outputs/apk/release/app-x86_64-release-unsigned.apk",
+    "filename": "app-x86_64-release-unsigned.apk",
+    "variant": "release",
+    "abi": "x86_64",
+    "package": "com.openremote.mobile",
+    "label": "OpenRemote",
+    "versionCode": 8,
+    "versionName": "0.8.0",
+    "sha256": "8bdf785ae47f8ada7defd47e6414739099b90e5e8954aadd2809e1cec753a65f",
+    "sizeBytes": 17659196
+  },
+  {
+    "path": "android/app/build/outputs/apk/release/app-x86-release-unsigned.apk",
+    "filename": "app-x86-release-unsigned.apk",
+    "variant": "release",
+    "abi": "x86",
+    "package": "com.openremote.mobile",
+    "label": "OpenRemote",
+    "versionCode": 8,
+    "versionName": "0.8.0",
+    "sha256": "b9e7cedc3afd30debd58fe6173e23be18d485321266f13cb40a98081a3d00605",
+    "sizeBytes": 14312686
+  }
+]

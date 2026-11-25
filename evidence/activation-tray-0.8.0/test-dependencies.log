@@ -1,0 +1,16 @@
+Collecting cryptography==46.0.3 (from -r scripts/requirements-test.txt (line 1))
+  Downloading cryptography-46.0.3-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (5.7 kB)
+Collecting PyYAML==6.0.3 (from -r scripts/requirements-test.txt (line 2))
+  Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting cffi>=2.0.0 (from cryptography==46.0.3->-r scripts/requirements-test.txt (line 1))
+  Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography==46.0.3->-r scripts/requirements-test.txt (line 1))
+  Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+Downloading cryptography-46.0.3-cp311-abi3-manylinux_2_34_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 11.6 MB/s eta 0:00:00
+Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 7.0 MB/s eta 0:00:00
+Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+Installing collected packages: PyYAML, pycparser, cffi, cryptography
+Successfully installed PyYAML-6.0.3 cffi-2.1.1 cryptography-46.0.3 pycparser-3.12

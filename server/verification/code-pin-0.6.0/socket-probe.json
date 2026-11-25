@@ -1,0 +1,11 @@
+{
+  "command": [
+    "go1.27.4",
+    "run",
+    "/workspace/scratch/72f8c6db0182/openremote-http-probe-zss9pnsc/main.go"
+  ],
+  "exitCode": 0,
+  "stdout": "HTTP 200 socket-probe-ok\n",
+  "stderr": "",
+  "scope": "ephemeral IPv4 loopback httptest server and HTTP GET only"
+}

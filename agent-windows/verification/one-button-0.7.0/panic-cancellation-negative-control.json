@@ -1,0 +1,26 @@
+{
+  "mutation": "Remove only the production supervisor cancellation guard in an isolated source copy; production worktree unchanged. This recreates the previous wrapper behavior.",
+  "command": [
+    "cargo",
+    "test",
+    "--manifest-path",
+    "/workspace/scratch/72f8c6db0182/negative-control-windows-0.7-panic/agent-windows/Cargo.toml",
+    "--locked",
+    "--offline",
+    "--lib",
+    "host_home::tests::"
+  ],
+  "targetDirectory": "/workspace/scratch/72f8c6db0182/negative-control-windows-0.7-panic/target",
+  "isolatedTargetDirectory": true,
+  "exitCode": 101,
+  "expectedFailureObserved": true,
+  "failingTests": [
+    "attempt_panic_cancels_detached_children_before_reporting_failure",
+    "aborting_the_owner_cancels_the_running_attempt"
+  ],
+  "durationSeconds": 21.402,
+  "log": "verification/one-button-0.7.0/panic-cancellation-negative-control.log",
+  "productionHostHomeSha256": "5b0fc7318696c0729e911f2b581e7fd87109926c3b61773cfd414dd937c2b502",
+  "mutatedHostHomeSha256": "99a2e09fae57c5f71e9528ed1eeed9f038b97289567014b5b15682fc2b5cb554",
+  "scope": "Real Tokio task/cancellation behavior on Linux; Windows UI/capture functions not executed"
+}

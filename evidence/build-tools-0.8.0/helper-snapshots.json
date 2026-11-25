@@ -1,0 +1,80 @@
+[
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/restore-pinned.py",
+    "snapshotPath": "helpers/restore-pinned.py",
+    "sha256": "6d9ecec983c49984cf7a10ef9f25a55d9991b9d400333f049a934aa51ec364b4",
+    "sizeBytes": 3280
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/install-rust.py",
+    "snapshotPath": "helpers/install-rust.py",
+    "sha256": "610937d0b76b583dc8e3a75ce1eb76ccb168150109f66502171e55132d4cf911",
+    "sizeBytes": 1061
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/verify-tools.py",
+    "snapshotPath": "helpers/verify-tools.py",
+    "sha256": "1aa4de62a1033113b17ad97b2d46e9b2c9cd3e34a33b78e87a5cccd8a075176f",
+    "sizeBytes": 3679
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/env.sh",
+    "snapshotPath": "helpers/env.sh",
+    "sha256": "9497dce00f86bfa106821fc32ef8ef196236cfe5c3db4da948f91c7c4a89f34e",
+    "sizeBytes": 1138
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/restore-android.py",
+    "snapshotPath": "helpers/android-0.8/restore-android.py",
+    "sha256": "f28b82c46fc7163e724ed3cbd920ccfdcc0ce9dee435d4b61eeb9b09a4b10b68",
+    "sizeBytes": 4486
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/prefetch-dependencies.py",
+    "snapshotPath": "helpers/android-0.8/prefetch-dependencies.py",
+    "sha256": "e05457ce51eb0dda25dfe972e3af69b15d76cedf55abe8fd7ee38e6d2f894c76",
+    "sizeBytes": 6477
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/configure-java-network.py",
+    "snapshotPath": "helpers/android-0.8/configure-java-network.py",
+    "sha256": "6f4e3ca7748461c170ef41788569832cece3a1de4959d862d86643fef3b40fe6",
+    "sizeBytes": 3175
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/env.sh",
+    "snapshotPath": "helpers/android-0.8/env.sh",
+    "sha256": "d4a2913e2976da421f528c2584c0cf7d3a7523bd15f8efb6521524f4cbb09794",
+    "sizeBytes": 626
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/local-pins.gradle",
+    "snapshotPath": "helpers/android-0.8/local-pins.gradle",
+    "sha256": "b5438d2651bc6051308fb2aa133b4fb2f3ba6284c451f1b6395929649a3f6990",
+    "sizeBytes": 652
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/run-build.py",
+    "snapshotPath": "helpers/android-0.8/run-build.py",
+    "sha256": "4c26c261d25fdc21d45ca246502068cbe52e638f28bf275f9b31630e43b0813d",
+    "sizeBytes": 1451
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/capture-build.py",
+    "snapshotPath": "helpers/android-0.8/capture-build.py",
+    "sha256": "d91383d822a7f0099effe05d9066dec69b773539b7399655a77f8abaedb616f9",
+    "sizeBytes": 1944
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/verify-guards.py",
+    "snapshotPath": "helpers/android-0.8/verify-guards.py",
+    "sha256": "6d8a275488c7473d0bc964b8f250fa710b308c3da085172b944efe6872d0aaae",
+    "sizeBytes": 2230
+  },
+  {
+    "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/android-0.8/verify-artifacts.py",
+    "snapshotPath": "helpers/android-0.8/verify-artifacts.py",
+    "sha256": "af345193edc87ae6d8f2c740d5d91aa89b13a03a8ec25671156abd155c110deb",
+    "sizeBytes": 10834
+  }
+]

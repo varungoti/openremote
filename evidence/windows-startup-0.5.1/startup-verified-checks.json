@@ -1,0 +1,59 @@
+[
+  {
+    "name": "fmt",
+    "args": [
+      "cargo",
+      "fmt",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.252,
+    "log": "/workspace/scratch/72f8c6db0182/startup-verified-fmt.log"
+  },
+  {
+    "name": "test",
+    "args": [
+      "cargo",
+      "test",
+      "--locked",
+      "--offline"
+    ],
+    "exit_code": 0,
+    "seconds": 8.777,
+    "log": "/workspace/scratch/72f8c6db0182/startup-verified-test.log"
+  },
+  {
+    "name": "clippy-linux",
+    "args": [
+      "cargo",
+      "clippy",
+      "--locked",
+      "--offline",
+      "--all-targets",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "exit_code": 0,
+    "seconds": 1.639,
+    "log": "/workspace/scratch/72f8c6db0182/startup-verified-clippy-linux.log"
+  },
+  {
+    "name": "clippy-windows",
+    "args": [
+      "cargo",
+      "clippy",
+      "--locked",
+      "--offline",
+      "--all-targets",
+      "--target",
+      "x86_64-pc-windows-gnullvm",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "exit_code": 0,
+    "seconds": 5.357,
+    "log": "/workspace/scratch/72f8c6db0182/startup-verified-clippy-windows.log"
+  }
+]

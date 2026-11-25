@@ -1,0 +1,44 @@
+✔ code and PIN retain leading zeroes and reject formatting tricks or non-ASCII digits (6.060481ms)
+✔ permanent PC identity requires activation and stays bound during refresh (3.203633ms)
+✔ activation discovery accepts only an explicit supported integer capability and capacity (0.783433ms)
+✔ names are byte bounded and exclude control characters (0.921251ms)
+✔ strict JSON rejects duplicate authorization keys including escaped aliases and nested objects (5.212493ms)
+✔ WebCrypto signatures are converted to actual Go-compatible ASN.1, verified independently (51.806386ms)
+✔ DER integer zero trimming and high-bit padding are canonical (1.112698ms)
+✔ redemption requires exact verified controller and a least-privilege primary-display grant (3.788145ms)
+✔ session refresh cannot switch device, key, pairing or broaden permissions (2.449515ms)
+✔ input requires peer, channel, permissions, fresh frame AND immutable display binding (11.040006ms)
+✔ display gate rejects changed topology, wrong primary, duplicate monitors and capabilities (17.228537ms)
+✔ pointer coordinates respect actual video letterboxing and never inject into black bars (8.582623ms)
+✔ service capability checks fail before consuming a code on a legacy coordinator (2.282603ms)
+✔ API only sends credential bodies to the same origin, never redirects or ambient cookies (241.988151ms)
+✔ API bounds streamed responses and does not retry a one-use POST (24.617248ms)
+✖ API distinguishes safe error codes from arbitrary remote text (4.955886ms)
+✔ actual P-256 proof exchange uses a non-exportable signing key and verifies independently (28.012514ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 16
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 738.791153
+
+✖ failing tests:
+
+test at tests/browser/controller-core.test.mjs:148:1
+✖ API distinguishes safe error codes from arbitrary remote text (4.955886ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /incorrect, expired/. Input:
+  
+  'Check the PC ID and PIN, and make sure connection is active on your PC.'
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/browser/controller-core.test.mjs:152:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Check the PC ID and PIN, and make sure connection is active on your PC.',
+    expected: /incorrect, expired/,
+    operator: 'match',
+    diff: 'simple'
+  }

@@ -1,0 +1,8 @@
+{
+  "time": "2026-11-19T08:20:14.116175+00:00",
+  "command": "GOTOOLCHAIN=local /workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go test ./internal/app -run Pairing -count=1",
+  "cwd": "server",
+  "exitCode": 1,
+  "output": "--- FAIL: TestPairingPINVerifierMatchesIndependentKnownAnswer (0.15s)\n    pairing_test.go:428: PIN KDF mismatch: 01de156f5c6ab203969a853a23b3873896f3a951116176929e2b41d5f0d3c1a1\nFAIL\nFAIL openremote/controlplane/internal/app 11.168s\nFAIL",
+  "cause": "Fixture-generation and gofmt were invoked with redundant server/ prefix from inside server/, so the first compiled test still contained the literal placeholder. Python hashlib-generated fixture was subsequently written from correct cwd; no implementation change required."
+}

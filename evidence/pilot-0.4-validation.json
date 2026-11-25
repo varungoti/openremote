@@ -1,0 +1,13 @@
+{
+  "recordValid": true,
+  "reportedPilotComplete": false,
+  "releaseReady": false,
+  "sourceRevision": "53dccfc7ddcd8460bfbed43d9a363a08c58021ae",
+  "counts": {
+    "blocked": 0,
+    "failed": 0,
+    "not_run": 17,
+    "passed": 0
+  },
+  "note": "Hashes and required recorded observations validated. This tool cannot attest execution, build provenance, signatures, or production readiness."
+}

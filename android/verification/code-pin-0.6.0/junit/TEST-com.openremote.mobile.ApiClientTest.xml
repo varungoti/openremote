@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.ApiClientTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-19T08:42:46.550Z" hostname="f87c0b69ff3f" time="4.44">
+  <properties/>
+  <testcase name="selectedMonitorIsExplicitScopedAndImmutableAcrossStatusChecks" classname="com.openremote.mobile.ApiClientTest" time="1.73"/>
+  <testcase name="longPollingIsCancelledWithSession" classname="com.openremote.mobile.ApiClientTest" time="2.154"/>
+  <testcase name="missingMonitorEchoEndsLegacyRequestWithoutFallingBack" classname="com.openremote.mobile.ApiClientTest" time="0.2"/>
+  <testcase name="authenticationSignsTheActualChallengeAndNeverSelfAssertsTrust" classname="com.openremote.mobile.ApiClientTest" time="0.159"/>
+  <testcase name="pendingSessionSignalsCannotBorrowControllerIdentity" classname="com.openremote.mobile.ApiClientTest" time="0.06"/>
+  <testcase name="primarySessionOmitsMonitorFieldAndMalformedSelectionsNeverReachServer" classname="com.openremote.mobile.ApiClientTest" time="0.121"/>
+  <testcase name="endpointAndPcIdRejectCredentialLeaksAndAmbiguity" classname="com.openremote.mobile.ApiClientTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

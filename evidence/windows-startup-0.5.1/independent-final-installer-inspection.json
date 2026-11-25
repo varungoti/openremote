@@ -1,0 +1,143 @@
+{
+  "applicationPayload": {
+    "START-HERE.txt": {
+      "extractedPath": "$_13_/START-HERE.txt",
+      "sha256": "79e16b3f5b7279ee529a77eaab357f76167e2aa9aa1b2fa24c83901ca3361ac9",
+      "sizeBytes": 8645
+    },
+    "THIRD-PARTY-NOTICES.txt": {
+      "extractedPath": "$_13_/THIRD-PARTY-NOTICES.txt",
+      "sha256": "32f3d083353d66b67609501d64bde9a3d4dd29d2173d239c61285271e9f9ec80",
+      "sizeBytes": 3152339
+    },
+    "Uninstall.exe": {
+      "extractedPath": "$_13_/Uninstall.exe",
+      "sha256": "719a62fc20f883ef4cb11e47794dbecd265f15f508d198f2c9878258cd6f46b0",
+      "sizeBytes": 141168
+    },
+    "openremote-agent.exe": {
+      "extractedPath": "$_13_/openremote-agent.exe",
+      "sha256": "47c5c0a386be1f9b9d75950aefe56a0abc519a643c975bea3561bfe8c986f96b",
+      "sizeBytes": 9655296
+    },
+    "package-manifest.json": {
+      "extractedPath": "$_13_/package-manifest.json",
+      "sha256": "b267970ddb9b0b596f64b250a091c27e3664bb5b7fe1a2e7bcf557c5bcf09428",
+      "sizeBytes": 73570
+    }
+  },
+  "installer": {
+    "file": "artifacts/windows-installer-final/OpenRemote-0.5.1-Windows-x64-Setup.exe",
+    "sha256": "fe593f19f80b45647e6f434ad6951d5a245e4ea328e51a4a0093db56bbbce5b9",
+    "sizeBytes": 3291954
+  },
+  "nativeExecution": "not_run",
+  "packagedHostMatchesFinalBuild": true,
+  "payloadMatchesPackagingRecord": true,
+  "peInspection": {
+    "OpenRemote-0.5.1-Windows-x64-Setup.exe": {
+      "certificateDirectoryRva": "0x0",
+      "delayImportDirectoryRva": "0x0",
+      "imports": [
+        "advapi32.dll",
+        "comctl32.dll",
+        "gdi32.dll",
+        "kernel32.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll"
+      ],
+      "log": "independent-package-pe-0.log",
+      "machine": "IMAGE_FILE_MACHINE_I386 (0x14C)",
+      "sha256": "fe593f19f80b45647e6f434ad6951d5a245e4ea328e51a4a0093db56bbbce5b9",
+      "subsystem": "IMAGE_SUBSYSTEM_WINDOWS_GUI (0x2)",
+      "unexpectedImportDlls": []
+    },
+    "System.dll": {
+      "certificateDirectoryRva": "0x0",
+      "delayImportDirectoryRva": "0x0",
+      "imports": [
+        "kernel32.dll",
+        "msvcrt.dll",
+        "ole32.dll",
+        "user32.dll"
+      ],
+      "log": "independent-package-pe-1.log",
+      "machine": "IMAGE_FILE_MACHINE_I386 (0x14C)",
+      "sha256": "54167ae0968e05910ef8dcd8bbc345afe3dad810fd3c9d2d3f47ad4caffc456d",
+      "subsystem": "IMAGE_SUBSYSTEM_WINDOWS_GUI (0x2)",
+      "unexpectedImportDlls": []
+    },
+    "Uninstall.exe": {
+      "certificateDirectoryRva": "0x0",
+      "delayImportDirectoryRva": "0x0",
+      "imports": [
+        "advapi32.dll",
+        "comctl32.dll",
+        "gdi32.dll",
+        "kernel32.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll"
+      ],
+      "log": "independent-package-pe-3.log",
+      "machine": "IMAGE_FILE_MACHINE_I386 (0x14C)",
+      "sha256": "719a62fc20f883ef4cb11e47794dbecd265f15f508d198f2c9878258cd6f46b0",
+      "subsystem": "IMAGE_SUBSYSTEM_WINDOWS_GUI (0x2)",
+      "unexpectedImportDlls": []
+    },
+    "nsDialogs.dll": {
+      "certificateDirectoryRva": "0x0",
+      "delayImportDirectoryRva": "0x0",
+      "imports": [
+        "comdlg32.dll",
+        "gdi32.dll",
+        "kernel32.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll"
+      ],
+      "log": "independent-package-pe-2.log",
+      "machine": "IMAGE_FILE_MACHINE_I386 (0x14C)",
+      "sha256": "3564ce8b510acfe456f7135e0c1ac1f71cfa39c787909192be8f8ed40dcbe305",
+      "subsystem": "IMAGE_SUBSYSTEM_WINDOWS_GUI (0x2)",
+      "unexpectedImportDlls": []
+    },
+    "openremote-agent.exe": {
+      "certificateDirectoryRva": "0x0",
+      "delayImportDirectoryRva": "0x0",
+      "imports": [
+        "advapi32.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "bcrypt.dll",
+        "bcryptprimitives.dll",
+        "comdlg32.dll",
+        "crypt32.dll",
+        "gdi32.dll",
+        "iphlpapi.dll",
+        "kernel32.dll",
+        "ntdll.dll",
+        "user32.dll",
+        "ws2_32.dll"
+      ],
+      "log": "independent-package-pe-4.log",
+      "machine": "IMAGE_FILE_MACHINE_AMD64 (0x8664)",
+      "sha256": "47c5c0a386be1f9b9d75950aefe56a0abc519a643c975bea3561bfe8c986f96b",
+      "subsystem": "IMAGE_SUBSYSTEM_WINDOWS_GUI (0x2)",
+      "unexpectedImportDlls": []
+    }
+  },
+  "recordedAtUtc": "2026-11-19T07:52:56.131316+00:00",
+  "scope": "Independent7-Zip26.06 extraction, byte checks and LLVM readobj static PE inspection; no Windows execution. PE imports are Windows system/API-set or C runtime names; no new separately redistributable DLL import found. External FFmpeg remains required.",
+  "sourceRevision": "b25975bf632902a6f65d2f6e71c3722b55010e19"
+}

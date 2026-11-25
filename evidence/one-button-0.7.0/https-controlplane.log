@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "checks": [
+    "Public HTTPS setup discovery, exact relay configuration flags and no credentials or host details",
+    "P-256 SPKI authentication and single-use challenge replay rejection",
+    "Copied public key does not authenticate an impostor",
+    "Protected enrollment, authenticated lookup, host heartbeat",
+    "Host consent, actor authorization, and permission narrowing",
+    "Expiring TURN REST credential HMAC matches relay secret",
+    "Approved bidirectional offer/answer and ICE routing",
+    "Ended sessions cannot signal or acquire relay credentials",
+    "Immutable opaque monitor selector, strict validation, host event echo and view-only authorization",
+    "Verified HTTPS code/PIN redemption, wrong-PIN and replay denial, host-only approval and no extra grants",
+    "Device identity survives process restart; bearer tokens absent from persisted JSON",
+    "Unused pairing grant disappears on real process restart; PIN and pairing bearer absent from durable state"
+  ],
+  "transport": "HTTPS with verified ephemeral test CA",
+  "binary": {
+    "sha256": "a7f899c0a2d036d3524cc80166a16ee3ea3f83f456abacd1948131e5799276c4",
+    "size": 7450784
+  },
+  "finishedAt": "2026-11-19T11:27:40.563692+00:00",
+  "scope": "Control plane only. No desktop frames or input injected by this test."
+}
+

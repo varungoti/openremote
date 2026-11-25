@@ -1,0 +1,8 @@
+{
+  "test": "oversized_serialized_settings_never_replace_a_readable_configuration",
+  "mutation": "remove only the serialized-size guard in an isolated source copy; production worktree unchanged",
+  "exitCode": 101,
+  "expectedFailureObserved": true,
+  "durationSeconds": 17.078,
+  "scope": "Linux temporary-file persistence behavior, not Windows UI"
+}

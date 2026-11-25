@@ -1,0 +1,154 @@
+{
+  "recordedAtUtc": "2026-11-20T10:28:34.932767+00:00",
+  "versions": {
+    "rustc": "rustc 1.100.0 (0ef1bc386 2026-11-09)",
+    "cargo": "cargo 1.100.0 (3acc79c0c 2026-11-05)",
+    "rustfmt": "rustfmt 1.11.0-stable (0ef1bc3860 2026-11-09)",
+    "clippy": "clippy 0.1.100 (0ef1bc3860 2026-11-09)",
+    "clang": "clang version 23.1.5 (https://github.com/llvm/llvm-project.git 392dfff97d29b59d77e5cac6d4b6ef2585fe7117)\nTarget: x86_64-w64-windows-gnu\nThread model: posix\nInstalledDir: /workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/bin\nConfiguration file: /workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/bin/x86_64-w64-windows-gnu.cfg",
+    "nsis": "v3.11-1",
+    "go": "go version go1.27.4 linux/amd64",
+    "7zip": "7-Zip (z) 26.06 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-11-06\n 64-bit locale=C.UTF-8 Threads:9 OPEN_MAX:16384, ASM"
+  },
+  "checks": [
+    {
+      "name": "version-rustc",
+      "command": [
+        "rustc",
+        "--version"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/version-rustc.log"
+    },
+    {
+      "name": "version-cargo",
+      "command": [
+        "cargo",
+        "--version"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/version-cargo.log"
+    },
+    {
+      "name": "version-rustfmt",
+      "command": [
+        "rustfmt",
+        "--version"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/version-rustfmt.log"
+    },
+    {
+      "name": "version-clippy",
+      "command": [
+        "cargo",
+        "clippy",
+        "--version"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/version-clippy.log"
+    },
+    {
+      "name": "version-clang",
+      "command": [
+        "x86_64-w64-mingw32-clang",
+        "--version"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/version-clang.log"
+    },
+    {
+      "name": "version-nsis",
+      "command": [
+        "makensis",
+        "-VERSION"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/version-nsis.log"
+    },
+    {
+      "name": "version-go",
+      "command": [
+        "go",
+        "version"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/version-go.log"
+    },
+    {
+      "name": "version-7zip",
+      "command": [
+        "7zz",
+        "i"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/version-7zip.log"
+    },
+    {
+      "name": "windows-link-smoke",
+      "command": [
+        "rustc",
+        "--edition=2021",
+        "--target",
+        "x86_64-pc-windows-gnullvm",
+        "-C",
+        "linker=/workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/bin/x86_64-w64-mingw32-clang",
+        "/workspace/scratch/72f8c6db0182/toolchains/smoke/cross-link.rs",
+        "-o",
+        "/workspace/scratch/72f8c6db0182/toolchains/smoke/cross-link.exe"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/windows-link-smoke.log"
+    },
+    {
+      "name": "windows-link-pe",
+      "command": [
+        "llvm-readobj",
+        "--file-headers",
+        "/workspace/scratch/72f8c6db0182/toolchains/smoke/cross-link.exe"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/windows-link-pe.log"
+    },
+    {
+      "name": "nsis-compile-smoke",
+      "command": [
+        "makensis",
+        "-NOCONFIG",
+        "-WX",
+        "/workspace/scratch/72f8c6db0182/toolchains/smoke/toolchain-smoke.nsi"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/nsis-compile-smoke.log"
+    },
+    {
+      "name": "nsis-extract-smoke",
+      "command": [
+        "7zz",
+        "x",
+        "-y",
+        "-o/workspace/scratch/72f8c6db0182/toolchains/smoke/extracted",
+        "/workspace/scratch/72f8c6db0182/toolchains/smoke/toolchain-smoke.exe"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/nsis-extract-smoke.log"
+    },
+    {
+      "name": "nsis-uninstaller-pe",
+      "command": [
+        "llvm-readobj",
+        "--file-headers",
+        "/workspace/scratch/72f8c6db0182/toolchains/smoke/extracted/Uninstall.exe"
+      ],
+      "exitCode": 0,
+      "log": "evidence/build-tools-0.8.0/nsis-uninstaller-pe.log"
+    }
+  ],
+  "windowsTarget": "x86_64-pc-windows-gnullvm",
+  "windowsCrossLink": "passed",
+  "nsisCompileWithWarningsAsErrors": "passed",
+  "sevenZipGeneratedUninstallerExtraction": "passed",
+  "nativeWindowsExecution": "not_run",
+  "environmentScript": "/workspace/scratch/72f8c6db0182/toolchains/env.sh",
+  "scope": "Task-local compiler, linker, package compiler and extractor only. No application build or native Windows execution is claimed by this record."
+}

@@ -1,0 +1,21 @@
+test_domain_input_has_no_protocol_or_directives (test_deployment_config.ConfigTest.test_domain_input_has_no_protocol_or_directives) ... ok
+test_private_matching_credentials_and_no_overwrite (test_deployment_config.ConfigTest.test_private_matching_credentials_and_no_overwrite) ... ok
+test_refuses_private_relay_and_env_injection (test_deployment_config.ConfigTest.test_refuses_private_relay_and_env_injection) ... ok
+test_actual_evidence_bytes_are_rechecked (test_pilot_evidence.PilotEvidenceTests.test_actual_evidence_bytes_are_rechecked) ... ok
+test_candidate_change_or_wrong_revision_is_rejected (test_pilot_evidence.PilotEvidenceTests.test_candidate_change_or_wrong_revision_is_rejected) ... ok
+test_claimed_pass_requires_physical_environment_and_archived_observation (test_pilot_evidence.PilotEvidenceTests.test_claimed_pass_requires_physical_environment_and_archived_observation) ... ok
+test_complete_synthetic_fixture_only_marks_record_complete_not_release (test_pilot_evidence.PilotEvidenceTests.test_complete_synthetic_fixture_only_marks_record_complete_not_release) ... ok
+test_duplicate_and_nonfinite_json_and_oversize_are_rejected (test_pilot_evidence.PilotEvidenceTests.test_duplicate_and_nonfinite_json_and_oversize_are_rejected) ... ok
+test_failed_and_blocked_cases_preserve_failure_and_do_not_pass_gate (test_pilot_evidence.PilotEvidenceTests.test_failed_and_blocked_cases_preserve_failure_and_do_not_pass_gate) ... ok
+test_initial_record_has_no_execution_claims_and_does_not_pass_gate (test_pilot_evidence.PilotEvidenceTests.test_initial_record_has_no_execution_claims_and_does_not_pass_gate) ... ok
+test_monitor_and_two_pc_claims_require_matching_environment (test_pilot_evidence.PilotEvidenceTests.test_monitor_and_two_pc_claims_require_matching_environment) ... ok
+test_new_report_never_overwrites_existing_file (test_pilot_evidence.PilotEvidenceTests.test_new_report_never_overwrites_existing_file) ... ok
+test_paths_must_stay_inside_root_without_links (test_pilot_evidence.PilotEvidenceTests.test_paths_must_stay_inside_root_without_links) ... ok
+test_relay_claim_needs_selected_candidate_and_exact_transport (test_pilot_evidence.PilotEvidenceTests.test_relay_claim_needs_selected_candidate_and_exact_transport) ... ok
+test_renewal_must_outlast_credentials_and_upload_hash_must_match (test_pilot_evidence.PilotEvidenceTests.test_renewal_must_outlast_credentials_and_upload_hash_must_match) ... ok
+test_required_scenarios_unique_statuses_and_schema_are_enforced (test_pilot_evidence.PilotEvidenceTests.test_required_scenarios_unique_statuses_and_schema_are_enforced) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.025s
+
+OK

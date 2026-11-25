@@ -1,0 +1,206 @@
+{
+  "binary": {
+    "minimumOs": "Windows 10 version1703 build15063+, or Windows11 on Intel/AMD x64",
+    "pe": {
+      "importDlls": [
+        "advapi32.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "bcrypt.dll",
+        "bcryptprimitives.dll",
+        "comdlg32.dll",
+        "crypt32.dll",
+        "gdi32.dll",
+        "iphlpapi.dll",
+        "kernel32.dll",
+        "ntdll.dll",
+        "shell32.dll",
+        "user32.dll",
+        "ws2_32.dll"
+      ],
+      "machine": 34404,
+      "optionalMagic": 523,
+      "subsystem": 2
+    },
+    "relativePath": "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+    "runtimeDependency": "Separately selected trusted standalone FFmpeg with matching SHA-256; not bundled",
+    "sha256": "ad1553d155548396b759f89649d26dbd176c88af34645215b72bcdd6771075f9",
+    "signature": "unsigned",
+    "sizeBytes": 9799680,
+    "validation": "Cross compiled and linked on Linux; not executed on Windows"
+  },
+  "browserViewer": {
+    "entryPoint": "Explicit Connect to another PC button on host home",
+    "nativeLaunchVerified": false,
+    "requiresHostSetupInThisVersion": true,
+    "secrets": "No query, PIN, credentials or command arguments",
+    "transport": "Configured validated HTTPS origin with fixed /connect path"
+  },
+  "checks": {
+    "commands": [
+      {
+        "command": [
+          "cargo",
+          "fmt",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--check"
+        ],
+        "durationSeconds": 0.39,
+        "exitCode": 0,
+        "log": "agent-windows/verification/code-pin-0.6.0/format.log",
+        "name": "format"
+      },
+      {
+        "command": [
+          "cargo",
+          "test",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--locked",
+          "--offline",
+          "--all-targets"
+        ],
+        "durationSeconds": 14.115,
+        "exitCode": 0,
+        "log": "agent-windows/verification/code-pin-0.6.0/tests.log",
+        "name": "tests"
+      },
+      {
+        "command": [
+          "cargo",
+          "clippy",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--locked",
+          "--offline",
+          "--all-targets",
+          "--",
+          "-D",
+          "warnings"
+        ],
+        "durationSeconds": 3.681,
+        "exitCode": 0,
+        "log": "agent-windows/verification/code-pin-0.6.0/clippy-linux.log",
+        "name": "clippy-linux"
+      },
+      {
+        "command": [
+          "cargo",
+          "clippy",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--locked",
+          "--offline",
+          "--all-targets",
+          "--target",
+          "x86_64-pc-windows-gnullvm",
+          "--",
+          "-D",
+          "warnings"
+        ],
+        "durationSeconds": 18.632,
+        "exitCode": 0,
+        "log": "agent-windows/verification/code-pin-0.6.0/clippy-windows.log",
+        "name": "clippy-windows"
+      },
+      {
+        "command": [
+          "cargo",
+          "build",
+          "--manifest-path",
+          "agent-windows/Cargo.toml",
+          "--release",
+          "--locked",
+          "--offline",
+          "--target",
+          "x86_64-pc-windows-gnullvm"
+        ],
+        "durationSeconds": 150.943,
+        "exitCode": 0,
+        "log": "agent-windows/verification/code-pin-0.6.0/windows-build.log",
+        "name": "windows-build"
+      }
+    ],
+    "independentPeInspection": {
+      "log": "verification/code-pin-0.6.0/windows-pe.log",
+      "matchedImports": 23,
+      "tool": "llvm-readobj"
+    },
+    "nativeWindowsBrowserLaunch": "not_run",
+    "nativeWindowsInstaller": "not_run",
+    "nativeWindowsStartup": "not_run",
+    "rustTests": {
+      "failed": 0,
+      "ignored": 0,
+      "newPairingProfileAndViewerTests": 11,
+      "passed": 87,
+      "runtimePlatform": "Linux",
+      "scope": "Local one-session grants, PIN/profile/viewer URL validation, existing lifecycle/control/tools/media pure and process tests; native Windows calls not executed"
+    },
+    "sourceReview": "verification/code-pin-0.6.0/implementation-review.md",
+    "sourceUnchangedDuringChecks": true,
+    "windowsToPhoneSession": "not_run"
+  },
+  "dependencyChanges": {
+    "addedDirectDependency": "time =0.3.55 with parsing; already present in locked graph",
+    "addedWindowsSysFeature": "Win32_UI_Shell (existing locked windows-sys 0.59.0; shell32.dll system import)",
+    "registryLockEntries": 319,
+    "registryPackageVersionsChanged": false
+  },
+  "hostVersion": "0.6.0",
+  "previousReleaseEvidence": "verification/code-pin-0.6.0/history/0.5.1/BUILD_EVIDENCE.json",
+  "recordedAtUtc": "2026-11-19T08:36:54.471792+00:00",
+  "releaseReady": false,
+  "rustCompiler": "rustc 1.100.0 (0ef1bc386 2026-11-09)",
+  "serviceProfile": {
+    "configured": false,
+    "relativePath": "../config/service-profile.json",
+    "scope": "Public origin only; no live shared coordinator was deployed or embedded"
+  },
+  "sourceBaseRevision": "60fded0a61d246b5a19b43ec97487085d089002c",
+  "sourceInputs": {
+    "algorithm": "SHA-256 of sorted compact JSON path-to-SHA-256 mapping",
+    "files": {
+      "../config/service-profile.json": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c",
+      "Cargo.lock": "977b98d2b0aff506a075c189e45d4899de51b2f134aacb3e5fe866ceab1d420e",
+      "Cargo.toml": "710bb430e3cbf9c65a34732afff16ecd9fe920c3710b5cd2b5a65931c41eaba6",
+      "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+      "examples/synthetic_peer.rs": "faff3e8e67dc61db670cd9bb3571d7b995250c1ac2d8485b2c162cd3cdb42500",
+      "src/api.rs": "d1f2128d071d874e70c0eaf75f987a74c2bb04c9919e0243c1aa203cabce2c91",
+      "src/config.rs": "97802538773c0ed5372f87ff85c9d9981fdfb1e429fff470ed41018e63b4d39d",
+      "src/displays.rs": "01468756c3e07e0cdd3e12870b7894997c050c26cb852f75406b678d9416683b",
+      "src/host_home.rs": "585dc95dcbaafdcbcd95f1a867d46944ae6e2299c735c31c0486ce0919e2f3a8",
+      "src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+      "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+      "src/lib.rs": "9882c5b17fe706a913e860dc1467f49c6f2f136c455c3e8cc7864c5ea6a5c4ed",
+      "src/main.rs": "4fcc1b09a76cad58cef31482613a957ef8ba3fa544c8d55227b18281b5e27f4d",
+      "src/media.rs": "a49122439eada16e8684f8ded7457d1e37111cd7daec0b83aea763c267bda46f",
+      "src/pairing.rs": "13db84d01a09df17d959e3c5ac6ca773a715530081b127867b3be72985a5e984",
+      "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+      "src/session.rs": "27b7a2de68f479e5d91294249aaba882633e1fc9364f8ce587983f9b68305e9f",
+      "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+      "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+      "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+      "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+      "src/startup.rs": "1de9a3a893e056ecf5a331204e72a0ce0654164a2b36d643b149a824fc662d48",
+      "src/startup_windows.rs": "cd1317fd20c39329e552847fed62ab4ab8975184ae2dee306b392d92a6217350",
+      "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96"
+    },
+    "sha256": "fe9bd67d31dbc773628e6946b720a729443219dc625250e6d7d14c8255a28826"
+  },
+  "sourceState": "Working tree implementation; exact final source hashes below. Integration commit will be assigned separately.",
+  "supersededBuild": "verification/code-pin-0.6.0/history/before-browser-launcher/BUILD_EVIDENCE.json",
+  "verificationRecord": "verification/code-pin-0.6.0/final-checks.json",
+  "windowsLinkerToolchain": "llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64",
+  "windowsTarget": "x86_64-pc-windows-gnullvm"
+}

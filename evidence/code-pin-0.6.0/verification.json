@@ -1,0 +1,256 @@
+{
+  "version": "0.6.0",
+  "recordedAtUtc": "2026-11-19T08:58:12.448850+00:00",
+  "releaseReady": false,
+  "status": "Build-verified development preview; commercial and device/network release gates remain open",
+  "implementationCommit": "f96c85401ce1f818d5fb8bf80253cf729b0cf098",
+  "documentationCommit": "3fa28a8c1debdbd60c614d9969e57aed81176314",
+  "originalBuildBaseCommit": "60fded0a61d246b5a19b43ec97487085d089002c",
+  "provenanceNote": "Component binaries were built from the pinned working tree before the implementation commit. All 24 Windows, 51 Android and 23 Go/web inputs were independently compared with the committed bytes. Original build-base and embedded VCS metadata were preserved.",
+  "serviceProfile": {
+    "path": "config/service-profile.json",
+    "sha256": "9787da5332c12e55d88259f586631d4be876e584301ed73c2e5d70e04541e97c",
+    "configured": false,
+    "publicCoordinatorDeployed": false,
+    "publicRelayTested": false
+  },
+  "artifacts": [
+    {
+      "file": "OpenRemote-0.6.0-Windows-x64-Setup.exe",
+      "sha256": "c81eb177644a4321114f0ae2166539b8f586f1ed5924ed2e68a27e3d50b2cad3",
+      "sizeBytes": 3332151,
+      "scope": "Unsigned Windows x64 development-preview installer; native install not run"
+    },
+    {
+      "file": "OpenRemote-0.6.0-Android-ARM64-Preview.apk",
+      "sha256": "431b6593ba0f977e7839231668ab7519c37da81b14ea35c50393e76a1b792480",
+      "sizeBytes": 24467087,
+      "scope": "Installable ARM64 development preview; separate com.openremote.mobile.dev identity; no physical device test"
+    },
+    {
+      "file": "OpenRemote-0.6.0-Android-ARM64-Unsigned.apk",
+      "sha256": "f145749887abe87a9de9305129d40bd5c3e86f94e5dcad47cc3bf7bc1d99dbcf",
+      "sizeBytes": 13796938,
+      "scope": "Unsigned minified developer artifact; not installable until signed"
+    },
+    {
+      "file": "OpenRemote-0.6.0-Coordinator.linux-amd64",
+      "sha256": "ad074b9fa1f263aff31b098e75cb56179bf8f316414911ee6ddeafdbd7da4ea9",
+      "sizeBytes": 7418016,
+      "scope": "Static Linux x64 coordinator with embedded browser viewer; not publicly deployed"
+    }
+  ],
+  "embeddedWindowsHost": {
+    "sha256": "ad1553d155548396b759f89649d26dbd176c88af34645215b72bcdd6771075f9",
+    "sizeBytes": 9799680,
+    "architecture": "AMD64",
+    "subsystem": "Windows GUI",
+    "systemDllImports": 23
+  },
+  "verification": {
+    "windowsRust": {
+      "passed": 87,
+      "failed": 0,
+      "platform": "Linux",
+      "format": true,
+      "clippyLinuxWarningsDenied": true,
+      "clippyWindowsWarningsDenied": true,
+      "optimizedWindowsCrossBuild": true,
+      "nativeWindowsExecution": false
+    },
+    "windowsInstaller": {
+      "admissionTestsPassed": 11,
+      "nsisWarningsDenied": true,
+      "independentCompletePayloadExtraction": true,
+      "nativeUninstallerPresent": true,
+      "nativeInstallation": false,
+      "signature": "unsigned"
+    },
+    "coordinator": {
+      "normalTopLevelPassed": 43,
+      "normalIncludingSubcasesPassed": 107,
+      "raceTopLevelPassed": 43,
+      "raceIncludingSubcasesPassed": 107,
+      "vet": true,
+      "staticBuild": true
+    },
+    "android": {
+      "jvmTestsPassed": 76,
+      "failed": 0,
+      "lintErrors": 0,
+      "lintWarnings": 3,
+      "lintWarningScope": "Pinned dependency update suggestions",
+      "debugAndUnsignedMinifiedReleaseAbis": 4,
+      "arm64ZipAndElf16KiBAlignment": true,
+      "previewSignatureVerified": true,
+      "physicalDeviceOrEmulator": false
+    },
+    "browserProtocol": {
+      "nodeTestsPassed": 15,
+      "failed": 0
+    },
+    "browserLifecycle": {
+      "nodeVmTestsPassed": 14,
+      "failed": 0,
+      "testDoubles": "DOM, WebRTC and clock",
+      "actualBrowserRenderingOrMedia": false
+    },
+    "crossLanguageHttp": {
+      "groupedChecksPassed": 6,
+      "actualLoopbackHttp": true,
+      "client": "Production browser protocol module running in Node WebCrypto",
+      "desktopFramesOrInput": false
+    },
+    "controlplaneHttps": {
+      "groupedChecksPassed": 12,
+      "verifiedEphemeralTestCA": true,
+      "realProcessRestart": true,
+      "desktopFramesOrInput": false
+    },
+    "pythonConfigurationAndEvidenceValidators": {
+      "passed": 19,
+      "failed": 0
+    },
+    "sourceInputCustody": {
+      "windows": 24,
+      "android": 51,
+      "coordinator": 23,
+      "allCommitAndCurrentTreeMatches": true
+    }
+  },
+  "androidPreview": {
+    "package": "com.openremote.mobile.dev",
+    "label": "OpenRemote Preview",
+    "certificateSha256": "24c0441ceca6f73ea0e6de8a0958be6229cfcf2518328e8f7f9b71d98b980b28",
+    "productionSigning": false,
+    "installMode": "Side by side with prior com.openremote.mobile app; not an in-place update",
+    "privateKeyInSourceBundle": false
+  },
+  "retainedCorrections": [
+    {
+      "issue": "Late disconnect could overwrite a newer browser result; absent fullscreen API could throw",
+      "evidence": "evidence/code-pin-0.6.0/browser-lifecycle-before-fixes.json",
+      "final": "evidence/code-pin-0.6.0/browser-lifecycle.json"
+    },
+    {
+      "issue": "Race test uniqueness fixture host heartbeat expired during 12 real PBKDF2 creations under contention",
+      "evidence": "server/verification/code-pin-0.6.0/history/final-before-clock-fixture/",
+      "correction": "Only logical fixture clock changed; production and presence/expiry requirements unchanged",
+      "final": "server/verification/code-pin-0.6.0/final-summary.json"
+    },
+    {
+      "issue": "PIN verifier bypass in isolated negative-control copy must be detected",
+      "evidence": "server/verification/code-pin-0.6.0/negative-control-pin-verification.json",
+      "result": "Wrong-PIN test failed as required; no production bypass"
+    },
+    {
+      "issue": "Setup guide incorrectly attributed session identity creation to the host",
+      "correction": "Guide now attributes creation to the coordinator; final installer repackaged and payload extraction reverified",
+      "priorPackageEvidence": "evidence/code-pin-0.6.0/history/before-guide-clarification/package/"
+    }
+  ],
+  "blockedOrNotRun": [
+    "Chromium aborted before a page opened: process singleton socket and ptrace permission denials; no restriction bypass attempted.",
+    "No physical Windows startup, install, upgrade, uninstall, DPAPI, desktop capture, SendInput, monitor or browser-launch run.",
+    "No Android phone/emulator installation, Activity/Compose/Keystore, video or input run.",
+    "No rendered browser, actual WebRTC H.264 decoding, end-to-end desktop pixels or remote input run.",
+    "No real Internet carrier NAT, TURN UDP/TCP/TLS/443 relay, outage, network handoff or performance benchmark.",
+    "No production signing, signed updater, public service deployment or commercial release approval."
+  ],
+  "openReleaseRequirements": [
+    "Authorized OpenRemote coordinator and relay deployment with HTTPS origin, operations and recovery.",
+    "Turnkey scoped host enrollment and compatible encoder packaging; current profile is empty and FFmpeg remains separate.",
+    "Physical Windows, Android and browser session/install/network test matrix.",
+    "Stable production signing and signed updates with rollback protection.",
+    "Hardware/adaptive high-resolution video, audio, bidirectional/resumable file tools, polished trusted-device controls, service/logon/reboot/UAC policy and iOS.",
+    "Independent security review and remaining exact native dependency provenance and notice materials."
+  ],
+  "records": [
+    {
+      "path": "agent-windows/BUILD_EVIDENCE.json",
+      "sha256": "66f617ee4719d963652ed3709240664e85f1c7cf89c321bd3da6f95ccfcddc00"
+    },
+    {
+      "path": "android/verification/code-pin-0.6.0/build-summary.json",
+      "sha256": "56153064629d4478a2f458f24d1595e6dfd358e5b5db6a8a84faacce808bca03"
+    },
+    {
+      "path": "android/VERIFICATION.md",
+      "sha256": "be6bc70bc0341f3dfcecc6085d5b3e21716b84babf97f553f248117037d2fdee"
+    },
+    {
+      "path": "server/BUILD_EVIDENCE.json",
+      "sha256": "00d1296126e487b7184abf50993eb7cf4907750451ddd8fe506f9d371869d8e3"
+    },
+    {
+      "path": "server/verification/code-pin-0.6.0/final-summary.json",
+      "sha256": "f12ac3dca899a15dfe10567fcc281be0d0c87292c7224fbf9d14eb0e4add6340"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/implementation-input-custody.json",
+      "sha256": "5da10c7eaf04355a6df38d3b44399e5550529b2c8a0b2a9b7f0fcdfdb4c9b6ed"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/package/installer-build-evidence.json",
+      "sha256": "77f666ac5d2ef27ba2c75d59ea33d58d898e061d4c87713997ae9c0a2d401fd2"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/package/package-manifest.json",
+      "sha256": "7c8877f2db627ae207ec1e366635bacac498eb2c70307e85c6bfc1cfd32e1b55"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/https-controlplane.json",
+      "sha256": "5ef2091bfa94e5c6561085a80a1e0071e40249dcabc0da55fdfc286f2b803e3e"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/web-api-integration.json",
+      "sha256": "1241ee1341c37d204f72f7c1a14e45e048e4cf47b31e143da6bc0430482a3308"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/browser-lifecycle.json",
+      "sha256": "43b771565c3dab953017a976681b8a3f45e2ff47013def06b5f0b3b756d18814"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/chromium-launch-blocked.json",
+      "sha256": "4e810d29a1c87ed4c8a88159b2f329abc4887eebca192b5de3c1c6641c3aaa32"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/python-unit.log",
+      "sha256": "81e62c96d53ad91139bd470483581240973211451b5d43a4b981948aa887f21f"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/installer-unit.log",
+      "sha256": "d01ba473a8bf6cbf959f4730e24f5317a0439a38332baa0ccf5aede081846779"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/web-core.log",
+      "sha256": "9f97727bb2035ed84715af377ac5b62f4f61d900ee7b4eee03ffc2f223cd5dca"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/web-lifecycle-integration.log",
+      "sha256": "30ba8f9d949eeffa009726be1d8bc5fecdffc08d8eb06d71349a3bc1e36ef1d4"
+    },
+    {
+      "path": "BUILD_STATUS.md",
+      "sha256": "6c4f3f4e22a8fcd291a1f925262d1778743f31fe2ecbeeb5ba0a459c8e3bed3a"
+    },
+    {
+      "path": "evidence/code-pin-0.6.0/handoff-review.md",
+      "sha256": "036cfc0f33bc1bc08e9a8a18510a25295d07af7b7653c84e5ca6f365c9c4371b"
+    },
+    {
+      "path": "docs/commercial-release-standard.md",
+      "sha256": "781cfd5c68b76a705142d21e348f1aa7a358756a80df485370e970a5726bc4b1"
+    },
+    {
+      "path": "docs/windows-installer-0.6.0.md",
+      "sha256": "519edfb695b9abd5ffff516f9bb400d320812d18f83f486100af1eafee311d1e"
+    }
+  ],
+  "evidenceRetention": {
+    "rawLogs": "Retained verbatim, including emitted trailing whitespace and blank lines; not normalized after hashing.",
+    "sourceAndDocumentationWhitespaceCheckExitCode": 0,
+    "newEvidencePrivateKeyHeaderScanMatches": 0,
+    "privateSigningKeyOutsideRepository": true
+  }
+}

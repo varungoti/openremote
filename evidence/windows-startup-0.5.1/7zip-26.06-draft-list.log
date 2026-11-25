@@ -1,0 +1,92 @@
+
+7-Zip (z) 26.06 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-11-06
+ 64-bit locale=C.UTF-8 Threads:9 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 3217875 bytes (3143 KiB)
+
+Listing archive: /workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/installer-syntax-check/SYNTAX-ONLY-DO-NOT-SHARE.exe
+
+--
+Path = /workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/installer-syntax-check/SYNTAX-ONLY-DO-NOT-SHARE.exe
+Type = Nsis
+Physical Size = 3217875
+Method = LZMA:23
+Solid = +
+Headers Size = 47136
+Embedded Stub Size = 118272
+SubType = NSIS-3 Unicode
+
+----------
+Path = $PLUGINSDIR/modern-wizard.bmp
+Size = 26494
+Packed Size = 3099599
+Modified = 
+Attributes = 
+Method = LZMA:23
+Solid = +
+Offset = 0
+
+Path = $PLUGINSDIR/nsDialogs.dll
+Size = 14336
+Packed Size = 
+Modified = 
+Attributes = 
+Method = LZMA:23
+Solid = +
+Offset = 26498
+
+Path = $PLUGINSDIR/System.dll
+Size = 28672
+Packed Size = 
+Modified = 
+Attributes = 
+Method = LZMA:23
+Solid = +
+Offset = 40838
+
+Path = $_13_/openremote-agent.exe
+Size = 9433088
+Packed Size = 
+Modified = 
+Attributes = 
+Method = LZMA:23
+Solid = +
+Offset = 69514
+
+Path = $_13_/START-HERE.txt
+Size = 7735
+Packed Size = 
+Modified = 
+Attributes = 
+Method = LZMA:23
+Solid = +
+Offset = 9502606
+
+Path = $_13_/THIRD-PARTY-NOTICES.txt
+Size = 3152339
+Packed Size = 
+Modified = 
+Attributes = 
+Method = LZMA:23
+Solid = +
+Offset = 9510345
+
+Path = $_13_/package-manifest.json
+Size = 46
+Packed Size = 
+Modified = 
+Attributes = 
+Method = LZMA:23
+Solid = +
+Offset = 12662688
+
+Path = Uninstall.exe
+Size = 
+Packed Size = 
+Modified = 
+Attributes = 
+Method = LZMA:23
+Solid = +
+Offset = 12662738
+

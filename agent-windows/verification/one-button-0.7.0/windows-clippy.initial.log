@@ -1,0 +1,48 @@
+    Blocking waiting for file lock on build directory
+    Checking openremote-agent v0.7.0 (/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/agent-windows)
+error[E0433]: cannot find module or crate `openremote_agent` in this scope
+   --> src/host_home.rs:209:65
+    |
+209 |                     if let Some(failure) = error.downcast_ref::<openremote_agent::api::ApiFailure>()
+    |                                                                 ^^^^^^^^^^^^^^^^ use of unresolved module or unlinked crate `openremote_agent`
+    |
+    = help: if you wanted to use a crate named `openremote_agent`, use `cargo add openremote_agent` to add it to your `Cargo.toml`
+help: consider importing this module
+    |
+136 +     use crate::api;
+    |
+help: if you import `api`, refer to it directly
+    |
+209 -                     if let Some(failure) = error.downcast_ref::<openremote_agent::api::ApiFailure>()
+209 +                     if let Some(failure) = error.downcast_ref::<api::ApiFailure>()
+    |
+
+error[E0433]: cannot find module or crate `openremote_agent` in this scope
+   --> src/host_home.rs:253:54
+    |
+253 | ...                   error.downcast_ref::<openremote_agent::api::ApiFailure>()
+    |                                            ^^^^^^^^^^^^^^^^ use of unresolved module or unlinked crate `openremote_agent`
+    |
+    = help: if you wanted to use a crate named `openremote_agent`, use `cargo add openremote_agent` to add it to your `Cargo.toml`
+help: consider importing this module
+    |
+136 +     use crate::api;
+    |
+help: if you import `api`, refer to it directly
+    |
+253 -                                 error.downcast_ref::<openremote_agent::api::ApiFailure>()
+253 +                                 error.downcast_ref::<api::ApiFailure>()
+    |
+
+error[E0433]: cannot find module or crate `openremote_agent` in this scope
+   --> src/host_home.rs:381:48
+    |
+381 |                         reusable = !error.is::<openremote_agent::UnverifiedTeardown>();
+    |                                                ^^^^^^^^^^^^^^^^ use of unresolved module or unlinked crate `openremote_agent`
+    |
+    = help: if you wanted to use a crate named `openremote_agent`, use `cargo add openremote_agent` to add it to your `Cargo.toml`
+
+For more information about this error, try `rustc --explain E0433`.
+error: could not compile `openremote-agent` (lib) due to 3 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `openremote-agent` (lib test) due to 3 previous errors

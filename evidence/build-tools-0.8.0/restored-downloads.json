@@ -1,0 +1,111 @@
+{
+  "recordedAtUtc": "2026-11-20T10:27:28.278687+00:00",
+  "sourceProvenance": [
+    "evidence/windows-startup-0.5.1/toolchain-provenance.json",
+    "evidence/windows-startup-0.5.1/extractor-repair-provenance.json",
+    "server/verification/automatic-registration-0.7.0/go-toolchain-provenance.json"
+  ],
+  "network": "Inherited proxy and CA settings retained; normal verified HTTPS; no policy changes",
+  "artifacts": [
+    {
+      "url": "https://deb.debian.org/debian/pool/main/n/nsis/nsis-common_3.11-1_all.deb",
+      "sha256": "103a3284c1a5356efa0aba90fdfc391c3cde8e7df8726377cef0f98471584047",
+      "actualSha256": "103a3284c1a5356efa0aba90fdfc391c3cde8e7df8726377cef0f98471584047",
+      "bytes": 1168188,
+      "kind": "debian",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/nsis-common_3.11-1_all.deb",
+      "verifiedAtUtc": "2026-11-20T10:27:11.247830+00:00"
+    },
+    {
+      "url": "https://deb.debian.org/debian/pool/main/n/nsis/nsis_3.11-1_amd64.deb",
+      "sha256": "e6eb6ffb70f0df09e95dedb2d2cf55ad3c2679f7c2ae357d0c00cc4c83178690",
+      "actualSha256": "e6eb6ffb70f0df09e95dedb2d2cf55ad3c2679f7c2ae357d0c00cc4c83178690",
+      "bytes": 568816,
+      "kind": "debian",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/nsis_3.11-1_amd64.deb",
+      "verifiedAtUtc": "2026-11-20T10:27:11.356666+00:00"
+    },
+    {
+      "url": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-linux-x64.tar.xz",
+      "sha256": "2b539cf067b2ad48e1baa5093dbaa8818b73542d1222a0ffde9dc5f2922ea62e",
+      "bytes": 1575552,
+      "kind": "7zip",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/7z2606-linux-x64.tar.xz",
+      "actualSha256": "2b539cf067b2ad48e1baa5093dbaa8818b73542d1222a0ffde9dc5f2922ea62e",
+      "verifiedAtUtc": "2026-11-20T10:27:16.137040+00:00"
+    },
+    {
+      "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64.tar.xz",
+      "sha256": "919380403de87dca3c581c2053230cd298af5e891286628ba0613b7fed370926",
+      "kind": "llvm",
+      "bytes": 84104244,
+      "actualSha256": "919380403de87dca3c581c2053230cd298af5e891286628ba0613b7fed370926",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64.tar.xz",
+      "verifiedAtUtc": "2026-11-20T10:27:22.484922+00:00"
+    },
+    {
+      "url": "https://go.dev/dl/go1.27.4.linux-amd64.tar.gz",
+      "sha256": "7226736c2339719cda28fbf3a54d71aa63bcefe376e98cef00034268dab24840",
+      "bytes": 70680823,
+      "kind": "go",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/go1.27.4.linux-amd64.tar.gz",
+      "actualSha256": "7226736c2339719cda28fbf3a54d71aa63bcefe376e98cef00034268dab24840",
+      "verifiedAtUtc": "2026-11-20T10:27:28.276483+00:00"
+    },
+    {
+      "url": "https://static.rust-lang.org/dist/2026-11-12/cargo-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "7e29ce07d7c6e92d1826870575ba27d57fff6cb3e754aa57d99099cb88fab35d",
+      "kind": "rust",
+      "bytes": 10946408,
+      "actualSha256": "7e29ce07d7c6e92d1826870575ba27d57fff6cb3e754aa57d99099cb88fab35d",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/cargo-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "verifiedAtUtc": "2026-11-20T10:27:01.002893+00:00"
+    },
+    {
+      "url": "https://static.rust-lang.org/dist/2026-11-12/clippy-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "0d18df3bff6c852ef8243727fed075ecb33dbf93b8ab8c138c2f45e3f270102a",
+      "kind": "rust",
+      "bytes": 5353304,
+      "actualSha256": "0d18df3bff6c852ef8243727fed075ecb33dbf93b8ab8c138c2f45e3f270102a",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/clippy-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "verifiedAtUtc": "2026-11-20T10:27:06.187791+00:00"
+    },
+    {
+      "url": "https://static.rust-lang.org/dist/2026-11-12/rust-std-1.100.0-x86_64-pc-windows-gnullvm.tar.xz",
+      "sha256": "5e63b95c73bd783864b4350792c27292d67aab8e3033bf49381d0e55ef4384cf",
+      "kind": "rust",
+      "bytes": 28771664,
+      "actualSha256": "5e63b95c73bd783864b4350792c27292d67aab8e3033bf49381d0e55ef4384cf",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/rust-std-1.100.0-x86_64-pc-windows-gnullvm.tar.xz",
+      "verifiedAtUtc": "2026-11-20T10:27:08.746971+00:00"
+    },
+    {
+      "url": "https://static.rust-lang.org/dist/2026-11-12/rust-std-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "4591b6486594ded52ecd6135db95bf9355bbd3ca7a380888b141528bbcf9a5d4",
+      "kind": "rust",
+      "bytes": 31283108,
+      "actualSha256": "4591b6486594ded52ecd6135db95bf9355bbd3ca7a380888b141528bbcf9a5d4",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/rust-std-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "verifiedAtUtc": "2026-11-20T10:27:02.767012+00:00"
+    },
+    {
+      "url": "https://static.rust-lang.org/dist/2026-11-12/rustc-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "f1d0b1dec81dab6f523cd098507763487b0d4bd7fd2c87582f154128719be03b",
+      "kind": "rust",
+      "bytes": 84955936,
+      "actualSha256": "f1d0b1dec81dab6f523cd098507763487b0d4bd7fd2c87582f154128719be03b",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/rustc-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "verifiedAtUtc": "2026-11-20T10:27:07.272992+00:00"
+    },
+    {
+      "url": "https://static.rust-lang.org/dist/2026-11-12/rustfmt-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "4c9389e4722b16499e5d47d89837ec84a4ef755f105ed2a84c038156064e01ab",
+      "kind": "rust",
+      "bytes": 2524496,
+      "actualSha256": "4c9389e4722b16499e5d47d89837ec84a4ef755f105ed2a84c038156064e01ab",
+      "path": "/workspace/scratch/72f8c6db0182/toolchains/downloads/rustfmt-1.100.0-x86_64-unknown-linux-gnu.tar.xz",
+      "verifiedAtUtc": "2026-11-20T10:26:58.571671+00:00"
+    }
+  ],
+  "errors": []
+}

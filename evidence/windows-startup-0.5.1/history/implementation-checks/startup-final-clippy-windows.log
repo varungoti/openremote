@@ -1,0 +1,23 @@
+    Checking openremote-agent v0.5.1 (/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/agent-windows)
+error: this `if` can be collapsed into the outer `match`
+    --> src/startup_windows.rs:1141:21
+     |
+1141 | /                     if !PANEL.with(|p| p.borrow().as_ref().is_some_and(|p| p.task.is_some())) {
+1142 | |                         browse(hwnd);
+1143 | |                     }
+     | |_____________________^
+     |
+     = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.100.0/index.html#collapsible_match
+     = note: `-D clippy::collapsible-match` implied by `-D warnings`
+     = help: to override `-D warnings` add `#[allow(clippy::collapsible_match)]`
+help: collapse nested if block
+     |
+1140 ~                 BROWSE
+1141 ~                     if !PANEL.with(|p| p.borrow().as_ref().is_some_and(|p| p.task.is_some())) => {
+1142 |                         browse(hwnd);
+1143 ~                     }
+     |
+
+error: could not compile `openremote-agent` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `openremote-agent` (lib test) due to 1 previous error

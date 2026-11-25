@@ -1,0 +1,176 @@
+{
+  "binary": {
+    "minimumOs": "Windows 10 version1703 build15063+, or Windows11 on Intel/AMD x64",
+    "pe": {
+      "importDlls": [
+        "advapi32.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "bcrypt.dll",
+        "bcryptprimitives.dll",
+        "comdlg32.dll",
+        "crypt32.dll",
+        "gdi32.dll",
+        "iphlpapi.dll",
+        "kernel32.dll",
+        "ntdll.dll",
+        "user32.dll",
+        "ws2_32.dll"
+      ],
+      "machine": 34404,
+      "optionalMagic": 523,
+      "subsystem": 2
+    },
+    "relativePath": "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+    "runtimeDependency": "Separately selected trusted standalone FFmpeg with matching SHA-256; not bundled",
+    "sha256": "47c5c0a386be1f9b9d75950aefe56a0abc519a643c975bea3561bfe8c986f96b",
+    "signature": "unsigned",
+    "sizeBytes": 9655296,
+    "validation": "cross-compiled and linked on Linux; not executed on Windows"
+  },
+  "checks": {
+    "commands": [
+      {
+        "command": [
+          "cargo",
+          "fmt",
+          "--check"
+        ],
+        "durationSeconds": 0.396,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/format.log",
+        "name": "format"
+      },
+      {
+        "command": [
+          "cargo",
+          "test",
+          "--locked",
+          "--offline",
+          "--all-targets"
+        ],
+        "durationSeconds": 25.819,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/tests.log",
+        "name": "tests"
+      },
+      {
+        "command": [
+          "cargo",
+          "clippy",
+          "--locked",
+          "--offline",
+          "--all-targets",
+          "--",
+          "-D",
+          "warnings"
+        ],
+        "durationSeconds": 6.809,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/clippy-linux.log",
+        "name": "clippy-linux"
+      },
+      {
+        "command": [
+          "cargo",
+          "clippy",
+          "--locked",
+          "--offline",
+          "--all-targets",
+          "--target",
+          "x86_64-pc-windows-gnullvm",
+          "--",
+          "-D",
+          "warnings"
+        ],
+        "durationSeconds": 3.624,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/clippy-windows.log",
+        "name": "clippy-windows"
+      },
+      {
+        "command": [
+          "cargo",
+          "build",
+          "--locked",
+          "--offline",
+          "--release",
+          "--target",
+          "x86_64-pc-windows-gnullvm"
+        ],
+        "durationSeconds": 101.912,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/windows-build.log",
+        "name": "windows-build"
+      }
+    ],
+    "nativeWindowsInstaller": "not_run",
+    "nativeWindowsStartup": "not_run",
+    "negativeControl": {
+      "record": "../evidence/windows-startup-0.5.1/config-size-negative-control.json",
+      "status": "expected_failure_observed"
+    },
+    "rustTests": {
+      "failed": 0,
+      "ignored": 0,
+      "newStartupTests": 11,
+      "passed": 76,
+      "runtimePlatform": "Linux",
+      "scope": "configuration startup state, persistence, existing control/tools/media pure and process tests; native Windows calls not executed"
+    },
+    "sourceUnchangedDuringChecks": true,
+    "windowsToPhoneSession": "not_run"
+  },
+  "dependencyChanges": {
+    "addedWindowsSysFeature": "Win32_UI_Controls_Dialogs",
+    "existingCheckedRegistryArchives": 319,
+    "registryPackageVersionsChanged": false
+  },
+  "hostVersion": "0.5.1",
+  "recordedAtUtc": "2026-11-19T07:52:05.111516+00:00",
+  "releaseReady": false,
+  "rustCompiler": "rustc 1.100.0 (0ef1bc386 2026-11-09)",
+  "sourceInputs": {
+    "algorithm": "SHA-256 of sorted compact JSON path-to-SHA-256 mapping",
+    "files": {
+      "Cargo.lock": "85f9b1ddd81df7f53cbdfb2735b4d58617ac1fc47a0ef5ea1724a65c1c2fce87",
+      "Cargo.toml": "43acd1a397245ae3a7ba697cd52d38d52407a3c7d9f1cfcf40f798664982f16a",
+      "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+      "examples/synthetic_peer.rs": "396104ffa5e9624cd363108a1fec7ca9aff5774710659c3c8ef691dba79b162e",
+      "src/api.rs": "efa299e0912f0366f34a30f1e87183c9eae9a59b0a787eb1c1fa448ab0b22214",
+      "src/config.rs": "97802538773c0ed5372f87ff85c9d9981fdfb1e429fff470ed41018e63b4d39d",
+      "src/displays.rs": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+      "src/host_home.rs": "400ba6c73759f7972b0bc290ef4f710183ef08f572d684089ab91cae8441eaba",
+      "src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+      "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+      "src/lib.rs": "e6c0093d4133608438dc12ccf5ae526ea1568ee78680b211787869bd3fa1fc86",
+      "src/main.rs": "e5ae402be942471743b36f234051a9057b097eb7f5fc76363ba7ad5a9d3a085f",
+      "src/media.rs": "a49122439eada16e8684f8ded7457d1e37111cd7daec0b83aea763c267bda46f",
+      "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+      "src/session.rs": "a5ff8c1d37fd0756d18baa78c111672488119fa3855cc091587c4dcd7e9e49b3",
+      "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+      "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+      "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+      "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+      "src/startup.rs": "42244310716ab976aef1dbb764c82e89b8e7db392e4fd63b63521da48c7077dd",
+      "src/startup_windows.rs": "a9f97c8285ba81f0621e524fc90031f70088b1cce6ba09953a859bd4b1655f92",
+      "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96"
+    },
+    "sha256": "21cff28037ef411a562cfa0823a420408fb1c2fb2086705aa20498237d26a725"
+  },
+  "sourceReview": "../evidence/windows-startup-0.5.1/independent-startup-review.json",
+  "sourceRevision": "b25975bf632902a6f65d2f6e71c3722b55010e19",
+  "supersededBuild": "../evidence/windows-startup-0.5.1/history/before-config-size-guard/windows-build.json",
+  "verificationRecord": "../evidence/windows-startup-0.5.1/final-checks.json",
+  "windowsLinkerToolchain": "llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64",
+  "windowsTarget": "x86_64-pc-windows-gnullvm"
+}

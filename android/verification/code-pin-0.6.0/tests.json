@@ -1,0 +1,106 @@
+{
+  "suites": [
+    {
+      "name": "com.openremote.mobile.ApiClientTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 4.44
+    },
+    {
+      "name": "com.openremote.mobile.ConnectionChecksTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 2.158
+    },
+    {
+      "name": "com.openremote.mobile.DisplayProtocolTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 0.157
+    },
+    {
+      "name": "com.openremote.mobile.DisplayReadinessTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 0.073
+    },
+    {
+      "name": "com.openremote.mobile.FileUploadTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 1.904
+    },
+    {
+      "name": "com.openremote.mobile.PairingTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 4.681
+    },
+    {
+      "name": "com.openremote.mobile.PhoneSetupTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 0.07
+    },
+    {
+      "name": "com.openremote.mobile.RemoteCoordinatesTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 0.002
+    },
+    {
+      "name": "com.openremote.mobile.SessionLifecycleTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 0.002
+    },
+    {
+      "name": "com.openremote.mobile.SessionToolsClientTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 0.152
+    },
+    {
+      "name": "com.openremote.mobile.ToolProtocolTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 0.103
+    },
+    {
+      "name": "com.openremote.mobile.VideoFreshnessTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timeSeconds": 0.012
+    }
+  ],
+  "totals": {
+    "tests": 76,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

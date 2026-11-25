@@ -1,0 +1,532 @@
+[
+  {
+    "name": "asn1-rs-impl",
+    "version": "0.2.0",
+    "repository": "https://github.com/rusticata/asn1-rs.git",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "7b18050c2cd6fe86c3a76584ef5e0baf286d038cda203eb6223df2cc413565f7",
+    "notices": [
+      {
+        "source_url": "https://raw.githubusercontent.com/rusticata/asn1-rs/a20e5f7319c896737ad0f2557037817b91ad854f/LICENSE-APACHE",
+        "source_path": "LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/rusticata/asn1-rs/a20e5f7319c896737ad0f2557037817b91ad854f/LICENSE-APACHE",
+        "file": "licenses/rust-upstream/asn1-rs-impl-0.2.0/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+        "size_bytes": 10847,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/rusticata/asn1-rs/a20e5f7319c896737ad0f2557037817b91ad854f/LICENSE-MIT",
+        "source_path": "LICENSE-MIT",
+        "git_blob_sha": "290e7b9be19d39a81c8eb24c75a6b5f1e57fea71",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/rusticata/asn1-rs/a20e5f7319c896737ad0f2557037817b91ad854f/LICENSE-MIT",
+        "file": "licenses/rust-upstream/asn1-rs-impl-0.2.0/LICENSE-MIT",
+        "sha256": "a5c61b93b6ee1d104af9920cf020ff3c7efe818e31fe562c72261847a728f513",
+        "size_bytes": 1060,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      }
+    ],
+    "source_commit": "a20e5f7319c896737ad0f2557037817b91ad854f",
+    "path_in_vcs": "impl",
+    "vcs_info_sha256": "bfb8aecdc47faea066fd27b878d0640c2e7859033c513ed32f342f25faef0b87",
+    "vcs_info_file": "licenses/rust-upstream/asn1-rs-impl-0.2.0/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/rusticata/asn1-rs/git/trees/a20e5f7319c896737ad0f2557037817b91ad854f?recursive=1",
+    "tree_response_sha256": "824372cf37894c9413cd6587ffc08d1c48634f4cf27592591226f9acd053085b",
+    "candidate_files": [
+      {
+        "path": "LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "LICENSE-MIT",
+        "git_blob_sha": "290e7b9be19d39a81c8eb24c75a6b5f1e57fea71",
+        "size": 1060
+      }
+    ],
+    "status": "exact_commit_notice_texts_copied; completeness requires review",
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  },
+  {
+    "name": "crc-catalog",
+    "version": "2.5.0",
+    "repository": "https://github.com/akhilles/crc-catalog.git",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "217698eaf96b4a3f0bc4f3662aaa55bdf913cd54d7204591faa790070c6d0853",
+    "notices": [
+      {
+        "source_url": "https://raw.githubusercontent.com/akhilles/crc-catalog/ed4ad631f22b05055c21a3a4127eb7cf6d75bb62/LICENSES/Apache-2.0.txt",
+        "source_path": "LICENSES/Apache-2.0.txt",
+        "git_blob_sha": "545ca53e3050de0357fe603ca636e0e14b5ecfaa",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/akhilles/crc-catalog/ed4ad631f22b05055c21a3a4127eb7cf6d75bb62/LICENSES/Apache-2.0.txt",
+        "file": "licenses/rust-upstream/crc-catalog-2.5.0/LICENSES/Apache-2.0.txt",
+        "sha256": "d3cdb764b98283ee7c3a3cea8d374e2a2957322374378d1f3263f4d512741fc3",
+        "size_bytes": 11346,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/akhilles/crc-catalog/ed4ad631f22b05055c21a3a4127eb7cf6d75bb62/LICENSES/MIT.txt",
+        "source_path": "LICENSES/MIT.txt",
+        "git_blob_sha": "92cbf78947298b385d3bcb0d2a2501ec8d190928",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/akhilles/crc-catalog/ed4ad631f22b05055c21a3a4127eb7cf6d75bb62/LICENSES/MIT.txt",
+        "file": "licenses/rust-upstream/crc-catalog-2.5.0/LICENSES/MIT.txt",
+        "sha256": "5ef8fcfb6cccec8fcae043c834099a60c8b7406408db576e026d2b7e67dc5cf5",
+        "size_bytes": 1073,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      }
+    ],
+    "source_commit": "ed4ad631f22b05055c21a3a4127eb7cf6d75bb62",
+    "path_in_vcs": "",
+    "vcs_info_sha256": "880f3b14373d21cc5b15360d862f6724ac973ab4a05ef11689e629715e5d607d",
+    "vcs_info_file": "licenses/rust-upstream/crc-catalog-2.5.0/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/akhilles/crc-catalog/git/trees/ed4ad631f22b05055c21a3a4127eb7cf6d75bb62?recursive=1",
+    "tree_response_sha256": "8d3ef1f40efd979ad72ad50fee74dea3e202c05fc80a265a5ad550cc2bd29e9a",
+    "candidate_files": [
+      {
+        "path": "LICENSES/Apache-2.0.txt",
+        "git_blob_sha": "545ca53e3050de0357fe603ca636e0e14b5ecfaa",
+        "size": 11346
+      },
+      {
+        "path": "LICENSES/MIT.txt",
+        "git_blob_sha": "92cbf78947298b385d3bcb0d2a2501ec8d190928",
+        "size": 1073
+      }
+    ],
+    "status": "exact_commit_notice_texts_copied; completeness requires review",
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  },
+  {
+    "name": "precis-core",
+    "version": "0.1.11",
+    "repository": "https://github.com/sancane/precis",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "9c2e7b31f132e0c6f8682cfb7bf4a5340dbe925b7986618d0826a56dfe0c8e56",
+    "notices": [],
+    "source_commit": "e982914a246bb18053d142b5396754ebf18e4ad5",
+    "path_in_vcs": "precis-core",
+    "vcs_info_sha256": "442e05bb97ef638bf2dc151c9282783d8058e3c70f36660305f6ba976e81bfdc",
+    "vcs_info_file": "licenses/rust-upstream/precis-core-0.1.11/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/sancane/precis/git/trees/e982914a246bb18053d142b5396754ebf18e4ad5?recursive=1",
+    "status": "BLOCKED: HTTPError: HTTP Error 422: Unprocessable Entity",
+    "additional_attempt": {
+      "url": "https://raw.githubusercontent.com/sancane/precis/e982914a246bb18053d142b5396754ebf18e4ad5/LICENSE",
+      "http_status": 404,
+      "checked_at": "2026-11-18",
+      "result": "exact recorded source commit license unavailable"
+    },
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  },
+  {
+    "name": "precis-profiles",
+    "version": "0.1.13",
+    "repository": "https://github.com/sancane/precis",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "31e2768890a47af73a032af9f0cedbddce3c9d06cf8de201d5b8f2436ded7674",
+    "notices": [],
+    "source_commit": "44867b3a528a993d7a6d2b242b8039926f5dacf3",
+    "path_in_vcs": "precis-profiles",
+    "vcs_info_sha256": "a84a5638ab49714e4ab0ec45d82e4313dfb96443a8409ad05eadef11fc9f61a2",
+    "vcs_info_file": "licenses/rust-upstream/precis-profiles-0.1.13/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/sancane/precis/git/trees/44867b3a528a993d7a6d2b242b8039926f5dacf3?recursive=1",
+    "status": "BLOCKED: HTTPError: HTTP Error 422: Unprocessable Entity",
+    "additional_attempt": {
+      "url": "https://raw.githubusercontent.com/sancane/precis/44867b3a528a993d7a6d2b242b8039926f5dacf3/LICENSE",
+      "http_status": 404,
+      "checked_at": "2026-11-18",
+      "result": "exact recorded source commit license unavailable"
+    },
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  },
+  {
+    "name": "precis-tools",
+    "version": "0.1.10",
+    "repository": "https://github.com/sancane/precis",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "4ade9e98ddb189f367494f1fa0a966a8d0d38f9a3eec4aef0f5ec035a7e0963d",
+    "notices": [
+      {
+        "source_url": "https://raw.githubusercontent.com/sancane/precis/5e9fb2b1a33246bceb3edb1018fb20fcd46dc316/LICENSE",
+        "source_path": "LICENSE",
+        "git_blob_sha": "407d3d07c69bd35504a18ec74dadef3ee07c26fc",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/sancane/precis/5e9fb2b1a33246bceb3edb1018fb20fcd46dc316/LICENSE",
+        "file": "licenses/rust-upstream/precis-tools-0.1.10/LICENSE",
+        "sha256": "606cadf0688adef1a020306dbe835e654f632aba8973bc5fa8dd81b74e61d4dd",
+        "size_bytes": 1079,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      }
+    ],
+    "source_commit": "5e9fb2b1a33246bceb3edb1018fb20fcd46dc316",
+    "path_in_vcs": "precis-tools",
+    "vcs_info_sha256": "9b62b023236dac6dbdec2498437e0cda6c17886d9b69efcba8f72b33bb8b42da",
+    "vcs_info_file": "licenses/rust-upstream/precis-tools-0.1.10/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/sancane/precis/git/trees/5e9fb2b1a33246bceb3edb1018fb20fcd46dc316?recursive=1",
+    "tree_response_sha256": "f4036bde92fbf3d46110e27fe551a8f5057f935085f2c82f2357f52c33e3a71e",
+    "candidate_files": [
+      {
+        "path": "LICENSE",
+        "git_blob_sha": "407d3d07c69bd35504a18ec74dadef3ee07c26fc",
+        "size": 1079
+      }
+    ],
+    "status": "exact_commit_notice_texts_copied; completeness requires review",
+    "scope_note": "Exact repository root LICENSE supplies MIT text; declared MIT/Apache-2.0 expression is preserved. No Apache license text was found in the inspected exact-commit tree; no alternative was chosen.",
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  },
+  {
+    "name": "r-efi",
+    "version": "5.3.0",
+    "repository": "https://github.com/r-efi/r-efi",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f",
+    "notices": [
+      {
+        "source_url": "https://raw.githubusercontent.com/r-efi/r-efi/97b55bed1c2c91dcbf787674849f05337ff80b33/AUTHORS",
+        "source_path": "AUTHORS",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/r-efi/r-efi/97b55bed1c2c91dcbf787674849f05337ff80b33/AUTHORS",
+        "file": "licenses/rust-upstream/r-efi-5.3.0/AUTHORS",
+        "sha256": "ff92bed461f50338dd703a9ba9aee496a425957873df1d91192776e4bdf5dda7",
+        "size_bytes": 3693,
+        "matches_cached_crate_file": true,
+        "status": "exact_commit_text_copied",
+        "matches_checksum_verified_crate_archive": true
+      }
+    ],
+    "source_commit": "97b55bed1c2c91dcbf787674849f05337ff80b33",
+    "path_in_vcs": "",
+    "vcs_info_sha256": "50e0c72ee0164f182d7b5db0213cdb1626bad950f2443b05d006c28c7f0641b5",
+    "vcs_info_file": "licenses/rust-upstream/r-efi-5.3.0/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/r-efi/r-efi/git/trees/97b55bed1c2c91dcbf787674849f05337ff80b33?recursive=1",
+    "tree_response_sha256": "e62de5a95c214d29b7358dc6abbfdf3c16becab487e2d2eb8ad482d8314cb599",
+    "candidate_files": [],
+    "status": "exact_commit_AUTHORS_license_and_copyright_copied; completeness requires review",
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  },
+  {
+    "name": "r-efi",
+    "version": "6.0.0",
+    "repository": "https://github.com/r-efi/r-efi",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf",
+    "notices": [
+      {
+        "source_url": "https://raw.githubusercontent.com/r-efi/r-efi/7e1b0322d31d625f81a5656096330934f9cd835d/AUTHORS",
+        "source_path": "AUTHORS",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/r-efi/r-efi/7e1b0322d31d625f81a5656096330934f9cd835d/AUTHORS",
+        "file": "licenses/rust-upstream/r-efi-6.0.0/AUTHORS",
+        "sha256": "d027e91dbc9cdbb2f1190068e498bd6b61cff022b6a032b191021ba658d96111",
+        "size_bytes": 3733,
+        "matches_cached_crate_file": true,
+        "status": "exact_commit_text_copied",
+        "matches_checksum_verified_crate_archive": true
+      }
+    ],
+    "source_commit": "7e1b0322d31d625f81a5656096330934f9cd835d",
+    "path_in_vcs": "",
+    "vcs_info_sha256": "d8d0d853429b028d5e3c7b969f7c6b77b04e17486c57fac0759eb8083a359f3f",
+    "vcs_info_file": "licenses/rust-upstream/r-efi-6.0.0/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/r-efi/r-efi/git/trees/7e1b0322d31d625f81a5656096330934f9cd835d?recursive=1",
+    "tree_response_sha256": "5dabced7189181ec206a2bc6d838ec818d975d660e1a6773e9e9deade1467752",
+    "candidate_files": [],
+    "status": "exact_commit_AUTHORS_license_and_copyright_copied; completeness requires review",
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  },
+  {
+    "name": "webrtc",
+    "version": "0.17.3",
+    "repository": "https://github.com/webrtc-rs/webrtc",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "d1ec22fdd71074f9c11702d5a50e3abe8503a056af0cd63ae0dcd5498f1f54af",
+    "notices": [
+      {
+        "source_url": "https://raw.githubusercontent.com/webrtc-rs/webrtc/a3c3f4dff44f2c935be3535ae94330770cd50dbd/LICENSE-APACHE",
+        "source_path": "LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/webrtc-rs/webrtc/a3c3f4dff44f2c935be3535ae94330770cd50dbd/LICENSE-APACHE",
+        "file": "licenses/rust-upstream/webrtc-0.17.3/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+        "size_bytes": 10847,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/webrtc-rs/webrtc/a3c3f4dff44f2c935be3535ae94330770cd50dbd/LICENSE-MIT",
+        "source_path": "LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/webrtc-rs/webrtc/a3c3f4dff44f2c935be3535ae94330770cd50dbd/LICENSE-MIT",
+        "file": "licenses/rust-upstream/webrtc-0.17.3/LICENSE-MIT",
+        "sha256": "56cc6c08157f4faf70d351b3a7ceac143399d5359a78c180e06dcd0390784f4d",
+        "size_bytes": 1066,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      }
+    ],
+    "source_commit": "a3c3f4dff44f2c935be3535ae94330770cd50dbd",
+    "path_in_vcs": "webrtc",
+    "vcs_info_sha256": "9a853dee4524e192ba8c3cb5407ef5354f4d18431b3282a62be51de595726078",
+    "vcs_info_file": "licenses/rust-upstream/webrtc-0.17.3/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/webrtc-rs/webrtc/git/trees/a3c3f4dff44f2c935be3535ae94330770cd50dbd?recursive=1",
+    "tree_response_sha256": "e796f2a67e12a30e4ce678ac65ac647d5a11749670fde575b45c2144bd054d11",
+    "candidate_files": [
+      {
+        "path": "LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "data/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "data/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "dtls/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "dtls/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "examples/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "examples/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "ice/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "ice/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "interceptor/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "interceptor/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "mdns/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "mdns/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "media/LICENSE-APACHE",
+        "git_blob_sha": "b2e847a43dc82461983df5d65d76b26d0cd26a95",
+        "size": 10847
+      },
+      {
+        "path": "media/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "rtcp/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "rtcp/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "rtp/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "rtp/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "sctp/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "sctp/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "sdp/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "sdp/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "srtp/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "srtp/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "stun/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "stun/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "turn/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "turn/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      },
+      {
+        "path": "util/LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "util/LICENSE-MIT",
+        "git_blob_sha": "e11d93befe8321ba69c2c96f7aa501c07ade27de",
+        "size": 1066
+      }
+    ],
+    "status": "exact_commit_notice_texts_copied; completeness requires review",
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  },
+  {
+    "name": "winapi-i686-pc-windows-gnu",
+    "version": "0.4.0",
+    "repository": "https://github.com/retep998/winapi-rs",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+    "notices": [],
+    "status": "BLOCKED: published crate has no .cargo_vcs_info.json; exact source revision not established"
+  },
+  {
+    "name": "winapi-x86_64-pc-windows-gnu",
+    "version": "0.4.0",
+    "repository": "https://github.com/retep998/winapi-rs",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+    "notices": [],
+    "status": "BLOCKED: published crate has no .cargo_vcs_info.json; exact source revision not established"
+  },
+  {
+    "name": "yasna",
+    "version": "0.5.2",
+    "repository": "https://github.com/qnighy/yasna.rs",
+    "checked_at": "2026-11-18",
+    "crate_archive_sha256": "e17bb3549cc1321ae1296b9cdc2698e2b6cb1992adfa19a8c72e5b7a738f44cd",
+    "notices": [
+      {
+        "source_url": "https://raw.githubusercontent.com/qnighy/yasna.rs/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985/LICENSE-APACHE",
+        "source_path": "LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/qnighy/yasna.rs/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985/LICENSE-APACHE",
+        "file": "licenses/rust-upstream/yasna-0.5.2/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+        "size_bytes": 10847,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/qnighy/yasna.rs/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985/LICENSE-MIT",
+        "source_path": "LICENSE-MIT",
+        "git_blob_sha": "eaa67b3cb827ab4ece77b37e2de875657fc3cdee",
+        "checked_at": "2026-11-18",
+        "http_status": 200,
+        "resolved_url": "https://raw.githubusercontent.com/qnighy/yasna.rs/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985/LICENSE-MIT",
+        "file": "licenses/rust-upstream/yasna-0.5.2/LICENSE-MIT",
+        "sha256": "2a7df90e60fd5512b8bca35d3ce90e068f21c52d962855053fd1d9e2e7ca0f16",
+        "size_bytes": 1055,
+        "git_blob_verified": true,
+        "status": "exact_commit_text_copied"
+      }
+    ],
+    "source_commit": "b7e65f9a4c317494cce2d18ea02b3d6eaaea7985",
+    "path_in_vcs": "",
+    "vcs_info_sha256": "87fde6d591c515f607a72a75f6f0455bdfcb773e8402a9bc76be75d3fdf0b8c1",
+    "vcs_info_file": "licenses/rust-upstream/yasna-0.5.2/cargo-vcs-info.json",
+    "tree_url": "https://api.github.com/repos/qnighy/yasna.rs/git/trees/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985?recursive=1",
+    "tree_response_sha256": "d1e3f1c6e3536e86d276757041e84aeba28c3bed766e18f5781aa679e72d68ba",
+    "candidate_files": [
+      {
+        "path": "LICENSE-APACHE",
+        "git_blob_sha": "16fe87b06e802f094b3fbb0894b137bca2b16ef1",
+        "size": 10847
+      },
+      {
+        "path": "LICENSE-MIT",
+        "git_blob_sha": "eaa67b3cb827ab4ece77b37e2de875657fc3cdee",
+        "size": 1055
+      }
+    ],
+    "status": "exact_commit_notice_texts_copied; completeness requires review",
+    "vcs_info_matches_checksum_verified_crate_archive": true
+  }
+]

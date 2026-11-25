@@ -1,0 +1,4 @@
+?   	openremote/controlplane/cmd/controlplane	[no test files]
+ok  	openremote/controlplane/internal/app	245.889s
+ok  	openremote/controlplane/internal/webclient	1.021s
+?   	openremote/controlplane/testsupport/pairing_fixture	[no test files]

@@ -1,0 +1,16 @@
+// Task-local repository containing only artifacts verified against the unchanged
+// checked-in SHA-256 metadata. Gradle strict verification remains enabled.
+gradle.settingsEvaluated { settings ->
+    [settings.pluginManagement.repositories,
+     settings.dependencyResolutionManagement.repositories].each { repositories ->
+        repositories.clear()
+        repositories.maven {
+            name = "OpenRemoteVerifiedTaskCache"
+            url = new File("/workspace/scratch/72f8c6db0182/toolchains/android-0.8/maven").toURI()
+            metadataSources {
+                gradleMetadata()
+                mavenPom()
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Connect to your PC · OpenRemote</title>
+  <link rel="stylesheet" href="/connect/style.css">
+  <script type="module" src="/connect/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/connect" aria-label="OpenRemote home"><span class="brand-icon" aria-hidden="true">O</span>OpenRemote</a>
+    <span class="tag">Your PC, within reach</span>
+  </header>
+  <main>
+    <section id="welcome" class="welcome" aria-labelledby="heading">
+      <div class="intro">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> CONNECT SECURELY</p>
+        <h1 id="heading">Your desktop.<br>Right here.</h1>
+        <p class="lead">Enter Your PC ID shown on the computer you want to control and its six-digit PIN.</p>
+        <p class="hint">On that PC, choose Activate Connection, set your PIN, then activate access. OpenRemote shows Your PC ID and stays available in the system tray.</p>
+      </div>
+      <div class="connect-card">
+        <div class="card-heading"><span class="small-icon" aria-hidden="true">↗</span><div><h2>Connect to a PC</h2><p>No viewer installation needed</p></div></div>
+        <form id="connect-form" autocomplete="off">
+          <label for="code">PC ID</label>
+          <input id="code" name="connection-code" class="code-input" type="text" inputmode="numeric" pattern="([0-9]{6}|[0-9]{9})" minlength="6" maxlength="9" required spellcheck="false" autocomplete="off" placeholder="123456789" aria-describedby="code-hint">
+          <p id="code-hint" class="hint">Your PC ID stays the same. Enter all nine digits, including any zeroes.</p>
+          <label for="pin">Six-digit PIN</label>
+          <input id="pin" name="security-pin" type="password" inputmode="numeric" pattern="[0-9]{6}" minlength="6" maxlength="6" required autocomplete="off" aria-describedby="pin-hint" placeholder="Enter six-digit PIN">
+          <p id="pin-hint" class="hint">The six-digit PIN you chose on your PC.</p>
+          <button id="connect" class="primary" type="submit">Connect remote desktop <span aria-hidden="true">→</span></button>
+          <button id="cancel" class="secondary" type="button" hidden>Cancel</button>
+        </form>
+        <p class="privacy">The PC shows every connected device. Its owner can deactivate access at any time.</p>
+      </div>
+    </section>
+    <section id="session-panel" class="session-panel" aria-label="Remote desktop" hidden>
+      <div class="session-toolbar">
+        <div><p class="eyebrow">REMOTE DESKTOP</p><h2 id="host-name">Connecting to your PC</h2></div>
+        <div class="toolbar-buttons"><span id="connection-state" class="state-pill">Connecting</span><button id="fullscreen" class="secondary" type="button">Full screen</button><button id="disconnect" class="danger" type="button">Disconnect</button></div>
+      </div>
+      <div id="stage" class="stage">
+        <video id="desktop" autoplay playsinline muted tabindex="0" aria-label="Remote desktop. Click to control. Press Escape to release your keyboard."></video>
+        <p id="video-overlay" class="video-overlay">Waiting for the host to start sharing…</p>
+      </div>
+      <div class="session-help"><p id="control-hint">Input stays paused until the PC confirms its display and video is ready.</p><span id="display-name"></span></div>
+      <div class="remote-tools">
+        <button id="remote-escape" class="secondary" type="button" disabled>Send Esc</button>
+        <button id="remote-windows" class="secondary" type="button" disabled>Windows key</button>
+        <form id="text-form" autocomplete="off"><label class="sr-only" for="remote-text">Text to type on the PC</label><input id="remote-text" type="text" autocomplete="off" maxlength="4096" placeholder="Type text on your PC" disabled><button id="send-text" class="secondary" type="submit" disabled>Send text</button></form>
+      </div>
+    </section>
+    <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+    <noscript><p class="status">Enable JavaScript in your browser to connect. OpenRemote needs WebRTC and Web Crypto.</p></noscript>
+  </main>
+  <footer><span>OpenRemote · 0.8</span><span>Your PC ID. Your PIN. You stay in control.</span></footer>
+</body>
+</html>

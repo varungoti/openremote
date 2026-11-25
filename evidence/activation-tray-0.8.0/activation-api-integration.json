@@ -1,0 +1,15 @@
+{
+  "startedAt": "2026-11-20T10:45:16.192Z",
+  "scope": "Real isolated Go HTTP with production browser parsers and Node WebCrypto. No native desktop, browser pixels, input or public relay.",
+  "checks": [
+    "Permanent PC identity and additive activation discovery/create use actual coordinator routes",
+    "Four independently proved browser/phone/agent identities connect using the same nine-digit PC ID and six-digit PIN; one input owner only",
+    "Pending sessions reserve the four-seat capacity; only the host can inspect its named roster and no controller bearer is exposed",
+    "Host approvals preserve the input/view-only permissions and the activation remains available after redemption",
+    "Ending the controller frees its slot for a new authorized connection; existing viewers never silently gain control",
+    "Deactivate ends pending and approved connections, clears the roster, and rejects later use of the same PC ID/PIN"
+  ],
+  "ok": true,
+  "finishedAt": "2026-11-20T10:45:18.357Z",
+  "fixtureSha256": "207009562513e86442535451749740cd478365d66431f15798eaa7f444719007"
+}

@@ -1,0 +1,5094 @@
+{
+  "inputs": 619,
+  "results": [
+    {
+      "group": "androidx.activity",
+      "name": "activity",
+      "version": "1.11.0",
+      "file": "activity-1.11.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.11.0/activity-1.11.0.aar",
+      "sha256": "26726186b34f90b0fe55bbf0ebbf640ade99915bc35f4cb0153ddcf751499bd3",
+      "bytes": 221073,
+      "cached": false
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity",
+      "version": "1.11.0",
+      "file": "activity-1.11.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.11.0/activity-1.11.0.module",
+      "sha256": "c19b71592d90a24b6f6996d2c1b78a24ff05cb382250bb1c670617fd605caa27",
+      "bytes": 9302,
+      "cached": false
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity-compose",
+      "version": "1.11.0",
+      "file": "activity-compose-1.11.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/activity/activity-compose/1.11.0/activity-compose-1.11.0.aar",
+      "sha256": "03d5232a9371338475a3d9e40cabeb072faab16dd01d94b481c1ebf13535c59a",
+      "bytes": 1057910,
+      "cached": false
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity-compose",
+      "version": "1.11.0",
+      "file": "activity-compose-1.11.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/activity/activity-compose/1.11.0/activity-compose-1.11.0.module",
+      "sha256": "e1bf1fe873ee1921b1757b9947ba64dfe4bb6de85daf311ada07927a75754855",
+      "bytes": 9129,
+      "cached": false
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity-ktx",
+      "version": "1.11.0",
+      "file": "activity-ktx-1.11.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/activity/activity-ktx/1.11.0/activity-ktx-1.11.0.aar",
+      "sha256": "3663f6811a3c6c0c28f8ba82ba5e9f363f4bc12ee53155794f456d3c5b2acae3",
+      "bytes": 5744,
+      "cached": false
+    },
+    {
+      "group": "androidx.activity",
+      "name": "activity-ktx",
+      "version": "1.11.0",
+      "file": "activity-ktx-1.11.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/activity/activity-ktx/1.11.0/activity-ktx-1.11.0.module",
+      "sha256": "4ec5ffc2997cd3c0f3117391668c44dd9133af0a80ee67cbc7511c7cbd0d37d7",
+      "bytes": 7275,
+      "cached": false
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation",
+      "version": "1.8.1",
+      "file": "annotation-1.8.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1.module",
+      "sha256": "e6386e85afdd865044e216575e493ed39a63a6325bd925379a21429c3941c8b5",
+      "bytes": 34460,
+      "cached": false
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation",
+      "version": "1.9.1",
+      "file": "annotation-1.9.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.9.1/annotation-1.9.1.module",
+      "sha256": "f204b05b728a97561718bc716242e47c629c0085a80ee74fca53d4d638bcbe3f",
+      "bytes": 43864,
+      "cached": false
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation-experimental",
+      "version": "1.4.1",
+      "file": "annotation-experimental-1.4.1.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.4.1/annotation-experimental-1.4.1.aar",
+      "sha256": "6bd4c7c7476f8260cd3bdbb81183583e93fc9f790c27dea7dc314181cbf87aa0",
+      "bytes": 39841,
+      "cached": false
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation-experimental",
+      "version": "1.4.1",
+      "file": "annotation-experimental-1.4.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.4.1/annotation-experimental-1.4.1.module",
+      "sha256": "2ac2f7106e12f263425b4a4dfc80989447fb895675fe902d86759aa74fd12b7d",
+      "bytes": 3950,
+      "cached": false
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation-jvm",
+      "version": "1.9.1",
+      "file": "annotation-jvm-1.9.1.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.9.1/annotation-jvm-1.9.1.jar",
+      "sha256": "1e343917ebf27ba96fe4dc52b1cad7fd32b738fbc6355bb6cd5b3b305d7212d0",
+      "bytes": 60577,
+      "cached": false
+    },
+    {
+      "group": "androidx.annotation",
+      "name": "annotation-jvm",
+      "version": "1.9.1",
+      "file": "annotation-jvm-1.9.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.9.1/annotation-jvm-1.9.1.module",
+      "sha256": "03fb659177c8618e47425925c11bc91f384703ea26c265be9b25cd79292b511c",
+      "bytes": 3388,
+      "cached": false
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-common",
+      "version": "2.1.0",
+      "file": "core-common-2.1.0.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.1.0/core-common-2.1.0.pom",
+      "sha256": "83bbb3960eaabc600ac366c94cb59414e441532a1d6aa9388b0b8bfface5cf01",
+      "bytes": 1315,
+      "cached": false
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-common",
+      "version": "2.2.0",
+      "file": "core-common-2.2.0.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.2.0/core-common-2.2.0.jar",
+      "sha256": "65308a06b1c00ee186cb9e19321383f043b993813f1522c47f4a3e3303bdba41",
+      "bytes": 11657,
+      "cached": false
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-common",
+      "version": "2.2.0",
+      "file": "core-common-2.2.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.2.0/core-common-2.2.0.module",
+      "sha256": "edf4200cfdc2d946232252c99e5dcb9c61bb909eb5450b2613d1d4fdc974b981",
+      "bytes": 3079,
+      "cached": false
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-runtime",
+      "version": "2.2.0",
+      "file": "core-runtime-2.2.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0.aar",
+      "sha256": "a1be5e0caa2b07623862af6ae21b3ab0718123245184d0e30dea81b53f990a47",
+      "bytes": 7577,
+      "cached": false
+    },
+    {
+      "group": "androidx.arch.core",
+      "name": "core-runtime",
+      "version": "2.2.0",
+      "file": "core-runtime-2.2.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0.module",
+      "sha256": "a8b17513949e5db6c9601c30be19df953762dd877512f1e2cfcfae81d2440944",
+      "bytes": 3386,
+      "cached": false
+    },
+    {
+      "group": "androidx.autofill",
+      "name": "autofill",
+      "version": "1.0.0",
+      "file": "autofill-1.0.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/autofill/autofill/1.0.0/autofill-1.0.0.aar",
+      "sha256": "c9468f56e05006ea151a426c54957cd0799b8b83a579d2846dd22061f33e5ecd",
+      "bytes": 4280,
+      "cached": false
+    },
+    {
+      "group": "androidx.autofill",
+      "name": "autofill",
+      "version": "1.0.0",
+      "file": "autofill-1.0.0.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/autofill/autofill/1.0.0/autofill-1.0.0.pom",
+      "sha256": "3677abead5d4e06cf76cbacb954151e051779c2274494451fb424e375aa9e450",
+      "bytes": 1324,
+      "cached": false
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection",
+      "version": "1.5.0",
+      "file": "collection-1.5.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.5.0/collection-1.5.0.module",
+      "sha256": "bfeb7bd84f3f7dda7bd73b6709d4a1f61f5a37f843728bae08a067e3df9a0aef",
+      "bytes": 39702,
+      "cached": false
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection-jvm",
+      "version": "1.5.0",
+      "file": "collection-jvm-1.5.0.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.5.0/collection-jvm-1.5.0.jar",
+      "sha256": "70b35924e4babcdffa37d0e575ee039c56a2d97123342624c48b603233704341",
+      "bytes": 877998,
+      "cached": false
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection-jvm",
+      "version": "1.5.0",
+      "file": "collection-jvm-1.5.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.5.0/collection-jvm-1.5.0.module",
+      "sha256": "dde85e292509231b5471bb091b575099d4f43161eb281e87385038a0161072e6",
+      "bytes": 4660,
+      "cached": false
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection-ktx",
+      "version": "1.5.0",
+      "file": "collection-ktx-1.5.0.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-ktx/1.5.0/collection-ktx-1.5.0.jar",
+      "sha256": "939b4a8697640e77d83e4e8b4c4a9d18f8130198c5961194af8dd9db9dc7c353",
+      "bytes": 4799,
+      "cached": false
+    },
+    {
+      "group": "androidx.collection",
+      "name": "collection-ktx",
+      "version": "1.5.0",
+      "file": "collection-ktx-1.5.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-ktx/1.5.0/collection-ktx-1.5.0.module",
+      "sha256": "4228894e25eec7e17329b206ba72e8aad255bc535018dc62acc5eff3b5c7aaa5",
+      "bytes": 5256,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose",
+      "name": "compose-bom",
+      "version": "2025.10.01",
+      "file": "compose-bom-2025.10.01.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/compose-bom/2025.10.01/compose-bom-2025.10.01.pom",
+      "sha256": "7bfbf7a73afedae434570d97f6b78aa1e13df779009a81577baea7c434ab09da",
+      "bytes": 35124,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation",
+      "version": "1.9.4",
+      "file": "animation-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation/1.9.4/animation-1.9.4.module",
+      "sha256": "b71f7a454a27c5a52198cdd53aab9137333b0665369f45d90d1d89ee974e4c49",
+      "bytes": 15020,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-android",
+      "version": "1.9.4",
+      "file": "animation-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-android/1.9.4/animation-android-1.9.4.module",
+      "sha256": "94a2d6d5144ba15fdb5c6a48e9a84abc00d16224405ca811f498fbe0e09d97d5",
+      "bytes": 10559,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-android",
+      "version": "1.9.4",
+      "file": "animation.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-android/1.9.4/animation.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-core",
+      "version": "1.9.4",
+      "file": "animation-core-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-core/1.9.4/animation-core-1.9.4.module",
+      "sha256": "453a687ce15d585190fa93f33662bcf6f1e2a39002c6429f9617e16671df82d0",
+      "bytes": 14766,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-core-android",
+      "version": "1.9.4",
+      "file": "animation-core-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-core-android/1.9.4/animation-core-android-1.9.4.module",
+      "sha256": "419f743daa2b1a44a8c875cae342c3f16a9d69aab4dcbe76211475c8ead28a99",
+      "bytes": 9636,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.animation",
+      "name": "animation-core-android",
+      "version": "1.9.4",
+      "file": "animation-core.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/animation/animation-core-android/1.9.4/animation-core.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation",
+      "version": "1.9.4",
+      "file": "foundation-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation/1.9.4/foundation-1.9.4.module",
+      "sha256": "3c8f24702349675d220e84562a12d2a0e8d36703ae02d63b323ddaed4f1e8c03",
+      "bytes": 11878,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-android",
+      "version": "1.9.4",
+      "file": "foundation-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-android/1.9.4/foundation-android-1.9.4.module",
+      "sha256": "e0ed97af0107bf2ba8fa4a86b5c407b06eebebda1de9022d06a2602226122ef5",
+      "bytes": 13263,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-android",
+      "version": "1.9.4",
+      "file": "foundation-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-android/1.9.4/foundation-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout",
+      "version": "1.9.4",
+      "file": "foundation-layout-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-layout/1.9.4/foundation-layout-1.9.4.module",
+      "sha256": "3c64c1ae4ab82d8066fa759a2567ce9fb5b55a833b3c13fa515b3337436ce362",
+      "bytes": 11709,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout-android",
+      "version": "1.9.4",
+      "file": "foundation-layout-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-layout-android/1.9.4/foundation-layout-android-1.9.4.module",
+      "sha256": "fae69c06e55d0e456b03104da1d87d723eea2bcbf506604d46f9e0f7bec70da0",
+      "bytes": 7624,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.foundation",
+      "name": "foundation-layout-android",
+      "version": "1.9.4",
+      "file": "foundation-layout.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-layout-android/1.9.4/foundation-layout.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material",
+      "version": "1.9.4",
+      "file": "material-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material/1.9.4/material-1.9.4.module",
+      "sha256": "f005d10a78cbe2b712435c59e81b71ea1fe87b1e8113b1262feac4878a7b8ae8",
+      "bytes": 9972,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-android",
+      "version": "1.9.4",
+      "file": "material-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-android/1.9.4/material-android-1.9.4.module",
+      "sha256": "dd0ed8297acea2a6410d631e1a02ea3c6eb82e70b9e399d54c968af4f4249eb4",
+      "bytes": 7603,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-android",
+      "version": "1.9.4",
+      "file": "material.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-android/1.9.4/material.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-ripple",
+      "version": "1.9.4",
+      "file": "material-ripple-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-ripple/1.9.4/material-ripple-1.9.4.module",
+      "sha256": "4c2bb1fd49a3cac7a1554c41d5aa820b8ab2a1476f62c9ce2b3dc6fe020cf34f",
+      "bytes": 9014,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-ripple-android",
+      "version": "1.9.4",
+      "file": "material-ripple-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-ripple-android/1.9.4/material-ripple-android-1.9.4.module",
+      "sha256": "add6b48e284bba842c4e89e4df1328706ca464ee2f3b794f13ed38d901623c2b",
+      "bytes": 4605,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material",
+      "name": "material-ripple-android",
+      "version": "1.9.4",
+      "file": "material-ripple.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material/material-ripple-android/1.9.4/material-ripple.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.material3",
+      "name": "material3",
+      "version": "1.4.0",
+      "file": "material3-1.4.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material3/material3/1.4.0/material3-1.4.0.module",
+      "sha256": "757081d128daf8801c1dd9acc431fa5269e656b28a0a490ae98ccee68e9c3452",
+      "bytes": 13368,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material3",
+      "name": "material3-android",
+      "version": "1.4.0",
+      "file": "material3-android-1.4.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material3/material3-android/1.4.0/material3-android-1.4.0.module",
+      "sha256": "fccd6a8d0d33fcf7c3277bc43eb452c73803ec620597c81dbc4a79e290a71a97",
+      "bytes": 9920,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.material3",
+      "name": "material3-android",
+      "version": "1.4.0",
+      "file": "material3.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/material3/material3-android/1.4.0/material3.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime",
+      "version": "1.9.4",
+      "file": "runtime-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime/1.9.4/runtime-1.9.4.module",
+      "sha256": "7f9a5b7022b0a6b94d5c3e4b00e612e196f0da9915d6ab3c49df1d22d15b6f5a",
+      "bytes": 49450,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-android",
+      "version": "1.9.4",
+      "file": "runtime-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-android/1.9.4/runtime-android-1.9.4.module",
+      "sha256": "ae62e0925d186b0e72e66eda5c37c8e25b25f442d2d94c147e32175d0ee5c8b0",
+      "bytes": 11842,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-android",
+      "version": "1.9.4",
+      "file": "runtime.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-android/1.9.4/runtime.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-annotation",
+      "version": "1.9.4",
+      "file": "runtime-annotation-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-annotation/1.9.4/runtime-annotation-1.9.4.module",
+      "sha256": "26668173c528a10dd1a735d8d0b17aab5d2e8c961695383bd8f1d448f087c2cd",
+      "bytes": 50995,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-annotation-android",
+      "version": "1.9.4",
+      "file": "runtime-annotation-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-annotation-android/1.9.4/runtime-annotation-android-1.9.4.module",
+      "sha256": "8ebff18f91af00f47531dfe7f00041d61618b19c70c9104ed2580d557926f710",
+      "bytes": 10578,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-annotation-android",
+      "version": "1.9.4",
+      "file": "runtime-annotation.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-annotation-android/1.9.4/runtime-annotation.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable",
+      "version": "1.9.4",
+      "file": "runtime-saveable-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-saveable/1.9.4/runtime-saveable-1.9.4.module",
+      "sha256": "7b1b26dae7adc862a34bfbd83e0a12e71dee238d41a7ba5de366ce055cda28f5",
+      "bytes": 50696,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable-android",
+      "version": "1.9.4",
+      "file": "runtime-saveable-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-saveable-android/1.9.4/runtime-saveable-android-1.9.4.module",
+      "sha256": "ed67ee4b10b84e8155993fd5a2377e7253e77d1e13cd964c38363a3dcf7887d2",
+      "bytes": 11597,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "name": "runtime-saveable-android",
+      "version": "1.9.4",
+      "file": "runtime-saveable.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-saveable-android/1.9.4/runtime-saveable.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui",
+      "version": "1.9.4",
+      "file": "ui-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui/1.9.4/ui-1.9.4.module",
+      "sha256": "4e0c12436ccfd80bf4ae746be093667b86a80cd5531bfdab5ffaca65bf4767bb",
+      "bytes": 27999,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-android",
+      "version": "1.9.4",
+      "file": "ui-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-android/1.9.4/ui-android-1.9.4.module",
+      "sha256": "df82df15062b74b2a0a0af823e39ccea534b29f364ebb35408b37a6af0604035",
+      "bytes": 34119,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-android",
+      "version": "1.9.4",
+      "file": "ui-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-android/1.9.4/ui-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry",
+      "version": "1.9.4",
+      "file": "ui-geometry-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-geometry/1.9.4/ui-geometry-1.9.4.module",
+      "sha256": "42364e0fe459d88d67c7965aebc58f730009871abf7066e86057c8f68bad784a",
+      "bytes": 26967,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry-android",
+      "version": "1.9.4",
+      "file": "ui-geometry-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-geometry-android/1.9.4/ui-geometry-android-1.9.4.module",
+      "sha256": "1e651ebbadd90300e875286d150fec10a8a1824cf8aac7ead1c9e2fe72ddb3db",
+      "bytes": 17884,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-geometry-android",
+      "version": "1.9.4",
+      "file": "ui-geometry.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-geometry-android/1.9.4/ui-geometry.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics",
+      "version": "1.9.4",
+      "file": "ui-graphics-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-graphics/1.9.4/ui-graphics-1.9.4.module",
+      "sha256": "01bd567b245f2761042f9a15d82167b26400a66fe9daa3adf4a211740cab8672",
+      "bytes": 27775,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics-android",
+      "version": "1.9.4",
+      "file": "ui-graphics-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-graphics-android/1.9.4/ui-graphics-android-1.9.4.module",
+      "sha256": "16dd54e380902ae6d3c7e57c275e1b1b13bf87d0102e8d11a9d24a82cfe650a0",
+      "bytes": 23236,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-graphics-android",
+      "version": "1.9.4",
+      "file": "ui-graphics-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-graphics-android/1.9.4/ui-graphics-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-text",
+      "version": "1.9.4",
+      "file": "ui-text-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-text/1.9.4/ui-text-1.9.4.module",
+      "sha256": "9eee0bb663eb8218c089d1a64bc231f2fb9a3684c65a67e92ab208e8108562ea",
+      "bytes": 27421,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-text-android",
+      "version": "1.9.4",
+      "file": "ui-text-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-text-android/1.9.4/ui-text-android-1.9.4.module",
+      "sha256": "876478f8811c41662c94f11d60b5f2331426000cb8074b9ab4a5fcdb6e67cd46",
+      "bytes": 19984,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-text-android",
+      "version": "1.9.4",
+      "file": "ui-text.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-text-android/1.9.4/ui-text.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling",
+      "version": "1.9.4",
+      "file": "ui-tooling-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling/1.9.4/ui-tooling-1.9.4.module",
+      "sha256": "dedff6e36721fa42f906f7ea848cbad39964a51fc4c38ac7dc4b048d3e1cfbfb",
+      "bytes": 26745,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-android/1.9.4/ui-tooling-android-1.9.4.module",
+      "sha256": "bf25efcb1e6d933e21398233dc25089e33b9957e5132a65586bda4c436f3ac92",
+      "bytes": 20188,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-android",
+      "version": "1.9.4",
+      "file": "ui-tooling.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-android/1.9.4/ui-tooling.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-data",
+      "version": "1.9.4",
+      "file": "ui-tooling-data-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-data/1.9.4/ui-tooling-data-1.9.4.module",
+      "sha256": "b4f5a530979d9a5f1cdd3ba322bd5fccb9b9d03556b183363fe5b2e75ebf4c0b",
+      "bytes": 26379,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-data-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-data-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-data-android/1.9.4/ui-tooling-data-android-1.9.4.module",
+      "sha256": "bac4aefd37c453b63789b02029e2f73a384f89662ddacb03cea11ee252c3ad67",
+      "bytes": 18807,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-data-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-data.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-data-android/1.9.4/ui-tooling-data.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-preview",
+      "version": "1.9.4",
+      "file": "ui-tooling-preview-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-preview/1.9.4/ui-tooling-preview-1.9.4.module",
+      "sha256": "e971d87c9abcc953056362908c08b7d6945a8c7982200f91cd3cb1781ba4eb61",
+      "bytes": 26517,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-preview-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-preview-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-preview-android/1.9.4/ui-tooling-preview-android-1.9.4.module",
+      "sha256": "fa813d87769a3aec21b3aafad7740b444dac33fe029878ec442378d65aaf593f",
+      "bytes": 18344,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-tooling-preview-android",
+      "version": "1.9.4",
+      "file": "ui-tooling-preview.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-tooling-preview-android/1.9.4/ui-tooling-preview.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-unit",
+      "version": "1.9.4",
+      "file": "ui-unit-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-unit/1.9.4/ui-unit-1.9.4.module",
+      "sha256": "1f464342062a2e3d603adceec766b08d09096277927edd9391c66086cf174543",
+      "bytes": 27420,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-unit-android",
+      "version": "1.9.4",
+      "file": "ui-unit-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-unit-android/1.9.4/ui-unit-android-1.9.4.module",
+      "sha256": "4aba42de3e7fe1fd1f4c270515e51843b5f30139079d1403e5be0e566af8d080",
+      "bytes": 19164,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-unit-android",
+      "version": "1.9.4",
+      "file": "ui-unit.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-unit-android/1.9.4/ui-unit.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-util",
+      "version": "1.9.4",
+      "file": "ui-util-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-util/1.9.4/ui-util-1.9.4.module",
+      "sha256": "c0361edfd7067e26ca10c170ce4d24a7b5bc45a8678b83006424c3a7404ce0b4",
+      "bytes": 26550,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-util-android",
+      "version": "1.9.4",
+      "file": "ui-util-android-1.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-util-android/1.9.4/ui-util-android-1.9.4.module",
+      "sha256": "ac7f70f91eb6fed51518f298970cf85c382eb30bdb4ae3b8caae4b7d97fc9328",
+      "bytes": 17495,
+      "cached": false
+    },
+    {
+      "group": "androidx.compose.ui",
+      "name": "ui-util-android",
+      "version": "1.9.4",
+      "file": "ui-util.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-util-android/1.9.4/ui-util.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures",
+      "version": "1.1.0",
+      "file": "concurrent-futures-1.1.0.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures/1.1.0/concurrent-futures-1.1.0.jar",
+      "sha256": "0ce067c514a0d1049d1bebdf709e344ed3266fe9744275682937cdcb13334e9e",
+      "bytes": 25987,
+      "cached": false
+    },
+    {
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures",
+      "version": "1.1.0",
+      "file": "concurrent-futures-1.1.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures/1.1.0/concurrent-futures-1.1.0.module",
+      "sha256": "77639a0b051e22510bad93affcea0ebd781ef124bf9b7621a95749937bcfcdfd",
+      "bytes": 3485,
+      "cached": false
+    },
+    {
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures-ktx",
+      "version": "1.2.0",
+      "file": "concurrent-futures-ktx-1.2.0.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures-ktx/1.2.0/concurrent-futures-ktx-1.2.0.jar",
+      "sha256": "e1f3e17bb4358ccd6c77ca45f70635c9aba237261f19eaa4f64a0218c00e2a3e",
+      "bytes": 15903,
+      "cached": false
+    },
+    {
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures-ktx",
+      "version": "1.2.0",
+      "file": "concurrent-futures-ktx-1.2.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures-ktx/1.2.0/concurrent-futures-ktx-1.2.0.module",
+      "sha256": "823f469acd984adfd30b3d0a577eb4f7796a03742a526ef70c1583b594b43b80",
+      "bytes": 6079,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.13.0",
+      "file": "core-1.13.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.13.0/core-1.13.0.aar",
+      "sha256": "1b96c8eb10c4b40283fdd6e9aa74ffff05fae4f15d54f61ba69d517fcd144695",
+      "bytes": 1270405,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.13.0",
+      "file": "core-1.13.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.13.0/core-1.13.0.module",
+      "sha256": "2e0e6e5c1205b7462a0c5c3e32b58c2e525435812ed89946c7be6737493b51e3",
+      "bytes": 6044,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.13.1",
+      "file": "core-1.13.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.13.1/core-1.13.1.module",
+      "sha256": "2a10979bbb3bcd7b25b7f664ab4e9b016fabf2174a26768b677e12e4bea4c7c4",
+      "bytes": 6044,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.15.0",
+      "file": "core-1.15.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0.aar",
+      "sha256": "432b85a1974076e14b487ece4a28c59a84f1b9efc3fc8be72cd7f05d32055e51",
+      "bytes": 1336135,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.15.0",
+      "file": "core-1.15.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0.module",
+      "sha256": "e8a6c386e1765d870012fed2221173d4a2e8d2fd5aec732c51afb4a9f4684519",
+      "bytes": 6704,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.13.0",
+      "file": "core-ktx-1.13.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.13.0/core-ktx-1.13.0.aar",
+      "sha256": "59c54e6129e9261c6d810f8eea4a6ee2f4994d8162b1cd9fc88c9c84c92accfc",
+      "bytes": 171581,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.13.0",
+      "file": "core-ktx-1.13.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.13.0/core-ktx-1.13.0.module",
+      "sha256": "a3e6a0692e05fd59e6ac380715ed72b325c625a3627646c69d108bdcddc4260f",
+      "bytes": 4655,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.15.0",
+      "file": "core-ktx-1.15.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0.aar",
+      "sha256": "c72c97ff4a32308bcaf3061eea5ddf33455ce413cee4aa1d5c82440c5759d4bc",
+      "bytes": 175963,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.15.0",
+      "file": "core-ktx-1.15.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0.module",
+      "sha256": "bee9b44664ff37e2e222ebcde4b30e38294a3f927451edc611fec7f454ffa442",
+      "bytes": 4653,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-viewtree",
+      "version": "1.0.0",
+      "file": "core-viewtree-1.0.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core-viewtree/1.0.0/core-viewtree-1.0.0.aar",
+      "sha256": "dc1b678d58ebcf2bfa1587be68ff826694ce3d221251b9ef30d4d4b36297e6de",
+      "bytes": 6980,
+      "cached": false
+    },
+    {
+      "group": "androidx.core",
+      "name": "core-viewtree",
+      "version": "1.0.0",
+      "file": "core-viewtree-1.0.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/core/core-viewtree/1.0.0/core-viewtree-1.0.0.module",
+      "sha256": "11386cfa46cbbfddb6a4059f14354c00691cf65d3d63c3618818a83326ef3c7f",
+      "bytes": 4164,
+      "cached": false
+    },
+    {
+      "group": "androidx.customview",
+      "name": "customview-poolingcontainer",
+      "version": "1.0.0",
+      "file": "customview-poolingcontainer-1.0.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/customview/customview-poolingcontainer/1.0.0/customview-poolingcontainer-1.0.0.aar",
+      "sha256": "3584102fc49bf399c56e3b7be4bfe12000c46112320cd8cf85cc0a8f93f3e752",
+      "bytes": 6608,
+      "cached": false
+    },
+    {
+      "group": "androidx.customview",
+      "name": "customview-poolingcontainer",
+      "version": "1.0.0",
+      "file": "customview-poolingcontainer-1.0.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/customview/customview-poolingcontainer/1.0.0/customview-poolingcontainer-1.0.0.module",
+      "sha256": "903034d5152dd2e0162b1468ea25a22e1ca384006b3d282d5a143cc760321a01",
+      "bytes": 3144,
+      "cached": false
+    },
+    {
+      "group": "androidx.databinding",
+      "name": "databinding-common",
+      "version": "8.13.2",
+      "file": "databinding-common-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.databinding",
+      "name": "databinding-common",
+      "version": "8.13.2",
+      "file": "databinding-common-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.databinding",
+      "name": "databinding-compiler-common",
+      "version": "8.13.2",
+      "file": "databinding-compiler-common-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "androidx.databinding",
+      "name": "databinding-compiler-common",
+      "version": "8.13.2",
+      "file": "databinding-compiler-common-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "androidx.emoji2",
+      "name": "emoji2",
+      "version": "1.3.0",
+      "file": "emoji2-1.3.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2/1.3.0/emoji2-1.3.0.module",
+      "sha256": "ddc851edba65fd15a7a1bc3ad18648e2f732dd5ad8ef3602224bce0647f5b4d1",
+      "bytes": 6981,
+      "cached": false
+    },
+    {
+      "group": "androidx.emoji2",
+      "name": "emoji2",
+      "version": "1.4.0",
+      "file": "emoji2-1.4.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2/1.4.0/emoji2-1.4.0.aar",
+      "sha256": "433febd3434a45667176c76a64f3f205ca6335a6b544c5b5d57f25a38a375242",
+      "bytes": 143546,
+      "cached": false
+    },
+    {
+      "group": "androidx.emoji2",
+      "name": "emoji2",
+      "version": "1.4.0",
+      "file": "emoji2-1.4.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2/1.4.0/emoji2-1.4.0.module",
+      "sha256": "92be16cccb757f807bddd92f1fca95a038a810ccca051c4149c11682478954b8",
+      "bytes": 8448,
+      "cached": false
+    },
+    {
+      "group": "androidx.graphics",
+      "name": "graphics-path",
+      "version": "1.0.1",
+      "file": "graphics-path-1.0.1.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/graphics/graphics-path/1.0.1/graphics-path-1.0.1.aar",
+      "sha256": "8ca4032b6d79b351f0b59ad4b580eddbb9423e1652f7c958830687f1eee2ec03",
+      "bytes": 39380,
+      "cached": false
+    },
+    {
+      "group": "androidx.graphics",
+      "name": "graphics-path",
+      "version": "1.0.1",
+      "file": "graphics-path-1.0.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/graphics/graphics-path/1.0.1/graphics-path-1.0.1.module",
+      "sha256": "3f6fc7e96f8a1fd21045da7f2e332aef528aa1f56b6455fb8f25043aafa0e1b8",
+      "bytes": 4016,
+      "cached": false
+    },
+    {
+      "group": "androidx.interpolator",
+      "name": "interpolator",
+      "version": "1.0.0",
+      "file": "interpolator-1.0.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.aar",
+      "sha256": "33193135a64fe21fa2c35eec6688f1a76e512606c0fc83dc1b689e37add7732a",
+      "bytes": 7669,
+      "cached": false
+    },
+    {
+      "group": "androidx.interpolator",
+      "name": "interpolator",
+      "version": "1.0.0",
+      "file": "interpolator-1.0.0.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.pom",
+      "sha256": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b",
+      "bytes": 1608,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common",
+      "version": "2.6.1",
+      "file": "lifecycle-common-2.6.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.6.1/lifecycle-common-2.6.1.module",
+      "sha256": "93747a9145cb36bc71005f598ede32e2b1149ade5a16e62b0e4969345bc62d85",
+      "bytes": 16947,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common",
+      "version": "2.9.4",
+      "file": "lifecycle-common-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.9.4/lifecycle-common-2.9.4.module",
+      "sha256": "c578bd755ea46d7a77811309a3539538e2d7fb86a05fc2ad81c655ecf7dff7a4",
+      "bytes": 59297,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-java8",
+      "version": "2.9.4",
+      "file": "lifecycle-common-java8-2.9.4.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common-java8/2.9.4/lifecycle-common-java8-2.9.4.jar",
+      "sha256": "497dd84de9f2fd46324f25f9a3af032d3a23d087e87af515c4b19435f6d6a651",
+      "bytes": 4839,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-java8",
+      "version": "2.9.4",
+      "file": "lifecycle-common-java8-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common-java8/2.9.4/lifecycle-common-java8-2.9.4.module",
+      "sha256": "07bab59d012bc806f03debd192f93e312d72bca56b25178234a21a6812daf041",
+      "bytes": 24202,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-jvm",
+      "version": "2.9.4",
+      "file": "lifecycle-common-jvm-2.9.4.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common-jvm/2.9.4/lifecycle-common-jvm-2.9.4.jar",
+      "sha256": "37d89b2101f074ac6c260917dabb185607645ee200aa3018c7c5bde70edcf184",
+      "bytes": 60804,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common-jvm",
+      "version": "2.9.4",
+      "file": "lifecycle-common-jvm-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common-jvm/2.9.4/lifecycle-common-jvm-2.9.4.module",
+      "sha256": "1d1837f3942b33ea30aa2301fdcea2639408a0fd6fd4368c22478fa8153aebbf",
+      "bytes": 19253,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata-core",
+      "version": "2.9.4",
+      "file": "lifecycle-livedata-core-2.9.4.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.9.4/lifecycle-livedata-core-2.9.4.aar",
+      "sha256": "ea866f0c379d1f92837994010ab5ac0a5d5499dbab521efc71b3bc2b497d6ba4",
+      "bytes": 34182,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata-core",
+      "version": "2.9.4",
+      "file": "lifecycle-livedata-core-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.9.4/lifecycle-livedata-core-2.9.4.module",
+      "sha256": "dee60656abb194da028d93b9bd652b4b164cdab35a000b475d63303c5d00994b",
+      "bytes": 25110,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-process",
+      "version": "2.9.4",
+      "file": "lifecycle-process-2.9.4.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.9.4/lifecycle-process-2.9.4.aar",
+      "sha256": "4784b8d083c211e076d9115bfa1737f7e0f62b553e801cf50caa4400e34a95d6",
+      "bytes": 19920,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-process",
+      "version": "2.9.4",
+      "file": "lifecycle-process-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.9.4/lifecycle-process-2.9.4.module",
+      "sha256": "f7cd5051bacb3f4b8ec7dc40ac6342a61eea1147592dda9f364a24cf882c7ddb",
+      "bytes": 24645,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime",
+      "version": "2.6.1",
+      "file": "lifecycle-runtime-2.6.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.6.1/lifecycle-runtime-2.6.1.module",
+      "sha256": "a4cbb01a42d07047bd8d870017c96a1b0b7b4673320e86b66317a13be2ec10c7",
+      "bytes": 16797,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.9.4/lifecycle-runtime-2.9.4.module",
+      "sha256": "dcbc5b5b50666e84258a74bfd8e514918c593a4ffcef0c0358562a02fbd80c58",
+      "bytes": 61469,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-android-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-android/2.9.4/lifecycle-runtime-android-2.9.4.module",
+      "sha256": "c7888e850c40fd059fb2c1ec5bf46e88313e9b5d5152133c385a1aafb8433f47",
+      "bytes": 24152,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-android/2.9.4/lifecycle-runtime-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-compose-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-compose/2.9.4/lifecycle-runtime-compose-2.9.4.module",
+      "sha256": "27d864f40ca30b967b85daac6b917bbdaea637d63e123948c95045c21be58483",
+      "bytes": 63755,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-compose-android-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-compose-android/2.9.4/lifecycle-runtime-compose-android-2.9.4.module",
+      "sha256": "e087a2c2bdfe360497339335ba51dbcdd1503c0a7c9f4f8285db7023e0429439",
+      "bytes": 21787,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-compose-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-compose-android/2.9.4/lifecycle-runtime-compose-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-ktx-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-ktx/2.9.4/lifecycle-runtime-ktx-2.9.4.module",
+      "sha256": "05e5788e0005d3aa33e2d65a5dcb51bdab06094a254c135b820316d64931abc7",
+      "bytes": 25969,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-ktx-android-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-ktx-android/2.9.4/lifecycle-runtime-ktx-android-2.9.4.module",
+      "sha256": "6a2070e9d9243bd3b5d5a108b9db5583bcc4c742b32efb45fe33f49429eb7193",
+      "bytes": 19594,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime-ktx-android",
+      "version": "2.9.4",
+      "file": "lifecycle-runtime-ktx.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-ktx-android/2.9.4/lifecycle-runtime-ktx.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel",
+      "version": "2.6.1",
+      "file": "lifecycle-viewmodel-2.6.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.1/lifecycle-viewmodel-2.6.1.module",
+      "sha256": "2b406faea5c12f2b8df4b7a60931f846648f2e1f4d78361e198d1184f19a4797",
+      "bytes": 15799,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.9.4/lifecycle-viewmodel-2.9.4.module",
+      "sha256": "964d69d6b877296e8b79a77bb826ef5fb186aecaa7a1a7ff776fb2250c993006",
+      "bytes": 61818,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-android-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-android/2.9.4/lifecycle-viewmodel-android-2.9.4.module",
+      "sha256": "b637acdd8aab5348974661830874a7456bac341f43a0b281827cc6b0fcfc73c1",
+      "bytes": 21667,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-android/2.9.4/lifecycle-viewmodel-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-compose-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-compose/2.9.4/lifecycle-viewmodel-compose-2.9.4.module",
+      "sha256": "3e6e2db0382a050e610bfe024fc812710e9bc9f7fc569bf8fb31a8e7002e37f4",
+      "bytes": 30572,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-compose-android-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-compose-android/2.9.4/lifecycle-viewmodel-compose-android-2.9.4.module",
+      "sha256": "eb59e629365b1b0aa4a635de45e79b1650c618a3e55acdfd87b5e9f05a6b9d79",
+      "bytes": 24874,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-compose-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-compose-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-compose-android/2.9.4/lifecycle-viewmodel-compose-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-ktx",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-ktx-2.9.4.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-ktx/2.9.4/lifecycle-viewmodel-ktx-2.9.4.aar",
+      "sha256": "b7d58bb86bb8e2ccc607d1f8570e714810f7cfb3feba37d375ff1646383435a1",
+      "bytes": 5810,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-ktx",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-ktx-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-ktx/2.9.4/lifecycle-viewmodel-ktx-2.9.4.module",
+      "sha256": "5631efeab797f79a1adba5df64b2f0cca54e08b428756df7630cb23b90098a67",
+      "bytes": 24838,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate",
+      "version": "2.6.1",
+      "file": "lifecycle-viewmodel-savedstate-2.6.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.6.1/lifecycle-viewmodel-savedstate-2.6.1.module",
+      "sha256": "dafb8649763d29c29cda27bc22fcdab9a9efc53c0fff9ae3de90882eabaa8944",
+      "bytes": 17543,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-savedstate-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.9.4/lifecycle-viewmodel-savedstate-2.9.4.module",
+      "sha256": "4389cca0a9a801a71effaeb88f89f0a03d99c22be093c539a9c0f9c396295416",
+      "bytes": 65819,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-savedstate-android-2.9.4.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.9.4/lifecycle-viewmodel-savedstate-android-2.9.4.module",
+      "sha256": "bf64c4c3cf5ad5fe5d6fd0e07787ec68054cc226f9f670e05af5ef9da67c2593",
+      "bytes": 26695,
+      "cached": false
+    },
+    {
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate-android",
+      "version": "2.9.4",
+      "file": "lifecycle-viewmodel-savedstate-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate-android/2.9.4/lifecycle-viewmodel-savedstate-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.profileinstaller",
+      "name": "profileinstaller",
+      "version": "1.4.0",
+      "file": "profileinstaller-1.4.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.4.0/profileinstaller-1.4.0.aar",
+      "sha256": "d502141fcce902430f62b674c32aecd0f75262e7ee2cd15c74adb617cd13130a",
+      "bytes": 53890,
+      "cached": false
+    },
+    {
+      "group": "androidx.profileinstaller",
+      "name": "profileinstaller",
+      "version": "1.4.0",
+      "file": "profileinstaller-1.4.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.4.0/profileinstaller-1.4.0.module",
+      "sha256": "39bf997a28d8eed2cb319819f6f352a1ba3a78b9c979004fbe05e26b8f7d160b",
+      "bytes": 4555,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate",
+      "version": "1.2.1",
+      "file": "savedstate-1.2.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1.module",
+      "sha256": "5bb656fc760d9e3996b535160cbb4106033c9f736e9089e6ef4eb0c669785066",
+      "bytes": 4340,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate",
+      "version": "1.3.1",
+      "file": "savedstate-1.3.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.3.1/savedstate-1.3.1.module",
+      "sha256": "7f444f65fe979e88183672dad5aaf1bd39f91d80cac9716d3d84e0664c95933e",
+      "bytes": 43574,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate",
+      "version": "1.3.3",
+      "file": "savedstate-1.3.3.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.3.3/savedstate-1.3.3.module",
+      "sha256": "a9e2198afa8622cc203d5c7af7b81d51af185683363efdb12b94e7576a0d74ff",
+      "bytes": 43574,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-android",
+      "version": "1.3.3",
+      "file": "savedstate-android-1.3.3.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-android/1.3.3/savedstate-android-1.3.3.module",
+      "sha256": "d9bac2f803d85959f6a8c4af1c13f82eb2bb75293bb2e650f0f22331777b36d1",
+      "bytes": 10837,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-android",
+      "version": "1.3.3",
+      "file": "savedstate-release.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-android/1.3.3/savedstate-release.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose",
+      "version": "1.3.0",
+      "file": "savedstate-compose-1.3.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-compose/1.3.0/savedstate-compose-1.3.0.module",
+      "sha256": "15a07a0fdb8ed58a48ca21e981d38ab72b2bbfd96463c33a7050df1c27699a75",
+      "bytes": 11475,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose",
+      "version": "1.3.3",
+      "file": "savedstate-compose-1.3.3.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-compose/1.3.3/savedstate-compose-1.3.3.module",
+      "sha256": "058c66f473af21554296d1ce1be68d5d5e052edf0698e9583c4361aa78385441",
+      "bytes": 44485,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose-android",
+      "version": "1.3.3",
+      "file": "savedstate-compose-android-1.3.3.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-compose-android/1.3.3/savedstate-compose-android-1.3.3.module",
+      "sha256": "a61ad07002aafc9f1573c98bed3f772c46e073d26fd70f59ea4e6afbce0836a5",
+      "bytes": 6434,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-compose-android",
+      "version": "1.3.3",
+      "file": "savedstate-compose.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-compose-android/1.3.3/savedstate-compose.aar",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-ktx",
+      "version": "1.2.1",
+      "file": "savedstate-ktx-1.2.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-ktx/1.2.1/savedstate-ktx-1.2.1.module",
+      "sha256": "94359184b2ba51c0f498a2b9055d37b372231ef9bcc54a4972ac99f0303afff1",
+      "bytes": 4021,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-ktx",
+      "version": "1.3.3",
+      "file": "savedstate-ktx-1.3.3.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-ktx/1.3.3/savedstate-ktx-1.3.3.aar",
+      "sha256": "c4df27ba3fef3674da4c5cae64f43ff251f8f9b7507c6597e95a5b7f64860c6c",
+      "bytes": 5763,
+      "cached": false
+    },
+    {
+      "group": "androidx.savedstate",
+      "name": "savedstate-ktx",
+      "version": "1.3.3",
+      "file": "savedstate-ktx-1.3.3.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-ktx/1.3.3/savedstate-ktx-1.3.3.module",
+      "sha256": "87b3a0f3b04f21b0c4d0a02667b3a4b6cdab082ed18bffeeb2cae5203cf9ed45",
+      "bytes": 6549,
+      "cached": false
+    },
+    {
+      "group": "androidx.startup",
+      "name": "startup-runtime",
+      "version": "1.1.1",
+      "file": "startup-runtime-1.1.1.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1.aar",
+      "sha256": "e0a6329a371262fe4c450372b70fdaf33b769ef6917094723787cfce896b1dd3",
+      "bytes": 19371,
+      "cached": false
+    },
+    {
+      "group": "androidx.startup",
+      "name": "startup-runtime",
+      "version": "1.1.1",
+      "file": "startup-runtime-1.1.1.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1.module",
+      "sha256": "cfd96cf6450c6e2b697598924729ad9a0495c5a4fcf4ebee7e2f81b07e415865",
+      "bytes": 3039,
+      "cached": false
+    },
+    {
+      "group": "androidx.test",
+      "name": "core",
+      "version": "1.7.0",
+      "file": "core-1.7.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/core/1.7.0/core-1.7.0.aar",
+      "sha256": "f4dacd8edceeec48e0c76ecf28339b28f4b4f6b74f8e34e9e59b472c27d9eb81",
+      "bytes": 83477,
+      "cached": false
+    },
+    {
+      "group": "androidx.test",
+      "name": "core",
+      "version": "1.7.0",
+      "file": "core-1.7.0.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/core/1.7.0/core-1.7.0.pom",
+      "sha256": "b97dd112cd684ad3686f5ccf581b92b106ca76565cf02ccfece060af3bc50743",
+      "bytes": 2522,
+      "cached": false
+    },
+    {
+      "group": "androidx.test",
+      "name": "monitor",
+      "version": "1.8.0",
+      "file": "monitor-1.8.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/monitor/1.8.0/monitor-1.8.0.aar",
+      "sha256": "56cb7496a06d9f2dca7d3ff76c50a8a30bd18e00a24a3b267d5a31437b278e67",
+      "bytes": 103877,
+      "cached": false
+    },
+    {
+      "group": "androidx.test",
+      "name": "monitor",
+      "version": "1.8.0",
+      "file": "monitor-1.8.0.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/monitor/1.8.0/monitor-1.8.0.pom",
+      "sha256": "681cf08c41700c73b146953867c0ac826da9c2a810bd2a4a8f878ea11c64d40c",
+      "bytes": 1582,
+      "cached": false
+    },
+    {
+      "group": "androidx.test",
+      "name": "runner",
+      "version": "1.7.0",
+      "file": "runner-1.7.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/runner/1.7.0/runner-1.7.0.aar",
+      "sha256": "970311c47119928a2e406a88892a3d270387cc5a49a181a1c44511105b41b818",
+      "bytes": 288955,
+      "cached": false
+    },
+    {
+      "group": "androidx.test",
+      "name": "runner",
+      "version": "1.7.0",
+      "file": "runner-1.7.0.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/runner/1.7.0/runner-1.7.0.pom",
+      "sha256": "622831c6d31666fb3438cb0d2ee1fbbbc78cabcd49717699578d92550062207f",
+      "bytes": 1915,
+      "cached": false
+    },
+    {
+      "group": "androidx.test.ext",
+      "name": "junit",
+      "version": "1.3.0",
+      "file": "junit-1.3.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/ext/junit/1.3.0/junit-1.3.0.aar",
+      "sha256": "3363df84da4540ba8daff02c3f7cd65471037a6a5370591a7e6deba377b36e7f",
+      "bytes": 10493,
+      "cached": false
+    },
+    {
+      "group": "androidx.test.ext",
+      "name": "junit",
+      "version": "1.3.0",
+      "file": "junit-1.3.0.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/ext/junit/1.3.0/junit-1.3.0.pom",
+      "sha256": "92af7f253e5eabe2caec5c56f308312653d123042b22754d6ff664e1752dcf3f",
+      "bytes": 2100,
+      "cached": false
+    },
+    {
+      "group": "androidx.test.services",
+      "name": "storage",
+      "version": "1.6.0",
+      "file": "storage-1.6.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/services/storage/1.6.0/storage-1.6.0.aar",
+      "sha256": "f97e3cf6aaf4e3fb97ef219d37a9c0a0720183c1f6db87b37642521e26fb6d30",
+      "bytes": 17607,
+      "cached": false
+    },
+    {
+      "group": "androidx.test.services",
+      "name": "storage",
+      "version": "1.6.0",
+      "file": "storage-1.6.0.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/test/services/storage/1.6.0/storage-1.6.0.pom",
+      "sha256": "8e5d72e2bceef6ef807bc38834dbc7aa53177fd20da349f53dce5a4f2a028bbf",
+      "bytes": 1400,
+      "cached": false
+    },
+    {
+      "group": "androidx.tracing",
+      "name": "tracing",
+      "version": "1.0.0",
+      "file": "tracing-1.0.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/tracing/tracing/1.0.0/tracing-1.0.0.module",
+      "sha256": "fc8b21ebe5fa3a7c96ee098bcdcd00f077ebce73f243fa858e2b0671615f75d8",
+      "bytes": 2824,
+      "cached": false
+    },
+    {
+      "group": "androidx.tracing",
+      "name": "tracing",
+      "version": "1.2.0",
+      "file": "tracing-1.2.0.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/tracing/tracing/1.2.0/tracing-1.2.0.aar",
+      "sha256": "6faa90390d1fdbf0adb9a99bf99de67b94c6c6f35aea9510593a9d17973736a2",
+      "bytes": 6060,
+      "cached": false
+    },
+    {
+      "group": "androidx.tracing",
+      "name": "tracing",
+      "version": "1.2.0",
+      "file": "tracing-1.2.0.module",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/tracing/tracing/1.2.0/tracing-1.2.0.module",
+      "sha256": "d0d8d486b6bd33206dbf3f1a6d167e9b43c268ea63c3321c886b1543ad05ece3",
+      "bytes": 3429,
+      "cached": false
+    },
+    {
+      "group": "androidx.versionedparcelable",
+      "name": "versionedparcelable",
+      "version": "1.1.1",
+      "file": "versionedparcelable-1.1.1.aar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.aar",
+      "sha256": "57e8d93260d18d5b9007c9eed3c64ad159de90c8609ebfc74a347cbd514535a4",
+      "bytes": 31061,
+      "cached": false
+    },
+    {
+      "group": "androidx.versionedparcelable",
+      "name": "versionedparcelable",
+      "version": "1.1.1",
+      "file": "versionedparcelable-1.1.1.pom",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.pom",
+      "sha256": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f",
+      "bytes": 1643,
+      "cached": false
+    },
+    {
+      "group": "com.android",
+      "name": "signflinger",
+      "version": "8.13.2",
+      "file": "signflinger-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android",
+      "name": "signflinger",
+      "version": "8.13.2",
+      "file": "signflinger-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android",
+      "name": "zipflinger",
+      "version": "8.13.2",
+      "file": "zipflinger-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android",
+      "name": "zipflinger",
+      "version": "8.13.2",
+      "file": "zipflinger-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.application",
+      "name": "com.android.application.gradle.plugin",
+      "version": "8.13.2",
+      "file": "com.android.application.gradle.plugin-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.databinding",
+      "name": "baseLibrary",
+      "version": "8.13.2",
+      "file": "baseLibrary-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.databinding",
+      "name": "baseLibrary",
+      "version": "8.13.2",
+      "file": "baseLibrary-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "annotations",
+      "version": "31.13.2",
+      "file": "annotations-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "annotations",
+      "version": "31.13.2",
+      "file": "annotations-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "common",
+      "version": "31.13.2",
+      "file": "common-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "common",
+      "version": "31.13.2",
+      "file": "common-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "dvlib",
+      "version": "31.13.2",
+      "file": "dvlib-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "dvlib",
+      "version": "31.13.2",
+      "file": "dvlib-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "play-sdk-proto",
+      "version": "31.13.2",
+      "file": "play-sdk-proto-31.13.2.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/play-sdk-proto/31.13.2/play-sdk-proto-31.13.2.jar",
+      "sha256": "c6fc15a5c203064cfd2c8a176fdeac72ae0a2d743ec47a2e66a0238d8d870b6b",
+      "bytes": 186631,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools",
+      "name": "play-sdk-proto",
+      "version": "31.13.2",
+      "file": "play-sdk-proto-31.13.2.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/play-sdk-proto/31.13.2/play-sdk-proto-31.13.2.pom",
+      "sha256": "6e345e9ecc22ad3ff37ec679dd0a2f45cdcb7d6fe6aec3247b002c89b36a5461",
+      "bytes": 1129,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools",
+      "name": "repository",
+      "version": "31.13.2",
+      "file": "repository-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "repository",
+      "version": "31.13.2",
+      "file": "repository-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "sdk-common",
+      "version": "31.13.2",
+      "file": "sdk-common-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "sdk-common",
+      "version": "31.13.2",
+      "file": "sdk-common-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "sdklib",
+      "version": "31.13.2",
+      "file": "sdklib-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools",
+      "name": "sdklib",
+      "version": "31.13.2",
+      "file": "sdklib-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "crash",
+      "version": "31.13.2",
+      "file": "crash-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "crash",
+      "version": "31.13.2",
+      "file": "crash-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "protos",
+      "version": "31.13.2",
+      "file": "protos-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "protos",
+      "version": "31.13.2",
+      "file": "protos-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "shared",
+      "version": "31.13.2",
+      "file": "shared-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "shared",
+      "version": "31.13.2",
+      "file": "shared-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "tracker",
+      "version": "31.13.2",
+      "file": "tracker-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.analytics-library",
+      "name": "tracker",
+      "version": "31.13.2",
+      "file": "tracker-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aapt2",
+      "version": "8.13.2-14304508",
+      "file": "aapt2-8.13.2-14304508-linux.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.13.2-14304508/aapt2-8.13.2-14304508-linux.jar",
+      "sha256": "839609d6d776d6dd60a02aa577d97193ce3e650cf1deaabf062321e23bbd6bf6",
+      "bytes": 2815427,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aapt2",
+      "version": "8.13.2-14304508",
+      "file": "aapt2-8.13.2-14304508.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.13.2-14304508/aapt2-8.13.2-14304508.pom",
+      "sha256": "7e085634f503d42a4f3ea14488c25d4a573914db23c64a5a05a0c5c186c93112",
+      "bytes": 1097,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aapt2-proto",
+      "version": "8.13.2-14304508",
+      "file": "aapt2-proto-8.13.2-14304508.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aapt2-proto",
+      "version": "8.13.2-14304508",
+      "file": "aapt2-proto-8.13.2-14304508.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aaptcompiler",
+      "version": "8.13.2",
+      "file": "aaptcompiler-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "aaptcompiler",
+      "version": "8.13.2",
+      "file": "aaptcompiler-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "apksig",
+      "version": "8.13.2",
+      "file": "apksig-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "apksig",
+      "version": "8.13.2",
+      "file": "apksig-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "apkzlib",
+      "version": "8.13.2",
+      "file": "apkzlib-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "apkzlib",
+      "version": "8.13.2",
+      "file": "apkzlib-8.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder",
+      "version": "8.13.2",
+      "file": "builder-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder",
+      "version": "8.13.2",
+      "file": "builder-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder-model",
+      "version": "8.13.2",
+      "file": "builder-model-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder-model",
+      "version": "8.13.2",
+      "file": "builder-model-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder-test-api",
+      "version": "8.13.2",
+      "file": "builder-test-api-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "builder-test-api",
+      "version": "8.13.2",
+      "file": "builder-test-api-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "bundletool",
+      "version": "1.18.1",
+      "file": "bundletool-1.18.1.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "bundletool",
+      "version": "1.18.1",
+      "file": "bundletool-1.18.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle",
+      "version": "8.13.2",
+      "file": "gradle-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle",
+      "version": "8.13.2",
+      "file": "gradle-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-api",
+      "version": "8.13.2",
+      "file": "gradle-api-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-api",
+      "version": "8.13.2",
+      "file": "gradle-api-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-common-api",
+      "version": "8.13.2",
+      "file": "gradle-common-api-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-common-api",
+      "version": "8.13.2",
+      "file": "gradle-common-api-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-settings-api",
+      "version": "8.13.2",
+      "file": "gradle-settings-api-8.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "gradle-settings-api",
+      "version": "8.13.2",
+      "file": "gradle-settings-api-8.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "manifest-merger",
+      "version": "31.13.2",
+      "file": "manifest-merger-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "manifest-merger",
+      "version": "31.13.2",
+      "file": "manifest-merger-31.13.2.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "transform-api",
+      "version": "2.0.0-deprecated-use-gradle-api",
+      "file": "transform-api-2.0.0-deprecated-use-gradle-api.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build",
+      "name": "transform-api",
+      "version": "2.0.0-deprecated-use-gradle-api",
+      "file": "transform-api-2.0.0-deprecated-use-gradle-api.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build.jetifier",
+      "name": "jetifier-core",
+      "version": "1.0.0-beta10",
+      "file": "jetifier-core-1.0.0-beta10.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build.jetifier",
+      "name": "jetifier-core",
+      "version": "1.0.0-beta10",
+      "file": "jetifier-core-1.0.0-beta10.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build.jetifier",
+      "name": "jetifier-processor",
+      "version": "1.0.0-beta10",
+      "file": "jetifier-processor-1.0.0-beta10.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.build.jetifier",
+      "name": "jetifier-processor",
+      "version": "1.0.0-beta10",
+      "file": "jetifier-processor-1.0.0-beta10.module",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.ddms",
+      "name": "ddmlib",
+      "version": "31.13.2",
+      "file": "ddmlib-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.ddms",
+      "name": "ddmlib",
+      "version": "31.13.2",
+      "file": "ddmlib-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.external.com-intellij",
+      "name": "intellij-core",
+      "version": "31.13.2",
+      "file": "intellij-core-31.13.2.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/31.13.2/intellij-core-31.13.2.jar",
+      "sha256": "9a6faa6061d0f3d54a64decb61944c1b2c6927f8d325cd298c82c2a8d867ee68",
+      "bytes": 37723447,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.external.com-intellij",
+      "name": "intellij-core",
+      "version": "31.13.2",
+      "file": "intellij-core-31.13.2.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/31.13.2/intellij-core-31.13.2.pom",
+      "sha256": "21f7df870290113ee81b1c5a373c9cc99a3c252a3fbc76737c08532e5e910e51",
+      "bytes": 919,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.external.com-intellij",
+      "name": "kotlin-compiler",
+      "version": "31.13.2",
+      "file": "kotlin-compiler-31.13.2.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/31.13.2/kotlin-compiler-31.13.2.jar",
+      "sha256": "552dfaffe295d08504870816c27fc09007e1231fb9b14c1ff9bbf861f9b35990",
+      "bytes": 51117829,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.external.com-intellij",
+      "name": "kotlin-compiler",
+      "version": "31.13.2",
+      "file": "kotlin-compiler-31.13.2.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/31.13.2/kotlin-compiler-31.13.2.pom",
+      "sha256": "2b2294ed4c07646b7ca29a362e04e5fbe489c5b3cf1d2bc4620a5c317666435f",
+      "bytes": 920,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.external.org-jetbrains",
+      "name": "uast",
+      "version": "31.13.2",
+      "file": "uast-31.13.2.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/31.13.2/uast-31.13.2.jar",
+      "sha256": "78f18ac2b2509fb6cb19058e8fc9585c361b97990dd7d5db0c2a94744dfb0a96",
+      "bytes": 1905287,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.external.org-jetbrains",
+      "name": "uast",
+      "version": "31.13.2",
+      "file": "uast-31.13.2.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/31.13.2/uast-31.13.2.pom",
+      "sha256": "5b5c6c6b71f9815ee531560946bf579b7b9fa806aa9dfbf1b567ed6aa598ee18",
+      "bytes": 896,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.layoutlib",
+      "name": "layoutlib-api",
+      "version": "31.13.2",
+      "file": "layoutlib-api-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.layoutlib",
+      "name": "layoutlib-api",
+      "version": "31.13.2",
+      "file": "layoutlib-api-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint",
+      "version": "31.13.2",
+      "file": "lint-31.13.2.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/31.13.2/lint-31.13.2.jar",
+      "sha256": "7f875a980ee23916439d368d073cfbc2ee4e4d99ffe1b3e13da794fef347f29a",
+      "bytes": 994630,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint",
+      "version": "31.13.2",
+      "file": "lint-31.13.2.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/31.13.2/lint-31.13.2.pom",
+      "sha256": "c8a5bb4a6ffbb17c07ff72e52c446e0271fd2b3e16c08be37207fd77008ae93e",
+      "bytes": 4030,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-api",
+      "version": "31.13.2",
+      "file": "lint-api-31.13.2.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/31.13.2/lint-api-31.13.2.jar",
+      "sha256": "8f770657dba33f305e583c62953a4f174c75a7b1cd2da7d31134be36a96ae2ac",
+      "bytes": 1499474,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-api",
+      "version": "31.13.2",
+      "file": "lint-api-31.13.2.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/31.13.2/lint-api-31.13.2.pom",
+      "sha256": "664d7824766a943679cc031f516bd94843a8ba99cfd8ed0c33e68e8fbcc75407",
+      "bytes": 4242,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-checks",
+      "version": "31.13.2",
+      "file": "lint-checks-31.13.2.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/31.13.2/lint-checks-31.13.2.jar",
+      "sha256": "3b64f395ae17fcea104882b00a4acdc7dc691f5daca5dff2bdde89fa052bb199",
+      "bytes": 7070496,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-checks",
+      "version": "31.13.2",
+      "file": "lint-checks-31.13.2.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/31.13.2/lint-checks-31.13.2.pom",
+      "sha256": "6298a80b18b08ff03b3c939424df874c68f449c1591cfa69680e93e3e516e6a2",
+      "bytes": 3717,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-gradle",
+      "version": "31.13.2",
+      "file": "lint-gradle-31.13.2.jar",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/31.13.2/lint-gradle-31.13.2.jar",
+      "sha256": "a42b6a41c436d90ca31a13d67afba1157b157efc892a7496f67432bf8a831cbd",
+      "bytes": 67273,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-gradle",
+      "version": "31.13.2",
+      "file": "lint-gradle-31.13.2.pom",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/31.13.2/lint-gradle-31.13.2.pom",
+      "sha256": "cbd02ebf01bc37b150ad7ace3f2d533c8ebb0b490e8584e09c9bc4152ad85e66",
+      "bytes": 2283,
+      "cached": false
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-model",
+      "version": "31.13.2",
+      "file": "lint-model-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-model",
+      "version": "31.13.2",
+      "file": "lint-model-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-typedef-remover",
+      "version": "31.13.2",
+      "file": "lint-typedef-remover-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.lint",
+      "name": "lint-typedef-remover",
+      "version": "31.13.2",
+      "file": "lint-typedef-remover-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-device-provider-ddmlib-proto",
+      "version": "31.13.2",
+      "file": "android-device-provider-ddmlib-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-device-provider-ddmlib-proto",
+      "version": "31.13.2",
+      "file": "android-device-provider-ddmlib-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-device-provider-profile-proto",
+      "version": "31.13.2",
+      "file": "android-device-provider-profile-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-device-provider-profile-proto",
+      "version": "31.13.2",
+      "file": "android-device-provider-profile-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-additional-test-output-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-additional-test-output-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-additional-test-output-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-additional-test-output-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-apk-installer-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-apk-installer-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-apk-installer-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-apk-installer-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-coverage-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-coverage-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-coverage-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-coverage-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-emulator-control-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-emulator-control-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-emulator-control-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-emulator-control-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-logcat-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-logcat-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-host-logcat-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-host-logcat-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-result-listener-gradle-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-result-listener-gradle-proto-31.13.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.android.tools.utp",
+      "name": "android-test-plugin-result-listener-gradle-proto",
+      "version": "31.13.2",
+      "file": "android-test-plugin-result-listener-gradle-proto-31.13.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.android",
+      "name": "annotations",
+      "version": "4.1.1.4",
+      "file": "annotations-4.1.1.4.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.android",
+      "name": "annotations",
+      "version": "4.1.1.4",
+      "file": "annotations-4.1.1.4.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.api.grpc",
+      "name": "proto-google-common-protos",
+      "version": "2.48.0",
+      "file": "proto-google-common-protos-2.48.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.api.grpc",
+      "name": "proto-google-common-protos",
+      "version": "2.48.0",
+      "file": "proto-google-common-protos-2.48.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.auto",
+      "name": "auto-parent",
+      "version": "6",
+      "file": "auto-parent-6.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.auto.value",
+      "name": "auto-value-annotations",
+      "version": "1.6.2",
+      "file": "auto-value-annotations-1.6.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.auto.value",
+      "name": "auto-value-annotations",
+      "version": "1.6.2",
+      "file": "auto-value-annotations-1.6.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.auto.value",
+      "name": "auto-value-parent",
+      "version": "1.6.2",
+      "file": "auto-value-parent-1.6.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "file": "jsr305-3.0.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "file": "jsr305-3.0.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.11.0",
+      "file": "gson-2.11.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.11.0",
+      "file": "gson-2.11.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.code.gson",
+      "name": "gson-parent",
+      "version": "2.11.0",
+      "file": "gson-parent-2.11.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.crypto.tink",
+      "name": "tink",
+      "version": "1.7.0",
+      "file": "tink-1.7.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.crypto.tink",
+      "name": "tink",
+      "version": "1.7.0",
+      "file": "tink-1.7.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.dagger",
+      "name": "dagger",
+      "version": "2.28.3",
+      "file": "dagger-2.28.3.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.dagger",
+      "name": "dagger",
+      "version": "2.28.3",
+      "file": "dagger-2.28.3.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.18.0",
+      "file": "error_prone_annotations-2.18.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.27.0",
+      "file": "error_prone_annotations-2.27.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.28.0",
+      "file": "error_prone_annotations-2.28.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar",
+      "sha256": "f3fc8a3a0a4020706a373b00e7f57c2512dd26d1f83d28c7d38768f8682b231e",
+      "bytes": 19370,
+      "cached": false
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.28.0",
+      "file": "error_prone_annotations-2.28.0.pom",
+      "url": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.pom",
+      "sha256": "0ce909f13a568148476e5ee200f380f98c75ba08971aaf15db295eb77598ef3a",
+      "bytes": 4252,
+      "cached": false
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.3.1",
+      "file": "error_prone_annotations-2.3.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.30.0",
+      "file": "error_prone_annotations-2.30.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.30.0",
+      "file": "error_prone_annotations-2.30.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.18.0",
+      "file": "error_prone_parent-2.18.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.27.0",
+      "file": "error_prone_parent-2.27.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.28.0",
+      "file": "error_prone_parent-2.28.0.pom",
+      "url": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.28.0/error_prone_parent-2.28.0.pom",
+      "sha256": "accefdbb5416cef5fcd2ddc37db4f1fcb34a2193cc1a55dfe5970a131b3e7683",
+      "bytes": 13124,
+      "cached": false
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.3.1",
+      "file": "error_prone_parent-2.3.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.errorprone",
+      "name": "error_prone_parent",
+      "version": "2.30.0",
+      "file": "error_prone_parent-2.30.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.flatbuffers",
+      "name": "flatbuffers-java",
+      "version": "1.12.0",
+      "file": "flatbuffers-java-1.12.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.flatbuffers",
+      "name": "flatbuffers-java",
+      "version": "1.12.0",
+      "file": "flatbuffers-java-1.12.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.2",
+      "file": "failureaccess-1.0.2.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.2",
+      "file": "failureaccess-1.0.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.3.1-jre",
+      "file": "guava-33.3.1-jre.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.3.1-jre",
+      "file": "guava-33.3.1-jre.module",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava-parent",
+      "version": "26.0-android",
+      "file": "guava-parent-26.0-android.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "1.0",
+      "file": "listenablefuture-1.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.jar",
+      "sha256": "e4ad7607e5c0477c6f890ef26a49cb8d1bb4dffb650bab4502afee64644e3069",
+      "bytes": 3149,
+      "cached": false
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "1.0",
+      "file": "listenablefuture-1.0.pom",
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.pom",
+      "sha256": "53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a",
+      "bytes": 2226,
+      "cached": false
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "file": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "file": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "2.8",
+      "file": "j2objc-annotations-2.8.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "3.0.0",
+      "file": "j2objc-annotations-3.0.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "3.0.0",
+      "file": "j2objc-annotations-3.0.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.jimfs",
+      "name": "jimfs",
+      "version": "1.1",
+      "file": "jimfs-1.1.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.jimfs",
+      "name": "jimfs",
+      "version": "1.1",
+      "file": "jimfs-1.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.jimfs",
+      "name": "jimfs-parent",
+      "version": "1.1",
+      "file": "jimfs-parent-1.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-bom",
+      "version": "3.25.5",
+      "file": "protobuf-bom-3.25.5.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-java",
+      "version": "3.25.5",
+      "file": "protobuf-java-3.25.5.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-java",
+      "version": "3.25.5",
+      "file": "protobuf-java-3.25.5.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-java-util",
+      "version": "3.25.5",
+      "file": "protobuf-java-util-3.25.5.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-java-util",
+      "version": "3.25.5",
+      "file": "protobuf-java-util-3.25.5.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.protobuf",
+      "name": "protobuf-parent",
+      "version": "3.25.5",
+      "file": "protobuf-parent-3.25.5.pom",
+      "cached": true
+    },
+    {
+      "group": "com.google.testing.platform",
+      "name": "core-proto",
+      "version": "0.0.9-alpha03",
+      "file": "core-proto-0.0.9-alpha03.jar",
+      "cached": true
+    },
+    {
+      "group": "com.google.testing.platform",
+      "name": "core-proto",
+      "version": "0.0.9-alpha03",
+      "file": "core-proto-0.0.9-alpha03.pom",
+      "cached": true
+    },
+    {
+      "group": "com.googlecode.juniversalchardet",
+      "name": "juniversalchardet",
+      "version": "1.0.3",
+      "file": "juniversalchardet-1.0.3.jar",
+      "cached": true
+    },
+    {
+      "group": "com.googlecode.juniversalchardet",
+      "name": "juniversalchardet",
+      "version": "1.0.3",
+      "file": "juniversalchardet-1.0.3.pom",
+      "cached": true
+    },
+    {
+      "group": "com.squareup",
+      "name": "javapoet",
+      "version": "1.10.0",
+      "file": "javapoet-1.10.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.squareup",
+      "name": "javapoet",
+      "version": "1.10.0",
+      "file": "javapoet-1.10.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.squareup",
+      "name": "javawriter",
+      "version": "2.5.0",
+      "file": "javawriter-2.5.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.squareup",
+      "name": "javawriter",
+      "version": "2.5.0",
+      "file": "javawriter-2.5.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "mockwebserver",
+      "version": "4.12.0",
+      "file": "mockwebserver-4.12.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver/4.12.0/mockwebserver-4.12.0.jar",
+      "sha256": "6784673687f4ac8f21679b9d4bc7cdb46e1a1ce1be9d3133b36bede59a741561",
+      "bytes": 74739,
+      "cached": false
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "mockwebserver",
+      "version": "4.12.0",
+      "file": "mockwebserver-4.12.0.module",
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver/4.12.0/mockwebserver-4.12.0.module",
+      "sha256": "93e4696552118b6425462aed936edfd320c9fcedef0a82d5741c0a7d53c0cf74",
+      "bytes": 4742,
+      "cached": false
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "okhttp",
+      "version": "4.12.0",
+      "file": "okhttp-4.12.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar",
+      "sha256": "b1050081b14bb7a3a7e55a4d3ef01b5dcfabc453b4573a4fc019767191d5f4e0",
+      "bytes": 789531,
+      "cached": false
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "okhttp",
+      "version": "4.12.0",
+      "file": "okhttp-4.12.0.module",
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.module",
+      "sha256": "607e220ff8215b929d829bbf54f332894f1459b4d795979aeafcbcc1cea54cf3",
+      "bytes": 4378,
+      "cached": false
+    },
+    {
+      "group": "com.squareup.okio",
+      "name": "okio",
+      "version": "3.6.0",
+      "file": "okio-3.6.0.module",
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.module",
+      "sha256": "6a47ac50364e6598459401fb86f9b6cfcdf637b9b3a3045b1cc33cbf4c408218",
+      "bytes": 33584,
+      "cached": false
+    },
+    {
+      "group": "com.squareup.okio",
+      "name": "okio-jvm",
+      "version": "3.6.0",
+      "file": "okio-jvm-3.6.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar",
+      "sha256": "67543f0736fc422ae927ed0e504b98bc5e269fda0d3500579337cb713da28412",
+      "bytes": 359580,
+      "cached": false
+    },
+    {
+      "group": "com.squareup.okio",
+      "name": "okio-jvm",
+      "version": "3.6.0",
+      "file": "okio-jvm-3.6.0.module",
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.module",
+      "sha256": "b1c2199e1c0cc969ef61cbbe4af2ecaf9b06411bdde01cbaf6fc9134dfe04e8a",
+      "bytes": 3535,
+      "cached": false
+    },
+    {
+      "group": "com.sun.activation",
+      "name": "all",
+      "version": "1.2.0",
+      "file": "all-1.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.activation",
+      "name": "all",
+      "version": "1.2.1",
+      "file": "all-1.2.1.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.activation",
+      "name": "javax.activation",
+      "version": "1.2.0",
+      "file": "javax.activation-1.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "com.sun.activation",
+      "name": "javax.activation",
+      "version": "1.2.0",
+      "file": "javax.activation-1.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.istack",
+      "name": "istack-commons",
+      "version": "3.0.8",
+      "file": "istack-commons-3.0.8.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.istack",
+      "name": "istack-commons-runtime",
+      "version": "3.0.8",
+      "file": "istack-commons-runtime-3.0.8.jar",
+      "cached": true
+    },
+    {
+      "group": "com.sun.istack",
+      "name": "istack-commons-runtime",
+      "version": "3.0.8",
+      "file": "istack-commons-runtime-3.0.8.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.bind",
+      "name": "jaxb-bom-ext",
+      "version": "2.3.2",
+      "file": "jaxb-bom-ext-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.bind.mvn",
+      "name": "jaxb-parent",
+      "version": "2.3.2",
+      "file": "jaxb-parent-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.bind.mvn",
+      "name": "jaxb-runtime-parent",
+      "version": "2.3.2",
+      "file": "jaxb-runtime-parent-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.bind.mvn",
+      "name": "jaxb-txw-parent",
+      "version": "2.3.2",
+      "file": "jaxb-txw-parent-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.fastinfoset",
+      "name": "FastInfoset",
+      "version": "1.2.16",
+      "file": "FastInfoset-1.2.16.jar",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.fastinfoset",
+      "name": "FastInfoset",
+      "version": "1.2.16",
+      "file": "FastInfoset-1.2.16.pom",
+      "cached": true
+    },
+    {
+      "group": "com.sun.xml.fastinfoset",
+      "name": "fastinfoset-project",
+      "version": "1.2.16",
+      "file": "fastinfoset-project-1.2.16.pom",
+      "cached": true
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.10",
+      "file": "commons-codec-1.10.jar",
+      "url": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar",
+      "sha256": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569",
+      "bytes": 284184,
+      "cached": false
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.10",
+      "file": "commons-codec-1.10.pom",
+      "url": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom",
+      "sha256": "bdb8db7012d112a6e3ea8fdb7c510b300d99eff0819d27dddba9c43397ea4cfb",
+      "bytes": 11609,
+      "cached": false
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.11",
+      "file": "commons-codec-1.11.jar",
+      "cached": true
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.11",
+      "file": "commons-codec-1.11.pom",
+      "cached": true
+    },
+    {
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.16.1",
+      "file": "commons-io-2.16.1.jar",
+      "cached": true
+    },
+    {
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.16.1",
+      "file": "commons-io-2.16.1.pom",
+      "cached": true
+    },
+    {
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "file": "commons-logging-1.2.jar",
+      "cached": true
+    },
+    {
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "file": "commons-logging-1.2.pom",
+      "cached": true
+    },
+    {
+      "group": "io.github.webrtc-sdk",
+      "name": "android",
+      "version": "150.7871.04",
+      "file": "android-150.7871.04.aar",
+      "url": "https://repo.maven.apache.org/maven2/io/github/webrtc-sdk/android/150.7871.04/android-150.7871.04.aar",
+      "sha256": "1872dda4e3bf7d6ea6f7c6e11861332081c57081a1e62fc82fab72415c69c84c",
+      "bytes": 49068339,
+      "cached": false
+    },
+    {
+      "group": "io.github.webrtc-sdk",
+      "name": "android",
+      "version": "150.7871.04",
+      "file": "android-150.7871.04.pom",
+      "url": "https://repo.maven.apache.org/maven2/io/github/webrtc-sdk/android/150.7871.04/android-150.7871.04.pom",
+      "sha256": "c511dba5b204f6056530359f1d0a30a431a9c07946dbb73322db5ee4a1d71405",
+      "bytes": 1137,
+      "cached": false
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-api",
+      "version": "1.69.1",
+      "file": "grpc-api-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-api",
+      "version": "1.69.1",
+      "file": "grpc-api-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-context",
+      "version": "1.69.1",
+      "file": "grpc-context-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-context",
+      "version": "1.69.1",
+      "file": "grpc-context-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-core",
+      "version": "1.69.1",
+      "file": "grpc-core-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-core",
+      "version": "1.69.1",
+      "file": "grpc-core-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-inprocess",
+      "version": "1.69.1",
+      "file": "grpc-inprocess-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-inprocess",
+      "version": "1.69.1",
+      "file": "grpc-inprocess-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-netty",
+      "version": "1.69.1",
+      "file": "grpc-netty-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-netty",
+      "version": "1.69.1",
+      "file": "grpc-netty-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-protobuf",
+      "version": "1.69.1",
+      "file": "grpc-protobuf-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-protobuf",
+      "version": "1.69.1",
+      "file": "grpc-protobuf-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-protobuf-lite",
+      "version": "1.69.1",
+      "file": "grpc-protobuf-lite-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-protobuf-lite",
+      "version": "1.69.1",
+      "file": "grpc-protobuf-lite-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-stub",
+      "version": "1.69.1",
+      "file": "grpc-stub-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-stub",
+      "version": "1.69.1",
+      "file": "grpc-stub-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-util",
+      "version": "1.69.1",
+      "file": "grpc-util-1.69.1.jar",
+      "cached": true
+    },
+    {
+      "group": "io.grpc",
+      "name": "grpc-util",
+      "version": "1.69.1",
+      "file": "grpc-util-1.69.1.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.110.Final",
+      "file": "netty-buffer-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.110.Final",
+      "file": "netty-buffer-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-http-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-http-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-http2",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-http2-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-http2",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-http2-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-socks-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.110.Final",
+      "file": "netty-codec-socks-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.110.Final",
+      "file": "netty-common-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.110.Final",
+      "file": "netty-common-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.110.Final",
+      "file": "netty-handler-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.110.Final",
+      "file": "netty-handler-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.110.Final",
+      "file": "netty-handler-proxy-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.110.Final",
+      "file": "netty-handler-proxy-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-parent",
+      "version": "4.1.110.Final",
+      "file": "netty-parent-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.110.Final",
+      "file": "netty-resolver-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.110.Final",
+      "file": "netty-resolver-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.110.Final",
+      "file": "netty-transport-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.110.Final",
+      "file": "netty-transport-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.110.Final",
+      "file": "netty-transport-native-unix-common-4.1.110.Final.jar",
+      "cached": true
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.110.Final",
+      "file": "netty-transport-native-unix-common-4.1.110.Final.pom",
+      "cached": true
+    },
+    {
+      "group": "io.perfmark",
+      "name": "perfmark-api",
+      "version": "0.27.0",
+      "file": "perfmark-api-0.27.0.jar",
+      "cached": true
+    },
+    {
+      "group": "io.perfmark",
+      "name": "perfmark-api",
+      "version": "0.27.0",
+      "file": "perfmark-api-0.27.0.module",
+      "cached": true
+    },
+    {
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "1.2.1",
+      "file": "jakarta.activation-api-1.2.1.jar",
+      "cached": true
+    },
+    {
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "1.2.1",
+      "file": "jakarta.activation-api-1.2.1.pom",
+      "cached": true
+    },
+    {
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "2.3.2",
+      "file": "jakarta.xml.bind-api-2.3.2.jar",
+      "cached": true
+    },
+    {
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "2.3.2",
+      "file": "jakarta.xml.bind-api-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api-parent",
+      "version": "2.3.2",
+      "file": "jakarta.xml.bind-api-parent-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "javax.annotation",
+      "name": "javax.annotation-api",
+      "version": "1.3.2",
+      "file": "javax.annotation-api-1.3.2.jar",
+      "cached": true
+    },
+    {
+      "group": "javax.annotation",
+      "name": "javax.annotation-api",
+      "version": "1.3.2",
+      "file": "javax.annotation-api-1.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "file": "javax.inject-1.jar",
+      "cached": true
+    },
+    {
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "file": "javax.inject-1.pom",
+      "cached": true
+    },
+    {
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2",
+      "file": "junit-4.13.2.jar",
+      "url": "https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+      "sha256": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3",
+      "bytes": 384581,
+      "cached": false
+    },
+    {
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2",
+      "file": "junit-4.13.2.pom",
+      "url": "https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2.pom",
+      "sha256": "569b6977ee4603c965c1c46c3058fa6e969291b0160eb6964dd092cd89eadd94",
+      "bytes": 27018,
+      "cached": false
+    },
+    {
+      "group": "net.java",
+      "name": "jvnet-parent",
+      "version": "1",
+      "file": "jvnet-parent-1.pom",
+      "cached": true
+    },
+    {
+      "group": "net.java",
+      "name": "jvnet-parent",
+      "version": "3",
+      "file": "jvnet-parent-3.pom",
+      "cached": true
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna",
+      "version": "5.6.0",
+      "file": "jna-5.6.0.jar",
+      "cached": true
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna",
+      "version": "5.6.0",
+      "file": "jna-5.6.0.pom",
+      "cached": true
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna-platform",
+      "version": "5.6.0",
+      "file": "jna-platform-5.6.0.jar",
+      "cached": true
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna-platform",
+      "version": "5.6.0",
+      "file": "jna-platform-5.6.0.pom",
+      "cached": true
+    },
+    {
+      "group": "net.sf.jopt-simple",
+      "name": "jopt-simple",
+      "version": "4.9",
+      "file": "jopt-simple-4.9.jar",
+      "cached": true
+    },
+    {
+      "group": "net.sf.jopt-simple",
+      "name": "jopt-simple",
+      "version": "4.9",
+      "file": "jopt-simple-4.9.pom",
+      "cached": true
+    },
+    {
+      "group": "net.sf.kxml",
+      "name": "kxml2",
+      "version": "2.3.0",
+      "file": "kxml2-2.3.0.jar",
+      "cached": true
+    },
+    {
+      "group": "net.sf.kxml",
+      "name": "kxml2",
+      "version": "2.3.0",
+      "file": "kxml2-2.3.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "13",
+      "file": "apache-13.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "15",
+      "file": "apache-15.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom",
+      "sha256": "36c2f2f979ac67b450c0cb480e4e9baf6b40f3a681f22ba9692287d1139ad494",
+      "bytes": 15236,
+      "cached": false
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "18",
+      "file": "apache-18.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "21",
+      "file": "apache-21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "23",
+      "file": "apache-23.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache",
+      "name": "apache",
+      "version": "31",
+      "file": "apache-31.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.21",
+      "file": "commons-compress-1.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.21",
+      "file": "commons-compress-1.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "34",
+      "file": "commons-parent-34.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "35",
+      "file": "commons-parent-35.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom",
+      "sha256": "7098a1ab8336ecd4c9dc21cbbcac869f82c66f64b8ac4f7988d41b4fcb44e49a",
+      "bytes": 57772,
+      "cached": false
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "42",
+      "file": "commons-parent-42.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "52",
+      "file": "commons-parent-52.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-parent",
+      "version": "69",
+      "file": "commons-parent-69.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.14",
+      "file": "httpclient-4.5.14.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.14",
+      "file": "httpclient-4.5.14.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.6",
+      "file": "httpclient-4.5.6.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar",
+      "sha256": "c03f813195e7a80e3608d0ddd8da80b21696a4c92a6a2298865bf149071551c7",
+      "bytes": 767140,
+      "cached": false
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.6",
+      "file": "httpclient-4.5.6.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.pom",
+      "sha256": "7efc1241e73e7fbb268bfd33242d11ebd3ca07061d7d85f2962dc32a0f0b8855",
+      "bytes": 6639,
+      "cached": false
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-client",
+      "version": "4.5.14",
+      "file": "httpcomponents-client-4.5.14.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-client",
+      "version": "4.5.6",
+      "file": "httpcomponents-client-4.5.6.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-core",
+      "version": "4.4.16",
+      "file": "httpcomponents-core-4.4.16.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-parent",
+      "version": "10",
+      "file": "httpcomponents-parent-10.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcomponents-parent",
+      "version": "11",
+      "file": "httpcomponents-parent-11.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.16",
+      "file": "httpcore-4.4.16.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.16",
+      "file": "httpcore-4.4.16.pom",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpmime",
+      "version": "4.5.6",
+      "file": "httpmime-4.5.6.jar",
+      "cached": true
+    },
+    {
+      "group": "org.apache.httpcomponents",
+      "name": "httpmime",
+      "version": "4.5.6",
+      "file": "httpmime-4.5.6.pom",
+      "cached": true
+    },
+    {
+      "group": "org.bitbucket.b_c",
+      "name": "jose4j",
+      "version": "0.9.5",
+      "file": "jose4j-0.9.5.jar",
+      "cached": true
+    },
+    {
+      "group": "org.bitbucket.b_c",
+      "name": "jose4j",
+      "version": "0.9.5",
+      "file": "jose4j-0.9.5.pom",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcpkix-jdk18on",
+      "version": "1.79",
+      "file": "bcpkix-jdk18on-1.79.jar",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcpkix-jdk18on",
+      "version": "1.79",
+      "file": "bcpkix-jdk18on-1.79.pom",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk18on",
+      "version": "1.79",
+      "file": "bcprov-jdk18on-1.79.jar",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk18on",
+      "version": "1.79",
+      "file": "bcprov-jdk18on-1.79.pom",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcutil-jdk18on",
+      "version": "1.79",
+      "file": "bcutil-jdk18on-1.79.jar",
+      "cached": true
+    },
+    {
+      "group": "org.bouncycastle",
+      "name": "bcutil-jdk18on",
+      "version": "1.79",
+      "file": "bcutil-jdk18on-1.79.pom",
+      "cached": true
+    },
+    {
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "2.5.8",
+      "file": "checker-qual-2.5.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.43.0",
+      "file": "checker-qual-3.43.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.43.0",
+      "file": "checker-qual-3.43.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.groovy",
+      "name": "groovy",
+      "version": "3.0.22",
+      "file": "groovy-3.0.22.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/3.0.22/groovy-3.0.22.jar",
+      "sha256": "c92c92c4b9b183f9981ba7399f36592e5e3ad6f4cdac7101b5a22cc17998d13f",
+      "bytes": 8053888,
+      "cached": false
+    },
+    {
+      "group": "org.codehaus.groovy",
+      "name": "groovy",
+      "version": "3.0.22",
+      "file": "groovy-3.0.22.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/3.0.22/groovy-3.0.22.pom",
+      "sha256": "51b731e5cff121efd6d320f4a801cd616869c5bed4e9c0e353b29060b1d2355f",
+      "bytes": 23680,
+      "cached": false
+    },
+    {
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-annotations",
+      "version": "1.24",
+      "file": "animal-sniffer-annotations-1.24.jar",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-annotations",
+      "version": "1.24",
+      "file": "animal-sniffer-annotations-1.24.pom",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-parent",
+      "version": "1.24",
+      "file": "animal-sniffer-parent-1.24.pom",
+      "cached": true
+    },
+    {
+      "group": "org.codehaus.mojo",
+      "name": "mojo-parent",
+      "version": "84",
+      "file": "mojo-parent-84.pom",
+      "cached": true
+    },
+    {
+      "group": "org.eclipse.ee4j",
+      "name": "project",
+      "version": "1.0.2",
+      "file": "project-1.0.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.eclipse.ee4j",
+      "name": "project",
+      "version": "1.0.5",
+      "file": "project-1.0.5.pom",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-bom",
+      "version": "2.3.2",
+      "file": "jaxb-bom-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-runtime",
+      "version": "2.3.2",
+      "file": "jaxb-runtime-2.3.2.jar",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-runtime",
+      "version": "2.3.2",
+      "file": "jaxb-runtime-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "2.3.2",
+      "file": "txw2-2.3.2.jar",
+      "cached": true
+    },
+    {
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "2.3.2",
+      "file": "txw2-2.3.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "file": "hamcrest-core-1.3.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+      "bytes": 45024,
+      "cached": false
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "file": "hamcrest-core-1.3.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom",
+      "sha256": "fde386a7905173a1b103de6ab820727584b50d0e32282e2797787c20a64ffa93",
+      "bytes": 766,
+      "cached": false
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-parent",
+      "version": "1.3",
+      "file": "hamcrest-parent-1.3.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom",
+      "sha256": "6d535f94efb663bdb682c9f27a50335394688009642ba7a9677504bc1be4129b",
+      "bytes": 1972,
+      "cached": false
+    },
+    {
+      "group": "org.jdom",
+      "name": "jdom2",
+      "version": "2.0.6",
+      "file": "jdom2-2.0.6.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jdom",
+      "name": "jdom2",
+      "version": "2.0.6",
+      "file": "jdom2-2.0.6.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "13.0",
+      "file": "annotations-13.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "13.0",
+      "file": "annotations-13.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "23.0.0",
+      "file": "annotations-23.0.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar",
+      "sha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05",
+      "bytes": 29371,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "23.0.0",
+      "file": "annotations-23.0.0.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom",
+      "sha256": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c",
+      "bytes": 1354,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "abi-tools-api",
+      "version": "2.2.21",
+      "file": "abi-tools-api-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "abi-tools-api",
+      "version": "2.2.21",
+      "file": "abi-tools-api-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "compose-compiler-gradle-plugin",
+      "version": "2.2.21",
+      "file": "compose-compiler-gradle-plugin-2.2.21-gradle813.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "compose-compiler-gradle-plugin",
+      "version": "2.2.21",
+      "file": "compose-compiler-gradle-plugin-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "fus-statistics-gradle-plugin",
+      "version": "2.2.21",
+      "file": "fus-statistics-gradle-plugin-2.2.21-gradle813.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "fus-statistics-gradle-plugin",
+      "version": "2.2.21",
+      "file": "fus-statistics-gradle-plugin-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-statistics",
+      "version": "2.2.21",
+      "file": "kotlin-build-statistics-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-statistics",
+      "version": "2.2.21",
+      "file": "kotlin-build-statistics-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-tools-api",
+      "version": "2.2.21",
+      "file": "kotlin-build-tools-api-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-tools-api",
+      "version": "2.2.21",
+      "file": "kotlin-build-tools-api-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-tools-impl",
+      "version": "2.2.21",
+      "file": "kotlin-build-tools-impl-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.21/kotlin-build-tools-impl-2.2.21.jar",
+      "sha256": "458b63ef8fc50a0a3180fe688ec1b995745992a05c495dac61e58d1088927a80",
+      "bytes": 59478,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-build-tools-impl",
+      "version": "2.2.21",
+      "file": "kotlin-build-tools-impl-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.21/kotlin-build-tools-impl-2.2.21.pom",
+      "sha256": "2e7fdca20165cf10e73b62f835f67eecf427c823ed60f19d5f006eb674345afe",
+      "bytes": 2379,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-compiler-embeddable-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.21/kotlin-compiler-embeddable-2.2.21.jar",
+      "sha256": "9588fa696ac5507af764fd5660df6894185e12704ec1bc3f5cb772af4987f295",
+      "bytes": 56908512,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-compiler-embeddable-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.21/kotlin-compiler-embeddable-2.2.21.pom",
+      "sha256": "0b33c64f2622ba3bc8283378bdb7505f2be330a2275807038ad54359b33ddf9b",
+      "bytes": 2451,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-runner",
+      "version": "2.2.21",
+      "file": "kotlin-compiler-runner-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-runner",
+      "version": "2.2.21",
+      "file": "kotlin-compiler-runner-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compose-compiler-plugin-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-compose-compiler-plugin-embeddable-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compose-compiler-plugin-embeddable/2.2.21/kotlin-compose-compiler-plugin-embeddable-2.2.21.jar",
+      "sha256": "bd6b2db8bbf5ef1c12888ae885b72054e70cea7ef4d6e8bb5eca4faa0539393f",
+      "bytes": 935264,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compose-compiler-plugin-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-compose-compiler-plugin-embeddable-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compose-compiler-plugin-embeddable/2.2.21/kotlin-compose-compiler-plugin-embeddable-2.2.21.pom",
+      "sha256": "6ac3887fb687b7bddc943b505c63ee9830e7a8f4a1edb1d5cc3c3c9f2cfca3dd",
+      "bytes": 1248,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-client",
+      "version": "2.2.21",
+      "file": "kotlin-daemon-client-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-client",
+      "version": "2.2.21",
+      "file": "kotlin-daemon-client-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-daemon-embeddable-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.21/kotlin-daemon-embeddable-2.2.21.jar",
+      "sha256": "91c0673c22e44b054ae0314d323860ebe1f3aff3f0ebc74fff82c4733dde09be",
+      "bytes": 347987,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-daemon-embeddable-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.21/kotlin-daemon-embeddable-2.2.21.pom",
+      "sha256": "170bdbecba57ff00a2b8d17ef2c79e08b85f67df69d853ba0a259a4183bfb923",
+      "bytes": 1173,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-2.2.21-gradle813.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-annotations",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-annotations-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-annotations",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-annotations-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-api",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-api-2.2.21-gradle813.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-api",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-api-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-api",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-api-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-idea",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-idea-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-idea",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-idea-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-idea-proto",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-idea-proto-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-idea-proto",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-idea-proto-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-model",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-model-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugin-model",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugin-model-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugins-bom",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugins-bom-2.2.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-gradle-plugins-bom",
+      "version": "2.2.21",
+      "file": "kotlin-gradle-plugins-bom-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-klib-commonizer-api",
+      "version": "2.2.21",
+      "file": "kotlin-klib-commonizer-api-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-klib-commonizer-api",
+      "version": "2.2.21",
+      "file": "kotlin-klib-commonizer-api-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-native-utils",
+      "version": "2.2.21",
+      "file": "kotlin-native-utils-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-native-utils",
+      "version": "2.2.21",
+      "file": "kotlin-native-utils-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "1.6.10",
+      "file": "kotlin-reflect-1.6.10.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar",
+      "sha256": "3277ac102ae17aad10a55abec75ff5696c8d109790396434b496e75087854203",
+      "bytes": 3038560,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "1.6.10",
+      "file": "kotlin-reflect-1.6.10.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.pom",
+      "sha256": "57905524274a00ae028aaccc27283f6bc5925a934a046c1cc5d06c8ee4d6d5a9",
+      "bytes": 1375,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "2.0.21",
+      "file": "kotlin-reflect-2.0.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "2.0.21",
+      "file": "kotlin-reflect-2.0.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "2.2.0",
+      "file": "kotlin-reflect-2.2.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/2.2.0/kotlin-reflect-2.2.0.jar",
+      "sha256": "230d91c2e410e3cfca3a4dc73d255455f62ff52aac091a33397a6e30bde91bf7",
+      "bytes": 3298629,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "2.2.0",
+      "file": "kotlin-reflect-2.2.0.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/2.2.0/kotlin-reflect-2.2.0.pom",
+      "sha256": "deed831efcb663e4cf3d5121e5ae796f201e37b813d2c7d607b5f1f8a86fe52e",
+      "bytes": 1370,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-script-runtime",
+      "version": "2.2.21",
+      "file": "kotlin-script-runtime-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.21/kotlin-script-runtime-2.2.21.jar",
+      "sha256": "2b1519b427b514d1536c1b425674b03fe914af637924028e9959c6625442df51",
+      "bytes": 44769,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-script-runtime",
+      "version": "2.2.21",
+      "file": "kotlin-script-runtime-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.21/kotlin-script-runtime-2.2.21.pom",
+      "sha256": "8767a540fc5dbe20b7e1283a95f510297e6c0c98b2eac2edc4d0612a2d0f2eaf",
+      "bytes": 1134,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-common",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-common-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.21/kotlin-scripting-common-2.2.21.jar",
+      "sha256": "414ed91c3f5e4492b23cb9537842b4651038e25dad84107939f434c2203f2a92",
+      "bytes": 198530,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-common",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-common-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.21/kotlin-scripting-common-2.2.21.pom",
+      "sha256": "ec25a979945175bad216546a484b0b8f44a8670559195e240b347f1fda1770df",
+      "bytes": 1362,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-compiler-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-compiler-embeddable-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.21/kotlin-scripting-compiler-embeddable-2.2.21.jar",
+      "sha256": "d934b9d0c246bc09624b7068af58ad57cef11dbe2addbc7b19d250cce42de1c9",
+      "bytes": 587162,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-compiler-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-compiler-embeddable-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.21/kotlin-scripting-compiler-embeddable-2.2.21.pom",
+      "sha256": "1148662c95f36e00981178fb2d895d06b2ece7d057ed84532dd353bbd6c35650",
+      "bytes": 2031,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-compiler-impl-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-compiler-impl-embeddable-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.21/kotlin-scripting-compiler-impl-embeddable-2.2.21.jar",
+      "sha256": "788a3060c8e7997f8ae16ba5c0280d05005af0a42029f18cb10c5625b979fac3",
+      "bytes": 230094,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-compiler-impl-embeddable",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-compiler-impl-embeddable-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.21/kotlin-scripting-compiler-impl-embeddable-2.2.21.pom",
+      "sha256": "0ca4f95c32d4ae954e174ea41e5bad62c78dbc93a64c45076fde9ccc84ab3609",
+      "bytes": 1838,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-jvm",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-jvm-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.21/kotlin-scripting-jvm-2.2.21.jar",
+      "sha256": "83820c5fcc5d28f045f914ecd5900bbbcf8115b0d7007334de069fe6c70669e6",
+      "bytes": 149319,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-scripting-jvm",
+      "version": "2.2.21",
+      "file": "kotlin-scripting-jvm-2.2.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.21/kotlin-scripting-jvm-2.2.21.pom",
+      "sha256": "9d1d43b22dbb8ab9a9df227a6d5458341daffec150ef7595d765cc5ecbf17908",
+      "bytes": 1745,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.0.21",
+      "file": "kotlin-stdlib-2.0.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.0.21",
+      "file": "kotlin-stdlib-2.0.21.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-2.2.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar",
+      "sha256": "65d12d85a3b865c160db9147851712a64b10dadd68b22eea22a95bf8a8670dca",
+      "bytes": 1750373,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-2.2.0.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.module",
+      "sha256": "a5b98fdcd9db017d542e197225dcee18d658a56de1db2cc41e13196d6b1769a4",
+      "bytes": 12388,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.2.21",
+      "file": "kotlin-stdlib-2.2.21.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.21/kotlin-stdlib-2.2.21.jar",
+      "sha256": "6558a3d233da56a20934b32159f9db5f86ed5816ef098f78a2c223dc6abb79dd",
+      "bytes": 1761445,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "2.2.21",
+      "file": "kotlin-stdlib-2.2.21.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.21/kotlin-stdlib-2.2.21.module",
+      "sha256": "bfbc657ddd3a8e37e4c8ad417968d5eb0b0b171c9fce48f962c2ad32ee434c21",
+      "bytes": 12430,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "2.0.21",
+      "file": "kotlin-stdlib-common-2.0.21.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.21/kotlin-stdlib-common-2.0.21.module",
+      "sha256": "6f5df8af633600a6b9cfb0fcc764af3d5119f376677677b91b6aee816b1d30ab",
+      "bytes": 624,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "2.2.21",
+      "file": "kotlin-stdlib-common-2.2.21.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/2.2.21/kotlin-stdlib-common-2.2.21.module",
+      "sha256": "3ffdb451aa2d314fe7263782d37eabddcf8b941bcb940fe3192ac01a62b57f7b",
+      "bytes": 625,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.8.21",
+      "file": "kotlin-stdlib-jdk7-1.8.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.pom",
+      "sha256": "9bb107d5d5e3930bc5977f007a43cd20b7d24d91b1c1e528ea6ee0f248f14d36",
+      "bytes": 1389,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.9.10",
+      "file": "kotlin-stdlib-jdk7-1.9.10.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.jar",
+      "sha256": "ac6361bf9ad1ed382c2103d9712c47cdec166232b4903ed596e8876b0681c9b7",
+      "bytes": 959,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.9.10",
+      "file": "kotlin-stdlib-jdk7-1.9.10.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.pom",
+      "sha256": "c7fa67c7961320b89d85a3ca59a2e18c2c65850845595dcae4b46af6945edcd5",
+      "bytes": 1389,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-jdk7-2.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-jdk7-2.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.8.21",
+      "file": "kotlin-stdlib-jdk8-1.8.21.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.pom",
+      "sha256": "3839d728d7c309a5c368b0270b44b4f1c7878ff5ca5d32a9a204faa3491459d8",
+      "bytes": 1581,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.9.10",
+      "file": "kotlin-stdlib-jdk8-1.9.10.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.jar",
+      "sha256": "a4c74d94d64ce1abe53760fe0389dd941f6fc558d0dab35e47c085a11ec80f28",
+      "bytes": 965,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.9.10",
+      "file": "kotlin-stdlib-jdk8-1.9.10.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.pom",
+      "sha256": "5f4b94dd3065a7764c37fa15de2ad6d81f40d59f8cb33f17d181c6384fb7a72e",
+      "bytes": 1581,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-jdk8-2.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "2.2.0",
+      "file": "kotlin-stdlib-jdk8-2.2.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-tooling-core",
+      "version": "2.2.21",
+      "file": "kotlin-tooling-core-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-tooling-core",
+      "version": "2.2.21",
+      "file": "kotlin-tooling-core-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-io",
+      "version": "2.2.21",
+      "file": "kotlin-util-io-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-io",
+      "version": "2.2.21",
+      "file": "kotlin-util-io-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-klib",
+      "version": "2.2.21",
+      "file": "kotlin-util-klib-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-klib",
+      "version": "2.2.21",
+      "file": "kotlin-util-klib-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-klib-metadata",
+      "version": "2.2.21",
+      "file": "kotlin-util-klib-metadata-2.2.21.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-util-klib-metadata",
+      "version": "2.2.21",
+      "file": "kotlin-util-klib-metadata-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin.android",
+      "name": "org.jetbrains.kotlin.android.gradle.plugin",
+      "version": "2.2.21",
+      "file": "org.jetbrains.kotlin.android.gradle.plugin-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlin.plugin.compose",
+      "name": "org.jetbrains.kotlin.plugin.compose.gradle.plugin",
+      "version": "2.2.21",
+      "file": "org.jetbrains.kotlin.plugin.compose.gradle.plugin-2.2.21.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-android",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-android-1.10.2.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.10.2/kotlinx-coroutines-android-1.10.2.jar",
+      "sha256": "e713f1f874244115a07571065cffa0f24f5e78300e9720fea16de3af1d75fd41",
+      "bytes": 17826,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-android",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-android-1.10.2.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.10.2/kotlinx-coroutines-android-1.10.2.module",
+      "sha256": "092fe38103eec62e94540ca0cd61039ef8f7d8e46694ec033be1f63f0ea2013d",
+      "bytes": 4383,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-bom",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-bom-1.10.2.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.10.2/kotlinx-coroutines-bom-1.10.2.pom",
+      "sha256": "faf0c6538e53ddc0499a63664d8e763c216580b2e18e722ccbdf1b431a6afe26",
+      "bytes": 4279,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-bom",
+      "version": "1.9.0",
+      "file": "kotlinx-coroutines-bom-1.9.0.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-core-1.10.2.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.2/kotlinx-coroutines-core-1.10.2.module",
+      "sha256": "8fe254177e711a7cd18a3c06d8242fce945f41c2cca13dc19b33ae42a5435016",
+      "bytes": 47149,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core",
+      "version": "1.7.3",
+      "file": "kotlinx-coroutines-core-1.7.3.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.7.3/kotlinx-coroutines-core-1.7.3.module",
+      "sha256": "7fb162396594ec28e1b6a4411b457949a7670f5e12019176774e1fd6b9471bbf",
+      "bytes": 43629,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core",
+      "version": "1.9.0",
+      "file": "kotlinx-coroutines-core-1.9.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-core-jvm-1.10.2.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar",
+      "sha256": "5ca175b38df331fd64155b35cd8cae1251fa9ee369709b36d42e0a288ccce3fd",
+      "bytes": 1479317,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-core-jvm-1.10.2.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.module",
+      "sha256": "e9e4a74b4dbfe0f5ebeed88d49f3546c3ec3089419b20e5250403135c2c64c53",
+      "bytes": 4450,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.8.0",
+      "file": "kotlinx-coroutines-core-jvm-1.8.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.jar",
+      "sha256": "9860906a1937490bf5f3b06d2f0e10ef451e65b95b269f22daf68a3d1f5065c5",
+      "bytes": 1548360,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.8.0",
+      "file": "kotlinx-coroutines-core-jvm-1.8.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.9.0",
+      "file": "kotlinx-coroutines-core-jvm-1.9.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.9.0",
+      "file": "kotlinx-coroutines-core-jvm-1.9.0.module",
+      "cached": true
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-test",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-test-1.10.2.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test/1.10.2/kotlinx-coroutines-test-1.10.2.module",
+      "sha256": "422072cee3b69f68d5b1503bb6651be78946b04c39284a1cc026cce8bdf1f806",
+      "bytes": 47327,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-test-jvm",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-test-jvm-1.10.2.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test-jvm/1.10.2/kotlinx-coroutines-test-jvm-1.10.2.jar",
+      "sha256": "590a549f8c1db590c9d98a8a20424a1f581a34162a369e6a6bd884ce7d36d3d7",
+      "bytes": 136781,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-test-jvm",
+      "version": "1.10.2",
+      "file": "kotlinx-coroutines-test-jvm-1.10.2.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-test-jvm/1.10.2/kotlinx-coroutines-test-jvm-1.10.2.module",
+      "sha256": "56b20817cc51ad88bdb59c01216b09897cd4fa698d517bb477d92a972a7a1aaf",
+      "bytes": 4807,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-bom",
+      "version": "1.7.3",
+      "file": "kotlinx-serialization-bom-1.7.3.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.7.3/kotlinx-serialization-bom-1.7.3.pom",
+      "sha256": "4226a491c5b59ce909f73b65aa98944191c8dcac3825637c6be1069e6b589a46",
+      "bytes": 4037,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-core",
+      "version": "1.7.3",
+      "file": "kotlinx-serialization-core-1.7.3.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core/1.7.3/kotlinx-serialization-core-1.7.3.module",
+      "sha256": "39d09a6e02df2b32558440a64c628f9c605fae8c4f6090321798334c82177e64",
+      "bytes": 48820,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-core-jvm",
+      "version": "1.7.3",
+      "file": "kotlinx-serialization-core-jvm-1.7.3.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar",
+      "sha256": "f0adde45864144475385cf4aa7e0b7feb27f61fcf9472665ed98cc971b06b1eb",
+      "bytes": 390987,
+      "cached": false
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-serialization-core-jvm",
+      "version": "1.7.3",
+      "file": "kotlinx-serialization-core-jvm-1.7.3.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.module",
+      "sha256": "73bb4c02793f87c29ef64bea4ba0258076f4d4c963fcda633d1248ef24b4b4ef",
+      "bytes": 4151,
+      "cached": false
+    },
+    {
+      "group": "org.json",
+      "name": "json",
+      "version": "20240303",
+      "file": "json-20240303.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.jar",
+      "sha256": "3cf6cd6892e32e2b4c1c39e0f52f5248a2f5b37646fdfbb79a66b46b618414ed",
+      "bytes": 78332,
+      "cached": false
+    },
+    {
+      "group": "org.json",
+      "name": "json",
+      "version": "20240303",
+      "file": "json-20240303.pom",
+      "url": "https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.pom",
+      "sha256": "994baf5d89bf4caa5ce968e4c4eab135c8f9783ecf4d2b7b0e9d1c8a4ddf1e4f",
+      "bytes": 7696,
+      "cached": false
+    },
+    {
+      "group": "org.jspecify",
+      "name": "jspecify",
+      "version": "1.0.0",
+      "file": "jspecify-1.0.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar",
+      "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab",
+      "bytes": 3819,
+      "cached": false
+    },
+    {
+      "group": "org.jspecify",
+      "name": "jspecify",
+      "version": "1.0.0",
+      "file": "jspecify-1.0.0.module",
+      "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.module",
+      "sha256": "d307ca77a54e18ac1ef1aaed4e5bbe014bd2f49f29e1d2f813e47c278283195b",
+      "bytes": 3439,
+      "cached": false
+    },
+    {
+      "group": "org.junit",
+      "name": "junit-bom",
+      "version": "5.10.2",
+      "file": "junit-bom-5.10.2.pom",
+      "cached": true
+    },
+    {
+      "group": "org.jvnet.staxex",
+      "name": "stax-ex",
+      "version": "1.8.1",
+      "file": "stax-ex-1.8.1.jar",
+      "cached": true
+    },
+    {
+      "group": "org.jvnet.staxex",
+      "name": "stax-ex",
+      "version": "1.8.1",
+      "file": "stax-ex-1.8.1.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2",
+      "name": "ow2",
+      "version": "1.5.1",
+      "file": "ow2-1.5.1.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.8",
+      "file": "asm-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.8",
+      "file": "asm-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-analysis",
+      "version": "9.8",
+      "file": "asm-analysis-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-analysis",
+      "version": "9.8",
+      "file": "asm-analysis-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-commons",
+      "version": "9.8",
+      "file": "asm-commons-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-commons",
+      "version": "9.8",
+      "file": "asm-commons-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-tree",
+      "version": "9.8",
+      "file": "asm-tree-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-tree",
+      "version": "9.8",
+      "file": "asm-tree-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-util",
+      "version": "9.8",
+      "file": "asm-util-9.8.jar",
+      "cached": true
+    },
+    {
+      "group": "org.ow2.asm",
+      "name": "asm-util",
+      "version": "9.8",
+      "file": "asm-util-9.8.pom",
+      "cached": true
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.30",
+      "file": "slf4j-api-1.7.30.jar",
+      "cached": true
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.30",
+      "file": "slf4j-api-1.7.30.pom",
+      "cached": true
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-parent",
+      "version": "1.7.30",
+      "file": "slf4j-parent-1.7.30.pom",
+      "cached": true
+    },
+    {
+      "group": "org.sonatype.oss",
+      "name": "oss-parent",
+      "version": "7",
+      "file": "oss-parent-7.pom",
+      "cached": true
+    },
+    {
+      "group": "org.sonatype.oss",
+      "name": "oss-parent",
+      "version": "9",
+      "file": "oss-parent-9.pom",
+      "cached": true
+    },
+    {
+      "group": "org.tensorflow",
+      "name": "tensorflow-lite-metadata",
+      "version": "0.2.0",
+      "file": "tensorflow-lite-metadata-0.2.0.jar",
+      "cached": true
+    },
+    {
+      "group": "org.tensorflow",
+      "name": "tensorflow-lite-metadata",
+      "version": "0.2.0",
+      "file": "tensorflow-lite-metadata-0.2.0.pom",
+      "cached": true
+    }
+  ]
+}

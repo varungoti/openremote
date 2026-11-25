@@ -1,0 +1,10 @@
+{
+  "productionGuardPresent": true,
+  "negativeControlGuardPresent": false,
+  "reusedTestBinaryGuardPresent": false,
+  "reusedTestBinarySha256": "98ae0d71cf8a6c4bfd4f471f18c4698a9cd7d7a7ed07d470da2d2df951864606",
+  "reusedTestPath": "agent-windows/target/debug/build/openremote-agent/c005211d66764152/out/openremote_agent-c005211d66764152",
+  "productionSourceSha256": "42244310716ab976aef1dbb764c82e89b8e7db392e4fd63b63521da48c7077dd",
+  "failedRunHadCompileStep": true,
+  "explanation": "The isolated negative-control manifest was mistakenly given the production target directory. It emitted the same library test path; the subsequent current-source run executed its guard-removed library test payload even though other targets may compile. Production source still contained the guard. Only the first-party package cache was cleaned; source and assertions were unchanged."
+}

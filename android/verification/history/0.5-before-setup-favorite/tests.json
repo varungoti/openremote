@@ -1,0 +1,87 @@
+{
+  "version": "0.5.0",
+  "suites": [
+    {
+      "name": "com.openremote.mobile.ApiClientTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.ConnectionChecksTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.DisplayProtocolTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.DisplayReadinessTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.FileUploadTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.PhoneSetupTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.RemoteCoordinatesTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.SessionLifecycleTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.SessionToolsClientTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.ToolProtocolTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.openremote.mobile.VideoFreshnessTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "total": 62,
+  "device_tests_executed": false,
+  "ordinary_strict_verification_build": true,
+  "source_inputs": 48,
+  "source_inputs_sha256": "0c5cfb3d246b90a2eba4e83c3c36f6bd55a53b1bee3dc81762fa6d01a2a9210b"
+}

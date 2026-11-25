@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "purpose": "OpenRemote private pilot observations",
+  "candidate": {
+    "version": "0.4.0",
+    "sourceRevision": "53dccfc7ddcd8460bfbed43d9a363a08c58021ae",
+    "artifacts": {
+      "android": {
+        "path": "artifacts/android/OpenRemote-0.4.0-arm64-test.apk",
+        "sizeBytes": 24631759,
+        "sha256": "c9b78473a65ade3ec64dd444ecec83c201ca4d90a76723abbc4f57efefe13e0e"
+      },
+      "coordinator": {
+        "path": "artifacts/controlplane-linux-amd64",
+        "sizeBytes": 10711963,
+        "sha256": "ba9336b949b2dc7a78766e512c9662b168958e1b2a1a621d403347ddc8413951"
+      },
+      "windows": {
+        "path": "artifacts/windows/openremote-agent.exe",
+        "sizeBytes": 9356800,
+        "sha256": "37ea1ec8177abffd9353c0f5cd59047bcdf68924772874225d43c908076200cf"
+      }
+    }
+  },
+  "environment": {
+    "operator": "",
+    "windowsPcs": [],
+    "android": {
+      "model": "",
+      "osVersion": "",
+      "apiLevel": 0,
+      "pageSizeBytes": 0
+    },
+    "coordinatorOs": "",
+    "relayVersion": "",
+    "networkDescription": "",
+    "windowsFfmpegSha256": ""
+  },
+  "cases": [
+    {
+      "id": "desktop_input",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "multiple_pcs",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "consent_permissions",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "trust_revocation",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "internet_direct",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "turn_udp",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "turn_tcp",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "turn_tls443",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "renewal_handoff",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "coordinator_relay_restart",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "clipboard_upload",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "monitor_layout",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "monitor_switch",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "monitor_unplug",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "monitor_invalid",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "lifecycle_cleanup",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    },
+    {
+      "id": "installation",
+      "status": "not_run",
+      "startedAtUtc": "",
+      "finishedAtUtc": "",
+      "pcIds": [],
+      "observations": "",
+      "measurements": {},
+      "evidence": []
+    }
+  ]
+}

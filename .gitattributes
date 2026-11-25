@@ -1,0 +1,10 @@
+# Keep authored source stable across checkouts used by the build manifests.
+* text=auto eol=lf
+# These files are exact third-party or execution evidence bytes; never normalize.
+licenses/** -text
+android/gradlew.bat -text
+**/verification/** -text
+evidence/** -text
+*.jar -text
+*.png -text
+*.h264 -text

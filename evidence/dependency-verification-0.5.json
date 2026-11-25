@@ -1,0 +1,14 @@
+{
+  "inventorySha256": "df6bd22a3ed9b4cb2f493fcc0b72e257dd192cf45716932f50560c0996a21f85",
+  "fileReferenceRecordsVerified": 755,
+  "uniqueReferencedFilesVerified": 743,
+  "rustPackages": 319,
+  "androidRuntimeComponents": 98,
+  "unresolvedRustNotices": [
+    "precis-core-0.1.11",
+    "precis-profiles-0.1.13",
+    "winapi-i686-pc-windows-gnu-0.4.0",
+    "winapi-x86_64-pc-windows-gnu-0.4.0"
+  ],
+  "scope": "Declared-license and available-file inventory; public-redistribution gate remains blocked"
+}

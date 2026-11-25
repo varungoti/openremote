@@ -1,0 +1,46 @@
+{
+  "recordedAt": "2026-11-19T08:45:17.962286+00:00",
+  "classification": "Test fixture used wall clock despite deliberately spending many real expensive KDF operations without heartbeats. First fixture host went offline after45s, and production correctly denied redemption. No race detector finding.",
+  "observedElapsedSeconds": 50.27,
+  "preservedFailureEvents": [
+    {
+      "Time": "2026-11-19T08:40:53.932421771Z",
+      "Action": "run",
+      "Package": "openremote/controlplane/internal/app",
+      "Test": "TestPairingUniqueActiveCodesAndLeadingZeros"
+    },
+    {
+      "Time": "2026-11-19T08:40:53.932429375Z",
+      "Action": "output",
+      "Package": "openremote/controlplane/internal/app",
+      "Test": "TestPairingUniqueActiveCodesAndLeadingZeros",
+      "Output": "=== RUN   TestPairingUniqueActiveCodesAndLeadingZeros\n",
+      "OutputType": "frame"
+    },
+    {
+      "Time": "2026-11-19T08:41:44.197909587Z",
+      "Action": "output",
+      "Package": "openremote/controlplane/internal/app",
+      "Test": "TestPairingUniqueActiveCodesAndLeadingZeros",
+      "Output": "    pairing_test.go:297: status=403 want=201 body={\"error\":\"pairing_unavailable\"}\n",
+      "OutputType": "error"
+    },
+    {
+      "Time": "2026-11-19T08:41:44.198201463Z",
+      "Action": "output",
+      "Package": "openremote/controlplane/internal/app",
+      "Test": "TestPairingUniqueActiveCodesAndLeadingZeros",
+      "Output": "--- FAIL: TestPairingUniqueActiveCodesAndLeadingZeros (50.27s)\n",
+      "OutputType": "frame"
+    },
+    {
+      "Time": "2026-11-19T08:41:44.198238091Z",
+      "Action": "fail",
+      "Package": "openremote/controlplane/internal/app",
+      "Test": "TestPairingUniqueActiveCodesAndLeadingZeros",
+      "Elapsed": 50.27
+    }
+  ],
+  "correction": "Pin cfg.now to a fixed UTC instant only in TestPairingUniqueActiveCodesAndLeadingZeros; independent presence/expiry tests retain explicit clock advancement. Production code unchanged.",
+  "requiredFollowup": "Focused same-test race regression; complete final normal/race/vet and artifact source input pins."
+}

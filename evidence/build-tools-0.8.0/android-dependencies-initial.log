@@ -1,0 +1,51 @@
+VERIFIED 25/622 dependency artifacts
+FAILED androidx.compose.animation:animation-core.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.animation:animation.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.foundation:foundation-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.foundation:foundation-layout.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.material:material.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.material:material-ripple.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.material3:material3.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.runtime:runtime-saveable.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.runtime:runtime-annotation.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.runtime:runtime.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.ui:ui-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.ui:ui-graphics-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.ui:ui-geometry.aar: curl 22: curl: (22) The requested URL returned error: 404
+VERIFIED 50/622 dependency artifacts
+FAILED androidx.compose.ui:ui-text.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.ui:ui-tooling.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.ui:ui-tooling-data.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.ui:ui-tooling-preview.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.ui:ui-unit.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.compose.ui:ui-util.aar: curl 22: curl: (22) The requested URL returned error: 404
+VERIFIED 75/622 dependency artifacts
+VERIFIED 100/622 dependency artifacts
+FAILED androidx.lifecycle:lifecycle-runtime-compose-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.lifecycle:lifecycle-runtime-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.lifecycle:lifecycle-viewmodel-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.lifecycle:lifecycle-runtime-ktx.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.lifecycle:lifecycle-viewmodel-savedstate-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.lifecycle:lifecycle-viewmodel-compose-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+FAILED androidx.savedstate:savedstate-release.aar: curl 22: curl: (22) The requested URL returned error: 404
+VERIFIED 125/622 dependency artifacts
+FAILED androidx.savedstate:savedstate-compose.aar: curl 22: curl: (22) The requested URL returned error: 404
+VERIFIED 150/622 dependency artifacts
+VERIFIED 175/622 dependency artifacts
+VERIFIED 200/622 dependency artifacts
+VERIFIED 225/622 dependency artifacts
+VERIFIED 250/622 dependency artifacts
+VERIFIED 275/622 dependency artifacts
+VERIFIED 300/622 dependency artifacts
+VERIFIED 325/622 dependency artifacts
+VERIFIED 350/622 dependency artifacts
+VERIFIED 375/622 dependency artifacts
+VERIFIED 400/622 dependency artifacts
+VERIFIED 425/622 dependency artifacts
+VERIFIED 450/622 dependency artifacts
+VERIFIED 475/622 dependency artifacts
+VERIFIED 500/622 dependency artifacts
+VERIFIED 525/622 dependency artifacts
+VERIFIED 550/622 dependency artifacts
+VERIFIED 575/622 dependency artifacts
+FINISHED 595/622 verified; 27 errors

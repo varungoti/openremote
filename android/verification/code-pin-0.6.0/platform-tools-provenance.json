@@ -1,0 +1,8 @@
+{
+  "url": "https://dl.google.com/android/repository/platform-tools_r37.0.3-linux.zip",
+  "sha256": "214548146cadb2ca3508143d8a1d4be4c59de5bb837253e3ede89ed74cf450d1",
+  "verifiedSha1": "e1579b288a7ae4e9bc28dedec6a154d78b3c04ed",
+  "licenseId": "android-sdk-preview-license",
+  "licenseHash": "79120722343a6f314e0719f863036c702b0e6b2a",
+  "bytes": 9571024
+}

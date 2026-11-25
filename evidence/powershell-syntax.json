@@ -1,0 +1,18 @@
+[
+  {
+    "file": "packaging/windows/Install-OpenRemote.ps1",
+    "parse_errors": []
+  },
+  {
+    "file": "packaging/windows/Uninstall-OpenRemote.ps1",
+    "parse_errors": []
+  },
+  {
+    "file": "packaging/windows/tests/Activation.Tests.ps1",
+    "parse_errors": []
+  },
+  {
+    "file": "scripts/build-windows.ps1",
+    "parse_errors": []
+  }
+]

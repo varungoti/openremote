@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-11-18T06:57:18.383310967Z",
+  "status": "blocked",
+  "scope": "Synthetic source through Rust production H.264/WebRTC path to independent Pion receiver and ffmpeg decoder; no Windows capture/input, Android renderer, public Internet or TURN TLS validation",
+  "pionVersion": "v4.2.26",
+  "cases": [
+    {
+      "mode": "direct",
+      "status": "blocked",
+      "error": "failed to create network: route ip+net: netlinkrib: operation not permitted",
+      "durationMs": 6,
+      "receivedRtpPackets": 0,
+      "rtpFrameMarkers": 0,
+      "decodedFrames": 0,
+      "uniqueFrameHashes": 0,
+      "matchedControlEvents": 0,
+      "artifacts": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/evidence/native-media-1306468511/direct"
+    },
+    {
+      "mode": "udp",
+      "status": "blocked",
+      "error": "relay fixture: EOF; panic: failed to create network: route ip+net: netlinkrib: operation not permitted\n\ngoroutine 1 [running]:\nmain.main()\n\t/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/relay/main.go:62 +0x852\n",
+      "durationMs": 75,
+      "receivedRtpPackets": 0,
+      "rtpFrameMarkers": 0,
+      "decodedFrames": 0,
+      "uniqueFrameHashes": 0,
+      "matchedControlEvents": 0,
+      "artifacts": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/evidence/native-media-1306468511/udp"
+    },
+    {
+      "mode": "tcp",
+      "status": "blocked",
+      "error": "relay fixture: EOF; panic: failed to create network: route ip+net: netlinkrib: operation not permitted\n\ngoroutine 1 [running]:\nmain.main()\n\t/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/relay/main.go:62 +0x852\n",
+      "durationMs": 24,
+      "receivedRtpPackets": 0,
+      "rtpFrameMarkers": 0,
+      "decodedFrames": 0,
+      "uniqueFrameHashes": 0,
+      "matchedControlEvents": 0,
+      "artifacts": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/evidence/native-media-1306468511/tcp"
+    }
+  ]
+}

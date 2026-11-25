@@ -1,0 +1,20 @@
+{
+  "references": [
+    {
+      "url": "https://go.dev/doc/go1.24",
+      "use": "crypto/pbkdf2 available in standard library from Go1.24; go.mod minimum updated."
+    },
+    {
+      "url": "https://pkg.go.dev/crypto/pbkdf2",
+      "use": "Standard PBKDF2-HMAC API; no custom KDF implementation."
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html",
+      "use": "PBKDF2-HMAC-SHA256 600000 iteration work factor. Ephemeral PIN also requires strict online budgets, expiry, one-use and local host grant."
+    },
+    {
+      "url": "https://go.dev/dl/",
+      "use": "Go1.27.4 official release download metadata and SHA256."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "androidVersion": "0.5.0 unchanged",
+  "artifacts": {
+    "embeddedHost": {
+      "minimumOs": "Windows 10 version1703 build15063+, or Windows11 on Intel/AMD x64",
+      "pe": {
+        "importDlls": [
+          "advapi32.dll",
+          "api-ms-win-core-synch-l1-2-0.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "bcrypt.dll",
+          "bcryptprimitives.dll",
+          "comdlg32.dll",
+          "crypt32.dll",
+          "gdi32.dll",
+          "iphlpapi.dll",
+          "kernel32.dll",
+          "ntdll.dll",
+          "user32.dll",
+          "ws2_32.dll"
+        ],
+        "machine": 34404,
+        "optionalMagic": 523,
+        "subsystem": 2
+      },
+      "relativePath": "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+      "runtimeDependency": "Separately selected trusted standalone FFmpeg with matching SHA-256; not bundled",
+      "sha256": "47c5c0a386be1f9b9d75950aefe56a0abc519a643c975bea3561bfe8c986f96b",
+      "signature": "unsigned",
+      "sizeBytes": 9655296,
+      "validation": "cross-compiled and linked on Linux; not executed on Windows"
+    },
+    "installer": {
+      "authenticode": "unsigned",
+      "name": "OpenRemote-0.5.1-Windows-x64-Setup.exe",
+      "pe": {
+        "machine": 332,
+        "optionalMagic": 267,
+        "subsystem": 2
+      },
+      "sha256": "fe593f19f80b45647e6f434ad6951d5a245e4ea328e51a4a0093db56bbbce5b9",
+      "sizeBytes": 3291954
+    },
+    "uninstaller": {
+      "pe": {
+        "machine": 332,
+        "optionalMagic": 267,
+        "subsystem": 2
+      },
+      "sha256": "719a62fc20f883ef4cb11e47794dbecd265f15f508d198f2c9878258cd6f46b0",
+      "sizeBytes": 141168
+    }
+  },
+  "checks": {
+    "allCurrentSourceAndEvidencePinsMatch": true,
+    "independentArtifactInspection": "passed: final package independently re-extracted and inspected with LLVM",
+    "installerTests": {
+      "failed": 0,
+      "passed": 10,
+      "scope": "Python package admission/custody regressions"
+    },
+    "nativeWindowsInstallation": "not_run",
+    "nativeWindowsStartup": "not_run",
+    "nsisCompile": "passed with warnings treated as errors",
+    "payloadExtraction": "passed: four exact application payloads plus native GUI uninstaller",
+    "publicInternetAndTurn": "not_run",
+    "rust": {
+      "failed": 0,
+      "ignored": 0,
+      "newStartupTests": 11,
+      "passed": 76,
+      "runtimePlatform": "Linux",
+      "scope": "configuration startup state, persistence, existing control/tools/media pure and process tests; native Windows calls not executed"
+    },
+    "sequence": [
+      {
+        "command": [
+          "cargo",
+          "fmt",
+          "--check"
+        ],
+        "durationSeconds": 0.396,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/format.log",
+        "name": "format"
+      },
+      {
+        "command": [
+          "cargo",
+          "test",
+          "--locked",
+          "--offline",
+          "--all-targets"
+        ],
+        "durationSeconds": 25.819,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/tests.log",
+        "name": "tests"
+      },
+      {
+        "command": [
+          "cargo",
+          "clippy",
+          "--locked",
+          "--offline",
+          "--all-targets",
+          "--",
+          "-D",
+          "warnings"
+        ],
+        "durationSeconds": 6.809,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/clippy-linux.log",
+        "name": "clippy-linux"
+      },
+      {
+        "command": [
+          "cargo",
+          "clippy",
+          "--locked",
+          "--offline",
+          "--all-targets",
+          "--target",
+          "x86_64-pc-windows-gnullvm",
+          "--",
+          "-D",
+          "warnings"
+        ],
+        "durationSeconds": 3.624,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/clippy-windows.log",
+        "name": "clippy-windows"
+      },
+      {
+        "command": [
+          "cargo",
+          "build",
+          "--locked",
+          "--offline",
+          "--release",
+          "--target",
+          "x86_64-pc-windows-gnullvm"
+        ],
+        "durationSeconds": 101.912,
+        "exitCode": 0,
+        "log": "evidence/windows-startup-0.5.1/windows-build.log",
+        "name": "windows-build"
+      }
+    ],
+    "windowsToAndroidSession": "not_run"
+  },
+  "coordinatorVersion": "0.5.0 unchanged",
+  "developmentLimits": [
+    "Installer and host unsigned",
+    "Native Windows UI/install/upgrade/rollback/uninstall and phone session unexecuted",
+    "Public release and dependency-notice gates remain open",
+    "No public coordinator was provisioned",
+    "Advanced settings outside the setup form may require owner configuration repair"
+  ],
+  "evidenceFileSha256": {
+    "agent-windows/BUILD_EVIDENCE.json": "27b88bb6cf4de1ba93637ecad65ad87290cd945a6eafb2b49495bad906408ce3",
+    "docs/windows-installer-0.5.1.md": "79e16b3f5b7279ee529a77eaab357f76167e2aa9aa1b2fa24c83901ca3361ac9",
+    "evidence/windows-startup-0.5.1/baseline.json": "b223e5ad508fa9a9e6010367ed0da120affdacb45ae44d7e9135dac5db524471",
+    "evidence/windows-startup-0.5.1/cache-recovery-verification.json": "75d3bff7a2a6f07d5b17528df58c1c150eef320f5b9171fcf29b806ce7eb1c73",
+    "evidence/windows-startup-0.5.1/config-size-negative-control.json": "e5d1168a8602b9b2b63eee82dce49873ccb2922e9a2539d67d06160046459b90",
+    "evidence/windows-startup-0.5.1/extractor-repair-provenance.json": "66aba904c2c27150a11dd1d5c4a443ec5187a04ff20699aa4d7099afc22adb54",
+    "evidence/windows-startup-0.5.1/final-checks.json": "22743a3152dccc9ea09ecafabdb1787922d9e8cdab80be8390dd013cbd59b946",
+    "evidence/windows-startup-0.5.1/final-source-inputs.json": "edc6dee929cbfc5ccae9caaaa30e23c822b945f5c3c260e64041e0083cdc8227",
+    "evidence/windows-startup-0.5.1/independent-final-installer-inspection.json": "4f44835b124945174757dda5fd4279a70d800129c005dab5c99271b29b0c4367",
+    "evidence/windows-startup-0.5.1/independent-startup-review.json": "1907805ff45dbbea1c59c9f7d88d24b373eb96fc1f2e4a00c22b0cb7ac615ef1",
+    "evidence/windows-startup-0.5.1/independent-startup-review.md": "231ef5482a068bc5dcbe55c69132851e97a9113c09bdb08f837db2af6e0b2a1c",
+    "evidence/windows-startup-0.5.1/installer-review.md": "8f96b87766bedeeaf53faacfe86b8186350dc103b702472100d6ca31d33e92b8",
+    "evidence/windows-startup-0.5.1/package/installer-build-evidence.json": "408eb6904fab1842d9900ba8c0b99bf74b0a3528973ced8884ab78451a996ca3",
+    "evidence/windows-startup-0.5.1/toolchain-provenance.json": "b4f9215978c9ca478035bd3542f4114a48d0ee220f3eed0a82cf1f60c5979800",
+    "evidence/windows-startup-0.5.1/windows-build.json": "86f4a135838ba62b8404eed4de5e185a62014a1fe92b9b2a1e03a09277d23d3f",
+    "packaging/windows/installer/OpenRemote.nsi": "ac4640578b38a854ccaaabada829936aec41d4cc1ea2d6e68f6bb54c0a832cba",
+    "packaging/windows/installer/tests/test_builder.py": "18f5d38d8b677f427795e28eff4fa13bf7bd11d3bf80e3b090e3f2cac6394f20",
+    "scripts/build-windows-installer.py": "aa07c9bfe7b8f8b25a1f3e5c7b970bf28b7554c5d7962cb9740574e843a8388b"
+  },
+  "hostVersion": "0.5.1",
+  "intermediateFailuresRetained": [
+    "Original0.5.0 console host rejected",
+    "Superseded first0.5.1 compile before serialized-size guard",
+    "Expected failed negative control with guard removed",
+    "Negative-control shared-target cache collision; first-party package cleaned and fresh76-test suite passed with fixed source unchanged",
+    "7-Zip25.01 NSIS parsing limitation; official26.06 preserves complete extraction gate"
+  ],
+  "prerequisites": [
+    "Windows10 version1703 build15063+ or Windows11 on Intel/AMD x64",
+    "Owner-deployed HTTPS OpenRemote coordinator and relay",
+    "First-enrollment key for that coordinator",
+    "Trusted standalone Windows FFmpeg executable with verified expected SHA-256; not bundled"
+  ],
+  "product": "OpenRemote",
+  "recordedAtUtc": "2026-11-19T07:54:56.308677+00:00",
+  "releaseReady": false,
+  "repair": "Visible first-run Windows setup and per-user executable installer",
+  "source": {
+    "branch": "fix/windows-startup-installer",
+    "hostImplementationCommit": "b25975bf632902a6f65d2f6e71c3722b55010e19",
+    "installerSourceCommit": "058918a8769c62f6d05413a411616a5deaa0b631",
+    "rustInputCount": 22,
+    "rustInputsSha256": "21cff28037ef411a562cfa0823a420408fb1c2fb2086705aa20498237d26a725"
+  }
+}

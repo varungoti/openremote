@@ -1,0 +1,5 @@
+$ go test -race -count=1 -cover ./...
+	openremote/controlplane/cmd/controlplane		coverage: 0.0% of statements
+ok  	openremote/controlplane/internal/app	1.164s	coverage: 75.1% of statements
+
+exit_code=0

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.DisplayProtocolTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-19T08:42:53.188Z" hostname="f87c0b69ff3f" time="0.157">
+  <properties/>
+  <testcase name="dimensionsLabelsFieldsAndJsonAreStrictlyBounded" classname="com.openremote.mobile.DisplayProtocolTest" time="0.097"/>
+  <testcase name="validCatalogKeepsCurrentAndPrimaryDistinctWithoutDesktopCoordinates" classname="com.openremote.mobile.DisplayProtocolTest" time="0.006"/>
+  <testcase name="legacyCapabilitiesRemainUsableButCannotClaimMonitorSelection" classname="com.openremote.mobile.DisplayProtocolTest" time="0.022"/>
+  <testcase name="ambiguousCatalogAndInvalidIdentifiersFailClosed" classname="com.openremote.mobile.DisplayProtocolTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

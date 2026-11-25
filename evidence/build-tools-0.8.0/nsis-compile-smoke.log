@@ -1,0 +1,17 @@
+Processing script file: "/workspace/scratch/72f8c6db0182/toolchains/smoke/toolchain-smoke.nsi" (UTF8)
+
+Processed 1 file, writing output (x86-unicode):
+
+Output: "toolchain-smoke.exe"
+Install: 1 page (64 bytes), 1 section (1 required) (4120 bytes), 3 instructions (84 bytes), 32 strings (924 bytes), 1 language table (194 bytes).
+Uninstall: 1 page (128 bytes), 1 section (4120 bytes), 3 instructions (84 bytes), 33 strings (924 bytes), 1 language table (194 bytes).
+
+Using zlib compression.
+
+EXE header size:              100352 / 101888 bytes
+Install code:                    635 / 3730 bytes
+Install data:                      0 / 8 bytes
+Uninstall code+data:             923 / 1420 bytes
+CRC (0x78198ADD):                  4 / 4 bytes
+
+Total size:                   101914 / 107050 bytes (95.2%)

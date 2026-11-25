@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-11-19T11:34:04.662023+00:00",
+  "reviewer": "/root/browser_lifecycle_review",
+  "scope": "Independent bounded source review of the 0.7 Windows persistent owner window and one-button attempt lifecycle. Production files were read only.",
+  "branchAtRecording": "feat/one-button-connect",
+  "gitHeadAtRecording": "865e0a69de9a8e0df3957db33713fac08b783991",
+  "sourceCustody": {
+    "note": "Reviewed working-tree contents include uncommitted changes; file SHA-256 values identify the reviewed inputs independently of Git HEAD.",
+    "files": {
+      "agent-windows/src/startup_windows.rs": "72a7ac9e8c2ec1568e5d50a5fefca26f739e21e5266bb8c39fdd84027d87a306",
+      "agent-windows/src/startup.rs": "fe3855d8d1104df505a9ac2faf419bba543b7d44a82a0b9081aa05c55a899b3b",
+      "agent-windows/src/host_home.rs": "5b0fc7318696c0729e911f2b581e7fd87109926c3b61773cfd414dd937c2b502",
+      "agent-windows/src/session.rs": "27950ee83ec2ba109559cb01a5eb32b9fef324f9a2193f5b05d7ba6f8dcbe2a9"
+    },
+    "matchesWindowsOwnersFinalChecks": true,
+    "windowsOwnerSourceAggregateSha256": "3a69e586880b20c0013fc8b3f917b4ab0183d30adaeeec10ab136e84fcff5a5b"
+  },
+  "result": {
+    "blockingFindingsIdentified": 1,
+    "blockingFindingsResolvedBySourceReview": 1,
+    "remainingConcreteBlockersInReviewedScope": 0,
+    "conclusion": "The cancellation-guard patch closes the identified panic/disabled-Stop gap. No additional concrete lifecycle blocker was found in the requested scope. This is not a release-readiness certification."
+  },
+  "findings": [
+    {
+      "id": "WIN-070-ATTEMPT-PANIC-CANCELLATION",
+      "severity": "high",
+      "status": "fixed_in_reviewed_source",
+      "problem": "Before the fix, the outer worker caught an attempt panic, closed the pairing gate and published Finished without cancelling the attempt token. An unwinding host loop could drop and detach existing heartbeat/session JoinHandles. The UI then cleared its token and entered RestartRequired with Stop disabled while a detached session could continue.",
+      "originalLocations": [
+        "agent-windows/src/startup_windows.rs:554-559 (pre-fix worker wrapper)",
+        "agent-windows/src/startup_windows.rs:611-617 (Finished clears token ownership)",
+        "agent-windows/src/host_home.rs:167 and 386 (pre-fix heartbeat/session task creation)"
+      ],
+      "remediationLocations": [
+        "agent-windows/src/host_home.rs:94-119",
+        "agent-windows/src/startup_windows.rs:554-559"
+      ],
+      "remediationReasoning": "supervised_attempt installs RevokeOnExit before spawning the inner attempt. Explicit guard destruction cancels the shared token before the supervisor returns, so cancellation precedes Finished publication. Dropping or unwinding the polled supervisor also cancels; if the outer task never polls, no inner work has started and Panel/window ownership still cancels its token. Panic sets the restart latch, so unverified child cleanup cannot permit another attempt.",
+      "limits": "Cancellation is signalled before terminal publication; this does not prove physical capture teardown completed on Windows. Panic deliberately requires restart.",
+      "regressionTests": [
+        "host_home::tests::attempt_panic_cancels_detached_children_before_reporting_failure",
+        "host_home::tests::aborting_the_owner_cancels_the_running_attempt"
+      ],
+      "regressionSource": "agent-windows/src/host_home.rs:453-493",
+      "preFixCustodyDirectory": "agent-windows/verification/one-button-0.7.0/history/before-panic-cancellation-guard/",
+      "preFixOwnerManifestHashes": {
+        "agent-windows/src/startup_windows.rs": "6a58b852f5fe7fb4bd4dc7fe27bf073c99fb10369389414ecc6aa8eeb555157b",
+        "agent-windows/src/host_home.rs": "1687256ce0aee6cd1cda2d24e6dad9139636b1bf51c8050e3211eeaefd82ebbd",
+        "supersededBinary": "f6a7e7830bcef4ba01a8bc29c24790f2ed02c91580f240f8aa8466d35997f95e"
+      }
+    }
+  ],
+  "reviewedInvariants": [
+    {
+      "subject": "PIN control lifetime",
+      "locations": [
+        "agent-windows/src/startup_windows.rs:515-545",
+        "agent-windows/src/startup_windows.rs:596",
+        "agent-windows/src/startup_windows.rs:832-833"
+      ],
+      "observation": "Native PIN text is validated and cleared before work starts and on Stop/close. The worker drops its PIN after grant generation. No claim of secure memory zeroization is made."
+    },
+    {
+      "subject": "Stop, close, and destruction",
+      "locations": [
+        "agent-windows/src/startup_windows.rs:84-117",
+        "agent-windows/src/startup_windows.rs:567-602",
+        "agent-windows/src/startup_windows.rs:749-777",
+        "agent-windows/src/startup_windows.rs:841-843"
+      ],
+      "observation": "Stop closes the local pairing gate and cancels the attempt before awaiting cleanup. Closing marks the window as closing, preventing another attempt, and defers destruction while active. Panel and WM_DESTROY paths independently cancel. Normal attempt completion makes a bounded best-effort coordinator revoke request; remote acknowledgement is not guaranteed by source inspection."
+    },
+    {
+      "subject": "Stale callback and restart ownership",
+      "locations": [
+        "agent-windows/src/startup.rs:96-141",
+        "agent-windows/src/startup_windows.rs:603-649"
+      ],
+      "observation": "Attempt generations guard Ready and Finished. Ready requires Preparing and a nonclosing state. Stopping remains active until matching Finished. An unverified or panicked attempt retains RestartRequired."
+    },
+    {
+      "subject": "Session overlap and cleanup latch",
+      "locations": [
+        "agent-windows/src/host_home.rs:322-440",
+        "agent-windows/src/startup_windows.rs:1006-1014"
+      ],
+      "observation": "Busy is reserved before session creation. Existing session teardown is awaited before reuse; task panic/timeout and failed encoder-process reaping set the restart latch. Normal host-loop shutdown cancels, closes the grant, stops heartbeat, and waits for the active task with bounded fallback."
+    },
+    {
+      "subject": "Persistent window replacing session notice",
+      "locations": [
+        "agent-windows/src/session.rs:409-429",
+        "agent-windows/src/session.rs:476-543",
+        "agent-windows/src/startup_windows.rs:534-545",
+        "agent-windows/src/startup_windows.rs:726-728"
+      ],
+      "observation": "The managed caller suppresses the extra session notice while retaining the visible owner window and global emergency-stop registration. Identity/permission rechecks and the preapproval cancellation check remain. Actual native visibility, focus and hotkey behavior were not executed."
+    }
+  ],
+  "validationEvidence": {
+    "executionOwner": "/root/pairing_windows",
+    "independentReviewAction": "Read retained final-checks and negative-control manifests plus relevant test-log lines; matched reviewed source hashes to the final-checks manifest. No tests or native program were run by this reviewer during this bounded review.",
+    "productionTestsFromRetainedLog": {
+      "passed": 99,
+      "failed": 0,
+      "ignored": 0,
+      "filtered": 0
+    },
+    "negativeControlFromRetainedLog": {
+      "passed": 8,
+      "failed": 2,
+      "ignored": 0,
+      "filtered": 89,
+      "exitCode": 101,
+      "mutation": "Only the supervisor cancellation guard was removed in an isolated source copy and target directory."
+    },
+    "negativeControlInterpretation": "Both new regressions fail at stop.is_cancelled() when the guard is removed and pass with the production guard. This exercises real Tokio cancellation/task behavior on Linux, not native Windows capture or UI.",
+    "ownerManifestAlsoRecords": "Format check, Linux and Windows-target Clippy, and Windows release cross-link all exit 0 with unchanged source. This reviewer did not rerun these commands.",
+    "reviewedEvidenceSha256": {
+      "agent-windows/verification/one-button-0.7.0/final-checks.json": "2d5303d7448e66fde608bdc55387965a77faabcaa0109387534c58ece77092db",
+      "agent-windows/verification/one-button-0.7.0/tests.log": "a61ba062ab470c247613289abb836040f040d21b276251e60534294ab34503ac",
+      "agent-windows/verification/one-button-0.7.0/panic-cancellation-negative-control.json": "8dcaefbf1811d77db5bc6c2bdc7c6a8f1a3ca51c4c99cbf41539c7aa20800c0d",
+      "agent-windows/verification/one-button-0.7.0/panic-cancellation-negative-control.log": "27d1e1def79ef375dae2c02bd150375e89ebb778c4421e9d39b7735d70334b30",
+      "agent-windows/verification/one-button-0.7.0/history/before-panic-cancellation-guard/final-source-inputs.json": "69dc56cca6f11c591752ae9c1454787c35a3977ca214c019ec3353600fae2092",
+      "agent-windows/verification/one-button-0.7.0/history/before-panic-cancellation-guard/superseded-binary.json": "50d8f9a7b9c4260470b693e925054b4f065fd3c4c074b3e8a071d580734f24cb"
+    }
+  },
+  "notVerified": [
+    "Native Windows application launch, window layout, hotkey delivery, close interaction, capture, or input injection.",
+    "End-to-end phone-to-Windows media or Internet traversal.",
+    "Physical release/install/signing qualification.",
+    "Signer/origin recovery, which was delegated to the backend reviewer."
+  ],
+  "productionFilesChangedByReviewer": [],
+  "testsExecutedByReviewerInThisReview": []
+}

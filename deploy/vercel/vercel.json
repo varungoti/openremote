@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node build.mjs",
+  "installCommand": "npm ci --ignore-scripts --no-audit --no-fund",
+  "outputDirectory": "public",
+  "functions": {
+    "api/gateway.mjs": {
+      "maxDuration": 40,
+      "includeFiles": "dist/connect/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/gateway" }
+  ]
+}

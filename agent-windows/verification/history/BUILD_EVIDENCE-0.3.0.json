@@ -1,0 +1,153 @@
+{
+  "recordedDate": "2026-11-18",
+  "hostVersion": "0.3.0",
+  "rustToolchain": "1.100.0",
+  "windowsTarget": "x86_64-pc-windows-gnullvm",
+  "binary": {
+    "relativePath": "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+    "sha256": "950d68915594e3413fb55aeb26cbe6e8e0e64c08cc27980babf4db06c0442162",
+    "sizeBytes": 9224192,
+    "signature": "unsigned",
+    "validation": "cross-compiled and linked; not executed on Windows",
+    "peImportDlls": [
+      "bcryptprimitives.dll",
+      "ntdll.dll",
+      "kernel32.dll",
+      "ws2_32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "advapi32.dll",
+      "bcrypt.dll",
+      "crypt32.dll",
+      "iphlpapi.dll",
+      "user32.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll"
+    ],
+    "runtimeDependency": "A separately supplied, checksum-verified FFmpeg build with gdigrab and libx264 is required; FFmpeg is not embedded."
+  },
+  "checks": {
+    "rustUnitTests": {
+      "command": "cargo test --locked --all-targets",
+      "workingDirectory": "agent-windows",
+      "runtimePlatform": "Linux x86_64",
+      "passed": 42,
+      "failed": 0,
+      "ignored": 0,
+      "scope": "Includes 24 tools tests using actual temporary file I/O with explicit clipboard and Internet-zone test adapters. The two revocation regression tests exercise cancellation during blocked metadata I/O and rollback after publication before commit. Native Windows clipboard/ACL/ADS behavior is not executed."
+    },
+    "linuxClippy": {
+      "command": "cargo clippy --locked --all-targets -- -D warnings",
+      "status": "passed"
+    },
+    "windowsClippy": {
+      "command": "cargo clippy --locked --all-targets --target x86_64-pc-windows-gnullvm -- -D warnings",
+      "status": "passed"
+    },
+    "format": {
+      "command": "cargo fmt --check",
+      "status": "passed"
+    },
+    "captureSmoke": {
+      "command": "cargo run --locked --example capture_smoke -- /usr/bin/ffmpeg <new-output.h264>",
+      "result": {
+        "decodedFrames": 30,
+        "distinctFrameHashes": 30,
+        "encodedAccessUnits": 30,
+        "ffmpegSha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+        "fixture": "synthetic_capture_encode_assemble_decode",
+        "ok": true
+      },
+      "codec": {
+        "codec_name": "h264",
+        "profile": "Constrained Baseline",
+        "width": 640,
+        "height": 360,
+        "level": 31
+      },
+      "executedForHostVersion": "0.2.0",
+      "currentVersionNote": "Prior network-free test evidence carried forward; production media.rs and capture_smoke.rs were not changed by the 0.3 tools slice. This fixture was not rerun for 0.3."
+    },
+    "nativeWindowsDesktop": {
+      "status": "not_run",
+      "reason": "no Windows device session available"
+    },
+    "webrtcMediaTransport": {
+      "status": "blocked",
+      "reason": "independent runtime harness hit EPERM while opening required sockets/network interface inspection; no transmitted/decoded network frames claimed",
+      "attemptedForHostVersion": "0.2.0",
+      "currentVersionNote": "Blocked fixture was not retried in 0.3."
+    },
+    "windowsBuild": {
+      "command": "cargo build --locked --release --target x86_64-pc-windows-gnullvm",
+      "status": "passed",
+      "durationSeconds": 55.93,
+      "execution": "compile/link only"
+    },
+    "whitespace": {
+      "command": "git diff --check -- agent-windows",
+      "status": "passed"
+    },
+    "nativeWindowsSessionTools": {
+      "status": "not_run",
+      "reason": "No Windows desktop is available. Clipboard ownership, delayed rendering, protected owner/SYSTEM ACLs, reparse handling, alternate-stream sharing, handle rename, and native cleanup require Windows device execution."
+    },
+    "toolsOverWebRtc": {
+      "status": "not_run",
+      "reason": "Workspace socket/interface policy already blocked the networked media harness; no retry or policy bypass was attempted. Protocol and storage unit tests do not establish live DataChannel interoperability."
+    }
+  },
+  "recordedAtUtc": "2026-11-18T07:45:45.699599+00:00",
+  "rustCompiler": "rustc 1.100.0 (0ef1bc386 2026-11-09)",
+  "windowsLinkerToolchain": "llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64",
+  "sourceInputs": {
+    "algorithm": "SHA-256 of UTF-8 JSON mapping relative paths to content SHA-256, sorted keys, compact separators",
+    "sha256": "421d275067b683d21a69bebe3e94294906e317d185bfc05c180d9e53a44b71a0",
+    "files": {
+      "Cargo.toml": "16c6554d11ef566570bf431bc6f2135eca70cb074ddb0d39e3e4f3f585a99eda",
+      "Cargo.lock": "9b07ae6fe3a4627aa2fe6d7fb272243ae65bc63b86dd5078ebb23de81832072a",
+      "src/api.rs": "89e750d91b60b1e63c3581fac2a67c4fce0e049492208a3239d221b24b2c414a",
+      "src/config.rs": "13baa7450cc77332fcdfca54c1a8320b008c5b3192f77d87d6f9730b78a44579",
+      "src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+      "src/input.rs": "7da0c7eac04ffbdbe5108d8caf1fb8df35bbc60065463f813853fbaa6406dc65",
+      "src/lib.rs": "82a5eb65997485df4b1714a5541ac7676b428cb1c0602d5ba3899d5a2d9f34f9",
+      "src/main.rs": "7b7435712ec38825c80a837517d8d794e94f1166258ad030949af1ad197ff56b",
+      "src/media.rs": "7b77b723d8a7f16e9a39368a2572ed388574dd7f3e8bcd30bbe4f1134c5f2248",
+      "src/protocol.rs": "ffdfc12e90c60ab82d8eac8e372c234ab4e6bf4c6f266914ac4015a69f205845",
+      "src/session.rs": "5373752a82e6a8cceb5ac01dabbab1dfc9b273bc723bf9ccadd2bf85583fb6cb",
+      "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+      "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+      "src/session_tools/protocol.rs": "c552abae51a20053ef24f0a03aed89ad8066b32d92dd1854d91ce4a7fe7c30dd",
+      "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+      "src/ui.rs": "0c4314cfeaefd8b13dbd8ccc7b4c0611c68f7193715b61fa481c4129b33e6547",
+      "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+      "examples/synthetic_peer.rs": "cfb71bd2cd18350c786413a1534f368c4a341f8fc8cc2f8685a2f0191abc5166"
+    },
+    "scope": "Cargo manifest/lock, all Rust source files, and both examples; README and this evidence record are not build inputs."
+  },
+  "implementedSlice": [
+    "Explicit permission-gated Unicode clipboard read/write, default disabled",
+    "Phone-to-PC upload only over a separate reliable ordered tools DataChannel, default disabled",
+    "Strict 16KiB frames, duplicate/replayed ID rejection, 128 requests/s and 65536 IDs/channel cap",
+    "8192-byte chunks, 64MiB file bound, 256MiB reserved quota/session, exact offset/length/SHA256 validation",
+    "Exclusive private receive files, no-overwrite handle publication, Internet-zone metadata before success",
+    "Normal cancellation/disconnect/drop/idle cleanup and revoke-during-finish rollback guard",
+    "Heartbeat5..30 seconds and enrollment device-name validation",
+    "Per-user host instance lock, historical request filtering/orphan cleanup, transient event retry",
+    "Connected reporting after each answered healthy connection generation"
+  ],
+  "releaseGates": [
+    "Real Windows screen capture/input, DPAPI, consent UI and clipboard/upload adapter testing",
+    "Physical Android-to-Windows tools/media interoperability",
+    "Forced TURN UDP/TCP/TLS and network migration matrix",
+    "Abrupt-crash/power-loss recovery: this build may leave private .part files; no startup deletion/resume is implemented",
+    "Package signing, reproducible platform CI, licensing completeness and independent security review"
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.ConnectionChecksTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-18T09:34:57.074Z" hostname="8fddb963d910" time="1.769">
+  <properties/>
+  <testcase name="unrecognizedOrLegacyEndpointStopsBeforeIdentityDisclosure" classname="com.openremote.mobile.ConnectionChecksTest" time="0.034"/>
+  <testcase name="lookupMustReturnTheRequestedPcAndCannotRedirectTheConnection" classname="com.openremote.mobile.ConnectionChecksTest" time="0.151"/>
+  <testcase name="validServerInformationMeansConfiguredTransportsOnly" classname="com.openremote.mobile.ConnectionChecksTest" time="0.001"/>
+  <testcase name="explicitChecksUseFreshProofAndAuthenticatedPcLookupEachTime" classname="com.openremote.mobile.ConnectionChecksTest" time="0.323"/>
+  <testcase name="serverOnlyCheckDoesNotSendAnyPcRequest" classname="com.openremote.mobile.ConnectionChecksTest" time="0.095"/>
+  <testcase name="rejectsDuplicateAmbiguousIncompatibleAndOversizedServerInformation" classname="com.openremote.mobile.ConnectionChecksTest" time="0.003"/>
+  <testcase name="cancellationDoesNotContinueToPhoneProofOrPcLookup" classname="com.openremote.mobile.ConnectionChecksTest" time="1.016"/>
+  <testcase name="offlinePcAndMissingRelayRemainWarningsWithConcreteNextSteps" classname="com.openremote.mobile.ConnectionChecksTest" time="0.144"/>
+  <testcase name="errorsDescribeRecoveryWithoutEchoingLowLevelSecrets" classname="com.openremote.mobile.ConnectionChecksTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

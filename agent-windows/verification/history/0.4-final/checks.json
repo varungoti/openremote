@@ -1,0 +1,141 @@
+{
+  "startedAtUtc": "2026-11-18T08:53:38.577040+00:00",
+  "sourceInputs": {
+    "Cargo.toml": "954d6685cc720de9ab710c65befcdd45c32f0547d9c59ddb664bfb903768f40f",
+    "Cargo.lock": "5880af12b33b5a249034bd9a6ba6e51998b38d35344691ad718a310c58f50ce2",
+    "src/api.rs": "f2c47c4dfa86d6ec09a17c9429d7c628e304912406c44925a2d3ca7ce4c81caa",
+    "src/config.rs": "13baa7450cc77332fcdfca54c1a8320b008c5b3192f77d87d6f9730b78a44579",
+    "src/displays.rs": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+    "src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+    "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+    "src/lib.rs": "5112c205207dc77078ca79eb3ab7906069286b07a25c720a6f683ca3430ef734",
+    "src/main.rs": "e9da79b28e495d75258177180168c1d72313f2545bb90961f32f09b1f5b50e9b",
+    "src/media.rs": "dae8e76edeb07d43c7853dbbd3522af854a0df6fa1590e09748299127ba3028d",
+    "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+    "src/session.rs": "a5ff8c1d37fd0756d18baa78c111672488119fa3855cc091587c4dcd7e9e49b3",
+    "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+    "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+    "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+    "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+    "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96",
+    "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+    "examples/synthetic_peer.rs": "396104ffa5e9624cd363108a1fec7ca9aff5774710659c3c8ef691dba79b162e"
+  },
+  "checks": [
+    {
+      "name": "format",
+      "command": [
+        "cargo",
+        "fmt",
+        "--check"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 0.172,
+      "log": "verification/format.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--offline",
+        "--all-targets"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 7.259,
+      "log": "verification/tests.log"
+    },
+    {
+      "name": "clippy-linux",
+      "command": [
+        "cargo",
+        "clippy",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 1.826,
+      "log": "verification/clippy-linux.log"
+    },
+    {
+      "name": "clippy-windows",
+      "command": [
+        "cargo",
+        "clippy",
+        "--locked",
+        "--offline",
+        "--all-targets",
+        "--target",
+        "x86_64-pc-windows-gnullvm",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 2.542,
+      "log": "verification/clippy-windows.log"
+    },
+    {
+      "name": "build-windows",
+      "command": [
+        "cargo",
+        "build",
+        "--locked",
+        "--offline",
+        "--release",
+        "--target",
+        "x86_64-pc-windows-gnullvm"
+      ],
+      "exitCode": 0,
+      "durationSeconds": 65.776,
+      "log": "verification/build-windows.log"
+    }
+  ],
+  "captureSmoke": {
+    "command": [
+      "cargo",
+      "run",
+      "--locked",
+      "--offline",
+      "--example",
+      "capture_smoke",
+      "--",
+      "/usr/bin/ffmpeg",
+      "/workspace/scratch/72f8c6db0182/evidence/host-0.4-smoke.h264"
+    ],
+    "exitCode": 0,
+    "durationSeconds": 2.578,
+    "result": {
+      "decodedFrames": 30,
+      "distinctFrameHashes": 30,
+      "encodedAccessUnits": 30,
+      "ffmpegSha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+      "fixture": "synthetic_capture_encode_assemble_decode",
+      "ok": true,
+      "output": "/workspace/scratch/72f8c6db0182/evidence/host-0.4-smoke.h264"
+    },
+    "outputSha256": "4af594fcef1a1db290d42f0991abc06c698ab5159d91748c05719360eee40c96",
+    "codec": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Constrained Baseline",
+          "width": 640,
+          "height": 360,
+          "level": 31,
+          "nb_read_frames": "30"
+        }
+      ]
+    },
+    "scope": "Network-free generated test bars. The production args/Annex-B parser and real encoder/decoder run; native Windows capture, SendInput, or WebRTC transport are not exercised."
+  },
+  "sourceUnchanged": true,
+  "finishedAtUtc": "2026-11-18T08:54:58.734073+00:00"
+}

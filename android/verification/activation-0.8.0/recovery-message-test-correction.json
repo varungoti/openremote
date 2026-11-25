@@ -1,0 +1,12 @@
+{
+  "initialFailure": "PairingTest.pairingErrorsProvideRecoveryWithoutSecrets expected obsolete one-use Server ID recovery",
+  "requirement": "Permanent PC ID with owner activation; ambiguous redemption outcome requires checking host connection list before manual retry",
+  "changedFiles": [
+    "android/app/src/test/java/com/openremote/mobile/PairingTest.kt"
+  ],
+  "sourceBefore": "0805a388321416b240d19f9b8154fa42a4f11ff812f4e3050b6b3fff137c1872",
+  "sourceAfter": "a62d8f215dd455a365e7f64af7dd9f0e9e7692a01637fe5d2236567a0f9c82dd",
+  "productionInputsChanged": false,
+  "secretRedactionAssertionsRetained": true,
+  "authorization": "Parent permitted bounded concrete test fixes after coordination; sent exact failure and planned test-only correction before applying"
+}

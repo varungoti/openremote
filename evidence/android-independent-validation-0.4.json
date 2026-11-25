@@ -1,0 +1,25 @@
+{
+  "version": "0.4.0",
+  "manifests": [
+    {
+      "manifest": "android/verification/source-inputs.sha256",
+      "entries": 44,
+      "sha256": "b3a56713276d984fa93d0bd1e09ef6075c7f4689f6bfa65345b11638d7563a27",
+      "mismatches": []
+    },
+    {
+      "manifest": "android/verification/artifacts.sha256",
+      "entries": 9,
+      "sha256": "53a43998803e778026b42ad8bd9b9473515fa76b5352f4eb0b531dd0ef85652f",
+      "mismatches": []
+    },
+    {
+      "manifest": "android/verification/build-evidence.sha256",
+      "entries": 22,
+      "sha256": "ed4bb7cca0a4503e86f05ee9e46a0612e22f0ff83b275e853a746b763e34a1fd",
+      "mismatches": []
+    }
+  ],
+  "debugCertificateMatches0_3": true,
+  "deviceExecution": false
+}

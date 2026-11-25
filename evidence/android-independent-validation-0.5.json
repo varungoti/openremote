@@ -1,0 +1,30 @@
+{
+  "version": "0.5.0",
+  "checkedAtUtc": "2026-11-18T09:44:48.487939+00:00",
+  "manifests": [
+    {
+      "manifest": "android/verification/source-inputs.sha256",
+      "sha256": "59222880985370d0daaf8aa185f00b2b0561eee7adf27841dc0be48079bced58",
+      "filesChecked": 48,
+      "ok": true
+    },
+    {
+      "manifest": "android/verification/artifacts.sha256",
+      "sha256": "5b9ea9334c8c745b6826b025030b6cce3b47f479ee19a643b87e89c40278dd6f",
+      "filesChecked": 9,
+      "ok": true
+    },
+    {
+      "manifest": "android/verification/build-evidence.sha256",
+      "sha256": "7c45337a43b7d113e110049d9acafe814307383519980b364c5d9e510c79f875",
+      "filesChecked": 27,
+      "ok": true
+    }
+  ],
+  "debugCertificateMatches04": true,
+  "certificateSha256": "a0cc38598018756a992fb04c5aa327060f124e8464becc1f9a2f757f5186d21f",
+  "jvmTests": 63,
+  "lintErrors": 0,
+  "lintWarnings": 5,
+  "nativeDeviceExecution": false
+}

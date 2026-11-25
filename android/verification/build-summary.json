@@ -1,0 +1,78 @@
+{
+  "version": "0.5.0",
+  "versionCode": 5,
+  "build": "BUILD SUCCESSFUL in 1m 32s",
+  "tasks": {
+    "total": 133,
+    "executed": 28,
+    "upToDate": 105
+  },
+  "sourceInputs": 48,
+  "sourceManifestSha256": "59222880985370d0daaf8aa185f00b2b0561eee7adf27841dc0be48079bced58",
+  "jvmTests": 63,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "lintErrors": 0,
+  "lintWarnings": 5,
+  "debugCertificateSha256": "a0cc38598018756a992fb04c5aa327060f124e8464becc1f9a2f757f5186d21f",
+  "debugCertificateMatches04": true,
+  "physicalUpgradeTested": false,
+  "artifacts": [
+    {
+      "path": "android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "bytes": 360615,
+      "sha256": "99a8a3adcd96a61df60074c042c7c9570a978f4ae82fbb9557f663db2bf15ad4"
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "bytes": 24726168,
+      "sha256": "de856ea9917927af0354a46e3c43cc2e7b5203222c96f3470ac4b0e1c54d0a16"
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-armeabi-v7a-debug.apk",
+      "bytes": 19251944,
+      "sha256": "98eeb0e1598892501335890b953130e22169d12750db7bc866c3aa6d209b166b"
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-x86-debug.apk",
+      "bytes": 25258452,
+      "sha256": "3fca5a6c9f51c2001ea5b5c70731ba4cf7a233c469137c6345684f9fa6e15388"
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-x86_64-debug.apk",
+      "bytes": 28604962,
+      "sha256": "d2a9aa218920230f166b385c4d3f1840d75407b77e7f4c153a9e4eab0a964752"
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+      "bytes": 13796554,
+      "sha256": "bd64d756ed233fa142402c7f931d2c97028864a66133b6158bb99d47f8afe0df"
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk",
+      "bytes": 8322330,
+      "sha256": "267756df906c0457bfca3fbc3bdd52ca10daaa3f8c85e4e4607fd4cbb6502af2"
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-x86-release-unsigned.apk",
+      "bytes": 14328838,
+      "sha256": "009a10ea547d18afb0978141102af94659204e1807a37beb4a8e87da4f7fc758"
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-x86_64-release-unsigned.apk",
+      "bytes": 17675348,
+      "sha256": "d0b704d5e7b99f27cd10f710ec0db74086f02924bc5cbbd2e699480cf3b4da8e"
+    }
+  ],
+  "nativeDeviceTestsRun": false,
+  "releaseReady": false,
+  "notRun": [
+    "Android install/upgrade",
+    "Keystore execution",
+    "Compose and singleTask intent handling",
+    "intent arrival during SAF picker",
+    "physical desktop media/input and relay",
+    "16KiB page runtime"
+  ]
+}

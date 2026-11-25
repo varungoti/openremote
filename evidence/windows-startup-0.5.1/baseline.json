@@ -1,0 +1,36 @@
+{
+  "reportedDate": "2026-11-19",
+  "userSymptom": "Windows executable exits when launched",
+  "baselineSourceRevision": "433d71156339ea2b26a45e01b340b60ebbfcd803",
+  "baselineArtifact": {
+    "name": "OpenRemote-0.5.0-Windows-x64-Test.exe",
+    "sha256": "ef0b0470444edd6c4f15435a2155094ac7e9dbaa1985242578faa163cfc1948f",
+    "sizeBytes": 9433088,
+    "machine": "0x8664",
+    "subsystem": 3,
+    "subsystemMeaning": "Windows console (CUI)"
+  },
+  "observedSourceFacts": [
+    "main calls Config::load_or_create before creating HostPanel",
+    "load_or_create writes a default config then returns an error when no config exists",
+    "default config has an empty ffmpeg_sha256; validate returns an error until changed",
+    "first enrollment requires OPENREMOTE_ENROLLMENT_TOKEN process environment variable",
+    "main propagates startup errors as Result and has no native startup error UI"
+  ],
+  "inference": "Explorer double-click on a clean or incompletely configured PC reaches an error before any application window exists; a console closes with process exit. This is consistent with the reported symptom.",
+  "runtimeReproduction": "not_run: no user PC logs or native Windows runtime available; source-derived diagnosis, not an observed crash trace",
+  "sourceFiles": {
+    "agent-windows/src/main.rs": {
+      "sha256": "e3fff00ca1e61b20d4564d808e40b9ef8179594bdc28fd6be27d346a6b21f3d4",
+      "preservedAt": "evidence/windows-startup-0.5.1/baseline-source/main.rs"
+    },
+    "agent-windows/src/config.rs": {
+      "sha256": "13baa7450cc77332fcdfca54c1a8320b008c5b3192f77d87d6f9730b78a44579",
+      "preservedAt": "evidence/windows-startup-0.5.1/baseline-source/config.rs"
+    },
+    "agent-windows/src/api.rs": {
+      "sha256": "f2c47c4dfa86d6ec09a17c9429d7c628e304912406c44925a2d3ca7ce4c81caa",
+      "preservedAt": "evidence/windows-startup-0.5.1/baseline-source/api.rs"
+    }
+  }
+}

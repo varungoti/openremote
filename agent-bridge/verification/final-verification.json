@@ -1,0 +1,117 @@
+{
+  "startedAt": "2026-11-20T10:48:52.444734+00:00",
+  "baseRevision": "55d0dd83697c51df017ee2b1c790c8cab78c9808",
+  "nodeVersion": "v24.22.3",
+  "sourceInputsBefore": {
+    "package.json": "d099f6216e375b7e05241e7d44dfced4497c302cec1631301f3970735459af94",
+    "package-lock.json": "d4a5bcacd3e204d82b2534248fd2130aa35c4d70065f864d999b23988b390108",
+    "README.md": "c1c9189fe4785993d53df40e212c5786c9a87e759f1a71f900f7e6eda29fe34a",
+    "src/bridge.mjs": "da84982b1049bb67cbee21c36affa661591c4e4be07daadbaa7395a8e690b6e8",
+    "src/browser.mjs": "89769473391b90d4a1ff51ea540ff66e0148e29d5e118cc16aca867e32aba932",
+    "src/errors.mjs": "e4e20abd8a4a5df50bf5cbb2fbf468eae54fd6be6c3025d304fad0e51e489247",
+    "src/index.mjs": "9e890e154ac89810dfab4ece746ae7a4d4858ba7baea26538624870bda05594e",
+    "src/profile.mjs": "45feee9bcced0a7c95843746c6818ad838feaafbe8e4a4cae346767268a02a6a",
+    "src/server.mjs": "89f41a5e7ffee78fce47b76e13e5812d0c8090bc4f4f38068e91d48febf08b21",
+    "test/bridge.test.mjs": "c8c76cea023fa92960b7c326a13b1339c4aa479ba6244cb52a1b8835b5912285",
+    "test/stdio.test.mjs": "6c0abc03eb2493dd2a340636a6c7856fec6ba0cdc893d648d2cd16ff73c0cc9f"
+  },
+  "checks": [
+    {
+      "command": [
+        "node",
+        "--check",
+        "src/bridge.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "src/browser.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "src/errors.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "src/index.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "src/profile.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "src/server.mjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "--test",
+        "test/bridge.test.mjs",
+        "test/stdio.test.mjs"
+      ],
+      "exitCode": 0,
+      "seconds": 2.339,
+      "log": "final-tests.log"
+    }
+  ],
+  "dependencyInstall": {
+    "command": [
+      "npm",
+      "ci",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund",
+      "--fetch-retries=0",
+      "--fetch-timeout=20000"
+    ],
+    "exitCode": 0,
+    "log": "npm-ci.log"
+  },
+  "limitations": [
+    "Production Chromium execution is blocked by the workspace socket EPERM; browser behavior uses injected mocks in this suite.",
+    "The bundled service origin is empty, so no real public desktop or relay connection is claimed.",
+    "No Phaze or other third-party MCP client has been configured or tested."
+  ],
+  "sources": [
+    "https://ts.sdk.modelcontextprotocol.io/v2/serving/stdio",
+    "https://ts.sdk.modelcontextprotocol.io/v2/servers/logging-progress-cancellation",
+    "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports"
+  ],
+  "sourceInputsAfter": {
+    "package.json": "d099f6216e375b7e05241e7d44dfced4497c302cec1631301f3970735459af94",
+    "package-lock.json": "d4a5bcacd3e204d82b2534248fd2130aa35c4d70065f864d999b23988b390108",
+    "README.md": "c1c9189fe4785993d53df40e212c5786c9a87e759f1a71f900f7e6eda29fe34a",
+    "src/bridge.mjs": "da84982b1049bb67cbee21c36affa661591c4e4be07daadbaa7395a8e690b6e8",
+    "src/browser.mjs": "89769473391b90d4a1ff51ea540ff66e0148e29d5e118cc16aca867e32aba932",
+    "src/errors.mjs": "e4e20abd8a4a5df50bf5cbb2fbf468eae54fd6be6c3025d304fad0e51e489247",
+    "src/index.mjs": "9e890e154ac89810dfab4ece746ae7a4d4858ba7baea26538624870bda05594e",
+    "src/profile.mjs": "45feee9bcced0a7c95843746c6818ad838feaafbe8e4a4cae346767268a02a6a",
+    "src/server.mjs": "89f41a5e7ffee78fce47b76e13e5812d0c8090bc4f4f38068e91d48febf08b21",
+    "test/bridge.test.mjs": "c8c76cea023fa92960b7c326a13b1339c4aa479ba6244cb52a1b8835b5912285",
+    "test/stdio.test.mjs": "6c0abc03eb2493dd2a340636a6c7856fec6ba0cdc893d648d2cd16ff73c0cc9f"
+  },
+  "sourceInputsMatch": true,
+  "completedAt": "2026-11-20T10:48:56.452767+00:00"
+}

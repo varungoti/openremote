@@ -1,0 +1,23 @@
+
+7-Zip (z) 26.06 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-11-06
+ 64-bit locale=C.UTF-8 Threads:9 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 16521173 bytes (16 MiB)
+
+Extracting archive: /workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/windows-installer-0.7.0/openremote-installer-gttfbb_e/OpenRemote-0.7.0-Windows-x64-Preview-Setup.exe
+--
+Path = /workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/windows-installer-0.7.0/openremote-installer-gttfbb_e/OpenRemote-0.7.0-Windows-x64-Preview-Setup.exe
+Type = Nsis
+Physical Size = 16521173
+Method = LZMA:23
+Solid = +
+Headers Size = 49592
+Embedded Stub Size = 118272
+SubType = NSIS-3 Unicode
+
+Everything is Ok
+
+Files: 11
+Size:       28359587
+Compressed: 16521173

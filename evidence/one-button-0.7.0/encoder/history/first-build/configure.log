@@ -1,0 +1,94 @@
+install prefix            /usr/local
+source path               /workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/encoder-0.7.0-first/source/ffmpeg-9.0.2
+C compiler                /workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/bin/x86_64-w64-mingw32-clang
+C library                 mingw64
+host C compiler           gcc
+host C library            glibc
+ARCH                      x86 (generic)
+big-endian                no
+runtime cpu detection     yes
+standalone assembly       no
+x86 assembler             nasm
+MMX enabled               yes
+MMXEXT enabled            yes
+SSE enabled               yes
+SSSE3 enabled             yes
+AESNI enabled             yes
+CLMUL enabled             yes
+AVX enabled               yes
+AVX2 enabled              yes
+AVX-512 enabled           yes
+AVX-512ICL enabled        yes
+XOP enabled               yes
+FMA3 enabled              yes
+FMA4 enabled              yes
+i686 features enabled     yes
+CMOV is fast              yes
+EBX available             yes
+EBP available             yes
+debug symbols             no
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    yes
+shared                    no
+network support           no
+threading support         w32threads
+safe bitstream reader     yes
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          no
+makeinfo supports HTML    no
+experimental features     yes
+xmllint enabled           no
+
+External libraries:
+mediafoundation
+
+External libraries providing hardware acceleration:
+d3d11va
+
+Libraries:
+avcodec                 avformat                swscale
+avdevice                avutil
+avfilter                swresample
+
+Programs:
+ffmpeg
+
+Enabled decoders:
+bmp                     rawvideo
+
+Enabled encoders:
+h264_mf
+
+Enabled hwaccels:
+
+Enabled parsers:
+h264
+
+Enabled demuxers:
+
+Enabled muxers:
+h264                    null
+
+Enabled protocols:
+pipe
+
+Enabled filters:
+aformat                 format                  scale
+anull                   hflip                   testsrc2
+atrim                   hwdownload              transpose
+crop                    null                    trim
+ddagrab                 rotate                  vflip
+
+Enabled bsfs:
+h264_metadata           h264_mp4toannexb
+
+Enabled indevs:
+gdigrab                 lavfi
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later

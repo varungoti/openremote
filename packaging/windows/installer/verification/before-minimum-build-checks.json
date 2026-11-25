@@ -1,0 +1,71 @@
+{
+  "extraction": {
+    "log": "syntax-only-extraction.log",
+    "payload": {
+      "START-HERE.txt": {
+        "sha256": "54d40a73c0922913316b27a6a2f58a9775a5aa65375983c864846dded6e7537e",
+        "sizeBytes": 7735
+      },
+      "THIRD-PARTY-NOTICES.txt": {
+        "sha256": "32f3d083353d66b67609501d64bde9a3d4dd29d2173d239c61285271e9f9ec80",
+        "sizeBytes": 3152339
+      },
+      "Uninstall.exe": {
+        "pe": {
+          "machine": 332,
+          "optionalMagic": 267,
+          "subsystem": 2
+        },
+        "sha256": "eb38215f96bcbc86ffea5f96521b761459ab022102e57fbcb6182ae674cd6def",
+        "sizeBytes": 141174
+      },
+      "openremote-agent.exe": {
+        "sha256": "ef0b0470444edd6c4f15435a2155094ac7e9dbaa1985242578faa163cfc1948f",
+        "sizeBytes": 9433088
+      },
+      "package-manifest.json": {
+        "sha256": "749e95cada4a708a2bd44f67edd65fedd2bcb9392ad72a07966c44a6a6cdc92e",
+        "sizeBytes": 46
+      }
+    },
+    "status": "passed",
+    "tool": "7-Zip26.06"
+  },
+  "nativeWindowsInstallUpgradeUninstall": {
+    "reason": "no Windows runner",
+    "status": "not_run"
+  },
+  "nsisSyntax": {
+    "log": "syntax-only-makensis.log",
+    "nativeExecution": false,
+    "status": "passed",
+    "warnings": 0
+  },
+  "originalConsoleHostAdmission": {
+    "record": "original-host-negative-control.json",
+    "status": "rejected"
+  },
+  "recordedAtUtc": "2026-11-19T07:46:28.900813+00:00",
+  "runtimeLocksRollbackShortcutCOM": {
+    "reason": "source review and compiler verification only; no Win32 execution",
+    "status": "not_run"
+  },
+  "scope": "Installer syntax/extraction tooling and builder admission only. Syntax-check image contains original0.5.0host and is NOT a delivery candidate. Final host0.5.1package must be built through pinned-evidence builder separately.",
+  "sourceInputs": {
+    "packaging/windows/installer/OpenRemote.nsi": "3e976f3b16dd56d7aa421e413bd80a4271029abade8d3ff5241ff22f3ae26352",
+    "packaging/windows/installer/tests/test_builder.py": "18f5d38d8b677f427795e28eff4fa13bf7bd11d3bf80e3b090e3f2cac6394f20",
+    "scripts/build-windows-installer.py": "f4303eeee13cbfd60022d75070380752af5dac271142923ec5748fa110903c0a"
+  },
+  "supersededExtraction": {
+    "log": "old-extractor-failure.log",
+    "reason": "upstream parser issue225, repaired in7-Zip26.02+",
+    "status": "failed_uninstaller_missing",
+    "tool": "7-Zip25.01"
+  },
+  "tests": {
+    "command": "python3 -m unittest discover -s packaging/windows/installer/tests -v",
+    "failed": 0,
+    "log": "python-tests.log",
+    "passed": 10
+  }
+}

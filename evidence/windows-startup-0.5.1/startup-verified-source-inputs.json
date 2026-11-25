@@ -1,0 +1,18 @@
+{
+  "agent-windows/Cargo.lock": "85f9b1ddd81df7f53cbdfb2735b4d58617ac1fc47a0ef5ea1724a65c1c2fce87",
+  "agent-windows/Cargo.toml": "43acd1a397245ae3a7ba697cd52d38d52407a3c7d9f1cfcf40f798664982f16a",
+  "agent-windows/src/api.rs": "efa299e0912f0366f34a30f1e87183c9eae9a59b0a787eb1c1fa448ab0b22214",
+  "agent-windows/src/config.rs": "97802538773c0ed5372f87ff85c9d9981fdfb1e429fff470ed41018e63b4d39d",
+  "agent-windows/src/displays.rs": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+  "agent-windows/src/host_home.rs": "400ba6c73759f7972b0bc290ef4f710183ef08f572d684089ab91cae8441eaba",
+  "agent-windows/src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+  "agent-windows/src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+  "agent-windows/src/lib.rs": "e6c0093d4133608438dc12ccf5ae526ea1568ee78680b211787869bd3fa1fc86",
+  "agent-windows/src/main.rs": "e5ae402be942471743b36f234051a9057b097eb7f5fc76363ba7ad5a9d3a085f",
+  "agent-windows/src/media.rs": "a49122439eada16e8684f8ded7457d1e37111cd7daec0b83aea763c267bda46f",
+  "agent-windows/src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+  "agent-windows/src/session.rs": "a5ff8c1d37fd0756d18baa78c111672488119fa3855cc091587c4dcd7e9e49b3",
+  "agent-windows/src/startup.rs": "16618c4b08fa103ced3abb6fd5feb434d1897b4e6c2de545f120c632a1946bd4",
+  "agent-windows/src/startup_windows.rs": "a9f97c8285ba81f0621e524fc90031f70088b1cce6ba09953a859bd4b1655f92",
+  "agent-windows/src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96"
+}

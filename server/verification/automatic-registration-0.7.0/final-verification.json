@@ -1,0 +1,153 @@
+{
+  "startedAt": "2026-11-19T11:23:30.544854+00:00",
+  "sourceRevision": "865e0a69de9a8e0df3957db33713fac08b783991",
+  "sourceBranch": "feat/one-button-connect",
+  "sourceScope": "Exact uncommitted source input hashes are authoritative; base revision is contextual.",
+  "goVersion": "go version go1.27.4 linux/amd64",
+  "goEnvironment": {
+    "CGO_ENABLED": "1",
+    "GOARCH": "amd64",
+    "GOOS": "linux",
+    "GOVERSION": "go1.27.4"
+  },
+  "toolchainProvenance": "go-toolchain-provenance.json",
+  "sourceInputsBefore": "final-source-inputs-before.json",
+  "checks": [
+    {
+      "name": "unit",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "-count=1",
+        "-json",
+        "./..."
+      ],
+      "cwd": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/server",
+      "environment": {
+        "GOTOOLCHAIN": "local"
+      },
+      "exitCode": 0,
+      "durationSeconds": 30.98,
+      "log": "final-unit.log",
+      "topLevelTestsPassed": 64,
+      "testsIncludingSubcasesPassed": 150,
+      "automaticRegistrationTopLevelTestsPassed": 21,
+      "packagesPassed": [
+        "openremote/controlplane/internal/webclient",
+        "openremote/controlplane/internal/app"
+      ],
+      "failures": []
+    },
+    {
+      "name": "vet",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "vet",
+        "./..."
+      ],
+      "cwd": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/server",
+      "environment": {
+        "GOTOOLCHAIN": "local"
+      },
+      "exitCode": 0,
+      "durationSeconds": 0.969,
+      "log": "final-vet.log"
+    },
+    {
+      "name": "build",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "build",
+        "-trimpath",
+        "-ldflags=-s -w",
+        "-o",
+        "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/controlplane-0.7.0-linux-amd64",
+        "./cmd/controlplane"
+      ],
+      "cwd": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/server",
+      "environment": {
+        "GOTOOLCHAIN": "local",
+        "CGO_ENABLED": "0",
+        "GOOS": "linux",
+        "GOARCH": "amd64"
+      },
+      "exitCode": 0,
+      "durationSeconds": 2.487,
+      "log": "final-build.log"
+    },
+    {
+      "name": "race",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "-race",
+        "-count=1",
+        "-json",
+        "./..."
+      ],
+      "cwd": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/server",
+      "environment": {
+        "GOTOOLCHAIN": "local",
+        "CGO_ENABLED": "1",
+        "GOOS": "linux",
+        "GOARCH": "amd64"
+      },
+      "exitCode": 0,
+      "durationSeconds": 197.79,
+      "log": "final-race.log",
+      "topLevelTestsPassed": 64,
+      "testsIncludingSubcasesPassed": 150,
+      "automaticRegistrationTopLevelTestsPassed": 21,
+      "packagesPassed": [
+        "openremote/controlplane/internal/webclient",
+        "openremote/controlplane/internal/app"
+      ],
+      "failures": []
+    }
+  ],
+  "artifact": {
+    "path": "artifacts/controlplane-0.7.0-linux-amd64",
+    "sha256": "a7f899c0a2d036d3524cc80166a16ee3ea3f83f456abacd1948131e5799276c4",
+    "size": 7450784,
+    "format": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/controlplane-0.7.0-linux-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=hhHOuOUO3JXCFAIMWHr7/ta3E9ldi4mn003sGGErF/wJuwQSGo0HfpDEQjUt5V/77--6Oobwo6eUI_X2k_c, BuildID[sha1]=ed1aea565efa12d3ee5ed7d8c6002a4fe87473a8, stripped",
+    "staticLinkVerifiedBy": "readelf -l has no PT_INTERP; Go build metadata CGO_ENABLED=0"
+  },
+  "completedAt": "2026-11-19T11:27:22.936856+00:00",
+  "inputsStillMatch": true,
+  "sourceInputsAfter": "final-source-inputs-after.json",
+  "sourceInputs": {
+    "server/cmd/controlplane/main.go": "62e29aff4db7eb9a4eb4ca292b90c24d723df1d2b87a4a6c0f541f3ea4212a7d",
+    "server/internal/app/app.go": "0e6cbc926caa49e4fecb99908a6c6fd2ea1ad3f071d794a89f09f466dd2447f2",
+    "server/internal/app/app_test.go": "3bfb1b00e2b20c81cdca0ddfa48fd65c3dd2844d0cf2eae997d252e93f8b830c",
+    "server/internal/app/auth.go": "8e4bd6107c7dd394b5069a3effcd61ad794323359919beb06d4ba0573ef5272d",
+    "server/internal/app/devices.go": "be69530d9d33a037d21a4927626088ada400c2629ae74469d653cb1c00e8d6ec",
+    "server/internal/app/ice.go": "a8b6f9162c5c93c0016e8699da4e4119cba501d9c1e35b732303adfab9d1c623",
+    "server/internal/app/info.go": "99afc20e3b629340322878e92a3c8eeabb8133ed3e3ade77787ad1cb0144dc93",
+    "server/internal/app/info_test.go": "32dccaac42fa4fa22c957d62f3c34cf4a0122a7f7f69d723567cef1aff1784e7",
+    "server/internal/app/monitor_test.go": "f9d2ef2c783f98d7c242362127d8ad1dc9b7c58dd593292eacc6079b37153da3",
+    "server/internal/app/pairing.go": "25372373556e9454ec9620f7ff70907af0a4e9b6fef07130c356440d84f1ca8a",
+    "server/internal/app/pairing_test.go": "d6ff511f36e10ff8f8e594e13d595889c1dcf89a9e12e5bd41908c100724fdf5",
+    "server/internal/app/registration.go": "10b8ccb2e28167af0c7c1b5cc216e308f6799a8b3be401ee153f54b2dfabf014",
+    "server/internal/app/registration_test.go": "7868561aad1b451651e0d01a1fb3a48b6765ef9510cc26d9a4b9b59141e00c28",
+    "server/internal/app/sessions.go": "bedb7305de53e15aeef3b0aa267e1ac295c31ab3d4cb71eea1dd3c57450b9669",
+    "server/internal/app/store.go": "28369e008066dfaf95fd5da2fed404b9553e2c087045a7db254217bfb47bfd11",
+    "server/internal/app/store_lock_unix.go": "76db9d7821aa0f37142c26e3360dd109555a11f7db5427373aa0df93b0142d24",
+    "server/internal/app/store_lock_windows.go": "1e40c2f90a090360e6528d9103096050739d4964d6e7b4d501f31eeef976ba2b",
+    "server/internal/webclient/handler.go": "3a43783efa55957706f03a33b55612ab271d028a98b0de996ab0099d9be79a29",
+    "server/internal/webclient/handler_test.go": "7ccf9ebb3f503939d2d9cb90c5e811fd75badb1092a8829af4f4d83f9843ab3f",
+    "server/testsupport/pairing_fixture/main.go": "64e14aa1042ef288a2fb75072aef18f562109ae6b2fa0c0765e09feb878b637a",
+    "server/go.mod": "b2c334bf417e42777987db47e58cc1aa067fcd541e6e3a0bac736a6d30504343",
+    "server/internal/webclient/assets/index.html": "302b8fe88665cc303f08e5c5099a02104af6c7669919cb8908d5c7615ad0d1e0",
+    "server/internal/webclient/assets/app.js": "42b8c994b337f9c874d2325bec8538ebc1c78f5c6f7ae054e47534c9f7593230",
+    "server/internal/webclient/assets/core.mjs": "0e4a37d3837e02105ef2f4e78a61c775fc53e1cf2edaca6781847324d5ee72c4",
+    "server/internal/webclient/assets/style.css": "3de7fcdd06504e54492bc2bdc6793394bb9d0d1945664ccd2074b4ea5c45434a"
+  },
+  "artifactHashStillMatches": true,
+  "limitations": [
+    "These checks do not establish native Windows UI, physical phone, browser media decode or real Internet TURN execution.",
+    "Root-owned HTTPS integration and frontend VM checks have separate evidence.",
+    "Automatic registration requires an operator-deployed service and a publisher-configured origin; no public service deployment is claimed."
+  ],
+  "evidenceDirectory": "verification/automatic-registration-0.7.0",
+  "independentClientSourceReview": "independent-windows-source-review.json"
+}

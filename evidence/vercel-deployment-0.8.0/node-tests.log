@@ -1,0 +1,57 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> openremote-vercel@0.8.0 test
+> node --experimental-vm-modules --test test/*.test.mjs
+
+✔ unconfigured service refuses discovery, PIN redemption and registration without upstream traffic (19.604515ms)
+✔ only canonical HTTPS publisher origins are accepted; self-reference fails closed (1.354473ms)
+✔ upstream requires a valid gateway token and a platform-verified address (8.091052ms)
+✔ Vercel IP extraction is platform-specific, strict and canonical, with mapped IPv6 unmapped (15.711705ms)
+✔ viewer uses explicit files and GET/HEAD only with CSP and no query credentials (10.700583ms)
+✔ host, mobile, browser and agent public protocol routes reach the fixed coordinator (22.864432ms)
+✔ gateway discovery applies the same activation and relay declarations to native and direct agent clients (3.880147ms)
+✔ query and path injection cannot select an upstream or smuggle credentials (1.559787ms)
+✔ raw JSON and bearer preserved; cookies, forwarding, origin, host and response secrets are stripped (2.111469ms)
+✔ body limit covers content length and streamed payload without trusting declarations (2.558374ms)
+✔ upstream redirects, HTML and oversized responses fail without secret disclosure (13.444434ms)
+✔ failed or timed-out PIN submission is attempted exactly once with sanitized error (16.620835ms)
+✔ client cancellation aborts the upstream long poll (1.127599ms)
+✔ build preserves production controller bytes, disables entry before JS, and leaves public empty (17.369745ms)
+✔ unbound 503 does not collect a PIN, load the controller, or submit an authentication request (13.480062ms)
+▶ discovery must pass the production protocol decoder and current activation/registration/TLS-relay requirements
+  ✔ wrong service (1.413855ms)
+  ✔ wrong protocol (1.193553ms)
+  ✔ browser controller disabled (1.247303ms)
+  ✔ old activation (1.06364ms)
+  ✔ wrong activation capacity (0.959765ms)
+  ✔ automatic registration disabled (0.714606ms)
+  ✔ automatic registration missing (0.891428ms)
+  ✔ automatic registration wrong type (1.442909ms)
+  ✔ relay not configured (1.105227ms)
+  ✔ TLS relay absent (0.616864ms)
+  ✔ relay boolean mistyped (0.611814ms)
+  ✔ relay fields absent (0.381303ms)
+  ✔ relay absent (0.578913ms)
+✔ discovery must pass the production protocol decoder and current activation/registration/TLS-relay requirements (18.51644ms)
+▶ duplicate JSON, oversized discovery, and HTML error pages stay closed through the real decoder
+  ✔ duplicate (0.76953ms)
+  ✔ oversized (0.653312ms)
+  ✔ HTML (0.248064ms)
+✔ duplicate JSON, oversized discovery, and HTML error pages stay closed through the real decoder (2.113924ms)
+✔ Retry repeats only discovery and enables normal Connect only after controller loading finishes (1.235561ms)
+✔ simultaneous readiness checks share one request and one controller import (0.767846ms)
+✔ a controller module failure keeps fields and submit disabled, including partially attached handlers (0.70072ms)
+✔ network exceptions never appear in public UI and never cause an automatic retry (0.310591ms)
+(node:51) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ discovery is aborted after ten seconds without authentication or automatic retry (34.545791ms)
+✔ a stalled controller load stays closed after its deadline, even if its module finishes later (16.170483ms)
+✔ direct production agent API against an unbound service cannot authenticate, redeem a PIN, or control a desktop (9.914772ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 322.164288

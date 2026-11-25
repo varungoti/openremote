@@ -1,0 +1,110 @@
+{
+  "allRustInputsMatchCommit": true,
+  "binaryInspection": {
+    "hostSha256": "47c5c0a386be1f9b9d75950aefe56a0abc519a643c975bea3561bfe8c986f96b",
+    "installerSha256": "fe593f19f80b45647e6f434ad6951d5a245e4ea328e51a4a0093db56bbbce5b9",
+    "nativeExecution": "not_run",
+    "record": "independent-final-installer-inspection.json",
+    "recordSha256": "4f44835b124945174757dda5fd4279a70d800129c005dab5c99271b29b0c4367",
+    "status": "passed_static_inspection"
+  },
+  "engineeringAxis": "reviewed worker/UI ownership, cancellation/persistence ordering, origin binding, bounded reads/writes, secret handling, file activation and package extraction guards",
+  "finalCheckRecord": {
+    "executedBy": "root; records independently read by reviewer",
+    "file": "final-checks.json",
+    "sha256": "22743a3152dccc9ea09ecafabdb1787922d9e8cdab80be8390dd013cbd59b946",
+    "sourceUnchanged": true,
+    "status": "passed"
+  },
+  "lastVerifiedAtUtc": "2026-11-19T07:53:14.992895+00:00",
+  "requirementsAxis": "first-run/old-template visible setup, recoverable errors and installer handoff addressed in source; actual Windows behavior remains not_run",
+  "residualScope": [
+    "Valid JSON with invalid advanced settings outside the four visible fields may still require owner file repair; old default template is recoverable through the form.",
+    "First enrollment transport loss can still require owner recovery of server registration;409 is explicit and does not instruct deleting identity files.",
+    "Uninstaller/installer native registry, COM shortcut, upgrade/rollback and GUI behavior remain unexecuted.",
+    "Windows UI/DPAPI/native encoder/input and phone connectivity remain unexecuted.",
+    "Production signing and broader release gates remain unresolved."
+  ],
+  "reviewedAtUtc": "2026-11-19T07:49:28.353799+00:00",
+  "rustInputCount": 22,
+  "rustSourceInputs": {
+    "Cargo.lock": "85f9b1ddd81df7f53cbdfb2735b4d58617ac1fc47a0ef5ea1724a65c1c2fce87",
+    "Cargo.toml": "43acd1a397245ae3a7ba697cd52d38d52407a3c7d9f1cfcf40f798664982f16a",
+    "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+    "examples/synthetic_peer.rs": "396104ffa5e9624cd363108a1fec7ca9aff5774710659c3c8ef691dba79b162e",
+    "src/api.rs": "efa299e0912f0366f34a30f1e87183c9eae9a59b0a787eb1c1fa448ab0b22214",
+    "src/config.rs": "97802538773c0ed5372f87ff85c9d9981fdfb1e429fff470ed41018e63b4d39d",
+    "src/displays.rs": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+    "src/host_home.rs": "400ba6c73759f7972b0bc290ef4f710183ef08f572d684089ab91cae8441eaba",
+    "src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+    "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+    "src/lib.rs": "e6c0093d4133608438dc12ccf5ae526ea1568ee78680b211787869bd3fa1fc86",
+    "src/main.rs": "e5ae402be942471743b36f234051a9057b097eb7f5fc76363ba7ad5a9d3a085f",
+    "src/media.rs": "a49122439eada16e8684f8ded7457d1e37111cd7daec0b83aea763c267bda46f",
+    "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+    "src/session.rs": "a5ff8c1d37fd0756d18baa78c111672488119fa3855cc091587c4dcd7e9e49b3",
+    "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+    "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+    "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+    "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+    "src/startup.rs": "42244310716ab976aef1dbb764c82e89b8e7db392e4fd63b63521da48c7077dd",
+    "src/startup_windows.rs": "a9f97c8285ba81f0621e524fc90031f70088b1cce6ba09953a859bd4b1655f92",
+    "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96"
+  },
+  "rustSourceInputsAggregateSha256": "21cff28037ef411a562cfa0823a420408fb1c2fb2086705aa20498237d26a725",
+  "semanticallyReviewedFiles": {
+    "agent-windows/Cargo.lock": "85f9b1ddd81df7f53cbdfb2735b4d58617ac1fc47a0ef5ea1724a65c1c2fce87",
+    "agent-windows/Cargo.toml": "43acd1a397245ae3a7ba697cd52d38d52407a3c7d9f1cfcf40f798664982f16a",
+    "agent-windows/src/api.rs": "efa299e0912f0366f34a30f1e87183c9eae9a59b0a787eb1c1fa448ab0b22214",
+    "agent-windows/src/config.rs": "97802538773c0ed5372f87ff85c9d9981fdfb1e429fff470ed41018e63b4d39d",
+    "agent-windows/src/host_home.rs": "400ba6c73759f7972b0bc290ef4f710183ef08f572d684089ab91cae8441eaba",
+    "agent-windows/src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+    "agent-windows/src/lib.rs": "e6c0093d4133608438dc12ccf5ae526ea1568ee78680b211787869bd3fa1fc86",
+    "agent-windows/src/main.rs": "e5ae402be942471743b36f234051a9057b097eb7f5fc76363ba7ad5a9d3a085f",
+    "agent-windows/src/media.rs": "a49122439eada16e8684f8ded7457d1e37111cd7daec0b83aea763c267bda46f",
+    "agent-windows/src/startup.rs": "42244310716ab976aef1dbb764c82e89b8e7db392e4fd63b63521da48c7077dd",
+    "agent-windows/src/startup_windows.rs": "a9f97c8285ba81f0621e524fc90031f70088b1cce6ba09953a859bd4b1655f92",
+    "packaging/windows/installer/OpenRemote.nsi": "3e976f3b16dd56d7aa421e413bd80a4271029abade8d3ff5241ff22f3ae26352",
+    "scripts/build-windows-installer.py": "f4303eeee13cbfd60022d75070380752af5dac271142923ec5748fa110903c0a"
+  },
+  "sourceFindings": [
+    {
+      "cause": "old Config::load_or_create wrote invalid sample then returned error before a persistent UI; now no-argument Windows entry calls visible setup and missing settings are editable state",
+      "id": "startup-first-run-exit",
+      "status": "resolved"
+    },
+    {
+      "cause": "old ctrl_c error was interpreted as Stop; now cancellation occurs only on successful signal",
+      "id": "console-signal-error",
+      "status": "resolved"
+    },
+    {
+      "cause": "dropping in-flight first enrollment could orphan a server registration; bounded enrollment request and protected local write now finish before Close forbids subsequent host startup",
+      "id": "enrollment-cancellation",
+      "status": "resolved_in_source"
+    },
+    {
+      "cause": "401/403 reason now retained for persistent dialog after host cleanup",
+      "id": "revoked-host-invisible-exit",
+      "status": "resolved_in_source"
+    },
+    {
+      "cause": "registration origin and current-settings reads now take at most65537 bytes before rejecting oversize",
+      "id": "bounded-file-read",
+      "status": "resolved"
+    },
+    {
+      "cause": "serialized settings now must fit65536 bytes before any temp/recovery write; regression verifies no new file or replacement on oversized result",
+      "id": "writer-reader-size-mismatch",
+      "status": "resolved"
+    },
+    {
+      "cause": "desktop ownership recorded; upgrade/uninstall require matching saved target and arguments before removal",
+      "id": "installer-shortcut-ownership",
+      "status": "resolved_in_source"
+    }
+  ],
+  "sourceReviewStatus": "no_open_blocking_findings",
+  "sourceRevision": "b25975bf632902a6f65d2f6e71c3722b55010e19",
+  "validationAuthority": "This record is independent source review and source custody. Root final-checks.json owns fresh build/test outcomes. No test success is inferred solely from source review."
+}

@@ -1,0 +1,8 @@
+rustc 1.100.0 (0ef1bc386 2026-11-09)
+cargo 1.100.0 (3acc79c0c 2026-11-05)
+clang version 23.1.5 (https://github.com/llvm/llvm-project.git 392dfff97d29b59d77e5cac6d4b6ef2585fe7117)
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: /workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/bin
+Configuration file: /workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/bin/x86_64-w64-windows-gnu.cfg
+v3.11-1

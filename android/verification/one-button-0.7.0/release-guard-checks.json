@@ -1,0 +1,39 @@
+{
+  "sourceSha256": "9f7c42144d286b59e008a8ef572f847764805819090fe5276b59e098b6246d4b",
+  "defaultUnconfiguredRelease": {
+    "command": [
+      ":app:assembleRelease",
+      ":app:bundleRelease",
+      "--dependency-verification",
+      "strict",
+      "--offline",
+      "--stacktrace"
+    ],
+    "expectedExitCode": 1,
+    "observedExitCode": 1,
+    "guardRejected": true,
+    "log": "unconfigured-release-rejection.log"
+  },
+  "injectedSigningWithPreviewException": {
+    "command": [
+      ":app:verifyReleaseServiceProfile",
+      "-PopenremoteUnconfiguredPreview=true",
+      "-Pandroid.injected.signing.key.alias=unconfigured-preview-test",
+      "--dependency-verification",
+      "strict",
+      "--offline",
+      "--stacktrace"
+    ],
+    "expectedExitCode": 1,
+    "observedExitCode": 1,
+    "guardRejected": true,
+    "log": "unconfigured-signing-rejection.log"
+  },
+  "explicitUnsignedPreview": {
+    "flag": "-PopenremoteUnconfiguredPreview=true",
+    "guardAllowed": true,
+    "configured": false,
+    "customerRelease": false,
+    "log": "final-build.log"
+  }
+}

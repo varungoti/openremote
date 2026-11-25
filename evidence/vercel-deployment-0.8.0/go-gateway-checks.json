@@ -1,0 +1,74 @@
+{
+  "recordedAtUtc": "2026-11-20T12:14:06.240796+00:00",
+  "gitRevision": "cb6c628e5a09a4fcde77018368a4716616248dc8",
+  "workingTreeChanges": true,
+  "toolchain": "go version go1.27.4 linux/amd64",
+  "commandWorkingDirectory": "server",
+  "scope": "Authenticated publisher gateway client identity, independent TLS and application authorization, per-client ordinary/sensitive/pairing/registration budgets, optional-default compatibility; no hosted service or desktop-media claim.",
+  "checks": [
+    {
+      "name": "same_egress_regression_before_fix",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "./internal/app",
+        "-run",
+        "^TestGatewaySeparatesClientsBehindOneEgress$",
+        "-count=1"
+      ],
+      "exitCode": 1,
+      "expectedFailure": true,
+      "log": "go-gateway-before.log",
+      "sourceState": "Config field and initial regression test present; gateway authentication/context override not yet implemented. Both ordinary and sensitive second-client requests incorrectly received429."
+    },
+    {
+      "name": "focused_gateway_after_fix",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "./internal/app",
+        "-run",
+        "^TestGateway",
+        "-count=1"
+      ],
+      "exitCode": 0,
+      "log": "go-gateway-focused.log",
+      "topLevelTests": 6,
+      "sourceState": "Implementation complete; final race run also includes subsequent added trusted-forwarding-hop assertion and health-scope assertion."
+    },
+    {
+      "name": "vet",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "vet",
+        "./..."
+      ],
+      "exitCode": 0,
+      "log": "go-gateway-vet.log"
+    },
+    {
+      "name": "full_race_suite",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "-race",
+        "./..."
+      ],
+      "exitCode": 0,
+      "log": "go-gateway-race.log",
+      "testedPackages": 2,
+      "packagesWithoutTests": 2,
+      "applicationPackageSeconds": 245.889,
+      "sourceState": "Final Go production and regression-test files as hashed in this report."
+    }
+  ],
+  "sourceSha256": {
+    "server/internal/app/app.go": "8b0f8e2f85731891e86d4051bf33d9dffebb19954ca16faf12fda0a278982093",
+    "server/internal/app/gateway.go": "ac2468ac29fca1bcfe6007b4ffff3278e15bed05f96c41b5a8cbe0b1ef276b28",
+    "server/internal/app/gateway_test.go": "15096171568376addf7c97f2f661e355d277574519ca0bf65142b8e943f28d03",
+    "server/internal/app/pairing.go": "63a41bbdb521acf798254e1fd677fb21221a44e8dcb3c2c9572bde589e6c2ba2",
+    "server/cmd/controlplane/main.go": "2a2888a6f1bc893ff1ce24bd2e28d2c2d3baad4d8a640a1ba33fcaee4aa652fb",
+    "docs/deployment.md": "38ea29b7373b6aa7da7abfea7c58232c2c5edcf333b981805eb72f3e04a9a6ea"
+  },
+  "logCapture": "Raw tool-returned command stdout/stderr copied verbatim; no gateway tokens, bearer tokens, PINs or environment values included."
+}

@@ -1,0 +1,240 @@
+{
+  "recordedDate": "2026-11-18",
+  "hostVersion": "0.5.0",
+  "rustToolchain": "1.100.0",
+  "windowsTarget": "x86_64-pc-windows-gnullvm",
+  "binary": {
+    "relativePath": "target/x86_64-pc-windows-gnullvm/release/openremote-agent.exe",
+    "sha256": "ef0b0470444edd6c4f15435a2155094ac7e9dbaa1985242578faa163cfc1948f",
+    "sizeBytes": 9433088,
+    "signature": "unsigned",
+    "validation": "cross-compiled and linked; not executed on Windows",
+    "peImportDlls": [
+      "bcryptprimitives.dll",
+      "ntdll.dll",
+      "kernel32.dll",
+      "ws2_32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "advapi32.dll",
+      "bcrypt.dll",
+      "crypt32.dll",
+      "gdi32.dll",
+      "iphlpapi.dll",
+      "user32.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll"
+    ],
+    "runtimeDependency": "A separately supplied, checksum-verified FFmpeg build with gdigrab and libx264 is required; FFmpeg is not embedded."
+  },
+  "checks": {
+    "rustUnitTests": {
+      "command": "cargo test --locked --offline --all-targets",
+      "workingDirectory": "agent-windows",
+      "runtimePlatform": "Linux x86_64",
+      "passed": 65,
+      "failed": 0,
+      "ignored": 0,
+      "scope": "Linux execution: pure display topology/epoch/geometry tests, strict control parsing, real temporary-file tools I/O with explicit native adapters, lifecycle/cancellation/release regressions, and one actual OS child termination/wait test. Windows native APIs are compiled but not executed. Seven new tests exercise phone-setup serialization/origin/identity bounds, actual UI-thread exit/panic cancellation, work-area fitting and focus-scroll geometry; no Win32 UI executed."
+    },
+    "linuxClippy": {
+      "command": "cargo clippy --locked --offline --all-targets -- -D warnings",
+      "status": "passed",
+      "log": "verification/clippy-linux.log"
+    },
+    "windowsClippy": {
+      "command": "cargo clippy --locked --offline --all-targets --target x86_64-pc-windows-gnullvm -- -D warnings",
+      "status": "passed",
+      "log": "verification/clippy-windows.log"
+    },
+    "format": {
+      "command": "cargo fmt --check",
+      "status": "passed",
+      "log": "verification/format.log"
+    },
+    "captureSmoke": {
+      "command": "cargo run --locked --offline --example capture_smoke -- /usr/bin/ffmpeg /workspace/scratch/72f8c6db0182/evidence/host-0.4-smoke.h264",
+      "result": {
+        "decodedFrames": 30,
+        "distinctFrameHashes": 30,
+        "encodedAccessUnits": 30,
+        "ffmpegSha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+        "fixture": "synthetic_capture_encode_assemble_decode",
+        "ok": true
+      },
+      "codec": {
+        "codec_name": "h264",
+        "profile": "Constrained Baseline",
+        "width": 640,
+        "height": 360,
+        "level": 31,
+        "nb_read_frames": "30"
+      },
+      "outputSha256": "4af594fcef1a1db290d42f0991abc06c698ab5159d91748c05719360eee40c96",
+      "executedForHostVersion": "0.4.0",
+      "scope": "Network-free generated test bars. The production args/Annex-B parser and real encoder/decoder run; native Windows capture, SendInput, or WebRTC transport are not exercised.",
+      "stdoutLog": "verification/history/0.4-final/capture-smoke.stdout.log",
+      "stderrLog": "verification/history/0.4-final/capture-smoke.stderr.log",
+      "ffprobe": "verification/history/0.4-final/capture-ffprobe.json",
+      "status": "carried_forward",
+      "currentVersionNote": "Executed for 0.4 only; not rerun in 0.5. Encoder/configuration/fixture source bytes match the archived input pins. This is not native Windows or networked media evidence.",
+      "unchangedInputs": {
+        "src/media.rs": "dae8e76edeb07d43c7853dbbd3522af854a0df6fa1590e09748299127ba3028d",
+        "src/config.rs": "13baa7450cc77332fcdfca54c1a8320b008c5b3192f77d87d6f9730b78a44579",
+        "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620"
+      }
+    },
+    "nativeWindowsDesktop": {
+      "status": "not_run",
+      "reason": "no Windows device session available"
+    },
+    "webrtcMediaTransport": {
+      "status": "blocked",
+      "reason": "independent runtime harness hit EPERM while opening required sockets/network interface inspection; no transmitted/decoded network frames claimed",
+      "attemptedForHostVersion": "0.2.0",
+      "currentVersionNote": "Blocked 0.2 fixture was not retried in 0.5. No networked video/input success is asserted."
+    },
+    "windowsBuild": {
+      "command": "cargo build --locked --offline --release --target x86_64-pc-windows-gnullvm",
+      "status": "passed",
+      "durationSeconds": 49.167,
+      "execution": "compile/link only",
+      "log": "verification/build-windows.log"
+    },
+    "whitespace": {
+      "command": "git diff --check -- agent-windows/src agent-windows/Cargo.toml agent-windows/Cargo.lock agent-windows/README.md",
+      "status": "passed"
+    },
+    "nativeWindowsSessionTools": {
+      "status": "not_run",
+      "reason": "No Windows desktop is available. Clipboard ownership, delayed rendering, protected owner/SYSTEM ACLs, reparse handling, alternate-stream sharing, handle rename, and native cleanup require Windows device execution."
+    },
+    "toolsOverWebRtc": {
+      "status": "not_run",
+      "reason": "Workspace socket/interface policy already blocked the networked media harness; no retry or policy bypass was attempted. Protocol and storage unit tests do not establish live DataChannel interoperability."
+    },
+    "nativeWindowsDisplays": {
+      "status": "not_run",
+      "reason": "No Windows desktop is available. Exact-FFmpeg mixed-DPI capture/cursor alignment, negative-origin monitor selection, portrait/rotation/hotplug behavior, consent placement and physical SendInput mapping require real-device validation."
+    },
+    "osChildReaping": {
+      "status": "passed",
+      "test": "media::tests::encoder_cleanup_reaps_an_actual_child_before_returning",
+      "scope": "Production reap_encoder starts termination and waits on a real /bin/sleep child; the test checks completed wait and cleared child process ID. This is Linux OS process evidence, not Windows process evidence."
+    },
+    "teardownRegressions": {
+      "status": "passed",
+      "scope": "Synthetic signaling/session panics, delayed capture cleanup, timeout ownership, stale nonterminal handover state, cancellation while holding the input mutex, and retained failed key/Unicode/button release state. Actual Windows input/peer closure and relay transport remain unexecuted."
+    },
+    "unchangedSourceDuringVerification": {
+      "status": "passed",
+      "startedAtUtc": "2026-11-18T09:37:46.777870+00:00",
+      "finishedAtUtc": "2026-11-18T09:38:40.563659+00:00",
+      "checkRecord": "verification/checks.json"
+    },
+    "nativeWindowsHostHome": {
+      "status": "not_run",
+      "reason": "No Windows desktop runner available. Required physical checks: work-area fit at short/high-DPI and negative-origin monitors, DPI migration, Tab/Enter/Escape, clipboard busy/failure, startup failure, close during active control/upload, and teardown confirmation."
+    },
+    "phoneSetupContract": {
+      "status": "passed",
+      "testCount": 7,
+      "scope": "Cross-platform pure unit tests and Windows compilation only. Five exact serialization/origin/identity/thread-cancellation tests plus work-area/focus geometry tests. Android link dispatch/import and actual Windows clipboard remain device gates."
+    },
+    "initialCompilation": {
+      "status": "resolved",
+      "record": "verification/phone-setup-first-windows-check.json",
+      "note": "Draft native API module/type errors retained separately from final passing checks."
+    }
+  },
+  "recordedAtUtc": "2026-11-18T09:40:03.294379+00:00",
+  "rustCompiler": "rustc 1.100.0 (0ef1bc386 2026-11-09)",
+  "windowsLinkerToolchain": "llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64",
+  "sourceInputs": {
+    "algorithm": "SHA-256 of UTF-8 JSON mapping relative paths to content SHA-256, sorted keys, compact separators",
+    "sha256": "39e99faa919f9884774e2f6aa3f267f86df2e8427fc86e83592030a12283ab4f",
+    "files": {
+      "Cargo.toml": "e9aa8dd1d9a4bc9a2a4a074c935a512095ae57a87ba4436605418d09faa7bd25",
+      "Cargo.lock": "49b23f8f24090ee9b3d2201b6246a228e38e626cbe7234fa4a3f1a36a2ef1f4a",
+      "src/api.rs": "f2c47c4dfa86d6ec09a17c9429d7c628e304912406c44925a2d3ca7ce4c81caa",
+      "src/config.rs": "13baa7450cc77332fcdfca54c1a8320b008c5b3192f77d87d6f9730b78a44579",
+      "src/displays.rs": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+      "src/host_home.rs": "400ba6c73759f7972b0bc290ef4f710183ef08f572d684089ab91cae8441eaba",
+      "src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+      "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+      "src/lib.rs": "e756e1520284c8face50fbcb14736e9b31fc143f3ad69ab1e6ca69271f0dccdc",
+      "src/main.rs": "e3fff00ca1e61b20d4564d808e40b9ef8179594bdc28fd6be27d346a6b21f3d4",
+      "src/media.rs": "dae8e76edeb07d43c7853dbbd3522af854a0df6fa1590e09748299127ba3028d",
+      "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+      "src/session.rs": "a5ff8c1d37fd0756d18baa78c111672488119fa3855cc091587c4dcd7e9e49b3",
+      "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+      "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+      "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+      "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+      "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96",
+      "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+      "examples/synthetic_peer.rs": "396104ffa5e9624cd363108a1fec7ca9aff5774710659c3c8ef691dba79b162e"
+    },
+    "scope": "Cargo manifest/lock, all Rust source files, and both examples; README and this evidence record are not build inputs."
+  },
+  "implementedSlice": [
+    "Explicit permission-gated Unicode clipboard read/write, default disabled",
+    "Phone-to-PC upload only over a separate reliable ordered tools DataChannel, default disabled",
+    "Strict 16KiB frames, duplicate/replayed ID rejection, 128 requests/s and 65536 IDs/channel cap",
+    "8192-byte chunks, 64MiB file bound, 256MiB reserved quota/session, exact offset/length/SHA256 validation",
+    "Exclusive private receive files, no-overwrite handle publication, Internet-zone metadata before success",
+    "Normal cancellation/disconnect/drop/idle cleanup and revoke-during-finish rollback guard",
+    "Heartbeat5..30 seconds and enrollment device-name validation",
+    "Per-user host instance lock, historical request filtering/orphan cleanup, transient event retry",
+    "Connected reporting after each answered healthy connection generation",
+    "Monitor catalog after approval with 64-hex opaque IDs bound to process nonce and monotonic observed topology epoch",
+    "One immutable selected monitor per session, optional monitorId API field, no stale-ID fallback, and new session/peer for a display change",
+    "Per-monitor physical-pixel enumeration, pinned capture/input rectangles including negative origins and aspect-preserving portrait capture",
+    "Topology verification after consent, before input, and every 500 ms; observed topology change or enumeration failure invalidates IDs and stops session",
+    "Selected display in native approval and persistent notice; GDI monitor selection and existing single-monitor DXGI boundary",
+    "Strict duplicate-free scalar control JSON; retained failed virtual-key/Unicode/button releases for final retry",
+    "Verified encoder wait, unconditional child cleanup on task panic, locked input cancellation check, explicit reconnect cleanup outcomes, and fail-closed restart latch for unverified teardown",
+    "Persistent visible native host home with PC number, canonical server origin, read-only setup link, explicit local copy and global Stop/close/Escape",
+    "Strict ASCII address-only phone setup link with HTTPS origin and nine-digit PC ID; no credential or permission grant; non-exportable legacy origins disable export",
+    "Native UI stays on its owner thread; required controls/font/timer initialization before host event processing; cancellation on startup timeout/error/thread exit; bounded shutdown wait/join",
+    "Monitor-work-area fit and DPI scaling with a clipped scrollable body, separate Stop footer and focus-driven Tab reveal"
+  ],
+  "releaseGates": [
+    "Native Windows host-home install/startup, small/high-DPI/negative-origin fit, monitor move, keyboard navigation, copy/busy clipboard, and immediate session cancellation on Stop/Escape/close",
+    "Actual multi-monitor Windows-to-Android reconnect switching, exact FFmpeg mixed-DPI/negative-origin/portrait/rotation/hotplug cases, and failure-state recovery",
+    "Real Windows screen capture/input, DPAPI, consent UI and clipboard/upload adapter testing",
+    "Physical Android-to-Windows tools/media interoperability",
+    "Forced TURN UDP/TCP/TLS and network migration matrix",
+    "Abrupt-crash/power-loss recovery: this build may leave private .part files; no startup deletion/resume is implemented",
+    "Package signing, reproducible platform CI, licensing completeness and independent security review"
+  ],
+  "verificationFiles": {
+    "verification/build-windows.log": "1189d73bd602ec16f5091c153fd3540c373c19404d0210b51a0d61c5767e8abe",
+    "verification/checks.json": "057ab9c7bf6c3c41aa837ff0c38299211016b834cf0306829b4276a750c86483",
+    "verification/clippy-linux.log": "07ec6780b7de9c2b581cb39334f90f6e88111641124e586d2ab9aa52e2e8563c",
+    "verification/clippy-windows.log": "8a2933ae25e59188be988ea6218274cb341f13d8bc4b533f57b12ececd4be8b3",
+    "verification/format.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification/pe-headers.log": "eafa928e42ae8c67576c74d6cbe03f11fb2d0580355f09c68de34713463a6ce3",
+    "verification/pe-imports.log": "9a334fa1b1c1b9329e7b146f25365079b5e12d391726352196926d9ad692e0a5",
+    "verification/phone-setup-first-windows-check.json": "069200db98d37cf8455affcd730627d125f666b1df2417fc55354dd76c4675ef",
+    "verification/source-inputs.sha256": "dbbc81e38332a0f0b4a50bacfcaeaaca067568be836b20239773c0204ae7be3c",
+    "verification/tests.log": "7d542a61fbcfa1a2366b922a921cec69e8097d655c9397c3b9eb373ab42b23de",
+    "verification/history/0.4-final/capture-smoke.stdout.log": "ada903392e93db84258127bc6d57f17c7e344f4d39c9913959eff24a7d76b2a8",
+    "verification/history/0.4-final/capture-smoke.stderr.log": "ebaea87a65dd80c3374a16ac0ac5865ed7bc69e7a93190db2c03455d5f66fd12",
+    "verification/history/0.4-final/capture-ffprobe.json": "61f8e02d9e271840ecb7a9e6885fb34ae918f3bd9cc29e9ac32f03fbb777a5f8",
+    "verification/history/0.4-final/BUILD_EVIDENCE.json": "7eabe9dd1b631641606cc50adc5f8e719f1529fa2de69d976ac20da2beee62aa"
+  },
+  "dependencyChanges": {
+    "newThirdPartyPackages": false,
+    "cargoLockChange": "Only openremote-agent 0.4.0 -> 0.5.0",
+    "existingWindowsSysFeatureAdded": "Win32_UI_Controls",
+    "newSystemImport": "gdi32.dll (Windows system font APIs)"
+  }
+}

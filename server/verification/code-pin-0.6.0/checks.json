@@ -1,0 +1,45 @@
+{
+  "createdAt": "2026-11-19T08:27:03.693962+00:00",
+  "baseRevision": "60fded0a61d246b5a19b43ec97487085d089002c",
+  "checks": [
+    {
+      "name": "unit",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "-count=1",
+        "-json",
+        "./..."
+      ],
+      "exitCode": 0,
+      "durationSeconds": 24.032,
+      "log": "verification/code-pin-0.6.0/unit.log"
+    },
+    {
+      "name": "race",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "test",
+        "-race",
+        "-count=1",
+        "-json",
+        "./..."
+      ],
+      "exitCode": 0,
+      "durationSeconds": 266.638,
+      "log": "verification/code-pin-0.6.0/race.log"
+    },
+    {
+      "name": "vet",
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go1.27.4/go/bin/go",
+        "vet",
+        "./..."
+      ],
+      "exitCode": 0,
+      "durationSeconds": 4.544,
+      "log": "verification/code-pin-0.6.0/vet.log"
+    }
+  ],
+  "sourceInputsFile": "test-inputs.json"
+}

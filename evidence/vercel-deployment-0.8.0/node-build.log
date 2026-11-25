@@ -1,0 +1,14 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> openremote-vercel@0.8.0 build
+> node build.mjs
+
+{
+  "viewerFiles": {
+    "connect/app.js": "418f6b17bcd4c934848852c4478bde4c13188da9a1c48781f8722113f8b4078f",
+    "connect/core.mjs": "03bdb598ddb00916bcb660d9ebb2127b40bedc536329aa206e4cad6be51113b6",
+    "connect/style.css": "3de7fcdd06504e54492bc2bdc6793394bb9d0d1945664ccd2074b4ea5c45434a",
+    "connect/index.html": "cdd96efcecdf536989f78dcad4360d2674bfe6b682426c0e2a3dfd753d22cd7a",
+    "connect/boot.mjs": "cc753cae2d4a3483021d868c078bd5c3c8b62a7a086a1541f39339b5f78fb9d0"
+  }
+}

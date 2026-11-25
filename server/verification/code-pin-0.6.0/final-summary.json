@@ -1,0 +1,46 @@
+{
+  "completedAt": "2026-11-19T08:49:31.177541+00:00",
+  "verifiedImplementationCommit": "f96c85401ce1f818d5fb8bf80253cf729b0cf098",
+  "goVersion": "go version go1.27.4 linux/amd64",
+  "sourceInputCount": 23,
+  "allBeforeAfterAndCommitHashesMatch": true,
+  "checks": [
+    {
+      "name": "unit",
+      "exitCode": 0,
+      "durationSeconds": 15.341,
+      "topLevelTestsPassed": 43,
+      "testsIncludingSubcasesPassed": 107,
+      "pairingTopLevelTestsPassed": 18
+    },
+    {
+      "name": "race",
+      "exitCode": 0,
+      "durationSeconds": 161.365,
+      "topLevelTestsPassed": 43,
+      "testsIncludingSubcasesPassed": 107,
+      "pairingTopLevelTestsPassed": 18
+    },
+    {
+      "name": "vet",
+      "exitCode": 0,
+      "durationSeconds": 0.764
+    },
+    {
+      "name": "build",
+      "exitCode": 0,
+      "durationSeconds": 22.238
+    }
+  ],
+  "artifact": {
+    "path": "artifacts/controlplane-0.6.0-linux-amd64",
+    "sha256": "ad074b9fa1f263aff31b098e75cb56179bf8f316414911ee6ddeafdbd7da4ea9",
+    "size": 7418016,
+    "format": "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/controlplane-0.6.0-linux-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=mAviuv0_S2F2VN-PEznl/R6WjKUzCq6niHzeM5jzj/hBpnt24NFNXT-J1wYMZO/Ze77N88ckuqHbH9d-Yn_, BuildID[sha1]=76104cd26bfbaf3114e4d9ed0f00a39247163f26, stripped",
+    "staticLinkVerifiedBy": "readelf -l has no PT_INTERP; Go build metadata CGO_ENABLED=0"
+  },
+  "failedPriorRacePreserved": "history/final-before-clock-fixture/",
+  "fixtureCorrection": "Only TestPairingUniqueActiveCodesAndLeadingZeros pins cfg.now; production unchanged. Its former wall-clock fixture aged first host beyond heartbeat TTL under race-detector CPU overhead.",
+  "focusedRaceRegressionExitCode": 0,
+  "existingBuildEvidencePresentBeforeTask": false
+}

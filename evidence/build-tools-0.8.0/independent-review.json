@@ -1,0 +1,79 @@
+{
+  "recordedAtUtc": "2026-11-20T10:51:57.294720+00:00",
+  "reviewer": "restore_build_tools independent read-only review",
+  "method": "Inspected changed source and relevant surrounding authority/lifecycle paths; no production edits and no duplicated Windows, Go, or MCP suites.",
+  "sourceFilesAtVerdict": {
+    "windows": {
+      "agent-windows/src/startup_windows.rs": "8374c408981e6411925e1bd349a88c19a30a7acb36b5fce7d41bf72cc96fe2ca",
+      "agent-windows/src/host_home.rs": "4ca89efcf539a7fc296f52488410a3558853757f61922dd4b006c7e77da8e471",
+      "agent-windows/src/pairing.rs": "825398a288dc04c0678531080f7a6cfd843432f9564da0c20673c6353d83774b",
+      "agent-windows/src/connections.rs": "11132d156983f84334567920a5460e8f60fa5e61b484a13ec6ae8ea753a3cc70",
+      "agent-windows/src/session.rs": "6391b4af96305b3eab9d851d227a4639ba13b26e1684ae4770807718554c308a",
+      "agent-windows/src/api.rs": "2034078fc27a21752b9819eb907c70cf9f897d20145b1cd788c273118fb27b41",
+      "agent-windows/src/startup.rs": "35b57b55f7cef81abd526e77aec98478b5473a0152d87bafa37a5a5ff2ada6db"
+    },
+    "backend": {
+      "server/ACTIVATION_PROTOCOL.md": "2ab91aec46275b8b05915128eff681a0f20a89c0e286be737550e94efafbd217",
+      "server/internal/app/pairing.go": "cee045d26d0a23514a7d23b99086b16743e78eab43427ea0e5ae49c2046dc1c0",
+      "server/internal/app/sessions.go": "504907e3c253601172cf4d674d8c4583cf586914aadfd385a25ff0c27f1f5297",
+      "server/internal/app/devices.go": "7c3eb61f7f97c483d7357dce95d9a381248ad50d372d4d80169e7a73a73998a4",
+      "server/internal/app/app.go": "0387ede8cc1300ef9955fada4226b32052d761e6f148a8fac3f79674e3fa2479",
+      "server/internal/app/info.go": "5ebbbe658af881e652914031b282f9f187d491132ebf2ce5b5920b2714b02164",
+      "server/internal/app/activation_test.go": "539262d59a2507cb4a1c964e7ad875a208dab45dcabae688ce5fe4fb3968c0ca",
+      "server/internal/app/registration.go": "10b8ccb2e28167af0c7c1b5cc216e308f6799a8b3be401ee153f54b2dfabf014",
+      "server/internal/app/auth.go": "8e4bd6107c7dd394b5069a3effcd61ad794323359919beb06d4ba0573ef5272d"
+    },
+    "agentBridge": {
+      "agent-bridge/src/bridge.mjs": "da84982b1049bb67cbee21c36affa661591c4e4be07daadbaa7395a8e690b6e8",
+      "agent-bridge/src/browser.mjs": "89769473391b90d4a1ff51ea540ff66e0148e29d5e118cc16aca867e32aba932",
+      "agent-bridge/src/server.mjs": "89f41a5e7ffee78fce47b76e13e5812d0c8090bc4f4f38068e91d48febf08b21",
+      "agent-bridge/src/index.mjs": "9e890e154ac89810dfab4ece746ae7a4d4858ba7baea26538624870bda05594e",
+      "agent-bridge/src/profile.mjs": "45feee9bcced0a7c95843746c6818ad838feaafbe8e4a4cae346767268a02a6a",
+      "agent-bridge/src/errors.mjs": "e4e20abd8a4a5df50bf5cbb2fbf468eae54fd6be6c3025d304fad0e51e489247",
+      "server/internal/webclient/assets/app.js": "418f6b17bcd4c934848852c4478bde4c13188da9a1c48781f8722113f8b4078f"
+    }
+  },
+  "windows": {
+    "concreteFinding": "Fixed vertical layout let the connection roster collapse or overlap the footer in a short or high-DPI work area.",
+    "resolution": "Owning agent replaced that layout with native vertical scrolling, minimum logical content height, shared control offsets and focus reveal. Reviewed Win32 calls occur outside RefCell borrows.",
+    "finalDeltaReviewed": [
+      "active task map capacity is checked before roster reservation",
+      "unverified native teardown immediately sets restart-required and cancels parent",
+      "unacknowledged remote end cancels activation and preserves a fixed visible reason",
+      "all children are canceled before a shared bounded cleanup deadline",
+      "new offer clears answer generation; connected count requires fresh media and current acknowledged generation",
+      "orphan cleanup is owner authenticated, at most 16 entries and 15 seconds, only on 409 host_busy, cancellation aware, with one activation retry"
+    ],
+    "additionalBlockingFindings": []
+  },
+  "backend": {
+    "areasReviewed": [
+      "atomic four-session admission including pending slots",
+      "single input reservation and no spectator permission upgrade",
+      "activation replacement, stop and host recovery revoke all related sessions and signals",
+      "KDF unlock/revalidation, shared failure ledger and generic unavailable responses",
+      "activation and session expiry bounds",
+      "legacy one-use isolation",
+      "owner-only bounded session metadata inspection",
+      "stable display ID across recovery/restart without persisted activation authority"
+    ],
+    "additionalBlockingFindings": []
+  },
+  "agentBridge": {
+    "areasReviewed": [
+      "fixed validated HTTPS service origin and browser method allowlist",
+      "PIN clearing, debug logging refusal, and safe public errors",
+      "generation/cancellation guards, bounded serial queue and late adapter disposal",
+      "single-use screenshot token age, target and coordinate binding",
+      "current permission and production web media/display/session checks",
+      "local revoke before awaited server end and release-all after input"
+    ],
+    "additionalBlockingFindings": []
+  },
+  "limits": [
+    "Source review is not native execution.",
+    "Native Windows tray/DPI/Explorer/lifecycle and real media/input behavior were not executed by this reviewer.",
+    "Chromium launch is blocked by recorded EPERM before page creation; no real browser or WebRTC session claimed.",
+    "Snapshots identify reviewed bytes; later source changes require the owning agent to assess their effect."
+  ]
+}

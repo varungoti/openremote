@@ -1,0 +1,25 @@
+{
+  "scope": "Exact notice texts from the pinned LLVM-MinGW toolchain used to link the separate encoder. This does not claim a complete product license audit.",
+  "files": [
+    {
+      "file": "LLVM-runtime-LICENSE.txt",
+      "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/LICENSE.TXT",
+      "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+    },
+    {
+      "file": "MinGW-COPYING.txt",
+      "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/x86_64-w64-mingw32/share/mingw32/COPYING",
+      "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+    },
+    {
+      "file": "MinGW-runtime-COPYING.txt",
+      "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/x86_64-w64-mingw32/share/mingw32/COPYING.MinGW-w64-runtime.txt",
+      "sha256": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f"
+    },
+    {
+      "file": "MinGW-w64-COPYING.txt",
+      "sourcePath": "/workspace/scratch/72f8c6db0182/toolchains/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64/x86_64-w64-mingw32/share/mingw32/COPYING.MinGW-w64.txt",
+      "sha256": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1"
+    }
+  ]
+}

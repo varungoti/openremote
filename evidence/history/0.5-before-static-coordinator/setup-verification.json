@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "version": "0.5.0",
+  "finishedAtUtc": "2026-11-18T09:31:12.727089+00:00",
+  "sourceInputs": {
+    "server/cmd/controlplane/main.go": "85eff95064baa535a81c96a2121174e04331705dee0be2efd1a9063c52711f47",
+    "server/go.mod": "fa96a751d3e0e62c67c1168140d7f354f0b562ae2161522793ef2fa235e98fc7",
+    "server/internal/app/app.go": "2140ac2d8c4480531b8af89c6fd30b882fbff8290cbea6a4d92983f6923b2008",
+    "server/internal/app/app_test.go": "3bfb1b00e2b20c81cdca0ddfa48fd65c3dd2844d0cf2eae997d252e93f8b830c",
+    "server/internal/app/auth.go": "19f36cba92c40b41aae26c206f89e1a12671a14121041ba1a34e167316ed09ee",
+    "server/internal/app/devices.go": "990a5f8aa6404189b44c498ab5524c12715feafac3395290469fec122ca2956a",
+    "server/internal/app/ice.go": "a8b6f9162c5c93c0016e8699da4e4119cba501d9c1e35b732303adfab9d1c623",
+    "server/internal/app/info.go": "5e3399784be01dd272d5cef768ddba057441059a00e8ee2dbb5ec1ce96f5d405",
+    "server/internal/app/info_test.go": "dc3515a1e832106463db9ea04e2b712f9d6f9c8a88a98c0c89eed02d3a51e078",
+    "server/internal/app/monitor_test.go": "f9d2ef2c783f98d7c242362127d8ad1dc9b7c58dd593292eacc6079b37153da3",
+    "server/internal/app/sessions.go": "9a97bda685779cf26e7e750d5274a64430ad03529dcab5caf42e4868c55282ee",
+    "server/internal/app/store.go": "b7467ec8ea9fc692a665a6e44227bb69dca8abf45c288fcd2cb74eac96cba431",
+    "server/internal/app/store_lock_unix.go": "76db9d7821aa0f37142c26e3360dd109555a11f7db5427373aa0df93b0142d24",
+    "server/internal/app/store_lock_windows.go": "1e40c2f90a090360e6528d9103096050739d4964d6e7b4d501f31eeef976ba2b"
+  },
+  "sourceInputsUnchanged": true,
+  "checks": [
+    {
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go/bin/go",
+        "test",
+        "-race",
+        "-cover",
+        "./..."
+      ],
+      "exitCode": 0,
+      "seconds": 2.903,
+      "log": "server/verification/go-test-final.log"
+    },
+    {
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go/bin/go",
+        "vet",
+        "./..."
+      ],
+      "exitCode": 0,
+      "seconds": 0.289,
+      "log": "server/verification/go-vet-final.log"
+    },
+    {
+      "command": [
+        "/workspace/scratch/72f8c6db0182/toolchains/go/bin/go",
+        "build",
+        "-trimpath",
+        "-o",
+        "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/controlplane-linux-amd64",
+        "./cmd/controlplane"
+      ],
+      "exitCode": 0,
+      "seconds": 0.742,
+      "log": "server/verification/go-build-final.log"
+    }
+  ],
+  "artifact": {
+    "path": "artifacts/controlplane-linux-amd64",
+    "sha256": "f65fff1c0e36c8264aee75964a01e3c2349d7012f7ee7ce432d9218dafc2fa8c",
+    "size": 10793038
+  },
+  "scope": "Coordinator only; no Windows/Android desktop or real relay/media validation."
+}

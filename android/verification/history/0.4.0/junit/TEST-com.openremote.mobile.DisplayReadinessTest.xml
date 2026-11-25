@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.openremote.mobile.DisplayReadinessTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-18T08:46:30.096Z" hostname="8fddb963d910" time="0.005">
+  <properties/>
+  <testcase name="explicitSelectionRejectsLegacyHostsAndChangedTopologyWhilePrimarySupportsLegacy" classname="com.openremote.mobile.DisplayReadinessTest" time="0.001"/>
+  <testcase name="rendererRecreationRejectsOldFramesAndOldDisposalWithoutResettingBinding" classname="com.openremote.mobile.DisplayReadinessTest" time="0.001"/>
+  <testcase name="longLivedSessionGetsNewRendererDeadlineAndObsoleteCallbacksCannotChangeIt" classname="com.openremote.mobile.DisplayReadinessTest" time="0.0"/>
+  <testcase name="slowTransportEstablishmentDoesNotSpendTheRendererWaitBudget" classname="com.openremote.mobile.DisplayReadinessTest" time="0.0"/>
+  <testcase name="explicitMonitorCannotPublishVideoOrEnableInputBeforeExactBinding" classname="com.openremote.mobile.DisplayReadinessTest" time="0.001"/>
+  <testcase name="derivedUiGatesNewToolsAndDisplaySwitchingForViewOnlyAndBusySessions" classname="com.openremote.mobile.DisplayReadinessTest" time="0.001"/>
+  <testcase name="explicitPickerPausesOnlyRenderDeadlineAndRequiresFreshRenderAfterRecreation" classname="com.openremote.mobile.DisplayReadinessTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

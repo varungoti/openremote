@@ -1,0 +1,27 @@
+{
+  "powershell": "7.7.0",
+  "checks": [
+    {
+      "status": "passed",
+      "injected_shortcut_failure": false,
+      "existing_installation": false
+    },
+    {
+      "status": "passed",
+      "injected_shortcut_failure": true,
+      "existing_installation": false
+    },
+    {
+      "status": "passed",
+      "injected_shortcut_failure": false,
+      "existing_installation": true
+    },
+    {
+      "status": "passed",
+      "injected_shortcut_failure": true,
+      "existing_installation": true
+    }
+  ],
+  "platform": "Unix",
+  "scope": "Actual file activation/rollback logic. Does not establish Windows COM, encoder, signing or installation behavior."
+}

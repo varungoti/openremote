@@ -1,0 +1,7 @@
+{
+  "url": "https://go.dev/dl/go1.27.4.linux-amd64.tar.gz",
+  "sha256": "7226736c2339719cda28fbf3a54d71aa63bcefe376e98cef00034268dab24840",
+  "size": 70680823,
+  "metadataURL": "https://go.dev/dl/?mode=json",
+  "version": "go1.27.4"
+}

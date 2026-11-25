@@ -1,0 +1,9 @@
+{
+  "status": "blocked",
+  "command": "node tests/browser/verify-media.cjs",
+  "stage": "Chromium startup before test page loaded",
+  "reason": "Workspace forbids AF_UNIX sockets. Chromium process singleton cannot initialize.",
+  "exact_error": "FATAL:chrome/browser/process_singleton_posix.cc:297 Check failed: . socket() failed: Operation not permitted (1)",
+  "independent_check": "Python AF_UNIX SOCK_STREAM also returns EPERM; AF_INET TCP and UDP available.",
+  "product_result": "No browser media test executed; this is not a pass or a decoded-video failure."
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "apk": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+    "entry": "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+    "segments": [
+      {
+        "offset": 0,
+        "virtualAddress": 0,
+        "alignment": 16384,
+        "valid16KiB": true
+      },
+      {
+        "offset": 7232,
+        "virtualAddress": 23616,
+        "alignment": 16384,
+        "valid16KiB": true
+      },
+      {
+        "offset": 8144,
+        "virtualAddress": 40912,
+        "alignment": 16384,
+        "valid16KiB": true
+      }
+    ]
+  },
+  {
+    "apk": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+    "entry": "lib/arm64-v8a/libjingle_peerconnection_so.so",
+    "sha256": "2b561520298d9fec3e216baf58a53fbddf4a46dfd247880cbc3821875ed20200",
+    "segments": [
+      {
+        "offset": 0,
+        "virtualAddress": 0,
+        "alignment": 16384,
+        "valid16KiB": true
+      },
+      {
+        "offset": 12082848,
+        "virtualAddress": 12099232,
+        "alignment": 16384,
+        "valid16KiB": true
+      },
+      {
+        "offset": 12259872,
+        "virtualAddress": 12292640,
+        "alignment": 16384,
+        "valid16KiB": true
+      }
+    ]
+  },
+  {
+    "apk": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+    "entry": "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+    "segments": [
+      {
+        "offset": 0,
+        "virtualAddress": 0,
+        "alignment": 16384,
+        "valid16KiB": true
+      },
+      {
+        "offset": 7232,
+        "virtualAddress": 23616,
+        "alignment": 16384,
+        "valid16KiB": true
+      },
+      {
+        "offset": 8144,
+        "virtualAddress": 40912,
+        "alignment": 16384,
+        "valid16KiB": true
+      }
+    ]
+  },
+  {
+    "apk": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+    "entry": "lib/arm64-v8a/libjingle_peerconnection_so.so",
+    "sha256": "2b561520298d9fec3e216baf58a53fbddf4a46dfd247880cbc3821875ed20200",
+    "segments": [
+      {
+        "offset": 0,
+        "virtualAddress": 0,
+        "alignment": 16384,
+        "valid16KiB": true
+      },
+      {
+        "offset": 12082848,
+        "virtualAddress": 12099232,
+        "alignment": 16384,
+        "valid16KiB": true
+      },
+      {
+        "offset": 12259872,
+        "virtualAddress": 12292640,
+        "alignment": 16384,
+        "valid16KiB": true
+      }
+    ]
+  }
+]

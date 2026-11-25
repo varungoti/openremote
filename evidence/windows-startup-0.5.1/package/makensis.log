@@ -1,0 +1,950 @@
+MakeNSIS v3.11-1 - Copyright 1999-2025 Contributors
+See the file COPYING for license details.
+Credits can be found in the Users Manual.
+
+Changing directory to: "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/windows-installer-final/openremote-installer-vdf9cg_v"
+
+Processing script file: "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/windows-installer-final/openremote-installer-vdf9cg_v/OpenRemote.nsi" (UTF8)
+Processing default plugins: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Plugins/x86-unicode/*.dll"
+ + AdvSplash::show
+ + Banner::destroy
+ + Banner::getWindow
+ + Banner::show
+ + BgImage::AddImage
+ + BgImage::AddText
+ + BgImage::Clear
+ + BgImage::Destroy
+ + BgImage::Redraw
+ + BgImage::SetBg
+ + BgImage::SetReturn
+ + BgImage::Sound
+ + Dialer::AttemptConnect
+ + Dialer::AutodialHangup
+ + Dialer::AutodialOnline
+ + Dialer::AutodialUnattended
+ + Dialer::GetConnectedState
+ + InstallOptions::dialog
+ + InstallOptions::initDialog
+ + InstallOptions::make_unicode
+ + InstallOptions::show
+ + LangDLL::LangDialog
+ + Math::Script
+ + NSISdl::download
+ + NSISdl::download_quiet
+ + Splash::show
+ + StartMenu::Init
+ + StartMenu::Select
+ + StartMenu::Show
+ + System::Alloc
+ + System::Call
+ + System::Copy
+ + System::Free
+ + System::Get
+ + System::Int64Op
+ + System::Store
+ + System::StrAlloc
+ + TypeLib::GetLibVersion
+ + TypeLib::Register
+ + TypeLib::UnRegister
+ + UserInfo::GetAccountType
+ + UserInfo::GetName
+ + UserInfo::GetOriginalAccountType
+ + VPatch::GetFileCRC32
+ + VPatch::GetFileMD5
+ + VPatch::vpatchfile
+ + nsDialogs::Create
+ + nsDialogs::CreateControl
+ + nsDialogs::CreateItem
+ + nsDialogs::CreateTimer
+ + nsDialogs::GetUserData
+ + nsDialogs::KillTimer
+ + nsDialogs::OnBack
+ + nsDialogs::OnChange
+ + nsDialogs::OnClick
+ + nsDialogs::OnNotify
+ + nsDialogs::SelectFileDialog
+ + nsDialogs::SelectFolderDialog
+ + nsDialogs::SetRTL
+ + nsDialogs::SetUserData
+ + nsDialogs::Show
+ + nsExec::Exec
+ + nsExec::ExecToLog
+ + nsExec::ExecToStack
+
+Unicode: true
+Processing default plugins: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Plugins/x86-unicode/*.dll"
+
+SetCompressor: /SOLID lzma
+SetDatablockOptimize: on
+SetDateSave: off
+CRCCheck: force
+ShowInstDetails: show
+ShowUninstDetails: show
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/MUI2.nsh" (UTF8)
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Contrib/Modern UI 2/MUI2.nsh" (UTF8)
+NSIS Modern User Interface version 2.1 - Copyright 2002-2025 Joost Verburg (/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Contrib/Modern UI 2/MUI2.nsh:14)
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Contrib/Modern UI 2/MUI2.nsh"
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/MUI2.nsh"
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/LogicLib.nsh" (UTF8)
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/LogicLib.nsh"
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/FileFunc.nsh" (UTF8)
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/FileFunc.nsh"
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/Sections.nsh" (UTF8)
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/Sections.nsh"
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/WordFunc.nsh" (UTF8)
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/WordFunc.nsh"
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/WinVer.nsh" (UTF8)
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/WinVer.nsh"
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/Win/COM.nsh" (UTF8)
+!define: "__WIN_COM__INC"="2"
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/Win/COM.nsh"
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/x64.nsh" (UTF8)
+!define: "___X64__NSH___"=""
+!include: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/LogicLib.nsh" (UTF8)
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/LogicLib.nsh"
+!define: "IsWow64"=""" IsWow64 """
+!define: "RunningX64"=""" RunningX64 """
+!define: "GetNativeMachineArchitecture"="!insertmacro GetNativeMachineArchitecture "
+!define: "IsNativeMachineArchitecture"=""" IsNativeMachineArchitecture "
+!define: "IsNativeIA32"=""" IsNativeMachineArchitecture  332"
+!define: "IsNativeAMD64"=""" IsNativeMachineArchitecture  34404"
+!define: "IsNativeARM64"=""" IsNativeMachineArchitecture  43620"
+!define: "DisableX64FSRedirection"="!insertmacro DisableX64FSRedirection"
+!define: "EnableX64FSRedirection"="!insertmacro EnableX64FSRedirection"
+!include: closed: "/workspace/scratch/72f8c6db0182/toolchains/nsis/usr/share/nsis/Include/x64.nsh"
+!include: "package-definitions.nsh" (UTF8)
+!define: "VERSION"="0.5.1"
+!define: "HOST_SHA256"="47c5c0a386be1f9b9d75950aefe56a0abc519a643c975bea3561bfe8c986f96b"
+!define: "HOST_HASH_SHORT"="47c5c0a386be1f9b"
+!define: "OUTPUT_FILE"="/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/windows-installer-final/openremote-installer-vdf9cg_v/OpenRemote-0.5.1-Windows-x64-Setup.exe"
+!include: closed: "package-definitions.nsh"
+!define: "OWNER"="OpenRemote.NativeSetup.2026.1"
+!define: "UNINSTALL_KEY"="Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote"
+Name: "OpenRemote 0.5.1"
+OutFile: "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/windows-installer-final/openremote-installer-vdf9cg_v/OpenRemote-0.5.1-Windows-x64-Setup.exe"
+InstallDir: "$LOCALAPPDATA\Programs\OpenRemote"
+BrandingText: "OpenRemote · Windows host"
+VIAddVersionKey: "ProductName" "OpenRemote Windows Host Setup"
+VIAddVersionKey: "ProductVersion" "0.5.1"
+VIAddVersionKey: "FileVersion" "0.5.1"
+VIAddVersionKey: "FileDescription" "OpenRemote per-user development installer"
+VIAddVersionKey: "LegalCopyright" "OpenRemote project contributors"
+Var: "InstallRoot"
+Var: "ReleaseDir"
+Var: "HostLock"
+Var: "ErrorText"
+Var: "OldOwner"
+Var: "OldRelease"
+Var: "OldName"
+Var: "OldVersion"
+Var: "OldIcon"
+Var: "OldUninstall"
+Var: "OldPublisher"
+Var: "OldHostShortcut"
+Var: "OldSettingsShortcut"
+Var: "OldDesktopShortcut"
+Var: "OldDesktopInstalled"
+Var: "ActivationStarted"
+Var: "StageCreated"
+Var: "RollbackFailed"
+Var: "DesktopSelected"
+Var: "DesktopTouched"
+Var: "CheckPath"
+Var: "ShortcutPath"
+Var: "ShortcutTarget"
+Var: "ShortcutArguments"
+Var: "ShortcutMatches"
+Var: "ComInitialized"
+!define: "MUI_ABORTWARNING"=""
+!define: "MUI_WELCOMEPAGE_TITLE"="Install OpenRemote on this PC"
+!define: "MUI_WELCOMEPAGE_TEXT"="This installs the OpenRemote host for your Windows account.
+
+After installation, the setup window asks for your OpenRemote server address, enrollment token and a trusted FFmpeg executable.
+
+A server and FFmpeg are not included. This development build is unsigned. Your existing PC identity and settings are preserved."
+!define: "MUI_COMPONENTSPAGE_TEXT_TOP"="Install the host and choose whether to add a desktop shortcut. No service or automatic startup is installed."
+!define: "MUI_FINISHPAGE_TITLE"="OpenRemote is installed"
+!define: "MUI_FINISHPAGE_TEXT"="Open OpenRemote to finish configuring this PC. If the server or encoder is not ready, the setup window explains what is missing.
+
+Your phone connects after both devices use your running OpenRemote server."
+!define: "MUI_FINISHPAGE_RUN"=""
+!define: "MUI_FINISHPAGE_RUN_TEXT"="Open OpenRemote"
+!define: "MUI_FINISHPAGE_RUN_FUNCTION"="LaunchHost"
+!define: "MUI_FINISHPAGE_SHOWREADME"="$ReleaseDir\START-HERE.txt"
+!define: "MUI_FINISHPAGE_SHOWREADME_TEXT"="Read the setup guide"
+!define: "MUI_FINISHPAGE_SHOWREADME_NOTCHECKED"=""
+!define: "MUI_UNCONFIRMPAGE_TEXT_TOP"="Remove this installed OpenRemote host? Your PC identity, settings, received files and previous release directories are kept. Server enrollment is not revoked."
+!insertmacro: MUI_PAGE_WELCOME
+!insertmacro: end of MUI_PAGE_WELCOME
+!insertmacro: MUI_PAGE_COMPONENTS
+!insertmacro: end of MUI_PAGE_COMPONENTS
+!insertmacro: MUI_PAGE_INSTFILES
+!insertmacro: end of MUI_PAGE_INSTFILES
+!insertmacro: MUI_PAGE_FINISH
+!insertmacro: end of MUI_PAGE_FINISH
+!insertmacro: MUI_UNPAGE_CONFIRM
+!insertmacro: end of MUI_UNPAGE_CONFIRM
+!insertmacro: MUI_UNPAGE_INSTFILES
+!insertmacro: end of MUI_UNPAGE_INSTFILES
+!insertmacro: MUI_UNPAGE_FINISH
+!insertmacro: end of MUI_UNPAGE_FINISH
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+Section: "OpenRemote Host (required)" ->(SEC_HOST)
+SectionIn: [RO] 
+SectionEnd
+Section: "Desktop shortcut" ->(SEC_DESKTOP)
+SectionEnd
+Section: "-Install"
+StrCpy $InstallRoot "$LOCALAPPDATA\Programs\OpenRemote" () ()
+StrCpy $INSTDIR "$InstallRoot" () ()
+StrCpy $ErrorText "Could not prepare the application folder. No active installation was changed." () ()
+Call "CheckInstallDirectories"
+IfErrors ?install_failed:
+Call "AcquireHostLock"
+IfErrors ?install_failed:
+ClearErrors: 
+CreateDirectory: "$InstallRoot\releases"
+IfErrors ?install_failed:
+GetTempFileName -> $0
+IfErrors ?install_failed:
+Delete: "$0"
+IfErrors ?install_failed:
+!insertmacro: GetFileNameCall
+!insertmacro: end of GetFileNameCall
+StrCpy $ReleaseDir "$InstallRoot\releases\0.5.1-47c5c0a386be1f9b-$1" () ()
+IfFileExists: "$ReleaseDir" ? install_failed : 
+CreateDirectory: "$ReleaseDir"
+IfErrors ?install_failed:
+StrCpy $StageCreated "1" () ()
+SetOutPath: "$ReleaseDir"
+StrCpy $ErrorText "OpenRemote could not copy its application files. The previous installation was preserved. Check free space and folder permissions, then run Setup again." () ()
+SetOverwrite: off
+File: "openremote-agent.exe" 9655296 bytes
+File: "START-HERE.txt" 8645 bytes
+File: "THIRD-PARTY-NOTICES.txt" 3152339 bytes
+File: "package-manifest.json" 73570 bytes
+IfErrors ?install_failed:
+WriteINIStr: [OpenRemote] Owner=OpenRemote.NativeSetup.2026.1 in $ReleaseDir\install-owner.ini
+WriteINIStr: [OpenRemote] Version=0.5.1 in $ReleaseDir\install-owner.ini
+WriteINIStr: [OpenRemote] HostSHA256=47c5c0a386be1f9b9d75950aefe56a0abc519a643c975bea3561bfe8c986f96b in $ReleaseDir\install-owner.ini
+WriteUninstaller: "$ReleaseDir\Uninstall.exe"
+IfErrors ?install_failed:
+Call "BackupActivation"
+IfErrors ?install_failed:
+StrCpy $ActivationStarted "1" () ()
+ClearErrors: 
+CreateDirectory: "$SMPROGRAMS\OpenRemote"
+CreateShortcut: "$SMPROGRAMS\OpenRemote\OpenRemote Host.lnk"->"$ReleaseDir\openremote-agent.exe"  icon:$ReleaseDir\openremote-agent.exe,0, nwd=0, showmode=0x1, hotkey=0x0, comment=OpenRemote visible desktop host
+CreateShortcut: "$SMPROGRAMS\OpenRemote\OpenRemote Settings.lnk"->"$ReleaseDir\openremote-agent.exe" --configure icon:$ReleaseDir\openremote-agent.exe,0, nwd=0, showmode=0x1, hotkey=0x0, comment=Configure OpenRemote on this PC
+StrCpy $ErrorText "OpenRemote could not create its shortcuts. Setup will restore the previous shortcuts and registration." () ()
+IfErrors ?install_failed:
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $DesktopTouched "1" () ()
+CreateShortcut: "$DESKTOP\OpenRemote.lnk"->"$ReleaseDir\openremote-agent.exe"  icon:$ReleaseDir\openremote-agent.exe,0, nwd=0, showmode=0x1, hotkey=0x0, comment=OpenRemote visible desktop host
+!insertmacro: _ElseIf
+!insertmacro: end of _ElseIf
+StrCpy $ShortcutPath "$DESKTOP\OpenRemote.lnk" () ()
+StrCpy $ShortcutTarget "$OldRelease\openremote-agent.exe" () ()
+StrCpy $ShortcutArguments "" () ()
+Call "ShortcutPointsToHost"
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $DesktopTouched "1" () ()
+Delete: "$DESKTOP\OpenRemote.lnk"
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+IfErrors ?install_failed:
+WriteINIStr: [OpenRemote] DesktopShortcutInstalled=$DesktopSelected in $ReleaseDir\install-owner.ini
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\Owner=OpenRemote.NativeSetup.2026.1
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayName=OpenRemote
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayVersion=0.5.1
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayIcon=$ReleaseDir\openremote-agent.exe
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\InstallLocation=$ReleaseDir
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\UninstallString="$ReleaseDir\Uninstall.exe"
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\Publisher=OpenRemote
+WriteRegDWORD: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\NoModify=1
+WriteRegDWORD: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\NoRepair=1
+WriteRegDWORD: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DesktopShortcutInstalled=$DesktopSelected
+StrCpy $ErrorText "OpenRemote could not register the installation for this Windows account. Setup will restore the previous shortcuts and registration." () ()
+IfErrors ?install_failed:
+DetailPrint: "Installed 0.5.1 for the current Windows account."
+DetailPrint: "PC identity, settings and received files were preserved."
+DetailPrint: "Server access and a trusted FFmpeg executable are configured in the app."
+Goto: install_done
+Call "RollbackActivation"
+Call "ReleaseHostLock"
+SetErrorLevel: 1
+MessageBox: 16: "$ErrorText"
+Abort: ""
+Call "ReleaseHostLock"
+SectionEnd
+!insertmacro: MUI_FUNCTION_DESCRIPTION_BEGIN
+!insertmacro: end of MUI_FUNCTION_DESCRIPTION_BEGIN
+!insertmacro: MUI_DESCRIPTION_TEXT
+!insertmacro: end of MUI_DESCRIPTION_TEXT
+!insertmacro: MUI_DESCRIPTION_TEXT
+!insertmacro: end of MUI_DESCRIPTION_TEXT
+!insertmacro: MUI_FUNCTION_DESCRIPTION_END
+!insertmacro: end of MUI_FUNCTION_DESCRIPTION_END
+Function: ".onInit"
+SetShellVarContext: current
+SetRegView: 64
+StrCpy $HostLock "0" () ()
+StrCpy $ActivationStarted "0" () ()
+StrCpy $StageCreated "0" () ()
+StrCpy $RollbackFailed "0" () ()
+StrCpy $DesktopTouched "0" () ()
+StrCpy $ReleaseDir "" () ()
+StrCpy $InstallRoot "$LOCALAPPDATA\Programs\OpenRemote" () ()
+StrCpy $INSTDIR "$InstallRoot" () ()
+!insertmacro: _If
+!insertmacro: end of _If
+MessageBox: 16: "OpenRemote requires Windows 10 version 1703 (build 15063) or newer, or Windows 11."
+SetErrorLevel: 2
+Quit
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+MessageBox: 16: "This Windows build is too old for OpenRemote. Windows 10 version 1703 (build 15063) or newer, or Windows 11, is required. No application files were installed."
+SetErrorLevel: 2
+Quit
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+MessageBox: 16: "This installer is for Intel/AMD 64-bit Windows PCs. A different build is required for 32-bit Windows or Windows on ARM."
+SetErrorLevel: 2
+Quit
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+IfSilent ?silent_install:normal_install
+SetErrorLevel: 2
+Quit
+InitPluginsDir
+ReadRegStr $OldOwner HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\Owner
+ReadRegStr $0 HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayName
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _And
+!insertmacro: end of _And
+MessageBox: 16: "An installation using the OpenRemote registration name already exists. Its ownership could not be verified. No changes were made."
+SetErrorLevel: 2
+Quit
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+ReadRegDWORD $0 HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DesktopShortcutInstalled
+!insertmacro: _If
+!insertmacro: end of _If
+ReadRegStr $1 HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\InstallLocation
+StrCpy $ShortcutPath "$DESKTOP\OpenRemote.lnk" () ()
+StrCpy $ShortcutTarget "$1\openremote-agent.exe" () ()
+StrCpy $ShortcutArguments "" () ()
+Call "ShortcutPointsToHost"
+!insertmacro: _If
+!insertmacro: end of _If
+SectionSetFlags: 1=1
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+FunctionEnd
+Function: "CheckDirectory"
+Plugin command: Call kernel32::GetFileAttributesW(w "$CheckPath") i .r0
+!insertmacro: _If
+!insertmacro: end of _If
+IntOp: $1=$0&0x400
+!insertmacro: _If
+!insertmacro: end of _If
+SetErrors: 
+Return
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+IntOp: $1=$0&0x10
+!insertmacro: _If
+!insertmacro: end of _If
+SetErrors: 
+Return
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+ClearErrors: 
+FunctionEnd
+Function: "CheckInstallDirectories"
+StrCpy $CheckPath "$LOCALAPPDATA\Programs" () ()
+Call "CheckDirectory"
+IfErrors ?check_done:
+StrCpy $CheckPath "$InstallRoot" () ()
+Call "CheckDirectory"
+IfErrors ?check_done:
+StrCpy $CheckPath "$InstallRoot\releases" () ()
+Call "CheckDirectory"
+IfErrors ?check_done:
+StrCpy $CheckPath "$LOCALAPPDATA\OpenRemote" () ()
+Call "CheckDirectory"
+IfErrors ?check_done:
+StrCpy $CheckPath "$SMPROGRAMS\OpenRemote" () ()
+Call "CheckDirectory"
+FunctionEnd
+!insertmacro: HOST_LOCK_FUNCTIONS
+Function: "AcquireHostLock"
+ClearErrors: 
+CreateDirectory: "$LOCALAPPDATA\OpenRemote"
+IfErrors ?lock_failed:
+Plugin command: Call kernel32::GetFileAttributesW(w "$LOCALAPPDATA\OpenRemote\host-instance.lock") i .r0
+!insertmacro: _If
+!insertmacro: end of _If
+IntOp: $1=$0&0x410
+!insertmacro: _If
+!insertmacro: end of _If
+Goto: lock_failed
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Plugin command: Call kernel32::CreateFileW(w "$LOCALAPPDATA\OpenRemote\host-instance.lock", i 0xC0000000, i 0, p 0, i 4, i 0x00200080, p 0) p .r0
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+Goto: lock_failed
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+StrCpy $HostLock "$0" () ()
+ClearErrors: 
+Return
+StrCpy $ErrorText "OpenRemote is already running, another setup is in progress, or its local lock cannot be opened. Close OpenRemote using Stop host, close any other setup window, and try again. No running program will be terminated." () ()
+SetErrors: 
+FunctionEnd
+Function: "ReleaseHostLock"
+!insertmacro: _If
+!insertmacro: end of _If
+Plugin command: Call kernel32::CloseHandle(p $HostLock)
+StrCpy $HostLock "0" () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+FunctionEnd
+!insertmacro: end of HOST_LOCK_FUNCTIONS
+!insertmacro: HOST_LOCK_FUNCTIONS
+Function: "un.AcquireHostLock"
+ClearErrors: 
+CreateDirectory: "$LOCALAPPDATA\OpenRemote"
+IfErrors ?lock_failed:
+Plugin command: Call kernel32::GetFileAttributesW(w "$LOCALAPPDATA\OpenRemote\host-instance.lock") i .r0
+!insertmacro: _If
+!insertmacro: end of _If
+IntOp: $1=$0&0x410
+!insertmacro: _If
+!insertmacro: end of _If
+Goto: lock_failed
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Plugin command: Call kernel32::CreateFileW(w "$LOCALAPPDATA\OpenRemote\host-instance.lock", i 0xC0000000, i 0, p 0, i 4, i 0x00200080, p 0) p .r0
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+Goto: lock_failed
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+StrCpy $HostLock "$0" () ()
+ClearErrors: 
+Return
+StrCpy $ErrorText "OpenRemote is already running, another setup is in progress, or its local lock cannot be opened. Close OpenRemote using Stop host, close any other setup window, and try again. No running program will be terminated." () ()
+SetErrors: 
+FunctionEnd
+Function: "un.ReleaseHostLock"
+!insertmacro: _If
+!insertmacro: end of _If
+Plugin command: Call kernel32::CloseHandle(p $HostLock)
+StrCpy $HostLock "0" () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+FunctionEnd
+!insertmacro: end of HOST_LOCK_FUNCTIONS
+Function: "BackupActivation"
+StrCpy $ErrorText "Could not back up the current shortcuts. The previous installation was preserved." () ()
+StrCpy $OldHostShortcut "0" () ()
+StrCpy $OldSettingsShortcut "0" () ()
+StrCpy $OldDesktopShortcut "0" () ()
+StrCpy $OldDesktopInstalled "0" () ()
+SectionGetFlags: 1->$0
+IntOp: $DesktopSelected=$0&1
+ClearErrors: 
+IfFileExists: "$SMPROGRAMS\OpenRemote\OpenRemote Host.lnk" ? 0 : host_backup_done
+CopyFiles: (silent) "$SMPROGRAMS\OpenRemote\OpenRemote Host.lnk" -> "$PLUGINSDIR\host.lnk", size=0KB
+IfErrors ?backup_done:
+StrCpy $OldHostShortcut "1" () ()
+IfFileExists: "$SMPROGRAMS\OpenRemote\OpenRemote Settings.lnk" ? 0 : settings_backup_done
+CopyFiles: (silent) "$SMPROGRAMS\OpenRemote\OpenRemote Settings.lnk" -> "$PLUGINSDIR\settings.lnk", size=0KB
+IfErrors ?backup_done:
+StrCpy $OldSettingsShortcut "1" () ()
+ReadRegStr $OldOwner HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\Owner
+ReadRegStr $OldName HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayName
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _And
+!insertmacro: end of _And
+StrCpy $ErrorText "The OpenRemote registration changed while Setup was open. Its ownership could not be verified. No active installation was changed." () ()
+SetErrors: 
+Return
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+ClearErrors: 
+ReadRegStr $OldRelease HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\InstallLocation
+ReadRegStr $OldName HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayName
+ReadRegStr $OldVersion HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayVersion
+ReadRegStr $OldIcon HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayIcon
+ReadRegStr $OldUninstall HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\UninstallString
+ReadRegStr $OldPublisher HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\Publisher
+IfErrors ?backup_done:
+ReadRegDWORD $OldDesktopInstalled HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DesktopShortcutInstalled
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $OldDesktopInstalled "0" () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: VersionCompareCall
+!insertmacro: end of VersionCompareCall
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $ErrorText "A newer OpenRemote version is installed. This older installer will not replace it." () ()
+SetErrors: 
+Return
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+ClearErrors: 
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+IfFileExists: "$DESKTOP\OpenRemote.lnk" ? 0 : backup_done
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $ShortcutPath "$DESKTOP\OpenRemote.lnk" () ()
+StrCpy $ShortcutTarget "$OldRelease\openremote-agent.exe" () ()
+StrCpy $ShortcutArguments "" () ()
+Call "ShortcutPointsToHost"
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+StrCpy $ErrorText "A desktop shortcut named OpenRemote already exists and does not belong to the previous installation. It was preserved. Run Setup again with Desktop shortcut cleared, or rename that shortcut first." () ()
+SetErrors: 
+Return
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+CopyFiles: (silent) "$DESKTOP\OpenRemote.lnk" -> "$PLUGINSDIR\desktop.lnk", size=0KB
+IfErrors ?backup_done:
+StrCpy $OldDesktopShortcut "1" () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+FunctionEnd
+Function: "RollbackActivation"
+!insertmacro: _If
+!insertmacro: end of _If
+ClearErrors: 
+!insertmacro: _If
+!insertmacro: end of _If
+CopyFiles: (silent) "$PLUGINSDIR\host.lnk" -> "$SMPROGRAMS\OpenRemote\OpenRemote Host.lnk", size=0KB
+!insertmacro: _Else
+!insertmacro: end of _Else
+Delete: "$SMPROGRAMS\OpenRemote\OpenRemote Host.lnk"
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+CopyFiles: (silent) "$PLUGINSDIR\settings.lnk" -> "$SMPROGRAMS\OpenRemote\OpenRemote Settings.lnk", size=0KB
+!insertmacro: _Else
+!insertmacro: end of _Else
+Delete: "$SMPROGRAMS\OpenRemote\OpenRemote Settings.lnk"
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _If
+!insertmacro: end of _If
+CopyFiles: (silent) "$PLUGINSDIR\desktop.lnk" -> "$DESKTOP\OpenRemote.lnk", size=0KB
+!insertmacro: _Else
+!insertmacro: end of _Else
+Delete: "$DESKTOP\OpenRemote.lnk"
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\Owner=$OldOwner
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayName=$OldName
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayVersion=$OldVersion
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DisplayIcon=$OldIcon
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\InstallLocation=$OldRelease
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\UninstallString=$OldUninstall
+WriteRegStr: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\Publisher=$OldPublisher
+WriteRegDWORD: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\NoModify=1
+WriteRegDWORD: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\NoRepair=1
+WriteRegDWORD: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\DesktopShortcutInstalled=$OldDesktopInstalled
+!insertmacro: _Else
+!insertmacro: end of _Else
+DeleteRegKey: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $RollbackFailed "1" () ()
+StrCpy $ErrorText "$ErrorText
+
+Windows also prevented complete rollback. The previous release files remain in place. Check the Start menu and Installed apps entry before retrying." () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _And
+!insertmacro: end of _And
+SetOutPath: "$TEMP"
+Delete: "$ReleaseDir\openremote-agent.exe"
+Delete: "$ReleaseDir\START-HERE.txt"
+Delete: "$ReleaseDir\THIRD-PARTY-NOTICES.txt"
+Delete: "$ReleaseDir\package-manifest.json"
+Delete: "$ReleaseDir\install-owner.ini"
+Delete: "$ReleaseDir\Uninstall.exe"
+RMDir: "$ReleaseDir"
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+FunctionEnd
+Function: "LaunchHost"
+Call "ReleaseHostLock"
+ClearErrors: 
+ExecShell: open: "$ReleaseDir\openremote-agent.exe" "" 
+!insertmacro: _If
+!insertmacro: end of _If
+MessageBox: 48: "OpenRemote was installed but Windows did not start it. Open OpenRemote Host from the Start menu. If Windows shows a publisher warning, this is an unsigned development build."
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+FunctionEnd
+Function: ".onGUIEnd"
+Call "ReleaseHostLock"
+FunctionEnd
+Function: "un.onInit"
+SetShellVarContext: current
+SetRegView: 64
+StrCpy $HostLock "0" () ()
+StrCpy $InstallRoot "$LOCALAPPDATA\Programs\OpenRemote" () ()
+GetFullPathName: $INSTDIR->$ReleaseDir (769140856)
+!insertmacro: GetParentCall
+!insertmacro: end of GetParentCall
+!insertmacro: _If
+!insertmacro: end of _If
+MessageBox: 16: "This uninstaller is not in its owned OpenRemote release directory. No files were removed."
+SetErrorLevel: 2
+Quit
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+StrCpy $INSTDIR "$ReleaseDir" () ()
+Plugin command: Call kernel32::GetFileAttributesW(w "$ReleaseDir") i .r0
+IntOp: $1=$0&0x400
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+Goto: un_invalid
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Plugin command: Call kernel32::GetFileAttributesW(w "$InstallRoot\releases") i .r0
+IntOp: $1=$0&0x400
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+Goto: un_invalid
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Plugin command: Call kernel32::GetFileAttributesW(w "$InstallRoot") i .r0
+IntOp: $1=$0&0x400
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+Goto: un_invalid
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Plugin command: Call kernel32::GetFileAttributesW(w "$LOCALAPPDATA\Programs") i .r0
+IntOp: $1=$0&0x400
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+Goto: un_invalid
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+ReadINIStr $0 [OpenRemote]:Owner from $ReleaseDir\install-owner.ini
+ReadINIStr $1 [OpenRemote]:HostSHA256 from $ReleaseDir\install-owner.ini
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _Or
+!insertmacro: end of _Or
+Goto: un_invalid
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Plugin command: Call kernel32::GetFileAttributesW(w "$LOCALAPPDATA\OpenRemote") i .r0
+!insertmacro: _If
+!insertmacro: end of _If
+IntOp: $1=$0&0x400
+!insertmacro: _If
+!insertmacro: end of _If
+Goto: un_invalid
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Call "un.AcquireHostLock"
+!insertmacro: _If
+!insertmacro: end of _If
+MessageBox: 16: "$ErrorText"
+SetErrorLevel: 2
+Quit
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Return
+MessageBox: 16: "The OpenRemote installation path or ownership marker could not be verified. No files were removed."
+SetErrorLevel: 2
+Quit
+FunctionEnd
+Section: "Uninstall"
+SetOutPath: "$TEMP"
+ClearErrors: 
+Delete: "$INSTDIR\openremote-agent.exe"
+Delete: "$INSTDIR\START-HERE.txt"
+Delete: "$INSTDIR\THIRD-PARTY-NOTICES.txt"
+Delete: "$INSTDIR\package-manifest.json"
+!insertmacro: _If
+!insertmacro: end of _If
+Call "un.ReleaseHostLock"
+MessageBox: 16: "Windows could not remove one or more OpenRemote application files. Close any window using those files and run uninstall again. Your settings and received files were kept."
+SetErrorLevel: 1
+Abort: ""
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+ReadRegStr $0 HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\Owner
+ReadRegStr $1 HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote\InstallLocation
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _And
+!insertmacro: end of _And
+StrCpy $ShortcutTarget "$INSTDIR\openremote-agent.exe" () ()
+StrCpy $ShortcutArguments "" () ()
+StrCpy $ShortcutPath "$SMPROGRAMS\OpenRemote\OpenRemote Host.lnk" () ()
+Call "un.ShortcutPointsToHost"
+!insertmacro: _If
+!insertmacro: end of _If
+Delete: "$ShortcutPath"
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+StrCpy $ShortcutArguments "--configure" () ()
+StrCpy $ShortcutPath "$SMPROGRAMS\OpenRemote\OpenRemote Settings.lnk" () ()
+Call "un.ShortcutPointsToHost"
+!insertmacro: _If
+!insertmacro: end of _If
+Delete: "$ShortcutPath"
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+ReadINIStr $0 [OpenRemote]:DesktopShortcutInstalled from $INSTDIR\install-owner.ini
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $ShortcutArguments "" () ()
+StrCpy $ShortcutPath "$DESKTOP\OpenRemote.lnk" () ()
+Call "un.ShortcutPointsToHost"
+!insertmacro: _If
+!insertmacro: end of _If
+Delete: "$ShortcutPath"
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+RMDir: "$SMPROGRAMS\OpenRemote"
+DeleteRegKey: HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\OpenRemote
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+Delete: "$INSTDIR\install-owner.ini"
+Delete: "$INSTDIR\Uninstall.exe"
+RMDir: "$INSTDIR"
+RMDir: "$InstallRoot\releases"
+RMDir: "$InstallRoot"
+DetailPrint: "Removed this OpenRemote release. Local identity, settings, received files and previous release directories were kept."
+Call "un.ReleaseHostLock"
+SectionEnd
+Function: "un.onGUIEnd"
+Call "un.ReleaseHostLock"
+FunctionEnd
+!insertmacro: SHORTCUT_FUNCTION
+Function: "ShortcutPointsToHost"
+StrCpy $ShortcutMatches "0" () ()
+StrCpy $ComInitialized "0" () ()
+Plugin command: Call ole32::CoInitializeEx(p 0, i 2) i .r5
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $ComInitialized "1" () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+StrCpy $0 "0" () ()
+StrCpy $1 "0" () ()
+!insertmacro: ComHlpr_CreateInProcInstance
+Plugin command: Call OLE32::CoCreateInstance(g"{00021401-0000-0000-c000-000000000046}",i0,i0x1,g"{000214f9-0000-0000-c000-000000000046}",*p.r0)i.r2
+!insertmacro: end of ComHlpr_CreateInProcInstance
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: NSISCOMCALL
+Plugin command: Call $0->0(g,*p)i("{0000010b-0000-0000-C000-000000000046}",.r1).r2
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: NSISCOMCALL
+Plugin command: Call $1->5(w,i)i("$ShortcutPath",0).r2
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: NSISCOMCALL
+Plugin command: Call $0->3(t,i,p,i)i(.r3,1024,0,4).r2
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _And
+!insertmacro: end of _And
+!insertmacro: NSISCOMCALL
+Plugin command: Call $0->10(t,i)i(.r4,1024).r2
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _And
+!insertmacro: end of _And
+StrCpy $ShortcutMatches "1" () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: NSISCOMCALL
+Plugin command: Call $1->2()i
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: NSISCOMCALL
+Plugin command: Call $0->2()i
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+Plugin command: Call ole32::CoUninitialize()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+FunctionEnd
+!insertmacro: end of SHORTCUT_FUNCTION
+!insertmacro: SHORTCUT_FUNCTION
+Function: "un.ShortcutPointsToHost"
+StrCpy $ShortcutMatches "0" () ()
+StrCpy $ComInitialized "0" () ()
+Plugin command: Call ole32::CoInitializeEx(p 0, i 2) i .r5
+!insertmacro: _If
+!insertmacro: end of _If
+StrCpy $ComInitialized "1" () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+StrCpy $0 "0" () ()
+StrCpy $1 "0" () ()
+!insertmacro: ComHlpr_CreateInProcInstance
+Plugin command: Call OLE32::CoCreateInstance(g"{00021401-0000-0000-c000-000000000046}",i0,i0x1,g"{000214f9-0000-0000-c000-000000000046}",*p.r0)i.r2
+!insertmacro: end of ComHlpr_CreateInProcInstance
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: NSISCOMCALL
+Plugin command: Call $0->0(g,*p)i("{0000010b-0000-0000-C000-000000000046}",.r1).r2
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: NSISCOMCALL
+Plugin command: Call $1->5(w,i)i("$ShortcutPath",0).r2
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: NSISCOMCALL
+Plugin command: Call $0->3(t,i,p,i)i(.r3,1024,0,4).r2
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _And
+!insertmacro: end of _And
+!insertmacro: NSISCOMCALL
+Plugin command: Call $0->10(t,i)i(.r4,1024).r2
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _If
+!insertmacro: end of _If
+!insertmacro: _And
+!insertmacro: end of _And
+StrCpy $ShortcutMatches "1" () ()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: NSISCOMCALL
+Plugin command: Call $1->2()i
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: NSISCOMCALL
+Plugin command: Call $0->2()i
+!insertmacro: end of NSISCOMCALL
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: _If
+!insertmacro: end of _If
+Plugin command: Call ole32::CoUninitialize()
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+FunctionEnd
+!insertmacro: end of SHORTCUT_FUNCTION
+
+Processed 1 file, writing output (x86-unicode):
+Adding plug-ins initializing function... Done!
+Processing pages... Done!
+Removing unused resources... Done!
+Generating language tables... Done!
+Generating uninstaller... Done!
+
+Output: "/workspace/scratch/72f8c6db0182/work/remote-desktop-platform/artifacts/windows-installer-final/openremote-installer-vdf9cg_v/OpenRemote-0.5.1-Windows-x64-Setup.exe"
+Install: 4 pages (256 bytes), 3 sections (2 required) (12360 bytes), 929 instructions (26012 bytes), 331 strings (15472 bytes), 1 language table (290 bytes).
+Uninstall: 3 pages (256 bytes), 1 section (4120 bytes), 513 instructions (14364 bytes), 221 strings (9042 bytes), 1 language table (278 bytes).
+Datablock optimizer saved 26498 bytes (~0.2%).
+
+Using lzma (compress whole) compression.
+
+EXE header size:              118272 / 102400 bytes
+Install code:                          (48710 bytes)
+Install data:                          (12959380 bytes)
+Uninstall code+data:                   (109890 bytes)
+Compressed data:             3173678 / 13117980 bytes
+CRC (0xDF8C0DA5):                  4 / 4 bytes
+
+Total size:                  3291954 / 13220384 bytes (24.9%)

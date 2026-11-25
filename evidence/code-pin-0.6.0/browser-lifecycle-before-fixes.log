@@ -1,0 +1,58 @@
+(node:12) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ cancellation during discovery aborts before authentication or redemption (40.915565ms)
+✔ cancellation during proof verification never sends the code or PIN (40.169535ms)
+✔ a canceled one-use POST settles only to close its known late session (23.724577ms)
+✔ an uncertain POST failure is not retried and never exposes transport details (12.396165ms)
+✔ a malformed or escalated grant is closed without displaying a desktop (15.098721ms)
+✔ pending sessions expose no peer or input and repeated disconnect is idempotent (12.758222ms)
+✔ input requires the actual app peer, channel, catalog, permission and fresh frame (30.83792ms)
+✔ fresh video without a primary-display catalog cannot authorize input (22.103607ms)
+✔ page hide releases held input, closes once, and requests a keepalive end (86.066327ms)
+✔ focus or visibility loss releases keys and hidden pages cannot send input (55.089133ms)
+✔ permission removal immediately gates input and later restoration ends the session (34.463539ms)
+✔ a changed host identity ends the active session instead of reusing its peer (28.903577ms)
+✖ a delayed old stop failure cannot overwrite the result of a newer attempt (28.109805ms)
+✖ unsupported fullscreen is an actionable message rather than an uncaught exception (16.866924ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 12
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 794.311022
+
+✖ failing tests:
+
+test at tests/browser/controller-lifecycle.test.mjs:233:3
+✖ a delayed old stop failure cannot overwrite the result of a newer attempt (28.109805ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Disconnected. Generate a fresh code whenever you want to connect again. The service did not confirm the stop; close the host or use its Stop control if needed.'
+  - 'The request could not be confirmed. The code may have been used. Generate a fresh code on the host before trying again.'
+  
+      at file:///workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/browser/controller-lifecycle.test.mjs:399:12
+      at async TestContext.<anonymous> (file:///workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/browser/controller-lifecycle.test.mjs:235:11)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Disconnected. Generate a fresh code whenever you want to connect again. The service did not confirm the stop; close the host or use its Stop control if needed.',
+    expected: 'The request could not be confirmed. The code may have been used. Generate a fresh code on the host before trying again.',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/browser/controller-lifecycle.test.mjs:233:3
+✖ unsupported fullscreen is an actionable message rather than an uncaught exception (16.866924ms)
+  TypeError [Error]: $(...).requestFullscreen is not a function
+      at app.js:306:89
+      at file:///workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/browser/controller-lifecycle.test.mjs:55:69
+      at Array.map (<anonymous>)
+      at Element.fire (file:///workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/browser/controller-lifecycle.test.mjs:55:59)
+      at file:///workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/browser/controller-lifecycle.test.mjs:407:30
+      at async TestContext.<anonymous> (file:///workspace/scratch/72f8c6db0182/work/remote-desktop-platform/tests/browser/controller-lifecycle.test.mjs:235:11)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)

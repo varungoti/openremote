@@ -1,0 +1,112 @@
+TAP version 13
+# Subtest: code and PIN retain leading zeroes and reject formatting tricks or non-ASCII digits
+ok 1 - code and PIN retain leading zeroes and reject formatting tricks or non-ASCII digits
+  ---
+  duration_ms: 3.653665
+  type: 'test'
+  ...
+# Subtest: permanent PC identity requires activation and stays bound during refresh
+ok 2 - permanent PC identity requires activation and stays bound during refresh
+  ---
+  duration_ms: 2.184397
+  type: 'test'
+  ...
+# Subtest: activation discovery accepts only an explicit supported integer capability and capacity
+ok 3 - activation discovery accepts only an explicit supported integer capability and capacity
+  ---
+  duration_ms: 0.577059
+  type: 'test'
+  ...
+# Subtest: names are byte bounded and exclude control characters
+ok 4 - names are byte bounded and exclude control characters
+  ---
+  duration_ms: 0.420878
+  type: 'test'
+  ...
+# Subtest: strict JSON rejects duplicate authorization keys including escaped aliases and nested objects
+ok 5 - strict JSON rejects duplicate authorization keys including escaped aliases and nested objects
+  ---
+  duration_ms: 2.816329
+  type: 'test'
+  ...
+# Subtest: WebCrypto signatures are converted to actual Go-compatible ASN.1, verified independently
+ok 6 - WebCrypto signatures are converted to actual Go-compatible ASN.1, verified independently
+  ---
+  duration_ms: 57.310867
+  type: 'test'
+  ...
+# Subtest: DER integer zero trimming and high-bit padding are canonical
+ok 7 - DER integer zero trimming and high-bit padding are canonical
+  ---
+  duration_ms: 1.050555
+  type: 'test'
+  ...
+# Subtest: redemption requires exact verified controller and a least-privilege primary-display grant
+ok 8 - redemption requires exact verified controller and a least-privilege primary-display grant
+  ---
+  duration_ms: 2.377027
+  type: 'test'
+  ...
+# Subtest: session refresh cannot switch device, key, pairing or broaden permissions
+ok 9 - session refresh cannot switch device, key, pairing or broaden permissions
+  ---
+  duration_ms: 1.372297
+  type: 'test'
+  ...
+# Subtest: input requires peer, channel, permissions, fresh frame AND immutable display binding
+ok 10 - input requires peer, channel, permissions, fresh frame AND immutable display binding
+  ---
+  duration_ms: 1.882642
+  type: 'test'
+  ...
+# Subtest: display gate rejects changed topology, wrong primary, duplicate monitors and capabilities
+ok 11 - display gate rejects changed topology, wrong primary, duplicate monitors and capabilities
+  ---
+  duration_ms: 3.937964
+  type: 'test'
+  ...
+# Subtest: pointer coordinates respect actual video letterboxing and never inject into black bars
+ok 12 - pointer coordinates respect actual video letterboxing and never inject into black bars
+  ---
+  duration_ms: 0.779889
+  type: 'test'
+  ...
+# Subtest: service capability checks fail before consuming a code on a legacy coordinator
+ok 13 - service capability checks fail before consuming a code on a legacy coordinator
+  ---
+  duration_ms: 1.570258
+  type: 'test'
+  ...
+# Subtest: API only sends credential bodies to the same origin, never redirects or ambient cookies
+ok 14 - API only sends credential bodies to the same origin, never redirects or ambient cookies
+  ---
+  duration_ms: 10.765059
+  type: 'test'
+  ...
+# Subtest: API bounds streamed responses and does not retry a one-use POST
+ok 15 - API bounds streamed responses and does not retry a one-use POST
+  ---
+  duration_ms: 6.799338
+  type: 'test'
+  ...
+# Subtest: API distinguishes safe error codes from arbitrary remote text
+ok 16 - API distinguishes safe error codes from arbitrary remote text
+  ---
+  duration_ms: 3.171693
+  type: 'test'
+  ...
+# Subtest: actual P-256 proof exchange uses a non-exportable signing key and verifies independently
+ok 17 - actual P-256 proof exchange uses a non-exportable signing key and verifies independently
+  ---
+  duration_ms: 9.894159
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 340.844285

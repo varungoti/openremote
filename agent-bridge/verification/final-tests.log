@@ -1,0 +1,26 @@
+✔ publisher profile is fixed HTTPS and never accepts a controller-supplied endpoint (12.775566ms)
+✔ unconfigured product still reports status and fails before browser launch (2.891809ms)
+✔ browser debugging is refused before loading a library that could log PIN arguments (13.138726ms)
+✔ bounded status and PNG outputs discard arbitrary browser fields (12.413018ms)
+✔ connect waits for media, clears PIN reference, and each screenshot permits only one bounded action (36.304716ms)
+✔ view-only screenshots work but input never reaches browser API (1.690843ms)
+✔ stale and cross-generation screenshot tokens cannot authorize input (6.446016ms)
+✔ disconnect cancels connection setup and closes a browser that resolves late (98.091202ms)
+✔ request cancellation closes the session and discards queued mutations (13.011488ms)
+✔ idle expiry and operation timeout close resources without claiming remote end acknowledgment (90.999039ms)
+✔ a cancelled screenshot cannot overwrite a newer connection observation (2.393658ms)
+✔ the serialized operation queue is bounded and disconnect discards every queued operation (10.176113ms)
+✔ real stdio MCP framing lists only bounded desktop tools and validates negative arguments (109.108864ms)
+✔ stdio cancellation and EOF tear down the actual tool handler resource (27.025219ms)
+✔ modern 2026 stdio requests use their per-request envelope without a legacy handshake (74.914834ms)
+✔ EOF closes a ready browser resource and removes all local input state (15.168972ms)
+✔ oversized stdio frame closes the bounded transport (36.830139ms)
+✔ production child process supports initialize/status and exits on stdin EOF without extra output (709.626777ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2033.036192

@@ -1,0 +1,260 @@
+{
+  "version": "0.4.0",
+  "recordedAtUtc": "2026-11-18T08:57:25.245699+00:00",
+  "releaseReady": false,
+  "stage": "development build",
+  "sourceBranch": "work/release-hardening",
+  "originalArchiveSha256": "179962e6d3c3ed83f0e9cf24b0aac591a08aa80cfdf356ada877ddc7d282522a",
+  "artifacts": [
+    {
+      "path": "artifacts/windows/openremote-agent.exe",
+      "sizeBytes": 9356800,
+      "sha256": "37ea1ec8177abffd9353c0f5cd59047bcdf68924772874225d43c908076200cf"
+    },
+    {
+      "path": "artifacts/controlplane-linux-amd64",
+      "sizeBytes": 10711963,
+      "sha256": "ba9336b949b2dc7a78766e512c9662b168958e1b2a1a621d403347ddc8413951"
+    },
+    {
+      "path": "android/app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "sizeBytes": 24631759,
+      "sha256": "c9b78473a65ade3ec64dd444ecec83c201ca4d90a76723abbc4f57efefe13e0e"
+    },
+    {
+      "path": "android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk",
+      "sizeBytes": 13780002,
+      "sha256": "3c5868cefb1ccbcabd88880c2b58be2e56c31f41366080d4202834fd9cbf3df0"
+    }
+  ],
+  "executed": {
+    "go": {
+      "description": "OpenRemote0.4 immutable monitor selector verification",
+      "toolchain": "go1.27.4",
+      "checkedAt": "2026-11-18",
+      "topLevelTests": 19,
+      "raceTests": "PASS",
+      "vet": "PASS",
+      "appCoveragePercent": 76.3,
+      "binary": {
+        "file": "artifacts/controlplane-linux-amd64",
+        "sizeBytes": 10711963,
+        "sha256": "ba9336b949b2dc7a78766e512c9662b168958e1b2a1a621d403347ddc8413951"
+      },
+      "sources": {
+        "server/cmd/controlplane/main.go": "85eff95064baa535a81c96a2121174e04331705dee0be2efd1a9063c52711f47",
+        "server/internal/app/app.go": "c358204428cb78bd79e493613ce97debf4e1defaa48bcc7d8a4cf32235ccd297",
+        "server/internal/app/app_test.go": "3bfb1b00e2b20c81cdca0ddfa48fd65c3dd2844d0cf2eae997d252e93f8b830c",
+        "server/internal/app/auth.go": "19f36cba92c40b41aae26c206f89e1a12671a14121041ba1a34e167316ed09ee",
+        "server/internal/app/devices.go": "990a5f8aa6404189b44c498ab5524c12715feafac3395290469fec122ca2956a",
+        "server/internal/app/ice.go": "0ed0509cb8a47bb4e45dfeed9cd695c086320ac105171c7cf340194080ddb3bc",
+        "server/internal/app/monitor_test.go": "f9d2ef2c783f98d7c242362127d8ad1dc9b7c58dd593292eacc6079b37153da3",
+        "server/internal/app/sessions.go": "9a97bda685779cf26e7e750d5274a64430ad03529dcab5caf42e4868c55282ee",
+        "server/internal/app/store.go": "b7467ec8ea9fc692a665a6e44227bb69dca8abf45c288fcd2cb74eac96cba431",
+        "server/internal/app/store_lock_unix.go": "76db9d7821aa0f37142c26e3360dd109555a11f7db5427373aa0df93b0142d24",
+        "server/internal/app/store_lock_windows.go": "1e40c2f90a090360e6528d9103096050739d4964d6e7b4d501f31eeef976ba2b",
+        "server/go.mod": "fa96a751d3e0e62c67c1168140d7f354f0b562ae2161522793ef2fa235e98fc7"
+      },
+      "httpsReport": "evidence/https-controlplane.json",
+      "beforeChange": "server/verification/monitor-regression-before.log",
+      "scope": "Coordinator only; no monitor hardware, RTP, decoded desktop or native input exercised."
+    },
+    "httpsControlPlane": {
+      "ok": true,
+      "checks": [
+        "P-256 SPKI authentication and single-use challenge replay rejection",
+        "Copied public key does not authenticate an impostor",
+        "Protected enrollment, authenticated lookup, host heartbeat",
+        "Host consent, actor authorization, and permission narrowing",
+        "Expiring TURN REST credential HMAC matches relay secret",
+        "Approved bidirectional offer/answer and ICE routing",
+        "Ended sessions cannot signal or acquire relay credentials",
+        "Immutable opaque monitor selector, strict validation, host event echo and view-only authorization",
+        "Device identity survives process restart; bearer tokens absent from persisted JSON"
+      ],
+      "transport": "HTTPS with verified ephemeral test CA",
+      "binary": {
+        "sha256": "ba9336b949b2dc7a78766e512c9662b168958e1b2a1a621d403347ddc8413951",
+        "size": 10711963
+      },
+      "finishedAt": "2026-11-18T08:31:51.062264+00:00",
+      "scope": "Control plane only. No desktop frames or input injected by this test."
+    },
+    "rust": {
+      "testsPassed": 58,
+      "format": "passed",
+      "linuxClippy": "passed",
+      "windowsClippy": "passed",
+      "windowsBuild": "passed",
+      "sourceInputs": {
+        "algorithm": "SHA-256 of UTF-8 JSON mapping relative paths to content SHA-256, sorted keys, compact separators",
+        "sha256": "173a8b2f4389e375d57d50485aacb2c70e88b497a7dcfa2bf8115f8bb506cb2d",
+        "files": {
+          "Cargo.toml": "954d6685cc720de9ab710c65befcdd45c32f0547d9c59ddb664bfb903768f40f",
+          "Cargo.lock": "5880af12b33b5a249034bd9a6ba6e51998b38d35344691ad718a310c58f50ce2",
+          "src/api.rs": "f2c47c4dfa86d6ec09a17c9429d7c628e304912406c44925a2d3ca7ce4c81caa",
+          "src/config.rs": "13baa7450cc77332fcdfca54c1a8320b008c5b3192f77d87d6f9730b78a44579",
+          "src/displays.rs": "540bc6f43f00ec5a041351fb88426016093e80f13446ae6067872f4f0f8ed629",
+          "src/identity.rs": "78fd3f327498273a2516802d83c221e8471a58774db609fab8b634dc5472d50c",
+          "src/input.rs": "5a552bb001a4a074afc6727699c8cb40d564f7079d53dacb2f94eb73548a1f41",
+          "src/lib.rs": "5112c205207dc77078ca79eb3ab7906069286b07a25c720a6f683ca3430ef734",
+          "src/main.rs": "e9da79b28e495d75258177180168c1d72313f2545bb90961f32f09b1f5b50e9b",
+          "src/media.rs": "dae8e76edeb07d43c7853dbbd3522af854a0df6fa1590e09748299127ba3028d",
+          "src/protocol.rs": "78b7f9c57b36ddfcf8cbf1a573af5bbdc576c29506c448c391b0116549c3a596",
+          "src/session.rs": "a5ff8c1d37fd0756d18baa78c111672488119fa3855cc091587c4dcd7e9e49b3",
+          "src/session_tools/clipboard.rs": "5ee22f30949368028cce8be7e59febab2f08c50311d890f9e92b3462720c0d37",
+          "src/session_tools/mod.rs": "40ede40bdce6fb1eb348f5333c40750faeb655eae19c4009aff98e45bb5df324",
+          "src/session_tools/protocol.rs": "79d50507b8fa8d489c5e1b5462fb32d191961a2aaf259d7868b58290cd8bb148",
+          "src/session_tools/uploads.rs": "4b494da225d4bf0d52c9d9afc5f810313c373fc69e9d5f76e565a158eb8b545b",
+          "src/ui.rs": "b07a9f6d5a0f02062edfb8ffbd0d4fb7b42e5cbaba39b7eb126c2f5ac712ee96",
+          "examples/capture_smoke.rs": "f519d5f8d04c41b202b1e6f6dc604a528515dae4cfa1fdc663369e8648949620",
+          "examples/synthetic_peer.rs": "396104ffa5e9624cd363108a1fec7ca9aff5774710659c3c8ef691dba79b162e"
+        },
+        "scope": "Cargo manifest/lock, all Rust source files, and both examples; README and this evidence record are not build inputs."
+      },
+      "captureSmoke": {
+        "command": "cargo run --locked --offline --example capture_smoke -- /usr/bin/ffmpeg /workspace/scratch/72f8c6db0182/evidence/host-0.4-smoke.h264",
+        "result": {
+          "decodedFrames": 30,
+          "distinctFrameHashes": 30,
+          "encodedAccessUnits": 30,
+          "ffmpegSha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+          "fixture": "synthetic_capture_encode_assemble_decode",
+          "ok": true
+        },
+        "codec": {
+          "codec_name": "h264",
+          "profile": "Constrained Baseline",
+          "width": 640,
+          "height": 360,
+          "level": 31,
+          "nb_read_frames": "30"
+        },
+        "outputSha256": "4af594fcef1a1db290d42f0991abc06c698ab5159d91748c05719360eee40c96",
+        "executedForHostVersion": "0.4.0",
+        "scope": "Network-free generated test bars. The production args/Annex-B parser and real encoder/decoder run; native Windows capture, SendInput, or WebRTC transport are not exercised.",
+        "stdoutLog": "verification/capture-smoke.stdout.log",
+        "stderrLog": "verification/capture-smoke.stderr.log",
+        "ffprobe": "verification/capture-ffprobe.json"
+      },
+      "nativeExecution": false
+    },
+    "android": {
+      "testsPassed": 46,
+      "lintErrors": 0,
+      "lintDependencyWarnings": 5,
+      "manifests": {
+        "android/verification/source-inputs.sha256": {
+          "count": 44,
+          "sha256": "b3a56713276d984fa93d0bd1e09ef6075c7f4689f6bfa65345b11638d7563a27"
+        },
+        "android/verification/artifacts.sha256": {
+          "count": 9,
+          "sha256": "53a43998803e778026b42ad8bd9b9473515fa76b5352f4eb0b531dd0ef85652f"
+        },
+        "android/verification/build-evidence.sha256": {
+          "count": 22,
+          "sha256": "ed4bb7cca0a4503e86f05ee9e46a0612e22f0ff83b275e853a746b763e34a1fd"
+        }
+      },
+      "debugReleaseFourAbisBuilt": true,
+      "instrumentationApkBuilt": true,
+      "deviceTestsExecuted": false,
+      "debugSignatureVerified": true,
+      "zipAndNativeAlignmentBytes": 16384,
+      "debugSignerMatches0_3": true
+    },
+    "python": {
+      "totalPassed": 16,
+      "pilotValidatorPassed": 13,
+      "deploymentConfigPassed": 3,
+      "sourceSha256": {
+        "scripts/validate_pilot_evidence.py": "771e14dc2879276dfd0f73a9f73f0ccc46e3ed91de66e45e4b3dce95c985f98c",
+        "scripts/tests/test_pilot_evidence.py": "e44f9d5f9dd5f57cccf3c4af8ce10d604969eedcf76115ece6a201cc78db3734",
+        "scripts/configure_deployment.py": "fdb5d72f2a72c7932d4450172fc47758511a590ebb9cd37a707b7b5cb656316b",
+        "scripts/tests/test_deployment_config.py": "de03f7aca9a7780ee779c4297b4ceff975834beb798e48c25944b6d9229f5132"
+      }
+    },
+    "independentSourceReview": {
+      "report": "evidence/monitor-review-0.4.md",
+      "sha256": "ad2b50ab457756c5351ee52e9a5b5a47a53db0c9c77c1dd953ae707dd8b89986",
+      "nativeProof": false
+    }
+  },
+  "carriedForwardInstaller": {
+    "version": "0.4.0",
+    "previousSourceRevision": "612a5bd5d62ee5fc8d06be37be783833bb8f19d3",
+    "scope": "Four actual installer activation tests and PowerShell syntax checks were executed for0.3. Their script bytes are unchanged; those native-adapter results are carried forward, not rerun for0.4. Windows installation is not verified.",
+    "sources": [
+      {
+        "path": "packaging/windows/Install-OpenRemote.ps1",
+        "unchangedFrom0_3": true,
+        "sha256": "1b3e22037a93f25a3e286663e81ebf1c9ad152d72fb919de2ca02c0f4f47e4cb"
+      },
+      {
+        "path": "packaging/windows/Uninstall-OpenRemote.ps1",
+        "unchangedFrom0_3": true,
+        "sha256": "7edbb9d3565f41bc4fcd93361118ecbde08915fece87baf36d8e77e5a88c5f62"
+      },
+      {
+        "path": "packaging/windows/tests/Activation.Tests.ps1",
+        "unchangedFrom0_3": true,
+        "sha256": "8517841a24fcd1d27ca33d9cc4b4b78a603bb7562d9463ce81da9186134af8ea"
+      },
+      {
+        "path": "scripts/build-windows.ps1",
+        "unchangedFrom0_3": true,
+        "sha256": "5448f198bdc9db0c6ba31d0714d339738542b357deb60e984256a11821ae6b6c"
+      }
+    ]
+  },
+  "dependencies": {
+    "inventorySha256": "8c02b4bb7344d1802ea335b97010b25150a30655fef28eaedf06a4f144663fd7",
+    "referencedUniqueFilesVerified": 743,
+    "newDependencies": 0,
+    "rustLockedPackages": 319,
+    "androidRuntimeComponents": 98,
+    "noticeGapsRemain": true
+  },
+  "unexecutedOrBlocked": [
+    "Physical Windows capture, input, monitor/DPI/hotplug, consent, native clipboard and file semantics.",
+    "Physical Android installation, Keystore, EGL rendering, SAF and lifecycle behavior.",
+    "Actual networked media and input: prior fixtures blocked by required socket/interface access; no retry or bypass in0.4.",
+    "Public direct/TURN UDP/TCP/TLS443, carrier NAT, long sessions and Wi-Fi/cellular handoff.",
+    "Signed production distribution, full native dependency provenance, upgrade and operational release matrix."
+  ],
+  "productionFeaturesStillPlanned": [
+    "hardware/adaptive encoding",
+    "PC audio",
+    "reverse/resumable file exchange",
+    "host settings UI",
+    "service/reboot recovery",
+    "independent peer negotiation signatures",
+    "signed updates",
+    "iOS"
+  ],
+  "sourceCustody": {
+    "capturedSourceCommit": "53dccfc7ddcd8460bfbed43d9a363a08c58021ae",
+    "buildInputsMatchCommit": true,
+    "groups": {
+      "windows": 19,
+      "coordinator": 12,
+      "android": 44
+    },
+    "scope": "Unsigned development binaries were compiled before this consolidation commit. Their recorded build inputs match the corresponding committed file bytes. This is source custody evidence, not independent reproducibility or a signed build attestation."
+  },
+  "pilotRecord": {
+    "recordValid": true,
+    "reportedPilotComplete": false,
+    "releaseReady": false,
+    "sourceRevision": "53dccfc7ddcd8460bfbed43d9a363a08c58021ae",
+    "counts": {
+      "blocked": 0,
+      "failed": 0,
+      "not_run": 17,
+      "passed": 0
+    },
+    "note": "Hashes and required recorded observations validated. This tool cannot attest execution, build provenance, signatures, or production readiness."
+  },
+  "pilotCompletionGateRejectsUnexecutedRecord": true
+}

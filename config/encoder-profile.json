@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "fileName": "ffmpeg.exe",
+  "version": "9.0.2",
+  "encoder": "h264_mf",
+  "sha256": "3cc67f5c4a38d19c2e76ae78b3ff89b398dd92ec31511fb40c25f6162c7a5e11",
+  "sizeBytes": 3288064
+}

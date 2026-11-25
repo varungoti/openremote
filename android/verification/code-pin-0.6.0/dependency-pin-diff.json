@@ -1,0 +1,27 @@
+{
+  "oldArtifacts": 619,
+  "currentArtifacts": 622,
+  "removed": [],
+  "changed": [],
+  "added": [
+    {
+      "group": "org.junit",
+      "module": "junit-bom",
+      "version": "5.10.2",
+      "artifact": "junit-bom-5.10.2.module"
+    },
+    {
+      "group": "com.google.guava",
+      "module": "guava-parent",
+      "version": "33.3.1-jre",
+      "artifact": "guava-parent-33.3.1-jre.pom"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "module": "kotlinx-coroutines-bom",
+      "version": "1.8.0",
+      "artifact": "kotlinx-coroutines-bom-1.8.0.pom"
+    }
+  ],
+  "dependencyLockUnchanged": true
+}

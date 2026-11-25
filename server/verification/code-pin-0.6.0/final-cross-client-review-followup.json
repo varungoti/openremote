@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-19T08:40:08.848488+00:00",
+  "coreModuleSHA256": "c74df195e58b394df4935df300aa3b78ece5be894b7ee52398a87695fcf5120a",
+  "scope": "Follow-up source confirmation only; root owns executable browser VM tests.",
+  "findings": [
+    {
+      "id": "browser-primary-binding",
+      "status": "Resolved in final reviewed source: primary catalog required."
+    },
+    {
+      "id": "remote-error-text",
+      "status": "Resolved in final reviewed source: parser exceptions use fixed UserMessage; friendlyError only displays locally constructed UserMessage text."
+    }
+  ]
+}

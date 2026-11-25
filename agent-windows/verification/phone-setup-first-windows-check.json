@@ -1,0 +1,17 @@
+{
+  "hostVersion": "0.5.0",
+  "command": "cargo clippy --locked --offline --all-targets --manifest-path agent-windows/Cargo.toml --target x86_64-pc-windows-gnullvm -- -D warnings",
+  "exitCode": 101,
+  "error": "E0425: cannot find value EM_SETSEL in this scope, src/host_home.rs:470",
+  "cause": "Edit control constant belongs to the existing windows-sys Win32_UI_Controls feature.",
+  "status": "preserved initial compile failure before importing the correct platform module",
+  "source": "tool output transcript",
+  "additionalDraftCompileFailure": {
+    "exitCode": 101,
+    "errors": [
+      "E0425: SetScrollInfo must be imported from windows-sys UI::Controls",
+      "E0308: scroll command constants are i32, not u32"
+    ],
+    "resolution": "Correct existing API module import and signed command type; final Windows Clippy and release build pass."
+  }
+}
